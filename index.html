@@ -3,850 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Katalog Buku Uttamopadesa | Dhimas Purnomo, SH</title>
   <meta name="description" content="Katalog digital Kawruh Uttamopadesa, karya Dhimas Purnomo, SH. Jelajahi buku filsafat, kawruh, samadhi, dan kesadaran sejati.">
   <meta name="author" content="Dhimas Purnomo, SH">
   <meta name="theme-color" content="#20372d">
-
+  <meta name="google-site-verification" content="BZM9b_cgLCPHgacUItotSgKDyom-fjmf6UkHBgW8wZA">
   <style>
-    :root {
-      --hijau: #20372d;
-      --emas: #d8bd82;
-      --kertas: #f6f4ed;
-      --putih: #fffefa;
-      --teks: #26342c;
-      --abu: #68736c;
-      --garis: #e2dfd4;
-    }
-
-    * { box-sizing: border-box; }
-
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 18px;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--kertas);
-      color: var(--teks);
-      line-height: 1.7;
-    }
-
-    .hero {
-      background:
-        radial-gradient(ellipse at top, #d8bd8225, transparent 55%),
-        var(--hijau);
-      color: var(--putih);
-      text-align: center;
-      padding: 65px 20px 75px;
-    }
-
-    .ornamen {
-      color: var(--emas);
-      font-size: 38px;
-      margin-bottom: 8px;
-    }
-
-    .label {
-      color: #b89b60;
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(34px, 6vw, 58px);
-      line-height: 1.15;
-      margin: 14px 0;
-    }
-
-    h1 span { color: var(--emas); }
-
-    .penulis {
-      font-weight: bold;
-      margin: 18px 0 8px;
-    }
-
-    .pengantar {
-      max-width: 600px;
-      margin: 0 auto 26px;
-      color: #e0e5df;
-    }
-
-    .tombol {
-      display: inline-block;
-      border: 0;
-      border-radius: 5px;
-      padding: 11px 16px;
-      font-weight: bold;
-      font-size: 13px;
-      line-height: 1.5;
-      text-decoration: none;
-      cursor: pointer;
-      font-family: inherit;
-      text-align: center;
-    }
-
-    .tombol-emas {
-      background: var(--emas);
-      color: var(--hijau);
-    }
-
-    .tombol-hijau {
-      background: var(--hijau);
-      color: white;
-    }
-
-    .tombol-garis {
-      border: 1px solid var(--garis);
-      color: var(--hijau);
-      background: transparent;
-    }
-
-    .tombol:hover { filter: brightness(.96); }
-
-    .tombol:focus-visible {
-      outline: 3px solid var(--emas);
-      outline-offset: 3px;
-    }
-
-    main {
-      max-width: 1120px;
-      margin: auto;
-      padding: 48px 22px 65px;
-    }
-
-    .judul-bagian {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 34px;
-      margin: 0;
-      line-height: 1.3;
-    }
-
-    .keterangan {
-      color: var(--abu);
-      margin-top: 8px;
-    }
-
-    .pencarian {
-      width: 100%;
-      margin: 20px 0;
-      padding: 14px 16px;
-      border: 1px solid var(--garis);
-      border-radius: 7px;
-      background: var(--putih);
-      font-size: 16px;
-    }
-
-    .pencarian:focus {
-      outline: 2px solid var(--emas);
-      border-color: var(--hijau);
-    }
-
-    .jumlah {
-      color: var(--abu);
-      font-size: 13px;
-      margin-bottom: 20px;
-    }
-
-    .koleksi {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 23px;
-      align-items: stretch;
-    }
-
-    .buku {
-      border: 1px solid var(--garis);
-      border-radius: 9px;
-      background: var(--putih);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-    }
-
-    .sampul {
-      aspect-ratio: 3 / 4;
-      background:
-        radial-gradient(ellipse at center, #405b49, transparent 65%),
-        var(--hijau);
-      color: var(--emas);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 25px;
-      position: relative;
-      overflow: hidden;
-      min-width: 0;
-    }
-
-    .sampul::before {
-      content: "";
-      position: absolute;
-      inset: 12px;
-      border: 1px solid #d8bd8290;
-      pointer-events: none;
-    }
-
-    .sampul h3 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 23px;
-      line-height: 1.35;
-      margin: 0;
-      overflow-wrap: anywhere;
-      position: relative;
-      z-index: 1;
-    }
-
-    .sampul.dengan-gambar::before { display: none; }
-
-    .gambar-sampul {
-      position: absolute;
-      inset: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
-      z-index: 1;
-    }
-
-    .isi-buku {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      min-width: 0;
-    }
-
-    .kategori {
-      color: #94763c;
-      font-size: 11px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin: 0 0 8px;
-      overflow-wrap: anywhere;
-    }
-
-    .judul-buku {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 21px;
-      line-height: 1.35;
-      margin: 0 0 12px;
-      overflow-wrap: anywhere;
-    }
-
-    .abstrak-singkat {
-      color: var(--abu);
-      font-size: 14px;
-      margin: 0 0 20px;
-      overflow-wrap: anywhere;
-    }
-
-    .aksi {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-      margin-top: auto;
-    }
-
-    .kosong {
-      padding: 30px;
-      text-align: center;
-      color: var(--abu);
-      background: var(--putih);
-      border: 1px solid var(--garis);
-      border-radius: 8px;
-    }
-
-    .pesan-error {
-      padding: 18px;
-      color: #8a3525;
-      background: #fff0ec;
-      border: 1px solid #e7c5bc;
-      border-radius: 8px;
-      overflow-wrap: anywhere;
-    }
-
-    /* Navigasi halaman buku */
-    .navigasi-halaman {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-      align-items: center;
-      gap: 14px;
-      margin-top: 30px;
-    }
-
-    .navigasi-halaman button {
-      min-height: 44px;
-    }
-
-    #halamanSebelumnya { justify-self: start; }
-    #halamanBerikutnya { justify-self: end; }
-
-    #nomorHalaman {
-      color: var(--abu);
-      font-size: 13px;
-      font-weight: bold;
-      text-align: center;
-      white-space: nowrap;
-    }
-
-    .navigasi-halaman button:disabled {
-      opacity: .4;
-      cursor: not-allowed;
-      filter: none;
-    }
-
-    
-footer {
-  background: var(--hijau);
-  text-align: center;
-  padding: 30px 20px;
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 1;
-}
-
-footer strong {
-  color: #ffffff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 19px;
-  line-height: 1;
-}
-
-footer p {
-  margin: 10px 0;
-  line-height: 1;
-}
-
-    dialog {
-      width: min(680px, calc(100% - 28px));
-      max-height: 85vh;
-      overflow: auto;
-      border: 0;
-      border-radius: 10px;
-      padding: 28px;
-      color: var(--teks);
-      background: var(--putih);
-    }
-
-    dialog::backdrop { background: #101813bb; }
-
-    .tutup {
-      float: right;
-      border: 0;
-      border-radius: 50%;
-      width: 38px;
-      height: 38px;
-      font-size: 23px;
-      cursor: pointer;
-      background: #eae7dc;
-      color: var(--hijau);
-    }
-
-.abstraksi-lengkap {
-  text-align: justify;
-  text-justify: inter-word;
-  white-space: pre-line;
-  overflow-wrap: anywhere;
-  line-height: 1.8;
-}
-    
-    @media (max-width: 850px) {
-      main { padding-left: 20px; padding-right: 20px; }
-      .koleksi {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-      }
-      .isi-buku { padding: 17px; }
-    }
-
-    @media (max-width: 560px) {
-      .hero { padding: 45px 18px 52px; }
-      .ornamen { font-size: 32px; }
-      .label { letter-spacing: 2px; }
-      h1 { font-size: clamp(30px, 9vw, 40px); }
-      .pengantar { font-size: 14px; }
-      main { padding: 32px 14px 42px; }
-      .judul-bagian { font-size: 29px; }
-
-      .koleksi {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 16px;
-      }
-
-      .buku {
-        display: grid;
-        grid-template-columns: minmax(105px, 34%) minmax(0, 1fr);
-        align-items: stretch;
-      }
-
-      .sampul {
-        aspect-ratio: auto;
-        min-height: 175px;
-        height: 100%;
-        padding: 10px;
-      }
-
-      .sampul::before { inset: 7px; }
-      .sampul h3 { font-size: 15px; line-height: 1.3; }
-      .gambar-sampul { object-fit: contain; }
-      .isi-buku { padding: 13px 12px; }
-
-      .kategori {
-        font-size: 10px;
-        letter-spacing: .7px;
-        line-height: 1.5;
-      }
-
-      .judul-buku {
-        font-size: 17px;
-        line-height: 1.35;
-        margin-bottom: 9px;
-      }
-
-      .abstrak-singkat {
-        font-size: 12px;
-        line-height: 1.55;
-        margin-bottom: 14px;
-      }
-
-      .aksi { gap: 7px; }
-
-      .aksi .tombol {
-        padding: 9px 10px;
-        font-size: 11px;
-      }
-
-      .navigasi-halaman {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        gap: 10px;
-      }
-
-      #nomorHalaman {
-        grid-column: 1 / -1;
-        grid-row: 1;
-      }
-
-      #halamanSebelumnya {
-        grid-column: 1;
-        grid-row: 2;
-        justify-self: stretch;
-      }
-
-      #halamanBerikutnya {
-        grid-column: 2;
-        grid-row: 2;
-        justify-self: stretch;
-      }
-
-      .navigasi-halaman button {
-        padding: 10px 7px;
-        font-size: 11px;
-      }
-
-      dialog { padding: 20px; }
-    }
-
-    @media (max-width: 360px) {
-      .buku { grid-template-columns: 100px minmax(0, 1fr); }
-      .isi-buku { padding: 11px 9px; }
-      .judul-buku { font-size: 15px; }
-
-      .aksi .tombol {
-        padding: 8px;
-        font-size: 10px;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-    }
-
-
-/* Tombol Back to Top */
-#backToTop {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 999;
-  width: 44px;
-  height: 44px;
-  border: 1px solid var(--emas);
-  border-radius: 50%;
-  background: var(--hijau);
-  color: #ffffff;
-  font-size: 22px;
-  cursor: pointer;
-  box-shadow: 0 3px 10px #00000025;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(8px);
-  transition: opacity .2s, transform .2s, visibility .2s;
-}
-
-#backToTop.tampil {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-#backToTop:hover {
-  background: #304b3c;
-}
-
-#backToTop:focus-visible {
-  outline: 3px solid var(--emas);
-  outline-offset: 3px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  #backToTop {
-    transition: none;
-  }
-}
-
+    :root{--hijau:#20372d;--emas:#d8bd82;--kertas:#f6f4ed;--putih:#fffefa;--teks:#26342c;--abu:#68736c;--garis:#e2dfd4}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:18px}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--kertas);color:var(--teks);line-height:1.7}
+    .hero{background:radial-gradient(ellipse at top,#d8bd8225,transparent 55%),var(--hijau);color:var(--putih);text-align:center;padding:65px 20px 75px}
+    .ornamen{color:var(--emas);font-size:38px;margin-bottom:8px}
+    .label{color:#b89b60;font-size:12px;font-weight:bold;letter-spacing:3px;text-transform:uppercase}
+    h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(34px,6vw,58px);line-height:1.15;margin:14px 0}
+    h1 span{color:var(--emas)}
+    .penulis{font-weight:bold;margin:18px 0 8px}
+    .pengantar{max-width:600px;margin:0 auto 26px;color:#e0e5df}
+    .tombol{display:inline-block;border:0;border-radius:5px;padding:11px 16px;font-weight:bold;font-size:13px;line-height:1.5;text-decoration:none;cursor:pointer;font-family:inherit;text-align:center}
+    .tombol-emas{background:var(--emas);color:var(--hijau)}.tombol-hijau{background:var(--hijau);color:white}.tombol-garis{border:1px solid var(--garis);color:var(--hijau);background:transparent}
+    .tombol:hover{filter:brightness(.96)}.tombol:focus-visible{outline:3px solid var(--emas);outline-offset:3px}
+    main{max-width:1120px;margin:auto;padding:48px 22px 65px}
+    .judul-bagian{font-family:Georgia,"Times New Roman",serif;font-size:34px;margin:0;line-height:1.3}
+    .keterangan{color:var(--abu);margin-top:8px}
+    .aksi-daftar{margin:20px 0}
+    .jumlah{color:var(--abu);font-size:13px;margin-bottom:20px}
+    .koleksi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px;align-items:stretch}
+    .buku{border:1px solid var(--garis);border-radius:9px;background:var(--putih);overflow:hidden;display:flex;flex-direction:column;min-width:0}
+    .sampul{aspect-ratio:3/4;background:radial-gradient(ellipse at center,#405b49,transparent 65%),var(--hijau);color:var(--emas);display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;position:relative;overflow:hidden;min-width:0}
+    .sampul:before{content:"";position:absolute;inset:12px;border:1px solid #d8bd8290;pointer-events:none}
+    .sampul h3{font-family:Georgia,"Times New Roman",serif;font-size:23px;line-height:1.35;margin:0;overflow-wrap:anywhere;position:relative;z-index:1}
+    .sampul.dengan-gambar:before{display:none}
+    .gambar-sampul{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;object-position:center;z-index:1}
+    .isi-buku{padding:20px;display:flex;flex-direction:column;flex:1;min-width:0}
+    .kategori{color:#94763c;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin:0 0 8px;overflow-wrap:anywhere}
+    .judul-buku{font-family:Georgia,"Times New Roman",serif;font-size:21px;line-height:1.35;margin:0 0 12px;overflow-wrap:anywhere}
+    .abstrak-singkat{color:var(--abu);font-size:14px;margin:0 0 20px;overflow-wrap:anywhere}
+    .aksi{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto}
+    .kosong{padding:30px;text-align:center;color:var(--abu);background:var(--putih);border:1px solid var(--garis);border-radius:8px}
+    .pesan-error{padding:18px;color:#8a3525;background:#fff0ec;border:1px solid #e7c5bc;border-radius:8px;overflow-wrap:anywhere}
+    .navigasi-halaman{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px;margin-top:30px}
+    .navigasi-halaman button{min-height:44px}#halamanSebelumnya{justify-self:start}#halamanBerikutnya{justify-self:end}
+    #nomorHalaman{color:var(--abu);font-size:13px;font-weight:bold;text-align:center;white-space:nowrap}
+    .navigasi-halaman button:disabled{opacity:.4;cursor:not-allowed;filter:none}
+    footer{background:var(--hijau);text-align:center;padding:30px 20px;color:#fff;font-size:13px;line-height:1}
+    footer strong{color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:19px;line-height:1}footer p{margin:10px 0;line-height:1}
+    dialog{width:min(680px,calc(100% - 28px));max-height:85vh;overflow:auto;border:0;border-radius:10px;padding:28px;color:var(--teks);background:var(--putih)}
+    dialog::backdrop{background:#101813bb}.tutup{float:right;border:0;border-radius:50%;width:38px;height:38px;font-size:23px;cursor:pointer;background:#eae7dc;color:var(--hijau)}
+    .abstraksi-lengkap{text-align:justify;text-justify:inter-word;white-space:pre-line;overflow-wrap:anywhere;line-height:1.8}
+    #backToTop{position:fixed;right:20px;bottom:20px;z-index:999;width:44px;height:44px;border:1px solid var(--emas);border-radius:50%;background:var(--hijau);color:#fff;font-size:22px;cursor:pointer;box-shadow:0 3px 10px #00000025;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,transform .2s,visibility .2s}
+    #backToTop.tampil{opacity:1;visibility:visible;transform:translateY(0)}#backToTop:hover{background:#304b3c}#backToTop:focus-visible{outline:3px solid var(--emas);outline-offset:3px}
+    @media(max-width:850px){main{padding-left:20px;padding-right:20px}.koleksi{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.isi-buku{padding:17px}}
+    @media(max-width:560px){.hero{padding:45px 18px 52px}.ornamen{font-size:32px}.label{letter-spacing:2px}h1{font-size:clamp(30px,9vw,40px)}.pengantar{font-size:14px}main{padding:32px 14px 42px}.judul-bagian{font-size:29px}.koleksi{grid-template-columns:minmax(0,1fr);gap:16px}.buku{display:grid;grid-template-columns:minmax(105px,34%) minmax(0,1fr);align-items:stretch}.sampul{aspect-ratio:auto;min-height:175px;height:100%;padding:10px}.sampul:before{inset:7px}.sampul h3{font-size:15px;line-height:1.3}.gambar-sampul{object-fit:contain}.isi-buku{padding:13px 12px}.kategori{font-size:10px;letter-spacing:.7px;line-height:1.5}.judul-buku{font-size:17px;line-height:1.35;margin-bottom:9px}.abstrak-singkat{font-size:12px;line-height:1.55;margin-bottom:14px}.aksi{gap:7px}.aksi .tombol{padding:9px 10px;font-size:11px}.navigasi-halaman{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}#nomorHalaman{grid-column:1/-1;grid-row:1}#halamanSebelumnya{grid-column:1;grid-row:2;justify-self:stretch}#halamanBerikutnya{grid-column:2;grid-row:2;justify-self:stretch}.navigasi-halaman button{padding:10px 7px;font-size:11px}dialog{padding:20px}}
+    @media(max-width:360px){.buku{grid-template-columns:100px minmax(0,1fr)}.isi-buku{padding:11px 9px}.judul-buku{font-size:15px}.aksi .tombol{padding:8px;font-size:10px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#backToTop{transition:none}}
   </style>
-
-<meta name="google-site-verification" content="BZM9b_cgLCPHgacUItotSgKDyom-fjmf6UkHBgW8wZA" />
-  
 </head>
-
 <body>
-
 <header class="hero">
   <div class="ornamen" aria-hidden="true">✧</div>
   <div class="label">Perpustakaan Digital</div>
   <h1>Katalog Buku<br><span>Uttamopadesa</span></h1>
   <p class="penulis">Karya Dhimas Purnomo, SH</p>
+  <p class="pengantar">Jelajahi koleksi buku dan dokumentasi pemikiran Kawruh Uttamopadesa.</p>
   <a class="tombol tombol-emas" href="#koleksi">Jelajahi Koleksi</a>
 </header>
-
 <main>
   <section>
     <div class="label">Koleksi Penulis</div>
-    <h2 class="judul-bagian" id="koleksi">Daftar Buku</h2>
-  
-    <input
-      class="pencarian"
-      id="pencarian"
-      type="search"
-      placeholder="Cari judul buku atau kata kunci..."
-      aria-label="Cari buku"
-    >
-
+    <h2 class="judul-bagian" id="koleksi">Koleksi Buku</h2>
+    <p class="keterangan">Pilih buku untuk membaca abstraksi atau membuka naskah lengkap.</p>
+    <div class="aksi-daftar"><a class="tombol tombol-hijau" href="./daftar-buku.html">☰ Daftar Buku</a></div>
     <p class="jumlah" id="jumlah" aria-live="polite"></p>
     <div class="koleksi" id="daftarBuku"></div>
-
-    <p class="kosong" id="kosong" hidden>
-      Tidak ada buku yang cocok dengan pencarian.
-    </p>
-
-    <nav class="navigasi-halaman" id="navigasiHalaman"
-      aria-label="Navigasi halaman buku" hidden>
-      <button class="tombol tombol-garis"
-        id="halamanSebelumnya" type="button" disabled>
-        ← Kembali Halaman Sebelumnya
-      </button>
-
+    <p class="kosong" id="kosong" hidden>Belum ada buku yang dapat ditampilkan.</p>
+    <nav class="navigasi-halaman" id="navigasiHalaman" aria-label="Navigasi halaman buku" hidden>
+      <button class="tombol tombol-garis" id="halamanSebelumnya" type="button" disabled>← Kembali Halaman Sebelumnya</button>
       <span id="nomorHalaman" aria-live="polite">Halaman 1</span>
-
-      <button class="tombol tombol-hijau"
-        id="halamanBerikutnya" type="button" disabled>
-        Lihat Halaman Berikut →
-      </button>
+      <button class="tombol tombol-hijau" id="halamanBerikutnya" type="button" disabled>Lihat Halaman Berikut →</button>
     </nav>
-
     <p class="pesan-error" id="pesanError" hidden></p>
   </section>
 </main>
-
 <footer>
   <strong>Katalog Buku Uttamopadesa</strong>
   <p>Penulis: Dhimas Purnomo, SH</p>
   <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
 </footer>
-
 <dialog id="jendelaAbstraksi" aria-labelledby="judulAbstraksi">
   <button class="tutup" id="tutup" aria-label="Tutup">×</button>
   <div id="isiAbstraksi"></div>
 </dialog>
-
-<!-- File data harus berada di folder yang sama dengan index.html -->
 <script src="./daftar-artikel.js"></script>
-
 <script>
-(function () {
-  const daftar = document.getElementById("daftarBuku");
-  const pencarian = document.getElementById("pencarian");
-  const jumlah = document.getElementById("jumlah");
-  const kosong = document.getElementById("kosong");
-  const pesanError = document.getElementById("pesanError");
-  const dialog = document.getElementById("jendelaAbstraksi");
-  const isiAbstraksi = document.getElementById("isiAbstraksi");
-
-  const navigasi = document.getElementById("navigasiHalaman");
-  const tombolSebelumnya = document.getElementById("halamanSebelumnya");
-  const tombolBerikutnya = document.getElementById("halamanBerikutnya");
-  const nomorHalaman = document.getElementById("nomorHalaman");
-
-  const BUKU_PER_HALAMAN = 3;
-  let halamanAktif = 1;
-  let dataTersaring = [];
-
-  function aman(teks) {
-    return String(teks || "").replace(/[&<>"']/g, karakter => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#39;"
-    })[karakter]);
+(function(){
+  const daftar=document.getElementById("daftarBuku"),jumlah=document.getElementById("jumlah"),kosong=document.getElementById("kosong"),pesanError=document.getElementById("pesanError");
+  const dialog=document.getElementById("jendelaAbstraksi"),isiAbstraksi=document.getElementById("isiAbstraksi");
+  const navigasi=document.getElementById("navigasiHalaman"),tombolSebelumnya=document.getElementById("halamanSebelumnya"),tombolBerikutnya=document.getElementById("halamanBerikutnya"),nomorHalaman=document.getElementById("nomorHalaman");
+  const BUKU_PER_HALAMAN=3;let halamanAktif=1,dataTersaring=[];
+  function aman(teks){return String(teks||"").replace(/[&<>"']/g,karakter=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[karakter]);}
+  const dataBuku=typeof daftarArtikel!=="undefined"&&Array.isArray(daftarArtikel)?daftarArtikel.filter(item=>item&&item.judul):null;
+  if(dataBuku===null){jumlah.textContent="Data buku tidak berhasil dimuat.";pesanError.textContent="Periksa file daftar-artikel.js. Pastikan file berada satu folder dengan index.html dan mendefinisikan const daftarArtikel = [...].";pesanError.hidden=false;navigasi.hidden=true;return;}
+  function gambarSampul(item){if(item.sampul)return `<div class="sampul dengan-gambar"><img class="gambar-sampul" src="${aman(item.sampul)}" alt="Sampul ${aman(item.judul)}" loading="lazy" onerror="this.hidden=true"></div>`;return `<div class="sampul"><h3>${aman(item.judul)}</h3></div>`;}
+  function tombolBaca(item){if(item.halaman)return `<a class="tombol tombol-hijau" href="${aman(item.halaman)}">Lihat Buku ↗</a>`;const pdf=item.pdf||item.drive;if(pdf)return `<a class="tombol tombol-hijau" href="${aman(pdf)}" target="_blank" rel="noopener noreferrer">Baca Buku ↗</a>`;return "";}
+  function abstraksi(item){return item.abstraksi||item.deskripsi||"";}
+  function tampilkan(data,resetHalaman=false){dataTersaring=data;if(resetHalaman)halamanAktif=1;const totalBuku=dataTersaring.length,totalHalaman=Math.ceil(totalBuku/BUKU_PER_HALAMAN);if(totalHalaman===0)halamanAktif=1;else if(halamanAktif>totalHalaman)halamanAktif=totalHalaman;const mulai=(halamanAktif-1)*BUKU_PER_HALAMAN,bukuHalamanIni=dataTersaring.slice(mulai,mulai+BUKU_PER_HALAMAN);
+    daftar.innerHTML=bukuHalamanIni.map(item=>{const ringkasan=abstraksi(item),potongan=ringkasan.length>160?ringkasan.slice(0,160)+"…":ringkasan;return `<article class="buku">${gambarSampul(item)}<div class="isi-buku"><p class="kategori">${aman(item.kategori||"Karya Penulis")}</p><h3 class="judul-buku">${aman(item.judul)}</h3><p class="abstrak-singkat">${potongan?aman(potongan):"Abstraksi buku belum tersedia."}</p><div class="aksi"><button class="tombol tombol-garis" type="button" data-judul="${aman(item.judul)}">Lihat Abstraksi</button>${tombolBaca(item)}</div></div></article>`;}).join("");
+    jumlah.textContent=totalBuku+" buku tersedia";kosong.hidden=totalBuku!==0;navigasi.hidden=totalBuku<=BUKU_PER_HALAMAN;nomorHalaman.textContent="Halaman "+halamanAktif+" dari "+Math.max(1,totalHalaman);tombolSebelumnya.disabled=halamanAktif<=1;tombolBerikutnya.disabled=totalHalaman===0||halamanAktif>=totalHalaman;
   }
-
-  // Sumber data tetap daftar-artikel.js.
-  const dataBuku = typeof daftarArtikel !== "undefined" &&
-    Array.isArray(daftarArtikel)
-      ? daftarArtikel.filter(item => item && item.judul)
-      : null;
-
-  if (dataBuku === null) {
-    jumlah.textContent = "Data buku tidak berhasil dimuat.";
-    pesanError.textContent =
-      "Periksa file daftar-artikel.js. Pastikan file berada satu folder dengan index.html dan mendefinisikan const daftarArtikel = [...].";
-    pesanError.hidden = false;
-    navigasi.hidden = true;
-    return;
-  }
-
-  function gambarSampul(item) {
-    if (item.sampul) {
-      return `<div class="sampul dengan-gambar">
-        <img class="gambar-sampul"
-          src="${aman(item.sampul)}"
-          alt="Sampul ${aman(item.judul)}"
-          loading="lazy"
-          onerror="this.hidden=true">
-      </div>`;
-    }
-
-    return `<div class="sampul">
-      <h3>${aman(item.judul)}</h3>
-    </div>`;
-  }
-
-  function tombolBaca(item) {
-    if (item.halaman) {
-      return `<a class="tombol tombol-hijau"
-        href="${aman(item.halaman)}">Lihat Buku ↗</a>`;
-    }
-
-    const pdf = item.pdf || item.drive;
-
-    if (pdf) {
-      return `<a class="tombol tombol-hijau"
-        href="${aman(pdf)}"
-        target="_blank" rel="noopener noreferrer">Baca Buku ↗</a>`;
-    }
-
-    return "";
-  }
-
-  function abstraksi(item) {
-    return item.abstraksi || item.deskripsi || "";
-  }
-
-  function tampilkan(data, resetHalaman = false) {
-    dataTersaring = data;
-
-    if (resetHalaman) {
-      halamanAktif = 1;
-    }
-
-    const totalBuku = dataTersaring.length;
-    const totalHalaman = Math.ceil(totalBuku / BUKU_PER_HALAMAN);
-
-    if (totalHalaman === 0) {
-      halamanAktif = 1;
-    } else if (halamanAktif > totalHalaman) {
-      halamanAktif = totalHalaman;
-    }
-
-    const mulai = (halamanAktif - 1) * BUKU_PER_HALAMAN;
-    const bukuHalamanIni = dataTersaring.slice(
-      mulai,
-      mulai + BUKU_PER_HALAMAN
-    );
-
-    daftar.innerHTML = bukuHalamanIni.map(item => {
-      const ringkasan = abstraksi(item);
-      const potongan = ringkasan.length > 160
-        ? ringkasan.slice(0, 160) + "…"
-        : ringkasan;
-
-      return `
-        <article class="buku">
-          ${gambarSampul(item)}
-
-          <div class="isi-buku">
-            <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
-            <h3 class="judul-buku">${aman(item.judul)}</h3>
-
-            <p class="abstrak-singkat">${
-              potongan
-                ? aman(potongan)
-                : "Abstraksi buku belum tersedia."
-            }</p>
-
-            <div class="aksi">
-              <button class="tombol tombol-garis"
-                type="button"
-                data-judul="${aman(item.judul)}">Lihat Abstraksi</button>
-              ${tombolBaca(item)}
-            </div>
-          </div>
-        </article>
-      `;
-    }).join("");
-
-    jumlah.textContent = totalBuku + " buku tersedia";
-    kosong.hidden = totalBuku !== 0;
-    navigasi.hidden = totalBuku <= BUKU_PER_HALAMAN;
-
-    nomorHalaman.textContent =
-      "Halaman " + halamanAktif + " dari " + Math.max(1, totalHalaman);
-
-    tombolSebelumnya.disabled = halamanAktif <= 1;
-    tombolBerikutnya.disabled =
-      totalHalaman === 0 || halamanAktif >= totalHalaman;
-  }
-
-  tombolSebelumnya.addEventListener("click", () => {
-    if (halamanAktif <= 1) return;
-
-    halamanAktif--;
-    tampilkan(dataTersaring);
-
-    document.getElementById("koleksi").scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    });
-  });
-
-  tombolBerikutnya.addEventListener("click", () => {
-    const totalHalaman = Math.ceil(
-      dataTersaring.length / BUKU_PER_HALAMAN
-    );
-
-    if (halamanAktif >= totalHalaman) return;
-
-    halamanAktif++;
-    tampilkan(dataTersaring);
-
-    document.getElementById("koleksi").scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    });
-  });
-
-  daftar.addEventListener("click", event => {
-    const tombol = event.target.closest("[data-judul]");
-    if (!tombol) return;
-
-    const item = dataBuku.find(
-      buku => buku.judul === tombol.dataset.judul
-    );
-
-    if (!item) return;
-
-    const ringkasan = abstraksi(item);
-
-    isiAbstraksi.innerHTML = `
-      <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
-      <h2 id="judulAbstraksi">${aman(item.judul)}</h2>
-      <p><strong>Penulis:</strong> Dhimas Purnomo, SH</p>
-      <h3>Abstraksi</h3>
-
-      <p class="abstraksi-lengkap">${
-        ringkasan
-          ? aman(ringkasan)
-          : "Abstraksi buku belum tersedia."
-      }</p>
-
-      <p><strong>Kata kunci:</strong> ${aman(item.kataKunci || item.judul)}</p>
-      ${tombolBaca(item)}
-    `;
-
-    dialog.showModal();
-  });
-
-  document.getElementById("tutup").addEventListener("click", () => {
-    dialog.close();
-  });
-
-  dialog.addEventListener("click", event => {
-    if (event.target === dialog) dialog.close();
-  });
-
-  pencarian.addEventListener("input", () => {
-    const kata = pencarian.value.trim().toLocaleLowerCase("id");
-
-    const hasil = dataBuku.filter(item => {
-      const gabungan = [
-        item.judul,
-        item.kategori,
-        item.kataKunci,
-        abstraksi(item)
-      ].join(" ").toLocaleLowerCase("id");
-
-      return gabungan.includes(kata);
-    });
-
-    tampilkan(hasil, true);
-  });
-
-  tampilkan(dataBuku, true);
+  function keKoleksi(){document.getElementById("koleksi").scrollIntoView({behavior:"smooth",block:"start"});}
+  tombolSebelumnya.addEventListener("click",()=>{if(halamanAktif<=1)return;halamanAktif--;tampilkan(dataTersaring);keKoleksi();});
+  tombolBerikutnya.addEventListener("click",()=>{const totalHalaman=Math.ceil(dataTersaring.length/BUKU_PER_HALAMAN);if(halamanAktif>=totalHalaman)return;halamanAktif++;tampilkan(dataTersaring);keKoleksi();});
+  daftar.addEventListener("click",event=>{const tombol=event.target.closest("[data-judul]");if(!tombol)return;const item=dataBuku.find(buku=>buku.judul===tombol.dataset.judul);if(!item)return;const ringkasan=abstraksi(item);isiAbstraksi.innerHTML=`<p class="kategori">${aman(item.kategori||"Karya Penulis")}</p><h2 id="judulAbstraksi">${aman(item.judul)}</h2>${item.subjudul?`<p>${aman(item.subjudul)}</p>`:""}<p><strong>Penulis:</strong> ${aman(item.penulis||"Dhimas Purnomo, SH")}</p><h3>Abstraksi</h3><p class="abstraksi-lengkap">${ringkasan?aman(ringkasan):"Abstraksi buku belum tersedia."}</p><p><strong>Kata kunci:</strong> ${aman(item.kataKunci||item.judul)}</p>${tombolBaca(item)}`;dialog.showModal();});
+  document.getElementById("tutup").addEventListener("click",()=>dialog.close());dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
+  tampilkan(dataBuku,true);
 })();
 </script>
-
-<!-- Tombol Back to Top -->
-<button id="backToTop" type="button"
-  aria-label="Kembali ke atas"
-  title="Kembali ke atas">
-  ↑
-</button>
-
+<button id="backToTop" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">↑</button>
 <script>
-(function () {
-  const tombol = document.getElementById("backToTop");
-
-  function perbaruiTombol() {
-    tombol.classList.toggle("tampil", window.scrollY > 300);
-  }
-
-  window.addEventListener("scroll", perbaruiTombol, {
-    passive: true
-  });
-
-  tombol.addEventListener("click", function () {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-
-  perbaruiTombol();
-})();
+(function(){const tombol=document.getElementById("backToTop");function perbaruiTombol(){tombol.classList.toggle("tampil",window.scrollY>300);}window.addEventListener("scroll",perbaruiTombol,{passive:true});tombol.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});perbaruiTombol();})();
 </script>
-
 </body>
 </html>
