@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Katalog Buku Uttamopadesa | Dhimas Purnomo, SH</title>
-  <meta name="description" content="Katalog Buku Uttamopadesa, kumpulan karya Dhimas Purnomo, SH. Temukan judul buku, baca abstraksi, dan akses naskah melalui Google Drive.">
+  <meta name="description" content="Katalog digital karya Dhimas Purnomo, SH. Jelajahi buku filsafat, kawruh, samadhi, dan kesadaran sejati.">
   <meta name="author" content="Dhimas Purnomo, SH">
   <meta name="theme-color" content="#20372d">
 
   <style>
     :root {
       --hijau: #20372d;
-      --hijau-muda: #304b3d;
       --emas: #d8bd82;
       --kertas: #f6f4ed;
       --putih: #fffefa;
@@ -22,7 +21,6 @@
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -80,9 +78,9 @@
       display: inline-block;
       border: 0;
       border-radius: 5px;
-      padding: 11px 17px;
+      padding: 11px 16px;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 13px;
       text-decoration: none;
       cursor: pointer;
       font-family: inherit;
@@ -156,6 +154,7 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      min-width: 0;
     }
 
     .sampul {
@@ -178,13 +177,7 @@
       position: absolute;
       inset: 12px;
       border: 1px solid #d8bd8290;
-    }
-
-    .sampul::after {
-      content: "✧";
-      position: absolute;
-      top: 20px;
-      font-size: 22px;
+      pointer-events: none;
     }
 
     .sampul h3 {
@@ -193,6 +186,14 @@
       line-height: 1.35;
       position: relative;
       z-index: 1;
+    }
+
+    .gambar-sampul {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .isi-buku {
@@ -231,12 +232,21 @@
       margin-top: auto;
     }
 
-    .aksi .tombol { font-size: 12px; }
-
     .kosong {
       padding: 30px;
       text-align: center;
       color: var(--abu);
+      background: var(--putih);
+      border: 1px solid var(--garis);
+      border-radius: 8px;
+    }
+
+    .pesan-error {
+      padding: 18px;
+      color: #8a3525;
+      background: #fff0ec;
+      border: 1px solid #e7c5bc;
+      border-radius: 8px;
     }
 
     footer {
@@ -330,8 +340,9 @@
     <p class="jumlah" id="jumlah" aria-live="polite"></p>
     <div class="koleksi" id="daftarBuku"></div>
     <p class="kosong" id="kosong" hidden>
-      Buku yang dicari tidak ditemukan.
+      Tidak ada buku yang cocok dengan pencarian.
     </p>
+    <p class="pesan-error" id="pesanError" hidden></p>
   </section>
 </main>
 
@@ -346,52 +357,16 @@
   <div id="isiAbstraksi"></div>
 </dialog>
 
+<!-- File data harus berada di folder yang sama dengan index.html -->
+<script src="./daftar-artikel.js"></script>
+
 <script>
-  /*
-    DATA BUKU
-    Abstraksi dan tautan Drive akan dilengkapi berdasarkan
-    naskah asli masing-masing buku.
-  */
-
-  const buku = [
-    {
-      judul: "Dasar Filsafat Kawruh Uttamopadesa",
-      kategori: "Filsafat dan Kawruh Jawa",
-      abstraksi: "",
-      kataKunci: "kawruh uttamopadesa filsafat jawa",
-      drive: "",
-      sampul: ""
-    },
-    {
-      judul: "Nawa Samadhi",
-      kategori: "Samadhi dan Kesadaran",
-      abstraksi: "",
-      kataKunci: "nawa samadhi kesadaran",
-      drive: "",
-      sampul: ""
-    },
-    {
-      judul: "Cipta Wening",
-      kategori: "Filsafat dan Kesadaran",
-      abstraksi: "",
-      kataKunci: "cipta wening filsafat",
-      drive: "",
-      sampul: ""
-    },
-    {
-      judul: "Kesadaran Sejati",
-      kategori: "Kesadaran dan Kehidupan",
-      abstraksi: "",
-      kataKunci: "kesadaran sejati",
-      drive: "",
-      sampul: ""
-    }
-  ];
-
+(function () {
   const daftar = document.getElementById("daftarBuku");
   const pencarian = document.getElementById("pencarian");
   const jumlah = document.getElementById("jumlah");
   const kosong = document.getElementById("kosong");
+  const pesanError = document.getElementById("pesanError");
   const dialog = document.getElementById("jendelaAbstraksi");
   const isiAbstraksi = document.getElementById("isiAbstraksi");
 
@@ -405,79 +380,118 @@
     })[karakter]);
   }
 
+  // Satu-satunya sumber data adalah daftar-artikel.js.
+  // Tidak ada daftar buku tambahan di index.html.
+  const dataBuku = typeof daftarArtikel !== "undefined" &&
+    Array.isArray(daftarArtikel)
+      ? daftarArtikel.filter(item => item && item.judul)
+      : null;
+
+  if (dataBuku === null) {
+    jumlah.textContent = "Data buku tidak berhasil dimuat.";
+    pesanError.textContent =
+      "Periksa file daftar-artikel.js. Pastikan file berada satu folder dengan index.html dan mendefinisikan const daftarArtikel = [...].";
+    pesanError.hidden = false;
+    return;
+  }
+
   function gambarSampul(item) {
     if (item.sampul) {
       return `<div class="sampul">
-        <img src="${aman(item.sampul)}"
+        <img class="gambar-sampul"
+          src="${aman(item.sampul)}"
           alt="Sampul ${aman(item.judul)}"
-          style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+          loading="lazy"
+          onerror="this.hidden=true">
       </div>`;
     }
 
-    return `<div class="sampul"><h3>${aman(item.judul)}</h3></div>`;
+    return `<div class="sampul">
+      <h3>${aman(item.judul)}</h3>
+    </div>`;
   }
 
   function tombolBaca(item) {
-    if (!item.drive) {
-      return `<span class="tombol tombol-garis">PDF belum ditautkan</span>`;
+    if (item.halaman) {
+      return `<a class="tombol tombol-hijau"
+        href="${aman(item.halaman)}">Lihat Buku ↗</a>`;
     }
 
-    return `<a class="tombol tombol-hijau"
-      href="${aman(item.drive)}"
-      target="_blank" rel="noopener noreferrer">Baca Buku ↗</a>`;
+    const pdf = item.pdf || item.drive;
+
+    if (pdf) {
+      return `<a class="tombol tombol-hijau"
+        href="${aman(pdf)}"
+        target="_blank" rel="noopener noreferrer">Baca Buku ↗</a>`;
+    }
+
+    return "";
   }
 
-  function tampilkan(daftarBuku) {
-    daftar.innerHTML = daftarBuku.map((item, nomor) => `
-      <article class="buku">
-        ${gambarSampul(item)}
-        <div class="isi-buku">
-          <p class="kategori">${aman(item.kategori)}</p>
-          <h3 class="judul-buku">${aman(item.judul)}</h3>
-          <p class="abstrak-singkat">${
-            item.abstraksi
-              ? aman(item.abstraksi.slice(0, 160)) + (item.abstraksi.length > 160 ? "…" : "")
-              : "Abstraksi buku akan ditampilkan setelah naskah tersedia."
-          }</p>
-          <div class="aksi">
-            <button class="tombol tombol-garis"
-              data-abstraksi="${nomor}">Lihat Abstraksi</button>
-            ${tombolBaca(item)}
-          </div>
-        </div>
-      </article>
-    `).join("");
+  function abstraksi(item) {
+    return item.abstraksi || item.deskripsi || "";
+  }
 
-    jumlah.textContent = `${daftarBuku.length} buku ditampilkan`;
-    kosong.hidden = daftarBuku.length > 0;
+  function tampilkan(data) {
+    daftar.innerHTML = data.map(item => {
+      const ringkasan = abstraksi(item);
+      const potongan = ringkasan.length > 160
+        ? ringkasan.slice(0, 160) + "…"
+        : ringkasan;
+
+      return `
+        <article class="buku">
+          ${gambarSampul(item)}
+          <div class="isi-buku">
+            <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
+            <h3 class="judul-buku">${aman(item.judul)}</h3>
+            <p class="abstrak-singkat">${
+              potongan
+                ? aman(potongan)
+                : "Abstraksi buku belum tersedia."
+            }</p>
+            <div class="aksi">
+              <button class="tombol tombol-garis"
+                type="button"
+                data-judul="${aman(item.judul)}">Lihat Abstraksi</button>
+              ${tombolBaca(item)}
+            </div>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    jumlah.textContent = data.length + " buku ditampilkan";
+    kosong.hidden = data.length !== 0;
   }
 
   daftar.addEventListener("click", event => {
-    const tombol = event.target.closest("[data-abstraksi]");
+    const tombol = event.target.closest("[data-judul]");
     if (!tombol) return;
 
-    const item = tampilkanSemua()[Number(tombol.dataset.abstraksi)];
+    const item = dataBuku.find(
+      buku => buku.judul === tombol.dataset.judul
+    );
     if (!item) return;
 
+    const ringkasan = abstraksi(item);
+
     isiAbstraksi.innerHTML = `
-      <p class="kategori">${aman(item.kategori)}</p>
+      <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
       <h2>${aman(item.judul)}</h2>
       <p><strong>Penulis:</strong> Dhimas Purnomo, SH</p>
       <h3>Abstraksi</h3>
       <p class="abstraksi-lengkap">${
-        item.abstraksi
-          ? aman(item.abstraksi)
-          : "Abstraksi resmi buku ini akan ditambahkan berdasarkan naskah aslinya."
+        ringkasan
+          ? aman(ringkasan)
+          : "Abstraksi buku belum tersedia."
       }</p>
-      <p><strong>Kata kunci:</strong> ${aman(item.kataKunci)}</p>
+      <p><strong>Kata kunci:</strong> ${aman(item.kataKunci || item.judul)}</p>
       ${tombolBaca(item)}
     `;
+
     dialog.showModal();
   });
-
-  function tampilkanSemua() {
-    return buku;
-  }
 
   document.getElementById("tutup").addEventListener("click", () => {
     dialog.close();
@@ -489,16 +503,23 @@
 
   pencarian.addEventListener("input", () => {
     const kata = pencarian.value.trim().toLocaleLowerCase("id");
-    const hasil = buku.filter(item =>
-      [item.judul, item.kategori, item.kataKunci, item.abstraksi]
-        .join(" ")
-        .toLocaleLowerCase("id")
-        .includes(kata)
-    );
+
+    const hasil = dataBuku.filter(item => {
+      const gabungan = [
+        item.judul,
+        item.kategori,
+        item.kataKunci,
+        abstraksi(item)
+      ].join(" ").toLocaleLowerCase("id");
+
+      return gabungan.includes(kata);
+    });
+
     tampilkan(hasil);
   });
 
-  tampilkan(buku);
+  tampilkan(dataBuku);
+})();
 </script>
 
 </body>
