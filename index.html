@@ -20,8 +20,13 @@
       --garis: #e2dfd4;
     }
 
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
@@ -61,7 +66,9 @@
       margin: 14px 0;
     }
 
-    h1 span { color: var(--emas); }
+    h1 span {
+      color: var(--emas);
+    }
 
     .penulis {
       font-weight: bold;
@@ -81,9 +88,11 @@
       padding: 11px 16px;
       font-weight: bold;
       font-size: 13px;
+      line-height: 1.5;
       text-decoration: none;
       cursor: pointer;
       font-family: inherit;
+      text-align: center;
     }
 
     .tombol-emas {
@@ -100,6 +109,10 @@
       border: 1px solid var(--garis);
       color: var(--hijau);
       background: transparent;
+    }
+
+    .tombol:hover {
+      filter: brightness(0.96);
     }
 
     main {
@@ -145,6 +158,7 @@
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 23px;
+      align-items: stretch;
     }
 
     .buku {
@@ -156,6 +170,8 @@
       flex-direction: column;
       min-width: 0;
     }
+
+    /* AREA SAMPUL BUKU */
 
     .sampul {
       aspect-ratio: 3 / 4;
@@ -170,8 +186,10 @@
       padding: 25px;
       position: relative;
       overflow: hidden;
+      min-width: 0;
     }
 
+    /* Bingkai hanya untuk sampul berbasis teks */
     .sampul::before {
       content: "";
       position: absolute;
@@ -184,16 +202,27 @@
       font-family: Georgia, "Times New Roman", serif;
       font-size: 23px;
       line-height: 1.35;
+      margin: 0;
       position: relative;
       z-index: 1;
+      overflow-wrap: anywhere;
     }
 
+    /* Sampul gambar ditampilkan utuh, tidak dipotong */
     .gambar-sampul {
       position: absolute;
       inset: 0;
+      display: block;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
+      z-index: 1;
+    }
+
+    /* Hilangkan bingkai HTML di atas gambar sampul */
+    .sampul.dengan-gambar::before {
+      display: none;
     }
 
     .isi-buku {
@@ -201,6 +230,7 @@
       display: flex;
       flex-direction: column;
       flex: 1;
+      min-width: 0;
     }
 
     .kategori {
@@ -210,6 +240,7 @@
       letter-spacing: 1px;
       text-transform: uppercase;
       margin: 0 0 8px;
+      overflow-wrap: anywhere;
     }
 
     .judul-buku {
@@ -217,12 +248,14 @@
       font-size: 21px;
       line-height: 1.35;
       margin: 0 0 12px;
+      overflow-wrap: anywhere;
     }
 
     .abstrak-singkat {
       color: var(--abu);
       font-size: 14px;
       margin: 0 0 20px;
+      overflow-wrap: anywhere;
     }
 
     .aksi {
@@ -230,6 +263,10 @@
       flex-wrap: wrap;
       gap: 9px;
       margin-top: auto;
+    }
+
+    .aksi .tombol {
+      max-width: 100%;
     }
 
     .kosong {
@@ -247,6 +284,7 @@
       background: #fff0ec;
       border: 1px solid #e7c5bc;
       border-radius: 8px;
+      overflow-wrap: anywhere;
     }
 
     footer {
@@ -274,7 +312,9 @@
       background: var(--putih);
     }
 
-    dialog::backdrop { background: #101813bb; }
+    dialog::backdrop {
+      background: #101813bb;
+    }
 
     .tutup {
       float: right;
@@ -284,25 +324,154 @@
       height: 38px;
       font-size: 23px;
       cursor: pointer;
+      background: #eae7dc;
+      color: var(--hijau);
     }
 
-    .abstraksi-lengkap { white-space: pre-line; }
+    .abstraksi-lengkap {
+      white-space: pre-line;
+      overflow-wrap: anywhere;
+    }
 
+    /* Tablet */
     @media (max-width: 850px) {
-      .koleksi { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      main {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .koleksi {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .isi-buku {
+        padding: 17px;
+      }
     }
 
+    /* Ponsel */
     @media (max-width: 560px) {
-      .hero { padding: 48px 18px 58px; }
-      main { padding: 35px 16px 45px; }
-      .koleksi { grid-template-columns: 1fr; }
-      .buku { display: grid; grid-template-columns: 120px minmax(0, 1fr); }
-      .sampul { min-height: 200px; padding: 14px; }
-      .sampul h3 { font-size: 15px; }
-      .isi-buku { padding: 15px; }
-      .judul-buku { font-size: 18px; }
-      .abstrak-singkat { font-size: 13px; }
-      .judul-bagian { font-size: 29px; }
+      .hero {
+        padding: 45px 18px 52px;
+      }
+
+      .ornamen {
+        font-size: 32px;
+      }
+
+      .label {
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        font-size: clamp(30px, 9vw, 40px);
+      }
+
+      .pengantar {
+        font-size: 14px;
+      }
+
+      main {
+        padding: 32px 14px 42px;
+      }
+
+      .judul-bagian {
+        font-size: 29px;
+      }
+
+      .koleksi {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+      }
+
+      .buku {
+        display: grid;
+        grid-template-columns: minmax(105px, 34%) minmax(0, 1fr);
+        align-items: stretch;
+      }
+
+      .sampul {
+        aspect-ratio: auto;
+        min-height: 175px;
+        height: 100%;
+        padding: 10px;
+      }
+
+      .sampul::before {
+        inset: 7px;
+      }
+
+      .sampul h3 {
+        font-size: 15px;
+        line-height: 1.3;
+      }
+
+      .gambar-sampul {
+        object-fit: contain;
+      }
+
+      .isi-buku {
+        padding: 13px 12px;
+      }
+
+      .kategori {
+        font-size: 10px;
+        letter-spacing: 0.7px;
+        line-height: 1.5;
+      }
+
+      .judul-buku {
+        font-size: 17px;
+        line-height: 1.35;
+        margin-bottom: 9px;
+      }
+
+      .abstrak-singkat {
+        font-size: 12px;
+        line-height: 1.55;
+        margin-bottom: 14px;
+      }
+
+      .aksi {
+        gap: 7px;
+      }
+
+      .aksi .tombol {
+        padding: 9px 10px;
+        font-size: 11px;
+      }
+
+      dialog {
+        padding: 20px;
+      }
+    }
+
+    /* Ponsel sangat kecil */
+    @media (max-width: 360px) {
+      .buku {
+        grid-template-columns: 100px minmax(0, 1fr);
+      }
+
+      .isi-buku {
+        padding: 11px 9px;
+      }
+
+      .judul-buku {
+        font-size: 15px;
+      }
+
+      .aksi .tombol {
+        padding: 8px;
+        font-size: 10px;
+      }
+    }
+
+    /* Menghormati pengaturan pengurangan animasi */
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
     }
   </style>
 </head>
@@ -339,9 +508,11 @@
 
     <p class="jumlah" id="jumlah" aria-live="polite"></p>
     <div class="koleksi" id="daftarBuku"></div>
+
     <p class="kosong" id="kosong" hidden>
       Tidak ada buku yang cocok dengan pencarian.
     </p>
+
     <p class="pesan-error" id="pesanError" hidden></p>
   </section>
 </main>
@@ -352,7 +523,7 @@
   <p>Seluruh hak cipta naskah tetap berada pada pemegang haknya.</p>
 </footer>
 
-<dialog id="jendelaAbstraksi">
+<dialog id="jendelaAbstraksi" aria-labelledby="judulAbstraksi">
   <button class="tutup" id="tutup" aria-label="Tutup">×</button>
   <div id="isiAbstraksi"></div>
 </dialog>
@@ -397,7 +568,7 @@
 
   function gambarSampul(item) {
     if (item.sampul) {
-      return `<div class="sampul">
+      return `<div class="sampul dengan-gambar">
         <img class="gambar-sampul"
           src="${aman(item.sampul)}"
           alt="Sampul ${aman(item.judul)}"
@@ -442,14 +613,17 @@
       return `
         <article class="buku">
           ${gambarSampul(item)}
+
           <div class="isi-buku">
             <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
             <h3 class="judul-buku">${aman(item.judul)}</h3>
+
             <p class="abstrak-singkat">${
               potongan
                 ? aman(potongan)
                 : "Abstraksi buku belum tersedia."
             }</p>
+
             <div class="aksi">
               <button class="tombol tombol-garis"
                 type="button"
@@ -472,20 +646,23 @@
     const item = dataBuku.find(
       buku => buku.judul === tombol.dataset.judul
     );
+
     if (!item) return;
 
     const ringkasan = abstraksi(item);
 
     isiAbstraksi.innerHTML = `
       <p class="kategori">${aman(item.kategori || "Karya Penulis")}</p>
-      <h2>${aman(item.judul)}</h2>
+      <h2 id="judulAbstraksi">${aman(item.judul)}</h2>
       <p><strong>Penulis:</strong> Dhimas Purnomo, SH</p>
       <h3>Abstraksi</h3>
+
       <p class="abstraksi-lengkap">${
         ringkasan
           ? aman(ringkasan)
           : "Abstraksi buku belum tersedia."
       }</p>
+
       <p><strong>Kata kunci:</strong> ${aman(item.kataKunci || item.judul)}</p>
       ${tombolBaca(item)}
     `;
@@ -498,7 +675,9 @@
   });
 
   dialog.addEventListener("click", event => {
-    if (event.target === dialog) dialog.close();
+    if (event.target === dialog) {
+      dialog.close();
+    }
   });
 
   pencarian.addEventListener("input", () => {
