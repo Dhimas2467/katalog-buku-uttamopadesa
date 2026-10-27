@@ -1,5 +1,25 @@
 const daftarArtikel = [
   {
+judul: "NAWA SEMBAH UTTAMOPADESA",
+subjudul: "Sembilan Tataran Pangabekti Menuju Keselarasan Sejati",
+penulis: "Dhimas Purnomo, SH",
+halaman: "nawa-sembah.html",
+sampul: "sampul-nawa-sembah.jpg",
+abstraksi: `Buku Nawa Sembah Uttamopadesa: Sembilan Tataran Pangabekti Menuju Keselarasan Sejati membahas sembilan tataran pangabekti sebagai kerangka pemahaman dan pelaksanaan laku kehidupan manusia dalam perspektif kawruh Jawa modern Uttamopadesa. Buku ini disusun untuk menjelaskan makna setiap tataran secara sistematis, memperlihatkan hubungan antartataran, serta menegaskan bahwa pangabekti tidak semata-mata berkaitan dengan tindakan lahiriah, tetapi juga dengan penataan unsur-unsur kehidupan manusia dan penerapannya dalam kenyataan sehari-hari.
+
+Kesembilan tataran yang dibahas meliputi Sembah Raga, Sembah Cipta, Sembah Rasa, Sembah Karsa, Sembah Budi, Sembah Sukma, Sembah Kawruh, Sembah Jati, dan Sembah Manunggal. Sembah Raga menempatkan tindakan nyata sebagai sarana menjalankan tanggung jawab. Sembah Cipta menekankan kejernihan dalam berpikir dan memahami keadaan. Sembah Rasa mengarahkan manusia untuk mengenali serta menata perasaan. Sembah Karsa berkaitan dengan kehendak dan kesungguhan dalam menentukan arah tindakan. Sembah Budi menekankan pertimbangan yang bijaksana dan bertanggung jawab. Sembah Sukma mengajak manusia memperdalam pembenahan diri. Sembah Kawruh menempatkan pengetahuan dalam hubungan dengan pemahaman dan penerapan. Sembah Jati mengarahkan perhatian kepada usaha mendekati Kasunyatan Hakiki dengan menyadari keterbatasan pemahaman manusia. Sembah Manunggal menekankan keselarasan cipta, rasa, karsa, budi, sukma, dan cetana serta keselarasan kehidupan dengan kehendak Hyang Manon.
+
+Buku ini memandang sembilan tataran tersebut sebagai bagian-bagian yang saling berkaitan. Penataan kehidupan tidak cukup dilakukan melalui tindakan lahiriah tanpa pembenahan unsur-unsur diri. Demikian pula, pengetahuan dan pemahaman tidak cukup apabila tidak diwujudkan dalam keputusan, perilaku, dan tanggung jawab. Oleh karena itu, Nawa Sembah ditempatkan sebagai laku yang menghubungkan pemahaman dengan pelaksanaan, bukan sekadar kumpulan istilah atau gagasan yang dipelajari secara teoritis.
+
+Salah satu pokok pembahasan buku ini adalah penegasan bahwa keberhasilan Nawa Sembah Uttamopadesa tidak ditentukan oleh banyaknya ritual. Ritual dapat menjadi bagian dari kebiasaan seseorang, tetapi tidak dengan sendirinya membuktikan perubahan kualitas kehidupan. Ukuran yang lebih relevan adalah kesungguhan menjalankan tanggung jawab, kejujuran terhadap diri sendiri, kejernihan dalam menilai keadaan, ketertataan rasa, kebijaksanaan dalam mengambil keputusan, serta kesediaan mengakui dan memperbaiki kesalahan. 
+Dengan demikian, pangabekti tidak dijadikan sarana membangun keunggulan pribadi atau mengukur kedudukan orang lain berdasarkan penampilan lahiriah.
+
+Pembahasan juga mencakup hambatan dalam menjalankan Nawa Sembah, termasuk prasangka, ketidakteraturan pikiran, dorongan emosional yang tidak terkendali, kehendak yang berlebihan, kesombongan pengetahuan, pencarian pengakuan, dan tekanan lingkungan. Hambatan tersebut dipahami sebagai keadaan yang perlu dikenali melalui mawas diri, kemudian dihadapi dengan pertimbangan yang jernih dan tindakan yang bertanggung jawab. Perjalanan Nawa Sembah tidak menuntut manusia berpura-pura sempurna, melainkan mengembangkan kesungguhan untuk terus memperbaiki kehidupan.
+
+Secara keseluruhan, buku ini bertujuan memberikan pemahaman yang terstruktur mengenai sembilan tataran pangabekti serta relevansinya dalam kehidupan manusia. Nawa Sembah Uttamopadesa diarahkan untuk membantu manusia menata cipta, rasa, dan karsa, mempergunakan budi secara bijaksana, menghubungkan kawruh dengan pelaksanaan, serta membangun keselarasan kehidupan tanpa menyamakan manusia dengan Hyang Manon. Pangabekti memperoleh maknanya ketika pemahaman diwujudkan dalam kasunyatan urip, yakni melalui cara manusia berpikir, bersikap, mengambil keputusan, dan menjalankan tanggung jawab dalam kehidupan sehari-hari.`,
+pdf: "https://drive.google.com/file/d/1IZktBGcCOK7AImr_CvMS0EoIlxfEoKIy/view?usp=drivesdk"
+},
+  {
     judul: "9 PRINSIP KESADARAN SEJATI",
     subjudul: "Landasan Memahami Diri, Menjernihkan Batin, dan Menyelaraskan Kehidupan dalam Kawruh Sejati",
     penulis: "Dhimas Purnomo, SH",
