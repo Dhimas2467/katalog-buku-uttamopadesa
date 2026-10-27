@@ -1,5 +1,33 @@
 const daftarArtikel = [
 {
+judul: "RASA SEJATI DALAM KAWRUH UTTAMOPADESA",
+subjudul: "Hakikat, Hubungan Dengan Kesadaran, dan Perwujudannya dalam Laku Kehidupan",
+penulis: "Dhimas Purnomo, SH",
+halaman: "rasa-sejati.html",
+sampul: "sampul-rasa-sejati.jpg",
+abstraksi: `Buku Rasa Sejati dalam Kawruh Uttamopadesa memaparkan hakikat Rasa Sejati sebagai kualitas penghayatan batin yang memungkinkan manusia memahami keadaan secara lebih mendalam, mengembangkan ketulusan, dan menentukan sikap berdasarkan kejernihan pemahaman
+serta tanggung jawab. Pembahasan ini berangkat dari pemahaman bahwa kehidupan manusia tidak hanya melibatkan kegiatan berpikir dan menentukan kehendak, tetapi juga mencakup penghayatan terhadap
+makna pengalaman, keadaan diri, dan hubungan dengan sesama. Oleh sebab itu, Rasa Sejati ditempatkan sebagai salah satu pokok penting dalam pemahaman mengenai kehidupan batin dan laku manusia.
+
+Dalam kerangka Kawruh Uttamopadesa, Rasa Sejati dijelaskan melalui hubungannya dengan Cipta, Rasa, dan Karsa. Cipta berkaitan dengan pengamatan, pemikiran, pertimbangan, pembedaan, dan pemahaman
+terhadap keadaan. Rasa berhubungan dengan penghayatan atas makna pengalaman, kesadaran terhadap keadaan batin, serta kemampuan memahami keadaan sesama secara manusiawi. Karsa berkaitan
+dengan kehendak, penetapan tujuan, pemilihan keputusan, dan kesungguhan mewujudkan tindakan. 
+
+Ketiganya saling berhubungan dan mempengaruhi kualitas laku manusia. Cipta yang tidak disertai ketulusan dapat diarahkan untuk kepentingan yang merugikan, Rasa yang tidak didukung kejernihan dapat menghasilkan penilaian yang keliru, sedangkan pemahaman dan penghayatan yang tidak diwujudkan melalui Karsa dapat berhenti sebagai pengetahuan dan niat.
+
+Buku ini juga membahas perbedaan antara perasaan spontan dan Rasa Sejati. Perasaan merupakan bagian wajar dari kehidupan manusia, tetapi tidak selalu menunjukkan bahwa penilaian yang menyertainya benar atau bahwa tindakan yang didorong olehnya tepat. Rasa Sejati tidak berarti menghilangkan emosi, menampilkan kelembutan secara terus-menerus, atau menghindari pertentangan. Sebaliknya, Rasa Sejati berkaitan dengan kemampuan mengenali perasaan, memeriksa penilaian, mempertimbangkan kenyataan, serta menentukan tindakan yang patut tanpa kehilangan ketulusan dan kejernihan.
+
+Pembahasan selanjutnya menguraikan berbagai hambatan yang dapat mempengaruhi penghayatan, antara lain pamrih, prasangka, keterikatan emosi, kepalsuan sikap, dan ketidakselarasan antara niat dengan tindakan. Hambatan tersebut perlu dikenali agar manusia mampu memahami sumber penilaiannya sendiri dan tidak menjadikan perasaan sebagai satu-satunya dasar pengambilan keputusan. 
+Pengenalan diri, pemeriksaan batin, keterbukaan terhadap koreksi, serta kesediaan mengakui kesalahan menjadi bagian dari laku yang mendukung perkembangan Rasa Sejati.
+
+Dalam kehidupan sehari-hari, Rasa Sejati dapat tercermin melalui kepedulian yang tidak memperalat, ketegasan yang tidak merendahkan, pertolongan yang diberikan secara tulus, serta kemampuan menghadapi
+perbedaan dengan pertimbangan yang adil. Dengan demikian, Rasa Sejati tidak hanya berkaitan dengan pengalaman batin, tetapi juga dengan kualitas hubungan sosial dan tanggung jawab atas tindakan manusiawi.
+
+Secara keseluruhan, buku ini bertujuan memberikan pemahaman konseptual mengenai Rasa Sejati dalam Kawruh Uttamopadesa dan menunjukkan relevansinya bagi pembentukan laku kehidupan yang lebih jernih, tulus, dan selaras. Pemaparan mengenai Jiwa dan Kesadaran ditempatkan dalam kerangka filosofis Kawruh Uttamopadesa, bukan
+sebagai klaim mengenai mekanisme biologis atau neurologis. Melalui pemahaman tersebut, pembaca diharapkan dapat menjadikan Rasa Sejati sebagai arah pengembangan diri yang diwujudkan secara nyata dalam keselarasan Cipta, Rasa, dan Karsa.`,
+pdf: "https://drive.google.com/file/d/10kjOMQ0qNg0ya3Mw2g9gn5l6EMz2Kug7/view?usp=drivesdk"
+},
+{
 judul: "NAWA SAMADHI UTTAMOPADESA",
 subjudul: "Sembilan Tahap Pendalaman Keselarasan Cipta, Rasa dan Karsa",
 penulis: "Dhimas Purnomo, SH",
