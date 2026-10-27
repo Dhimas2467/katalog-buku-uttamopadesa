@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Katalog Buku Uttamopadesa | Dhimas Purnomo, SH</title>
+  <meta name="description" content="Katalog Buku Uttamopadesa, kumpulan karya Dhimas Purnomo, SH. Temukan judul buku, baca abstraksi, dan akses naskah melalui Google Drive.">
+  <meta name="author" content="Dhimas Purnomo, SH">
+  <meta name="theme-color" content="#20372d">
+
+  <style>
+    :root {
+      --hijau: #20372d;
+      --hijau-muda: #304b3d;
+      --emas: #d8bd82;
+      --kertas: #f6f4ed;
+      --putih: #fffefa;
+      --teks: #26342c;
+      --abu: #68736c;
+      --garis: #e2dfd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--kertas);
+      color: var(--teks);
+      line-height: 1.7;
+    }
+
+    .hero {
+      background:
+        radial-gradient(ellipse at top, #d8bd8225, transparent 55%),
+        var(--hijau);
+      color: var(--putih);
+      text-align: center;
+      padding: 65px 20px 75px;
+    }
+
+    .ornamen {
+      color: var(--emas);
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
+
+    .label {
+      color: #b89b60;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.15;
+      margin: 14px 0;
+    }
+
+    h1 span { color: var(--emas); }
+
+    .penulis {
+      font-weight: bold;
+      margin: 18px 0 8px;
+    }
+
+    .pengantar {
+      max-width: 600px;
+      margin: 0 auto 26px;
+      color: #e0e5df;
+    }
+
+    .tombol {
+      display: inline-block;
+      border: 0;
+      border-radius: 5px;
+      padding: 11px 17px;
+      font-weight: bold;
+      font-size: 14px;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .tombol-emas {
+      background: var(--emas);
+      color: var(--hijau);
+    }
+
+    .tombol-hijau {
+      background: var(--hijau);
+      color: white;
+    }
+
+    .tombol-garis {
+      border: 1px solid var(--garis);
+      color: var(--hijau);
+      background: transparent;
+    }
+
+    main {
+      max-width: 1120px;
+      margin: auto;
+      padding: 48px 22px 65px;
+    }
+
+    .judul-bagian {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .keterangan {
+      color: var(--abu);
+      margin-top: 8px;
+    }
+
+    .pencarian {
+      width: 100%;
+      margin: 20px 0;
+      padding: 14px 16px;
+      border: 1px solid var(--garis);
+      border-radius: 7px;
+      background: var(--putih);
+      font-size: 16px;
+    }
+
+    .pencarian:focus {
+      outline: 2px solid var(--emas);
+      border-color: var(--hijau);
+    }
+
+    .jumlah {
+      color: var(--abu);
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .koleksi {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 23px;
+    }
+
+    .buku {
+      border: 1px solid var(--garis);
+      border-radius: 9px;
+      background: var(--putih);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sampul {
+      aspect-ratio: 3 / 4;
+      background:
+        radial-gradient(ellipse at center, #405b49, transparent 65%),
+        var(--hijau);
+      color: var(--emas);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sampul::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border: 1px solid #d8bd8290;
+    }
+
+    .sampul::after {
+      content: "✧";
+      position: absolute;
+      top: 20px;
+      font-size: 22px;
+    }
+
+    .sampul h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 23px;
+      line-height: 1.35;
+      position: relative;
+      z-index: 1;
+    }
+
+    .isi-buku {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .kategori {
+      color: #94763c;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+
+    .judul-buku {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      line-height: 1.35;
+      margin: 0 0 12px;
+    }
+
+    .abstrak-singkat {
+      color: var(--abu);
+      font-size: 14px;
+      margin: 0 0 20px;
+    }
+
+    .aksi {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: auto;
+    }
+
+    .aksi .tombol { font-size: 12px; }
+
+    .kosong {
+      padding: 30px;
+      text-align: center;
+      color: var(--abu);
+    }
+
+    footer {
+      background: #eae7dc;
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--abu);
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: var(--hijau);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+    }
+
+    dialog {
+      width: min(680px, calc(100% - 28px));
+      max-height: 85vh;
+      overflow: auto;
+      border: 0;
+      border-radius: 10px;
+      padding: 28px;
+      color: var(--teks);
+      background: var(--putih);
+    }
+
+    dialog::backdrop { background: #101813bb; }
+
+    .tutup {
+      float: right;
+      border: 0;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      font-size: 23px;
+      cursor: pointer;
+    }
+
+    .abstraksi-lengkap { white-space: pre-line; }
+
+    @media (max-width: 850px) {
+      .koleksi { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 560px) {
+      .hero { padding: 48px 18px 58px; }
+      main { padding: 35px 16px 45px; }
+      .koleksi { grid-template-columns: 1fr; }
+      .buku { display: grid; grid-template-columns: 120px minmax(0, 1fr); }
+      .sampul { min-height: 200px; padding: 14px; }
+      .sampul h3 { font-size: 15px; }
+      .isi-buku { padding: 15px; }
+      .judul-buku { font-size: 18px; }
+      .abstrak-singkat { font-size: 13px; }
+      .judul-bagian { font-size: 29px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="ornamen" aria-hidden="true">✧</div>
+  <div class="label">Perpustakaan Digital</div>
+  <h1>Katalog Buku<br><span>Uttamopadesa</span></h1>
+  <p class="penulis">Karya Dhimas Purnomo, SH</p>
+  <p class="pengantar">
+    Himpunan karya filsafat, kawruh, dan kesadaran.
+    Temukan buku, pelajari abstraksinya, dan baca naskah lengkapnya.
+  </p>
+  <a class="tombol tombol-emas" href="#koleksi">Jelajahi Koleksi</a>
+</header>
+
+<main>
+  <section>
+    <div class="label">Koleksi Penulis</div>
+    <h2 class="judul-bagian" id="koleksi">Daftar Buku</h2>
+    <p class="keterangan">
+      Pilih buku untuk membaca abstraksi atau membuka naskah lengkap.
+    </p>
+
+    <input
+      class="pencarian"
+      id="pencarian"
+      type="search"
+      placeholder="Cari judul buku atau kata kunci..."
+      aria-label="Cari buku"
+    >
+
+    <p class="jumlah" id="jumlah" aria-live="polite"></p>
+    <div class="koleksi" id="daftarBuku"></div>
+    <p class="kosong" id="kosong" hidden>
+      Buku yang dicari tidak ditemukan.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <strong>Katalog Buku Uttamopadesa</strong>
+  <p>Penulis: Dhimas Purnomo, SH</p>
+  <p>Seluruh hak cipta naskah tetap berada pada pemegang haknya.</p>
+</footer>
+
+<dialog id="jendelaAbstraksi">
+  <button class="tutup" id="tutup" aria-label="Tutup">×</button>
+  <div id="isiAbstraksi"></div>
+</dialog>
+
+<script>
+  /*
+    DATA BUKU
+    Abstraksi dan tautan Drive akan dilengkapi berdasarkan
+    naskah asli masing-masing buku.
+  */
+
+  const buku = [
+    {
+      judul: "Dasar Filsafat Kawruh Uttamopadesa",
+      kategori: "Filsafat dan Kawruh Jawa",
+      abstraksi: "",
+      kataKunci: "kawruh uttamopadesa filsafat jawa",
+      drive: "",
+      sampul: ""
+    },
+    {
+      judul: "Nawa Samadhi",
+      kategori: "Samadhi dan Kesadaran",
+      abstraksi: "",
+      kataKunci: "nawa samadhi kesadaran",
+      drive: "",
+      sampul: ""
+    },
+    {
+      judul: "Cipta Wening",
+      kategori: "Filsafat dan Kesadaran",
+      abstraksi: "",
+      kataKunci: "cipta wening filsafat",
+      drive: "",
+      sampul: ""
+    },
+    {
+      judul: "Kesadaran Sejati",
+      kategori: "Kesadaran dan Kehidupan",
+      abstraksi: "",
+      kataKunci: "kesadaran sejati",
+      drive: "",
+      sampul: ""
+    }
+  ];
+
+  const daftar = document.getElementById("daftarBuku");
+  const pencarian = document.getElementById("pencarian");
+  const jumlah = document.getElementById("jumlah");
+  const kosong = document.getElementById("kosong");
+  const dialog = document.getElementById("jendelaAbstraksi");
+  const isiAbstraksi = document.getElementById("isiAbstraksi");
+
+  function aman(teks) {
+    return String(teks || "").replace(/[&<>"']/g, karakter => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    })[karakter]);
+  }
+
+  function gambarSampul(item) {
+    if (item.sampul) {
+      return `<div class="sampul">
+        <img src="${aman(item.sampul)}"
+          alt="Sampul ${aman(item.judul)}"
+          style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+      </div>`;
+    }
+
+    return `<div class="sampul"><h3>${aman(item.judul)}</h3></div>`;
+  }
+
+  function tombolBaca(item) {
+    if (!item.drive) {
+      return `<span class="tombol tombol-garis">PDF belum ditautkan</span>`;
+    }
+
+    return `<a class="tombol tombol-hijau"
+      href="${aman(item.drive)}"
+      target="_blank" rel="noopener noreferrer">Baca Buku ↗</a>`;
+  }
+
+  function tampilkan(daftarBuku) {
+    daftar.innerHTML = daftarBuku.map((item, nomor) => `
+      <article class="buku">
+        ${gambarSampul(item)}
+        <div class="isi-buku">
+          <p class="kategori">${aman(item.kategori)}</p>
+          <h3 class="judul-buku">${aman(item.judul)}</h3>
+          <p class="abstrak-singkat">${
+            item.abstraksi
+              ? aman(item.abstraksi.slice(0, 160)) + (item.abstraksi.length > 160 ? "…" : "")
+              : "Abstraksi buku akan ditampilkan setelah naskah tersedia."
+          }</p>
+          <div class="aksi">
+            <button class="tombol tombol-garis"
+              data-abstraksi="${nomor}">Lihat Abstraksi</button>
+            ${tombolBaca(item)}
+          </div>
+        </div>
+      </article>
+    `).join("");
+
+    jumlah.textContent = `${daftarBuku.length} buku ditampilkan`;
+    kosong.hidden = daftarBuku.length > 0;
+  }
+
+  daftar.addEventListener("click", event => {
+    const tombol = event.target.closest("[data-abstraksi]");
+    if (!tombol) return;
+
+    const item = tampilkanSemua()[Number(tombol.dataset.abstraksi)];
+    if (!item) return;
+
+    isiAbstraksi.innerHTML = `
+      <p class="kategori">${aman(item.kategori)}</p>
+      <h2>${aman(item.judul)}</h2>
+      <p><strong>Penulis:</strong> Dhimas Purnomo, SH</p>
+      <h3>Abstraksi</h3>
+      <p class="abstraksi-lengkap">${
+        item.abstraksi
+          ? aman(item.abstraksi)
+          : "Abstraksi resmi buku ini akan ditambahkan berdasarkan naskah aslinya."
+      }</p>
+      <p><strong>Kata kunci:</strong> ${aman(item.kataKunci)}</p>
+      ${tombolBaca(item)}
+    `;
+    dialog.showModal();
+  });
+
+  function tampilkanSemua() {
+    return buku;
+  }
+
+  document.getElementById("tutup").addEventListener("click", () => {
+    dialog.close();
+  });
+
+  dialog.addEventListener("click", event => {
+    if (event.target === dialog) dialog.close();
+  });
+
+  pencarian.addEventListener("input", () => {
+    const kata = pencarian.value.trim().toLocaleLowerCase("id");
+    const hasil = buku.filter(item =>
+      [item.judul, item.kategori, item.kataKunci, item.abstraksi]
+        .join(" ")
+        .toLocaleLowerCase("id")
+        .includes(kata)
+    );
+    tampilkan(hasil);
+  });
+
+  tampilkan(buku);
+</script>
+
+</body>
+</html>
