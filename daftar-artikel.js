@@ -1,5 +1,37 @@
 const daftarArtikel = [
 {
+judul: "9 PRINSIP KESADARAN SEJATI",
+subjudul: "Landasan Memahami Diri, Menjernihkan Batin, dan Menyelaraskan Kehidupan dalam Kawruh Sejati",
+penulis: "Dhimas Purnomo, SH",
+halaman: "kesadaran-sejati.html",
+sampul: "sampul-kesadaran-sejati.jpg",
+abstraksi: `9 PRINSIP KESADARAN SEJATI merupakan karya filosofis yang membahas pengembangan kesadaran manusia melalui sembilan prinsip yang saling berkaitan dalam kerangka pemikiran Kawruh Uttamopadesa.
+
+Buku ini disusun berdasarkan pemahaman bahwa kesadaran bukan sekadar kemampuan mengetahui atau berpikir, melainkan kejernihan dalam mengenali diri, memahami pengalaman, menimbang nilai,
+menentukan tindakan, serta menyadari kedudukan manusia dalam keseluruhan kehidupan. 
+
+Pengembangan kesadaran dipandang sebagai proses berkelanjutan yang membutuhkan pengamatan, perenungan, pengendalian diri, dan penerapan nilai-nilai luhur dalam kehidupan sehari-hari.
+
+Pembahasan diawali dengan Rahajati (Pengawikan Pribadi), yaitu pengenalan terhadap keadaan diri sebagai dasar pemahaman yang lebih mendalam. Prinsip ini dilanjutkan dengan Nyawang Karep (Mengamati Keinginan), yang mengajak manusia mengenali dorongan batin sebelum mengambil keputusan. Mawas Diri (Introspeksi Berkelanjutan) menempatkan pemeriksaan diri sebagai upaya memahami pikiran, perasaan, sikap, dan tindakan secara jujur.
+
+Sementara itu, Mulat Sarira (Menyadari Batas Diri) menegaskan pentingnya mengenali keterbatasan pengetahuan, kemampuan, dan
+pertimbangan pribadi agar manusia mampu mengembangkan kerendahan hati serta kebijaksanaan. Prinsip kelima, Pangawikan Rasa (Memahami Kesamaan Rasa), mengarahkan perhatian pada pemahaman terhadap pengalaman batin manusia dan pentingnya memperlakukan sesama dengan kepedulian.
+
+Prinsip keenam, Madheg Pribadi (Kemandirian Batin), membahas keteguhan diri dalam menentukan sikap berdasarkan kejernihan pertimbangan, bukan semata-mata mengikuti dorongan atau tekanan
+dari luar. Berikutnya, Memayu Hayuning Bawana (Keselarasan Semesta) menguraikan tanggung jawab manusia dalam menjaga
+keharmonisan hubungan dengan sesama, lingkungan, dan kehidupan secara luas. Adiluhung (Integrasi Nilai Moral) membahas penyatuan nilai-nilai luhur ke dalam sikap dan tindakan nyata. Adapun Sangkan Paraning Dumadi (Kesadaran Transendental) mengarahkan perenungan pada asal-usul, perjalanan, keterbatasan, dan tujuan keberadaan manusia.
+
+Kesembilan prinsip tersebut membentuk suatu rangkaian pemikiran yang bergerak dari pengenalan diri menuju pemahaman yang lebih luas tentang kehidupan. Pengenalan terhadap diri menjadi landasan bagi pengamatan keinginan dan introspeksi. Kesadaran akan keterbatasan memperkuat kerendahan hati, sedangkan pemahaman terhadap kesamaan rasa membuka ruang bagi kepedulian. Kemandirian batin membantu manusia mempertahankan kejernihan pertimbangan, sementara keselarasan kehidupan dan integrasi nilai moral mengarahkan kesadaran pada tanggung jawab nyata. Seluruh rangkaian tersebut mencapai cakrawala perenungan yang lebih luas melalui Sangkan Paraning Dumadi.
+
+Buku ini menggunakan pendekatan filosofis-reflektif dengan menguraikan makna setiap prinsip, hubungan antarkonsep, serta relevansinya terhadap pengalaman manusia. Penekanannya terletak pada pemahaman konseptual yang disertai perenungan dan penerapan praktis, sehingga kesadaran tidak berhenti sebagai gagasan abstrak.
+
+Melalui pendekatan ini, pembaca diajak memeriksa kembali dasar pemikirannya, mengenali dorongan batin, mempertimbangkan akibat tindakan, serta menumbuhkan tanggung jawab terhadap diri sendiri dan lingkungan kehidupan. Secara keseluruhan, buku ini menempatkan kesadaran sejati sebagai proses pendewasaan manusia yang mencakup kejernihan cipta, ketulusan rasa, keteguhan karsa, keluhuran moral, dan pemahaman
+terhadap keberadaan. 
+
+Kesadaran tidak diukur semata-mata dari banyaknya pengetahuan yang dimiliki, tetapi juga dari kemampuan menerapkan pemahaman secara tepat dalam kehidupan. Dengan demikian, sembilan prinsip ini diharapkan dapat menjadi landasan perenungan bagi pembaca untuk mengembangkan kebijaksanaan, membangun hubungan yang selaras, dan menjalani kehidupan secara lebih sadar, bertanggung jawab, serta bermakna.`,
+pdf: "https://drive.google.com/file/d/1v1KwTL9r73WsvRkAoh-0kDJgCoR-jN3c/view?usp=drivesdk"
+},
+{
 judul: "RASA SEJATI DALAM KAWRUH UTTAMOPADESA",
 subjudul: "Hakikat, Hubungan Dengan Kesadaran, dan Perwujudannya dalam Laku Kehidupan",
 penulis: "Dhimas Purnomo, SH",
