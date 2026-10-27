@@ -28,9 +28,12 @@ Buku ini menggunakan pendekatan filosofis-reflektif dengan menguraikan makna set
 Melalui pendekatan ini, pembaca diajak memeriksa kembali dasar pemikirannya, mengenali dorongan batin, mempertimbangkan akibat tindakan, serta menumbuhkan tanggung jawab terhadap diri sendiri dan lingkungan kehidupan. Secara keseluruhan, buku ini menempatkan kesadaran sejati sebagai proses pendewasaan manusia yang mencakup kejernihan cipta, ketulusan rasa, keteguhan karsa, keluhuran moral, dan pemahaman
 terhadap keberadaan.
 
-Kesadaran tidak diukur semata-mata dari banyaknya pengetahuan yang dimiliki, tetapi juga dari kemampuan menerapkan pemahaman secara tepat dalam kehidupan. Dengan demikian, sembilan prinsip ini diharapkan dapat menjadi landasan perenungan bagi pembaca untuk mengembangkan kebijaksanaan, membangun hubungan yang selaras, dan menjalani kehidupan secara lebih sadar, bertanggung jawab, serta bermakna., pdf: "https://drive.google.com/file/d/1v1KwTL9r73WsvRkAoh-0kDJgCoR-jN3c/view?usp=drivesdk" }, 
+Kesadaran tidak diukur semata-mata dari banyaknya pengetahuan yang dimiliki, tetapi juga dari kemampuan menerapkan pemahaman secara tepat dalam kehidupan. Dengan demikian, sembilan prinsip ini diharapkan dapat menjadi landasan perenungan bagi pembaca untuk mengembangkan kebijaksanaan, membangun hubungan yang selaras, dan menjalani kehidupan secara lebih sadar, bertanggung jawab, serta bermakna.`,
+pdf: "https://drive.google.com/file/d/1v1KwTL9r73WsvRkAoh-0kDJgCoR-jN3c/view?usp=drivesdk"
+},
 
-{ judul: "RASA SEJATI DALAM KAWRUH UTTAMOPADESA", subjudul: "Hakikat, Hubungan Dengan Kesadaran, dan Perwujudannya dalam Laku Kehidupan", penulis: "Dhimas Purnomo, SH", halaman: "rasa-sejati.html", sampul: "sampul-rasa-sejati.jpg", abstraksi:Buku Rasa Sejati dalam Kawruh Uttamopadesa memaparkan hakikat Rasa Sejati sebagai kualitas penghayatan batin yang memungkinkan manusia memahami keadaan secara lebih mendalam, mengembangkan ketulusan, dan menentukan sikap berdasarkan kejernihan pemahaman
+{ 
+judul: "RASA SEJATI DALAM KAWRUH UTTAMOPADESA", subjudul: "Hakikat, Hubungan Dengan Kesadaran, dan Perwujudannya dalam Laku Kehidupan", penulis: "Dhimas Purnomo, SH", halaman: "rasa-sejati.html", sampul: "sampul-rasa-sejati.jpg", abstraksi: `Buku Rasa Sejati dalam Kawruh Uttamopadesa memaparkan hakikat Rasa Sejati sebagai kualitas penghayatan batin yang memungkinkan manusia memahami keadaan secara lebih mendalam, mengembangkan ketulusan, dan menentukan sikap berdasarkan kejernihan pemahaman
 serta tanggung jawab. Pembahasan ini berangkat dari pemahaman bahwa kehidupan manusia tidak hanya melibatkan kegiatan berpikir dan menentukan kehendak, tetapi juga mencakup penghayatan terhadap
 makna pengalaman, keadaan diri, dan hubungan dengan sesama. Oleh sebab itu, Rasa Sejati ditempatkan sebagai salah satu pokok penting dalam pemahaman mengenai kehidupan batin dan laku manusia.
 
@@ -49,9 +52,11 @@ Dalam kehidupan sehari-hari, Rasa Sejati dapat tercermin melalui kepedulian yang
 perbedaan dengan pertimbangan yang adil. Dengan demikian, Rasa Sejati tidak hanya berkaitan dengan pengalaman batin, tetapi juga dengan kualitas hubungan sosial dan tanggung jawab atas tindakan manusiawi.
 
 Secara keseluruhan, buku ini bertujuan memberikan pemahaman konseptual mengenai Rasa Sejati dalam Kawruh Uttamopadesa dan menunjukkan relevansinya bagi pembentukan laku kehidupan yang lebih jernih, tulus, dan selaras. Pemaparan mengenai Jiwa dan Kesadaran ditempatkan dalam kerangka filosofis Kawruh Uttamopadesa, bukan
-sebagai klaim mengenai mekanisme biologis atau neurologis. Melalui pemahaman tersebut, pembaca diharapkan dapat menjadikan Rasa Sejati sebagai arah pengembangan diri yang diwujudkan secara nyata dalam keselarasan Cipta, Rasa, dan Karsa., pdf: "https://drive.google.com/file/d/10kjOMQ0qNg0ya3Mw2g9gn5l6EMz2Kug7/view?usp=drivesdk" }, 
+sebagai klaim mengenai mekanisme biologis atau neurologis. Melalui pemahaman tersebut, pembaca diharapkan dapat menjadikan Rasa Sejati sebagai arah pengembangan diri yang diwujudkan secara nyata dalam keselarasan Cipta, Rasa, dan Karsa.`,
+pdf: "https://drive.google.com/file/d/10kjOMQ0qNg0ya3Mw2g9gn5l6EMz2Kug7/view?usp=drivesdk"
+},
 
-{ judul: "NAWA SAMADHI UTTAMOPADESA", subjudul: "Sembilan Tahap Pendalaman Keselarasan Cipta, Rasa dan Karsa", penulis: "Dhimas Purnomo, SH", halaman: "nawa-samadhi.html", sampul: "sampul-nawa-samadhi.jpg", abstraksi:Nawa Samadhi Uttamopadesa merupakan karya dokumentasi filosofis yang membahas sembilan tahap Samadhi dalam kerangka pemikiran Kawruh Uttamopadesa. Buku ini disusun untuk memberikan uraian mengenai susunan, kedudukan, dan hubungan antartahap, dengan mempertahankan ketepatan istilah serta urutan yang menjadi dasar keseluruhan pembahasan. Fokus utamanya adalah mendokumentasikan Nawa Samadhi sebagai satu rangkaian konseptual yang memiliki struktur tersendiri dan tidak dapat dipahami secara tepat apabila setiap
+{ judul: "NAWA SAMADHI UTTAMOPADESA", subjudul: "Sembilan Tahap Pendalaman Keselarasan Cipta, Rasa dan Karsa", penulis: "Dhimas Purnomo, SH", halaman: "nawa-samadhi.html", sampul: "sampul-nawa-samadhi.jpg", abstraksi: `Nawa Samadhi Uttamopadesa merupakan karya dokumentasi filosofis yang membahas sembilan tahap Samadhi dalam kerangka pemikiran Kawruh Uttamopadesa. Buku ini disusun untuk memberikan uraian mengenai susunan, kedudukan, dan hubungan antartahap, dengan mempertahankan ketepatan istilah serta urutan yang menjadi dasar keseluruhan pembahasan. Fokus utamanya adalah mendokumentasikan Nawa Samadhi sebagai satu rangkaian konseptual yang memiliki struktur tersendiri dan tidak dapat dipahami secara tepat apabila setiap
 tahap dipisahkan dari hubungannya dengan tahap-tahap yang lain.
 
 Nawa Samadhi terdiri atas Samadhi Panarik, Samadhi Pamawas, Samadhi Wening, Samadhi Tentrem, Samadhi Kawruh, Samadhi
@@ -73,9 +78,12 @@ kedudukannya dalam rangkaian, serta melihat pentingnya mempertahankan hubungan a
 Buku ini tidak dimaksudkan untuk menggantikan keseluruhan pembahasan Kawruh Uttamopadesa, melainkan untuk memusatkan perhatian pada Nawa Samadhi sebagai salah satu pokok dokumentasi yang mempunyai struktur khusus. Dengan batas tersebut, uraian mengenai sembilan tahap dapat dipahami sesuai dengan ruang
 lingkupnya tanpa memperluas makna secara berlebihan atau mencampurkannya dengan pembahasan lain yang memiliki kedudukan berbeda.
 
-Pada akhirnya, buku Nawa Samadhi Uttamopadesa ini merupakan upaya untuk mendokumentasikan sembilan tahap Samadhi secara tertib, menjaga ketepatan istilah, dan menegaskan hubungan antartahap dalam satu rangkaian yang utuh. Dokumentasi ini diharapkan dapatmenjadi bahan rujukan bagi pembaca yang ingin mempelajari susunan Nawa Samadhi dalam kerangka Kawruh Uttamopadesa serta mendukung keberlanjutan pencatatan dan pengkajian pemikiran filosofis tersebut., pdf: "https://drive.google.com/file/d/1S2weFBSCQhia9u-PsKwn3C_4K5C_slg0/view?usp=drivesdk" }, 
+Pada akhirnya, buku Nawa Samadhi Uttamopadesa ini merupakan upaya untuk mendokumentasikan sembilan tahap Samadhi secara tertib, menjaga ketepatan istilah, dan menegaskan hubungan antar tahap dalam satu rangkaian yang utuh. Dokumentasi ini diharapkan dapat menjadi bahan rujukan bagi pembaca yang ingin mempelajari susunan Nawa Samadhi dalam kerangka Kawruh Uttamopadesa serta mendukung keberlanjutan pencatatan dan pengkajian pemikiran filosofis tersebut.`,
+pdf: "https://drive.google.com/file/d/1S2weFBSCQhia9u-PsKwn3C_4K5C_slg0/view?usp=drivesdk"
+}, 
 
-{ judul: "DASA PANGUDI SEJATINING URIP", subjudul: "Sepuluh Pedoman Laku dalam Kawruh Sejati", penulis: "Dhimas Purnomo, SH", halaman: "dasa-pangudi.html", sampul: "sampul-dasa-pangudi.jpg", abstraksi:Buku Dasa Pangudi Sejatinining Urip: Sepuluh Pedoman Laku dalam Kawruh Sejati merupakan dokumen konseptual yang memaparkan sepuluh pedoman kehidupan dalam kerangka Kawruh Sejati dan pengembangan Kawruh Uttamopadesa.
+{ 
+judul: "DASA PANGUDI SEJATINING URIP", subjudul: "Sepuluh Pedoman Laku dalam Kawruh Sejati", penulis: "Dhimas Purnomo, SH", halaman: "dasa-pangudi.html", sampul: "sampul-dasa-pangudi.jpg", abstraksi: `Buku Dasa Pangudi Sejatinining Urip: Sepuluh Pedoman Laku dalam Kawruh Sejati merupakan dokumen konseptual yang memaparkan sepuluh pedoman kehidupan dalam kerangka Kawruh Sejati dan pengembangan Kawruh Uttamopadesa.
 
 Pemaparan ini berangkat dari pemahaman bahwa kehidupan manusia tidak cukup dijalani melalui pemenuhan kebutuhan jasmani, pelaksanaan kebiasaan, atau pencapaian keberhasilan lahiriah. Manusia juga perlu memahami arah kehidupannya, mengenali keadaan dirinya, mempertimbangkan akibat tindakannya, serta mengupayakan perilaku yang selaras dengan nilai-nilai kehidupan.
 
