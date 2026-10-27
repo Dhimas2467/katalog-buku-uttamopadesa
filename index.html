@@ -327,7 +327,7 @@ footer p {
   margin: 10px 0;
   line-height: 1;
 }
-g
+
     dialog {
       width: min(680px, calc(100% - 28px));
       max-height: 85vh;
@@ -471,6 +471,50 @@ g
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
     }
+
+
+/* Tombol Back to Top */
+#backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--emas);
+  border-radius: 50%;
+  background: var(--hijau);
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px #00000025;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity .2s, transform .2s, visibility .2s;
+}
+
+#backToTop.tampil {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#backToTop:hover {
+  background: #304b3c;
+}
+
+#backToTop:focus-visible {
+  outline: 3px solid var(--emas);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #backToTop {
+    transition: none;
+  }
+}
+
   </style>
 </head>
 
@@ -775,6 +819,36 @@ g
   });
 
   tampilkan(dataBuku, true);
+})();
+</script>
+
+<!-- Tombol Back to Top -->
+<button id="backToTop" type="button"
+  aria-label="Kembali ke atas"
+  title="Kembali ke atas">
+  ↑
+</button>
+
+<script>
+(function () {
+  const tombol = document.getElementById("backToTop");
+
+  function perbaruiTombol() {
+    tombol.classList.toggle("tampil", window.scrollY > 300);
+  }
+
+  window.addEventListener("scroll", perbaruiTombol, {
+    passive: true
+  });
+
+  tombol.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  perbaruiTombol();
 })();
 </script>
 
