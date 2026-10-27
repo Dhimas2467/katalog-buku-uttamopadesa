@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Buku | Katalog Buku Uttamopadesa</title>
+  <meta name="description" content="Daftar lengkap buku karya Dhimas Purnomo, SH dalam katalog digital Uttamopadesa.">
+  <meta name="theme-color" content="#20372d">
+
+  <style>
+    :root {
+      --hijau: #20372d;
+      --emas: #d8bd82;
+      --kertas: #f6f4ed;
+      --putih: #fffefa;
+      --teks: #26342c;
+      --abu: #68736c;
+      --garis: #e2dfd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--kertas);
+      color: var(--teks);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--hijau);
+      color: var(--putih);
+      text-align: center;
+      padding: 42px 18px;
+      border-bottom: 4px solid var(--emas);
+    }
+
+    .ornamen {
+      color: var(--emas);
+      font-size: 30px;
+    }
+
+    header h1 {
+      margin: 8px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.2;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #e0e5df;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 32px 18px 55px;
+    }
+
+    .tombol {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .tombol-hijau {
+      background: var(--hijau);
+      color: white;
+    }
+
+    .tombol-emas {
+      background: var(--emas);
+      color: var(--hijau);
+    }
+
+    .judul-bagian {
+      margin: 24px 0 5px;
+      font: bold 27px Georgia, "Times New Roman", serif;
+    }
+
+    .keterangan {
+      color: var(--abu);
+      margin: 0 0 22px;
+    }
+
+    .daftar {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      counter-reset: buku;
+    }
+
+    .daftar li {
+      counter-increment: buku;
+      position: relative;
+      margin-bottom: 12px;
+      padding: 17px 16px 17px 58px;
+      background: var(--putih);
+      border: 1px solid var(--garis);
+      border-radius: 7px;
+      overflow-wrap: anywhere;
+    }
+
+    .daftar li::before {
+      content: counter(buku);
+      position: absolute;
+      left: 15px;
+      top: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 29px;
+      height: 29px;
+      border-radius: 50%;
+      background: var(--hijau);
+      color: var(--emas);
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    .judul-buku {
+      display: block;
+      color: var(--hijau);
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 1.5;
+      text-decoration: none;
+    }
+
+    .judul-buku:hover {
+      text-decoration: underline;
+    }
+
+    .subjudul {
+      display: block;
+      margin-top: 4px;
+      color: var(--abu);
+      font-size: 13px;
+    }
+
+    .pesan {
+      padding: 18px;
+      background: var(--putih);
+      border: 1px solid var(--garis);
+      border-radius: 7px;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      background: var(--hijau);
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 13px;
+    }
+
+    footer p { margin: 7px 0; }
+
+    @media (max-width: 480px) {
+      main { padding: 25px 13px 40px; }
+      .daftar li { padding: 14px 12px 14px 48px; }
+      .daftar li::before { left: 10px; top: 15px; }
+      .judul-buku { font-size: 15px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="ornamen" aria-hidden="true">✧</div>
+    <h1>Daftar Buku</h1>
+    <p>Katalog Buku Uttamopadesa</p>
+    <p>Karya Dhimas Purnomo, SH</p>
+  </header>
+
+  <main>
+    <a class="tombol tombol-hijau" href="./index.html">
+      ← Kembali ke Katalog
+    </a>
+
+    <h2 class="judul-bagian">Seluruh Koleksi Buku</h2>
+    <p class="keterangan" id="jumlah">Memuat daftar buku...</p>
+
+    <ol class="daftar" id="daftarBuku"></ol>
+    <p class="pesan" id="pesanError" hidden></p>
+  </main>
+
+  <footer>
+    <strong>Katalog Buku Uttamopadesa</strong>
+    <p>Penulis: Dhimas Purnomo, SH</p>
+    <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
+  </footer>
+
+  <script src="./daftar-artikel.js"></script>
+  <script>
+    (function () {
+      const daftar = document.getElementById("daftarBuku");
+      const jumlah = document.getElementById("jumlah");
+      const pesanError = document.getElementById("pesanError");
+
+      function aman(teks) {
+        return String(teks || "").replace(/[&<>"']/g, karakter => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;"
+        })[karakter]);
+      }
+
+      if (typeof daftarArtikel === "undefined" ||
+          !Array.isArray(daftarArtikel)) {
+        jumlah.textContent = "Daftar buku gagal dimuat.";
+        pesanError.textContent =
+          "Pastikan file daftar-artikel.js berada di folder yang sama.";
+        pesanError.hidden = false;
+        return;
+      }
+
+      const buku = daftarArtikel.filter(item => item && item.judul);
+
+      daftar.innerHTML = buku.map(item => {
+        const tujuan = item.halaman ||
+          item.pdf ||
+          item.drive ||
+          "#";
+
+        const subjudul = item.subjudul
+          ? `<span class="subjudul">${aman(item.subjudul)}</span>`
+          : "";
+
+        return `
+          <li>
+            <a class="judul-buku"
+               href="${aman(tujuan)}"
+               ${item.halaman ? "" : 'target="_blank" rel="noopener noreferrer"'}>
+              ${aman(item.judul)}
+            </a>
+            ${subjudul}
+          </li>
+        `;
+      }).join("");
+
+      jumlah.textContent = buku.length + " buku terdaftar";
+    })();
+  </script>
+</body>
+</html>
