@@ -12,19 +12,6 @@ menentukan tindakan, serta menyadari kedudukan manusia dalam keseluruhan kehidup
 
 Pengembangan kesadaran dipandang sebagai proses berkelanjutan yang membutuhkan pengamatan, perenungan, pengendalian diri, dan penerapan nilai-nilai luhur dalam kehidupan sehari-hari.
 
-Pembahasan diawali dengan Rahajati (Pengawikan Pribadi), yaitu pengenalan terhadap keadaan diri sebagai dasar pemahaman yang lebih mendalam. Prinsip ini dilanjutkan dengan Nyawang Karep (Mengamati Keinginan), yang mengajak manusia mengenali dorongan batin sebelum mengambil keputusan. Mawas{
-judul: "9 PRINSIP KESADARAN SEJATI",
-subjudul: "Landasan Memahami Diri, Menjernihkan Batin, dan Menyelaraskan Kehidupan dalam Kawruh Sejati",
-penulis: "Dhimas Purnomo, SH",
-halaman: "kesadaran-sejati.html",
-sampul: "sampul-kesadaran-sejati.jpg",
-abstraksi: `9 PRINSIP KESADARAN SEJATI merupakan karya filosofis yang membahas pengembangan kesadaran manusia melalui sembilan prinsip yang saling berkaitan dalam kerangka pemikiran Kawruh Uttamopadesa.
-
-Buku ini disusun berdasarkan pemahaman bahwa kesadaran bukan sekadar kemampuan mengetahui atau berpikir, melainkan kejernihan dalam mengenali diri, memahami pengalaman, menimbang nilai,
-menentukan tindakan, serta menyadari kedudukan manusia dalam keseluruhan kehidupan. 
-
-Pengembangan kesadaran dipandang sebagai proses berkelanjutan yang membutuhkan pengamatan, perenungan, pengendalian diri, dan penerapan nilai-nilai luhur dalam kehidupan sehari-hari.
-
 Pembahasan diawali dengan Rahajati (Pengawikan Pribadi), yaitu pengenalan terhadap keadaan diri sebagai dasar pemahaman yang lebih mendalam. Prinsip ini dilanjutkan dengan Nyawang Karep (Mengamati Keinginan), yang mengajak manusia mengenali dorongan batin sebelum mengambil keputusan. Mawas Diri (Introspeksi Berkelanjutan) menempatkan pemeriksaan diri sebagai upaya memahami pikiran, perasaan, sikap, dan tindakan secara jujur.
 
 Sementara itu, Mulat Sarira (Menyadari Batas Diri) menegaskan pentingnya mengenali keterbatasan pengetahuan, kemampuan, dan
