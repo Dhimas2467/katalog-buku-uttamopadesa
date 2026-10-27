@@ -1,0 +1,71 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'daftar-artikel.js'
+      - 'index.html'
+      - '*.html'
+      - '.github/workflows/sitemap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate sitemap from daftar-artikel.js
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const vm = require('vm');
+
+          const base = 'https://dhimas2467.github.io/katalog-buku-uttamopadesa/';
+          const source = fs.readFileSync('daftar-artikel.js', 'utf8');
+          const daftarArtikel = vm.runInNewContext(source + '\ndaftarArtikel');
+
+          if (!Array.isArray(daftarArtikel)) {
+            throw new Error('daftarArtikel bukan array yang valid.');
+          }
+
+          const halaman = ['index.html'];
+
+          for (const artikel of daftarArtikel) {
+            if (artikel.halaman && !halaman.includes(artikel.halaman)) {
+              halaman.push(artikel.halaman);
+            }
+          }
+
+          const urls = halaman.map(file => {
+            const loc = base + file;
+            return `  <url>\n    <loc>${loc}</loc>\n  </url>`;
+          });
+
+          const xml = [
+            '<?xml version="1.0" encoding="UTF-8"?>',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+            ...urls,
+            '</urlset>',
+            ''
+          ].join('\n');
+
+          fs.writeFileSync('sitemap.xml', xml, 'utf8');
+          console.log(`Sitemap dibuat: ${halaman.length} halaman.`);
+          NODE
+
+      - name: Save sitemap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Update sitemap automatically"
+            git push
+          fi
