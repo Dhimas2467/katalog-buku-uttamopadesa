@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Dhimas Purnomo, SH">
+<meta name="description" content="Buku Kawruh Uttamopadesa memaparkan pemahaman mengenai hakikat kehidupan, pengenalan jati diri, perkembangan kesadaran, pemurnian batin, dan perwujudan keluhuran manusia melalui laku kehidupan sehari-hari.">
+<title>Kawruh Uttamopadesa — Dhimas Purnomo, SH</title>
+<style>
+:root {
+--background: #f7f4eb;
+--surface: #fffdf7;
+--green: #173f36;
+--green-dark: #102f29;
+--gold: #ad8546;
+--text: #302f29;
+--muted: #706b60;
+--border: #e4dccb;
+}
+* {box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+body {margin: 0; background: var(--background);
+color: var(--text); font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.8;}
+.site-header {background: var(--green); color: #fffdf7; border-bottom: 4px solid var(--gold);}
+.header-inner {width: min(1100px, calc(100% - 36px)); min-height: 76px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 14px 0;}
+.site-brand {margin: 0; font-size: clamp(15px, 2.5vw, 22px); line-height: 1.4; letter-spacing: 0.07em;}
+.site-tagline {display: block; margin-top: 3px; color: #dfc28b; font-family: Arial, sans-serif; font-size: 10px; letter-spacing: 0.2em;}
+.back-button {display: inline-block; padding: 8px 14px; border: 1px solid #d9c08f; border-radius: 5px; color: #fffdf7; font-family: Arial, sans-serif; font-size: 13px; text-decoration: none; white-space: nowrap;}
+.back-button:hover {background: rgba(255, 255, 255, 0.1);}
+.page {width: min(1000px, calc(100% - 36px)); margin: 38px auto; padding: clamp(22px, 4vw, 48px); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 8px 28px rgba(55, 45, 25, 0.06);}
+.book-intro {display: grid; grid-template-columns: minmax(190px, 300px) minmax(0, 1fr); align-items: start; gap: clamp(24px, 5vw, 48px);
+margin-bottom: 34px;}
+.cover-frame {margin: 0; text-align: center;}
+.book-cover {display: block; width: 100%; max-width: 300px; height: auto; margin: 0 auto; border: 1px solid rgba(50, 40, 25, 0.12); border-radius: 3px; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);}
+.cover-caption {margin-top: 10px; color: var(--muted); font-size: 12px; font-style: italic;}
+.book-label {margin: 0 0 8px; color: var(--gold); font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 0.2em; text-transform: uppercase;}
+h1 {margin: 0; color: var(--green); font-size: clamp(29px, 4.5vw, 43px); line-height: 1.2;
+overflow-wrap: anywhere;}
+.subtitle {margin: 16px 0 20px; color: #66513a; font-size: clamp(17px, 2.5vw, 22px); line-height: 1.5;}
+.gold-rule {width: 68px; height: 2px; margin: 20px 0; background: var(--gold); border: 0;}
+.author-label {margin: 0; color: var(--muted); font-size: 15px;}
+.author-name {margin: 0; color: var(--green); font-size: 19px; font-weight: bold;}
+section {margin-top: 32px;}
+h2 {margin: 0 0 15px; padding-bottom: 9px; border-bottom: 1px solid var(--border); color: var(--green); font-size: clamp(22px, 3vw, 27px); line-height: 1.4;}
+h2::after {content: ""; display: block; width: 48px;
+height: 2px; margin-top: 10px; background: var(--gold);}
+p {margin: 0 0 17px; text-align: justify; overflow-wrap: break-word;}
+.book-info {margin-top: 28px; padding: 20px 22px; background: #f1ecdf; border-left: 4px solid var(--gold); border-radius: 4px;}
+.info-row {display: grid; grid-template-columns: minmax(105px, 170px) 12px minmax(0, 1fr); gap: 8px; margin: 5px 0; font-size: 15px; line-height: 1.6;}
+.info-label {font-weight: bold;}
+.actions {margin-top: 32px; text-align: center;}
+.pdf-button {display: inline-block; padding: 13px 24px; background: var(--green); color: white; border-radius: 6px; font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; text-decoration: none; transition: background 0.2s ease;}
+.pdf-button:hover,
+.pdf-button:focus {background: var(--green-dark);}
+.catalog-link {display: inline-block; margin-top: 17px; color: var(--green); font-size: 14px; text-decoration: underline; text-underline-offset: 3px;}
+.site-footer {margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; letter-spacing: 0.04em; text-align: center;}
+@media (max-width: 650px) {
+body {font-size: 16px;}
+.header-inner {width: calc(100% - 24px); align-items: flex-start; flex-direction: column; gap: 12px;}
+.page {width: calc(100% - 20px); margin: 12px auto; padding: 22px 18px;}
+.book-intro {grid-template-columns: 1fr; gap: 25px;}
+.cover-frame {width: 100%;}
+.book-cover {max-width: 260px;}
+.book-details {text-align: center;}
+.book-details .gold-rule {margin-right: auto; margin-left: auto;}
+.subtitle {margin-top: 12px;}
+.info-row {grid-template-columns: 1fr; gap: 0; margin-bottom: 12px;}
+.info-separator {display: none;}
+.pdf-button {display: block; width: 100%;}}
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<div>
+<p class="site-brand">KATALOG BUKU UTTAMOPADESA</p>
+<span class="site-tagline">RUANG BACA DAN KARYA</span>
+</div>
+<a class="back-button" href="index.html">
+← Kembali ke Katalog
+</a>
+</div>
+</header>
+<main class="page">
+<div class="book-intro">
+<figure class="cover-frame">
+<img
+class="book-cover"
+src="sampul-kawruh-uttamopadesa.jpg"
+alt="Sampul asli buku Kawruh Uttamopadesa"
+width="894"
+height="1263"
+fetchpriority="high">
+<figcaption class="cover-caption">
+Sampul buku
+</figcaption>
+</figure>
+<div class="book-details">
+<p class="book-label">Buku</p>
+<h1>Kawruh Uttamopadesa</h1>
+<p class="subtitle">
+Hakikat Kesadaran, Pengenalan Diri dan Laku Kehidupan</p>
+<hr class="gold-rule">
+<p class="author-label">Penulis:</p>
+<p class="author-name">Dhimas Purnomo, SH</p>
+</div>
+</div>
+<section aria-labelledby="deskripsi-buku">
+<h2 id="deskripsi-buku">Deskripsi Buku</h2>
+<p>
+Pokok pemahaman dalam Kawruh Uttamopadesa mencakup hubungan antara cipta, rasa, dan karsa sebagai unsur yang saling mempengaruhi dalam kehidupan manusia. Cipta berkaitan dengan kemampuan berpikir dan memahami, rasa berhubungan dengan kepekaan batin dalam
+mengalami serta menyikapi keadaan, sedangkan karsa merupakan kehendak yang mengarahkan manusia kepada pilihan dan tindakan.
+</p>
+</section>
+<section aria-labelledby="tentang-buku">
+<h2 id="tentang-buku">Tentang Buku</h2>
+<p>
+Buku ini juga memaparkan pentingnya kesadaran dalam proses pengenalan diri. Kesadaran membantu manusia mengenali pikiran, perasaan, kehendak, dan kecenderungan yang mempengaruhi tindakannya. Melalui pemeriksaan diri yang jujur, manusia dapat memahami kekurangan tanpa terjebak dalam penyesalan yang berlebihan, menerima pengalaman sebagai bahan pembelajaran, serta memperbaiki sikap secara berkelanjutan. 
+</p>
+<p>
+Secara keseluruhan, buku ini menegaskan bahwa pemahaman mengenai hakikat kehidupan perlu diwujudkan melalui perubahan sikap dan tindakan. Pengenalan diri bukan tujuan yang terpisah dari kehidupan, melainkan jalan untuk membangun kejernihan berpikir, kebeningan rasa, keteguhan kehendak, dan keluhuran perbuatan.
+</p>
+</section>
+<section class="book-info" aria-label="Informasi buku">
+<div class="info-row">
+<span class="info-label">Judul</span>
+<span class="info-separator">:</span>
+<span>Kawruh Uttamopadesa</span>
+</div>
+<div class="info-row">
+<span class="info-label">Subjudul</span>
+<span class="info-separator">:</span>
+<span>Hakikat Kesadaran, Pengenalan Diri dan Laku Kehidupan</span>
+</div>
+<div class="info-row">
+<span class="info-label">Penulis</span>
+<span class="info-separator">:</span>
+<span>Dhimas Purnomo, SH</span>
+</div>
+<div class="info-row">
+<span class="info-label">Kawruh Uttamopadesa</span>
+<span class="info-separator">:</span>
+<span>Buku Induk Pemahaman Kawruh Uttamopadesa</span>
+</div>
+</section>
+<div class="actions">
+<a
+class="pdf-button"
+href="https://drive.google.com/file/d/1zAFo0VtoENKYFutT5VjEk7Q62rQ8llaF/view?usp=drivesdk"
+target="_blank"
+rel="noopener noreferrer"
+>
+📖 Baca Buku Lengkap (PDF) ↗
+</a>
+<br>
+<a class="catalog-link" href="index.html">
+← Kembali ke Katalog Buku
+</a>
+</div>
+<footer class="site-footer">
+KAWRUH UTTAMOPADESA
+  •  
+© Dhimas Purnomo, SH
+</footer>
+</main>
+</body>
+</html>
