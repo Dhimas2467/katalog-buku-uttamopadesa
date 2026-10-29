@@ -1,115 +1,100 @@
 const daftarArtikel = [
   {
-judul: "NAWA PRASANTI BATIN UTTAMOPADESA",
-subjudul: "Sembilan Pedoman Untuk Mengupayakan Ketentraman Batin Dalam Kawruh Uttamopadesa",
-penulis: "Dhimas Purnomo, SH",
-halaman: "nawa-prasanti.html",
-sampul: "sampul-nawa-prasanti.jpg",
-abstraksi: `Nawa Prasanti Batin merupakan karya yang membahas ketenteraman batin sebagai bagian dari pengembangan kawruh Uttamopadesa. Buku ini berangkat dari pemahaman bahwa ketenteraman sejati tidak
-semata-mata ditentukan oleh keadaan di luar diri, melainkan berkaitan erat dengan cara manusia memahami, menata, dan menjalani
-kehidupan. Ketenteraman batin tidak hanya dipandang sebagai keadaan perasaan yang nyaman, tetapi juga sebagai hasil dari proses
-pembentukan kejernihan cipta, ketulusan rasa, dan keluhuran kehendak yang diwujudkan dalam laku sehari-hari.
+    judul: "NAWA PRASANTI BATIN UTTAMOPADESA",
+    subjudul: "Sembilan Pedoman Untuk Mengupayakan Ketentraman Batin Dalam Kawruh Uttamopadesa",
+    penulis: "Dhimas Purnomo, SH",
+    halaman: "nawa-prasanti.html",
+    sampul: "sampul-nawa-prasanti.jpg",
+    abstraksi: `Nawa Prasanti Batin merupakan karya yang membahas ketenteraman batin sebagai bagian dari pengembangan kawruh Uttamopadesa. Buku ini berangkat dari pemahaman bahwa ketenteraman sejati tidak semata-mata ditentukan oleh keadaan di luar diri, melainkan berkaitan erat dengan cara manusia memahami, menata, dan menjalani kehidupan. Ketenteraman batin tidak hanya dipandang sebagai keadaan perasaan yang nyaman, tetapi juga sebagai hasil dari proses pembentukan kejernihan cipta, ketulusan rasa, dan keluhuran kehendak yang diwujudkan dalam laku sehari-hari.
 
-Kehidupan manusia senantiasa mengalami perubahan. Keadaan yang menyenangkan maupun yang tidak sesuai harapan dapat
-mempengaruhi cara seseorang berpikir, merasakan, mengambil keputusan, dan bertindak. Ketika ketenteraman sepenuhnya
-digantungkan pada terpenuhinya keinginan atau terkendalinya keadaan, manusia mudah mengalami kegelisahan ketika menghadapi perubahan.
+Kehidupan manusia senantiasa mengalami perubahan. Keadaan yang menyenangkan maupun yang tidak sesuai harapan dapat mempengaruhi cara seseorang berpikir, merasakan, mengambil keputusan, dan bertindak. Ketika ketenteraman sepenuhnya digantungkan pada terpenuhinya keinginan atau terkendalinya keadaan, manusia mudah mengalami kegelisahan ketika menghadapi perubahan.
 
 Karena itu, diperlukan pangawikan terhadap diri sendiri agar manusia mampu mengenali gerak cipta, rasa, dan kehendaknya serta memahami pengaruhnya terhadap kehidupan.
-Buku ini disusun berdasarkan sembilan pokok pembahasan yang membentuk satu kesatuan pemikiran. Pokok pertama menegaskan bahwa ketenteraman batin tidak seharusnya digantungkan pada keadaan di luar diri, sebab ketenteraman sejati bertumbuh melalui penataan diri. Pokok kedua menguraikan pentingnya kejernihan cipta, ketulusan rasa, dan keluhuran kehendak sebagai dasar pembentukan
-sikap. Pokok ketiga menekankan bahwa ketiga unsur tersebut perlu diwujudkan dalam laku nyata agar tidak berhenti sebagai pemahaman teoritis. Pokok keempat sampai dengan pokok kesembilan menguraikan
-perwujudan laku batin utama melalui kasih kepada sesama, kesederhanaan perilaku, keselarasan dengan tatanan kehidupan, sikap
-yang tidak mengandalkan nalar secara sombong, pemahaman terhadap keterbatasan kehidupan manusia, serta sikap mengandalkan kasih Sang Sumber Penghidupan. Kesembilan pokok tersebut saling melengkapi dalam membangun pandangan bahwa kualitas batin perlu dinilai melalui kesesuaian antara pemahaman dan tindakan, bukan hanya melalui pernyataan atau pengakuan seseorang mengenai dirinya.Dalam kerangka tersebut, kasih kepada sesama menjadi salah satu
-bentuk nyata dari ketenteraman batin. 
 
-Kesederhanaan membantu manusia mengurangi keterikatan berlebihan terhadap keinginan dan kepentingan pribadi. Keselarasan dengan tatanan kehidupan
-mendorong manusia untuk mempertimbangkan akibat tindakannya terhadap lingkungan dan sesama. Sementara itu, pengakuan terhadap keterbatasan manusia membantu membentuk sikap rendah hati, terbuka terhadap kenyataan, dan tidak menjadikan kemampuan berpikir sebagai alasan untuk merendahkan pihak lain.
+Buku ini disusun berdasarkan sembilan pokok pembahasan yang membentuk satu kesatuan pemikiran. Pokok pertama menegaskan bahwa ketenteraman batin tidak seharusnya digantungkan pada keadaan di luar diri, sebab ketenteraman sejati bertumbuh melalui penataan diri. Pokok kedua menguraikan pentingnya kejernihan cipta, ketulusan rasa, dan keluhuran kehendak sebagai dasar pembentukan sikap. Pokok ketiga menekankan bahwa ketiga unsur tersebut perlu diwujudkan dalam laku nyata agar tidak berhenti sebagai pemahaman teoritis. Pokok keempat sampai dengan pokok kesembilan menguraikan perwujudan laku batin utama melalui kasih kepada sesama, kesederhanaan perilaku, keselarasan dengan tatanan kehidupan, sikap yang tidak mengandalkan nalar secara sombong, pemahaman terhadap keterbatasan kehidupan manusia, serta sikap mengandalkan kasih Sang Sumber Penghidupan. Kesembilan pokok tersebut saling melengkapi dalam membangun pandangan bahwa kualitas batin perlu dinilai melalui kesesuaian antara pemahaman dan tindakan, bukan hanya melalui pernyataan atau pengakuan seseorang mengenai dirinya. Dalam kerangka tersebut, kasih kepada sesama menjadi salah satu bentuk nyata dari ketenteraman batin.
 
-Pembahasan mengenai Sang Sumber Penghidupan menempatkan kehidupan manusia dalam hubungan pemahaman yang lebih luas daripada kepentingan pribadi. Sikap mengandalkan kasih Sang Sumber
-Penghidupan diarahkan sebagai bagian dari pembentukan laku batin yang dilandasi ketulusan, kesadaran akan keterbatasan, dan kesediaan menjalani kehidupan secara lebih selaras. Dengan demikian, ketenteraman batin tidak dimaknai sebagai sikap pasif atau penolakan terhadap persoalan, melainkan sebagai kemampuan untuk menghadapi kehidupan dengan kejernihan pertimbangan dan keluhuran tindakan.
+Kesederhanaan membantu manusia mengurangi keterikatan berlebihan terhadap keinginan dan kepentingan pribadi. Keselarasan dengan tatanan kehidupan mendorong manusia untuk mempertimbangkan akibat tindakannya terhadap lingkungan dan sesama. Sementara itu, pengakuan terhadap keterbatasan manusia membantu membentuk sikap rendah hati, terbuka terhadap kenyataan, dan tidak menjadikan kemampuan berpikir sebagai alasan untuk merendahkan pihak lain.
+
+Pembahasan mengenai Sang Sumber Penghidupan menempatkan kehidupan manusia dalam hubungan pemahaman yang lebih luas daripada kepentingan pribadi. Sikap mengandalkan kasih Sang Sumber Penghidupan diarahkan sebagai bagian dari pembentukan laku batin yang dilandasi ketulusan, kesadaran akan keterbatasan, dan kesediaan menjalani kehidupan secara lebih selaras. Dengan demikian, ketenteraman batin tidak dimaknai sebagai sikap pasif atau penolakan terhadap persoalan, melainkan sebagai kemampuan untuk menghadapi kehidupan dengan kejernihan pertimbangan dan keluhuran tindakan.
 
 Tujuan utama buku ini adalah memberikan landasan pemahaman dan bahan perenungan bagi pembaca dalam menata kehidupan batin serta menerapkan nilai-nilai tersebut dalam pengalaman sehari-hari. Buku ini tidak menempatkan pengetahuan sebagai tujuan yang selesai ketika seseorang mampu menjelaskan suatu ajaran. Pengetahuan memperoleh makna ketika dipahami, disadari, dijalani, dan diwujudkan menjadi kenyataan.
 
 Melalui sembilan pokok pembahasannya, Nawa Prasanti Batin diharapkan dapat memperkaya pengembangan kawruh Uttamopadesa serta membantu pembaca memahami bahwa ketenteraman batin tumbuh melalui proses yang berkesinambungan. Proses tersebut menuntut kesungguhan dalam mengenali diri, menata cipta, rasa, dan kehendak, serta membuktikan pemahaman melalui perilaku yang nyata dalam kehidupan bersama.`,
-pdf: "https://drive.google.com/file/d/1nzAqm_vDDb04ke-FzVjXL3TyfxPabeq2/view?usp=drivesdk"
-},
+    pdf: "https://drive.google.com/file/d/1nzAqm_vDDb04ke-FzVjXL3TyfxPabeq2/view?usp=drivesdk"
+  },
+
   {
-judul: "KAWRUH SEJATI DALAM PERSPEKTIF UTTAMOPADESA",
-subjudul: "Dokumentasi Konseptual Dalam Rangka Pengembangan Kawruh
-Uttamopadesa",
-penulis: "Dhimas Purnomo, SH",
-halaman: "kawruh-sejati.html",
-sampul: "sampul-kawruh-sejati.jpg",
-abstraksi: `Buku Kawruh Sejati dalam Perspektif Uttamopadesa memaparkan hakikat Kawruh Sejati sebagai pepadhang dalam memahami
-panguripan, hakikat diri manusia, kesadaran, serta hubungan antara pemahaman dan laku nyata. 
+    judul: "KAWRUH SEJATI DALAM PERSPEKTIF UTTAMOPADESA",
+    subjudul: "Dokumentasi Konseptual Dalam Rangka Pengembangan Kawruh Uttamopadesa",
+    penulis: "Dhimas Purnomo, SH",
+    halaman: "kawruh-sejati.html",
+    sampul: "sampul-kawruh-sejati.jpg",
+    abstraksi: `Buku Kawruh Sejati dalam Perspektif Uttamopadesa memaparkan hakikat Kawruh Sejati sebagai pepadhang dalam memahami panguripan, hakikat diri manusia, kesadaran, serta hubungan antara pemahaman dan laku nyata.
 
-Buku ini disusun berdasarkan pemikiran
-Uttamopadesa yang dirumuskan sebagai pemaparan Kawruh Sejati secara terstruktur, sehingga hubungan antara sumber kawruh,
-kasunyatan, kesadaran, dan tindakan manusia dapat dipahami secara runtut.
+Buku ini disusun berdasarkan pemikiran Uttamopadesa yang dirumuskan sebagai pemaparan Kawruh Sejati secara terstruktur, sehingga hubungan antara sumber kawruh, kasunyatan, kesadaran, dan tindakan manusia dapat dipahami secara runtut.
 
-Pemaparan diawali dengan penjelasan mengenai Sang Sumber Panguripan dan Prabhawaning Panguripan sebagai landasan untuk memahami asal, daya, dan tatanan panguripan. 
+Pemaparan diawali dengan penjelasan mengenai Sang Sumber Panguripan dan Prabhawaning Panguripan sebagai landasan untuk memahami asal, daya, dan tatanan panguripan.
 
 Selanjutnya, dibahas perbedaan antara Kasunyatan Hakiki, yaitu kasunyatan yang tidak bergantung pada pemahaman manusia, dan Kawruh Kasunyatan, yaitu pemahaman manusia terhadap kasunyatan. Pembedaan ini menjadi dasar untuk memahami keterbatasan pengetahuan, kemungkinan kekeliruan penafsiran, serta pentingnya kejernihan dalam mengenali kenyataan.
 
-Buku ini juga menguraikan Jatining Panguripan dan hakikat diri manusia, kedudukan Jiwa, hubungan Jiwa dengan Sukma, serta peranan
-kesadaran dalam susunan hakikat diri. Kesadaran dipaparkan sebagai landasan aktivitas Cipta, Rasa, dan Karsa. Cipta berkaitan dengan aktivitas memahami dan mempertimbangkan, Rasa berhubungan dengan merasakan dan menghayati, sedangkan Karsa berkaitan dengan kehendak, keteguhan tekad, pemilihan tindakan, dan perwujudan tujuan. Ketiganya merupakan unsur penting dalam menentukan arah kehidupan dan kualitas tindakan manusia.
+Buku ini juga menguraikan Jatining Panguripan dan hakikat diri manusia, kedudukan Jiwa, hubungan Jiwa dengan Sukma, serta peranan kesadaran dalam susunan hakikat diri. Kesadaran dipaparkan sebagai landasan aktivitas Cipta, Rasa, dan Karsa. Cipta berkaitan dengan aktivitas memahami dan mempertimbangkan, Rasa berhubungan dengan merasakan dan menghayati, sedangkan Karsa berkaitan dengan kehendak, keteguhan tekad, pemilihan tindakan, dan perwujudan tujuan. Ketiganya merupakan unsur penting dalam menentukan arah kehidupan dan kualitas tindakan manusia.
 
 Pemaparan selanjutnya diarahkan pada Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa sebagai landasan penyempurnaan diri. Prabodha, Samadhi, dan laku nyata ditempatkan dalam hubungan dengan perkembangan kejernihan kesadaran dan keselarasan tindakan, bukan semata-mata sebagai pengalaman batin atau kegiatan ritual.
 
-Dengan demikian, Kawruh Sejati tidak berhenti pada pemahaman secara intelektual, tetapi memperoleh maknanya melalui penerapan
-dalam kehidupan sehari-hari. 
+Dengan demikian, Kawruh Sejati tidak berhenti pada pemahaman secara intelektual, tetapi memperoleh maknanya melalui penerapan dalam kehidupan sehari-hari.
 
-Buku ini diharapkan menjadi bahan pemaparan filosofis yang membantu pembaca memahami hubungan antara panguripan, hakikat diri, kesadaran, dan tanggung jawab manusia. 
+Buku ini diharapkan menjadi bahan pemaparan filosofis yang membantu pembaca memahami hubungan antara panguripan, hakikat diri, kesadaran, dan tanggung jawab manusia.
 
 Melalui perspektif Uttamopadesa, Kawruh Sejati diarahkan menjadi dasar bagi pengenalan diri, kejernihan pemahaman, ketulusan rasa, keutamaan kehendak, dan laku yang selaras dengan tatanan panguripan.`,
-pdf: "https://drive.google.com/file/d/1t9fu16T8uMy_W1pIkWzNLB41dVX-1LlS/view?usp=drivesdk"
-},
+    pdf: "https://drive.google.com/file/d/1t9fu16T8uMy_W1pIkWzNLB41dVX-1LlS/view?usp=drivesdk"
+  },
+
   {
-judul: "NAWA SEMBAH UTTAMOPADESA",
-subjudul: "Sembilan Tataran Pangabekti Menuju Keselarasan Sejati",
-penulis: "Dhimas Purnomo, SH",
-halaman: "nawa-sembah.html",
-sampul: "sampul-nawa-sembah.jpg",
-abstraksi: `Buku Nawa Sembah Uttamopadesa: Sembilan Tataran Pangabekti Menuju Keselarasan Sejati membahas sembilan tataran pangabekti sebagai kerangka pemahaman dan pelaksanaan laku kehidupan manusia dalam perspektif kawruh Jawa modern Uttamopadesa. Buku ini disusun untuk menjelaskan makna setiap tataran secara sistematis, memperlihatkan hubungan antartataran, serta menegaskan bahwa pangabekti tidak semata-mata berkaitan dengan tindakan lahiriah, tetapi juga dengan penataan unsur-unsur kehidupan manusia dan penerapannya dalam kenyataan sehari-hari.
+    judul: "NAWA SEMBAH UTTAMOPADESA",
+    subjudul: "Sembilan Tataran Pangabekti Menuju Keselarasan Sejati",
+    penulis: "Dhimas Purnomo, SH",
+    halaman: "nawa-sembah.html",
+    sampul: "sampul-nawa-sembah.jpg",
+    abstraksi: `Buku Nawa Sembah Uttamopadesa: Sembilan Tataran Pangabekti Menuju Keselarasan Sejati membahas sembilan tataran pangabekti sebagai kerangka pemahaman dan pelaksanaan laku kehidupan manusia dalam perspektif kawruh Jawa modern Uttamopadesa. Buku ini disusun untuk menjelaskan makna setiap tataran secara sistematis, memperlihatkan hubungan antartataran, serta menegaskan bahwa pangabekti tidak semata-mata berkaitan dengan tindakan lahiriah, tetapi juga dengan penataan unsur-unsur kehidupan manusia dan penerapannya dalam kenyataan sehari-hari.
 
 Kesembilan tataran yang dibahas meliputi Sembah Raga, Sembah Cipta, Sembah Rasa, Sembah Karsa, Sembah Budi, Sembah Sukma, Sembah Kawruh, Sembah Jati, dan Sembah Manunggal. Sembah Raga menempatkan tindakan nyata sebagai sarana menjalankan tanggung jawab. Sembah Cipta menekankan kejernihan dalam berpikir dan memahami keadaan. Sembah Rasa mengarahkan manusia untuk mengenali serta menata perasaan. Sembah Karsa berkaitan dengan kehendak dan kesungguhan dalam menentukan arah tindakan. Sembah Budi menekankan pertimbangan yang bijaksana dan bertanggung jawab. Sembah Sukma mengajak manusia memperdalam pembenahan diri. Sembah Kawruh menempatkan pengetahuan dalam hubungan dengan pemahaman dan penerapan. Sembah Jati mengarahkan perhatian kepada usaha mendekati Kasunyatan Hakiki dengan menyadari keterbatasan pemahaman manusia. Sembah Manunggal menekankan keselarasan cipta, rasa, karsa, budi, sukma, dan cetana serta keselarasan kehidupan dengan kehendak Hyang Manon.
 
 Buku ini memandang sembilan tataran tersebut sebagai bagian-bagian yang saling berkaitan. Penataan kehidupan tidak cukup dilakukan melalui tindakan lahiriah tanpa pembenahan unsur-unsur diri. Demikian pula, pengetahuan dan pemahaman tidak cukup apabila tidak diwujudkan dalam keputusan, perilaku, dan tanggung jawab. Oleh karena itu, Nawa Sembah ditempatkan sebagai laku yang menghubungkan pemahaman dengan pelaksanaan, bukan sekadar kumpulan istilah atau gagasan yang dipelajari secara teoritis.
 
-Salah satu pokok pembahasan buku ini adalah penegasan bahwa keberhasilan Nawa Sembah Uttamopadesa tidak ditentukan oleh banyaknya ritual. Ritual dapat menjadi bagian dari kebiasaan seseorang, tetapi tidak dengan sendirinya membuktikan perubahan kualitas kehidupan. Ukuran yang lebih relevan adalah kesungguhan menjalankan tanggung jawab, kejujuran terhadap diri sendiri, kejernihan dalam menilai keadaan, ketertataan rasa, kebijaksanaan dalam mengambil keputusan, serta kesediaan mengakui dan memperbaiki kesalahan. 
+Salah satu pokok pembahasan buku ini adalah penegasan bahwa keberhasilan Nawa Sembah Uttamopadesa tidak ditentukan oleh banyaknya ritual. Ritual dapat menjadi bagian dari kebiasaan seseorang, tetapi tidak dengan sendirinya membuktikan perubahan kualitas kehidupan. Ukuran yang lebih relevan adalah kesungguhan menjalankan tanggung jawab, kejujuran terhadap diri sendiri, kejernihan dalam menilai keadaan, ketertataan rasa, kebijaksanaan dalam mengambil keputusan, serta kesediaan mengakui dan memperbaiki kesalahan.
+
 Dengan demikian, pangabekti tidak dijadikan sarana membangun keunggulan pribadi atau mengukur kedudukan orang lain berdasarkan penampilan lahiriah.
 
 Pembahasan juga mencakup hambatan dalam menjalankan Nawa Sembah, termasuk prasangka, ketidakteraturan pikiran, dorongan emosional yang tidak terkendali, kehendak yang berlebihan, kesombongan pengetahuan, pencarian pengakuan, dan tekanan lingkungan. Hambatan tersebut dipahami sebagai keadaan yang perlu dikenali melalui mawas diri, kemudian dihadapi dengan pertimbangan yang jernih dan tindakan yang bertanggung jawab. Perjalanan Nawa Sembah tidak menuntut manusia berpura-pura sempurna, melainkan mengembangkan kesungguhan untuk terus memperbaiki kehidupan.
 
 Secara keseluruhan, buku ini bertujuan memberikan pemahaman yang terstruktur mengenai sembilan tataran pangabekti serta relevansinya dalam kehidupan manusia. Nawa Sembah Uttamopadesa diarahkan untuk membantu manusia menata cipta, rasa, dan karsa, mempergunakan budi secara bijaksana, menghubungkan kawruh dengan pelaksanaan, serta membangun keselarasan kehidupan tanpa menyamakan manusia dengan Hyang Manon. Pangabekti memperoleh maknanya ketika pemahaman diwujudkan dalam kasunyatan urip, yakni melalui cara manusia berpikir, bersikap, mengambil keputusan, dan menjalankan tanggung jawab dalam kehidupan sehari-hari.`,
-pdf: "https://drive.google.com/file/d/1IZktBGcCOK7AImr_CvMS0EoIlxfEoKIy/view?usp=drivesdk"
-},
+    pdf: "https://drive.google.com/file/d/1IZktBGcCOK7AImr_CvMS0EoIlxfEoKIy/view?usp=drivesdk"
+  },
+
   {
-judul: "KAWRUH UTTAMOPADESA",
-subjudul: "Hakikat Kesadaran, Pengenalan Diri dan Laku Kehidupan",
-penulis: "Dhimas Purnomo, SH",
-halaman: "kawruh-uttamopadesa.html",
-sampul: "sampul-kawruh-uttamopadesa.jpg",
-abstraksi: `Buku Kawruh Uttamopadesa memaparkan pemahaman mengenai hakikat kehidupan, pengenalan jati diri, perkembangan kesadaran, pemurnian batin, dan perwujudan keluhuran manusia melalui laku kehidupan sehari-hari. Pemaparan ini berangkat dari pemahaman bahwa kehidupan manusia tidak hanya berkaitan dengan keberadaan jasmani dan berbagai aktivitas lahiriah, tetapi juga melibatkan keadaan batin yang mempengaruhi cara seseorang memahami kenyataan, menentukan kehendak, mengambil keputusan, serta melaksanakan
-tindakan. Oleh karena itu, pengenalan diri dan penataan kehidupan batin menjadi bagian penting dalam usaha membangun kehidupan yang lebih sadar, selaras, dan bertanggung jawab.
+    judul: "KAWRUH UTTAMOPADESA",
+    subjudul: "Hakikat Kesadaran, Pengenalan Diri dan Laku Kehidupan",
+    penulis: "Dhimas Purnomo, SH",
+    halaman: "kawruh-uttamopadesa.html",
+    sampul: "sampul-kawruh-uttamopadesa.jpg",
+    abstraksi: `Buku Kawruh Uttamopadesa memaparkan pemahaman mengenai hakikat kehidupan, pengenalan jati diri, perkembangan kesadaran, pemurnian batin, dan perwujudan keluhuran manusia melalui laku kehidupan sehari-hari. Pemaparan ini berangkat dari pemahaman bahwa kehidupan manusia tidak hanya berkaitan dengan keberadaan jasmani dan berbagai aktivitas lahiriah, tetapi juga melibatkan keadaan batin yang mempengaruhi cara seseorang memahami kenyataan, menentukan kehendak, mengambil keputusan, serta melaksanakan tindakan. Oleh karena itu, pengenalan diri dan penataan kehidupan batin menjadi bagian penting dalam usaha membangun kehidupan yang lebih sadar, selaras, dan bertanggung jawab.
 
-Pokok pemahaman dalam Kawruh Uttamopadesa mencakup hubungan antara cipta, rasa, dan karsa sebagai unsur yang saling mempengaruhi dalam kehidupan manusia. Cipta berkaitan dengan kemampuan berpikir dan memahami, rasa berhubungan dengan kepekaan batin dalam
-mengalami serta menyikapi keadaan, sedangkan karsa merupakan kehendak yang mengarahkan manusia kepada pilihan dan tindakan. Ketiganya perlu ditata agar tidak berjalan secara bertentangan atau
-dikuasai oleh dorongan sesaat. Resiking cipta, beninging rasa, dan santosing karsa menjadi arah pembentukan keselarasan batin,
-sementara keluhuran lampah merupakan perwujudan pemahaman tersebut dalam tindakan nyata.
+Pokok pemahaman dalam Kawruh Uttamopadesa mencakup hubungan antara cipta, rasa, dan karsa sebagai unsur yang saling mempengaruhi dalam kehidupan manusia. Cipta berkaitan dengan kemampuan berpikir dan memahami, rasa berhubungan dengan kepekaan batin dalam mengalami serta menyikapi keadaan, sedangkan karsa merupakan kehendak yang mengarahkan manusia kepada pilihan dan tindakan. Ketiganya perlu ditata agar tidak berjalan secara bertentangan atau dikuasai oleh dorongan sesaat. Resiking cipta, beninging rasa, dan santosing karsa menjadi arah pembentukan keselarasan batin, sementara keluhuran lampah merupakan perwujudan pemahaman tersebut dalam tindakan nyata.
 
-Buku ini juga memaparkan pentingnya kesadaran dalam proses pengenalan diri. Kesadaran membantu manusia mengenali pikiran, perasaan, kehendak, dan kecenderungan yang mempengaruhi tindakannya. Melalui pemeriksaan diri yang jujur, manusia dapat memahami kekurangan tanpa terjebak dalam penyesalan yang berlebihan, menerima pengalaman sebagai bahan pembelajaran, serta memperbaiki sikap secara berkelanjutan. 
+Buku ini juga memaparkan pentingnya kesadaran dalam proses pengenalan diri. Kesadaran membantu manusia mengenali pikiran, perasaan, kehendak, dan kecenderungan yang mempengaruhi tindakannya. Melalui pemeriksaan diri yang jujur, manusia dapat memahami kekurangan tanpa terjebak dalam penyesalan yang berlebihan, menerima pengalaman sebagai bahan pembelajaran, serta memperbaiki sikap secara berkelanjutan.
 
 Pemahaman mengenai Kawruh Sejati sebagai pepadhang turut ditempatkan dalam hubungan dengan kesadaran, sehingga pemahaman dan kemampuan mengenali keadaan diri dapat saling mendukung dalam proses perkembangan batin.
 
-Selain membahas dasar pemahaman, buku ini menguraikan penerapan laku batin melalui pengendalian diri, kejujuran, kesederhanaan, ketenangan, keteguhan kehendak, dan tanggung jawab. Nawa Prasanti Batin dipaparkan sebagai bagian dari upaya memelihara ketenteraman batin melalui pembiasaan sikap yang selaras dalam menghadapi berbagai keadaan kehidupan. 
+Selain membahas dasar pemahaman, buku ini menguraikan penerapan laku batin melalui pengendalian diri, kejujuran, kesederhanaan, ketenangan, keteguhan kehendak, dan tanggung jawab. Nawa Prasanti Batin dipaparkan sebagai bagian dari upaya memelihara ketenteraman batin melalui pembiasaan sikap yang selaras dalam menghadapi berbagai keadaan kehidupan.
 
 Penerapan pemahaman tidak dibatasi pada suasana perenungan, tetapi mencakup hubungan keluarga, pekerjaan, kehidupan sosial, pengambilan keputusan, dan pelaksanaan kewajiban sehari-hari.
 
 Secara keseluruhan, buku ini menegaskan bahwa pemahaman mengenai hakikat kehidupan perlu diwujudkan melalui perubahan sikap dan tindakan. Pengenalan diri bukan tujuan yang terpisah dari kehidupan, melainkan jalan untuk membangun kejernihan berpikir, kebeningan rasa, keteguhan kehendak, dan keluhuran perbuatan.
 
 Melalui keselarasan tersebut, Kawruh Uttamopadesa diharapkan menjadi pedoman pemahaman dan laku yang membantu manusia menjalani kehidupan dengan lebih sadar, bijaksana, serta bertanggung jawab terhadap diri sendiri dan kehidupan bersama.`,
-pdf: "https://drive.google.com/file/d/1zAFo0VtoENKYFutT5VjEk7Q62rQ8llaF/view?usp=drivesdk"
-},
+    pdf: "https://drive.google.com/file/d/1zAFo0VtoENKYFutT5VjEk7Q62rQ8llaF/view?usp=drivesdk"
+  },
+
   {
     judul: "9 PRINSIP KESADARAN SEJATI",
     subjudul: "Landasan Memahami Diri, Menjernihkan Batin, dan Menyelaraskan Kehidupan dalam Kawruh Sejati",
@@ -187,7 +172,7 @@ Pada akhirnya, buku Nawa Samadhi Uttamopadesa ini merupakan upaya untuk mendokum
   },
 
   {
-    judul: "DASA PANGUDI SEJATINING URIP",
+    judul: "DASA PANGUDI SEJATININING URIP",
     subjudul: "Sepuluh Pedoman Laku dalam Kawruh Sejati",
     penulis: "Dhimas Purnomo, SH",
     halaman: "dasa-pangudi.html",
