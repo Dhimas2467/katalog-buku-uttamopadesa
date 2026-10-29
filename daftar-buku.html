@@ -251,5 +251,51 @@
       jumlah.textContent = buku.length + " buku terdaftar";
     })();
   </script>
+
+<!-- Tombol Back to Top -->
+<button id="backToTop" aria-label="Kembali ke atas" title="Kembali ke atas">
+  ↑
+</button>
+
+<style>
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  z-index: 9999;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background: #8b6914;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+#backToTop:hover {
+  background: #654b0b;
+}
+</style>
+
+<script>
+const tombolAtas = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+  tombolAtas.style.display =
+    window.scrollY > 300 ? "block" : "none";
+});
+
+tombolAtas.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
+
 </body>
 </html>
