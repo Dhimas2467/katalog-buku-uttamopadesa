@@ -54,11 +54,55 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(34px,6vw,58px);li
     .abstraksi-lengkap{text-align:justify;text-justify:inter-word;white-space:pre-line;overflow-wrap:anywhere;line-height:1.8}
     #backToTop{position:fixed;right:20px;bottom:20px;z-index:999;width:44px;height:44px;border:1px solid var(--emas);border-radius:50%;background:var(--hijau);color:#fff;font-size:22px;cursor:pointer;box-shadow:0 3px 10px #00000025;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,transform .2s,visibility .2s}
     #backToTop.tampil{opacity:1;visibility:visible;transform:translateY(0)}#backToTop:hover{background:#304b3c}#backToTop:focus-visible{outline:3px solid var(--emas);outline-offset:3px}
-    @media(max-width:850px){main{padding-left:20px;padding-right:20px}.koleksi{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.isi-buku{padding:17px}}
-    @media(max-width:560px){.hero{padding:45px 18px 52px}.ornamen{font-size:32px}.label{letter-spacing:2px}h1{font-size:clamp(30px,9vw,40px)}.pengantar{font-size:14px}main{padding:32px 14px 42px}.judul-bagian{font-size:29px}.koleksi{grid-template-columns:minmax(0,1fr);gap:16px}.buku{display:grid;grid-template-columns:minmax(105px,34%) minmax(0,1fr);align-items:stretch}.sampul{aspect-ratio:auto;min-height:175px;height:100%;padding:10px}.sampul:before{inset:7px}.sampul h3{font-size:15px;line-height:1.3}.gambar-sampul{object-fit:contain}.isi-buku{padding:13px 12px}.kategori{font-size:10px;letter-spacing:.7px;line-height:1.5}.judul-buku{font-size:17px;line-height:1.35;margin-bottom:9px}.abstrak-singkat{font-size:12px;line-height:1.55;margin-bottom:14px}.aksi{gap:7px}.aksi .tombol{padding:9px 10px;font-size:11px}.navigasi-halaman{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}#nomorHalaman{grid-column:1/-1;grid-row:1}#halamanSebelumnya{grid-column:1;grid-row:2;justify-self:stretch}#halamanBerikutnya{grid-column:2;grid-row:2;justify-self:stretch}.navigasi-halaman button{padding:10px 7px;font-size:11px}dialog{padding:20px}}
-    @media(max-width:360px){.buku{grid-template-columns:100px minmax(0,1fr)}.isi-buku{padding:11px 9px}.judul-buku{font-size:15px}.aksi .tombol{padding:8px;font-size:10px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#backToTop{transition:none}}
-  </style>
+    
+    @media(max-width:850px){
+      main{padding-left:20px;padding-right:20px}
+      .koleksi{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+      .isi-buku{padding:17px}
+    }
+
+    @media(max-width:560px){
+      .hero{padding:24px 18px 28px}
+      .ornamen{font-size:28px;line-height:1;margin-bottom:0}
+      .label{letter-spacing:2px;line-height:1.2}
+      h1{font-size:clamp(30px,9vw,40px);line-height:1;margin:5px 0}
+      .penulis{margin:8px 0 0;line-height:1.2}
+      .pengantar{font-size:14px}
+      main{padding:32px 14px 42px}
+      .judul-bagian{font-size:29px}
+      .koleksi{grid-template-columns:minmax(0,1fr);gap:16px}
+      .buku{display:grid;grid-template-columns:minmax(105px,34%) minmax(0,1fr);align-items:stretch}
+      .sampul{aspect-ratio:auto;min-height:175px;height:100%;padding:10px}
+      .sampul:before{inset:7px}
+      .sampul h3{font-size:15px;line-height:1.3}
+      .gambar-sampul{object-fit:contain}
+      .isi-buku{padding:13px 12px}
+      .kategori{font-size:10px;letter-spacing:.7px;line-height:1.5}
+      .judul-buku{font-size:17px;line-height:1.35;margin-bottom:9px}
+      .abstrak-singkat{font-size:12px;line-height:1.55;margin-bottom:14px}
+      .aksi{gap:7px}
+      .aksi .tombol{padding:9px 10px;font-size:11px}
+      .navigasi-halaman{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+      #nomorHalaman{grid-column:1/-1;grid-row:1}
+      #halamanSebelumnya{grid-column:1;grid-row:2;justify-self:stretch}
+      #halamanBerikutnya{grid-column:2;grid-row:2;justify-self:stretch}
+      .navigasi-halaman button{padding:10px 7px;font-size:11px}
+      dialog{padding:20px}
+    }
+
+    @media(max-width:360px){
+      .buku{grid-template-columns:100px minmax(0,1fr)}
+      .isi-buku{padding:11px 9px}
+      .judul-buku{font-size:15px}
+      .aksi .tombol{padding:8px;font-size:10px}
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      #backToTop{transition:none}
+    }
+</style>
+
 </head>
 <body>
 <header class="hero">
