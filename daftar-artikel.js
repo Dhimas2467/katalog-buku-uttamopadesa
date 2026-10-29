@@ -33,6 +33,37 @@ Melalui sembilan pokok pembahasannya, Nawa Prasanti Batin diharapkan dapat mempe
 pdf: "https://drive.google.com/file/d/1nzAqm_vDDb04ke-FzVjXL3TyfxPabeq2/view?usp=drivesdk"
 },
   {
+judul: "KAWRUH SEJATI DALAM PERSPEKTIF UTTAMOPADESA",
+subjudul: "Dokumentasi Konseptual Dalam Rangka Pengembangan Kawruh
+Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "kawruh-sejati.html",
+sampul: "sampul-kawruh-sejati.jpg",
+abstraksi: `Buku Kawruh Sejati dalam Perspektif Uttamopadesa memaparkan hakikat Kawruh Sejati sebagai pepadhang dalam memahami
+panguripan, hakikat diri manusia, kesadaran, serta hubungan antara pemahaman dan laku nyata. 
+
+Buku ini disusun berdasarkan pemikiran
+Uttamopadesa yang dirumuskan sebagai pemaparan Kawruh Sejati secara terstruktur, sehingga hubungan antara sumber kawruh,
+kasunyatan, kesadaran, dan tindakan manusia dapat dipahami secara runtut.
+
+Pemaparan diawali dengan penjelasan mengenai Sang Sumber Panguripan dan Prabhawaning Panguripan sebagai landasan untuk memahami asal, daya, dan tatanan panguripan. 
+
+Selanjutnya, dibahas perbedaan antara Kasunyatan Hakiki, yaitu kasunyatan yang tidak bergantung pada pemahaman manusia, dan Kawruh Kasunyatan, yaitu pemahaman manusia terhadap kasunyatan. Pembedaan ini menjadi dasar untuk memahami keterbatasan pengetahuan, kemungkinan kekeliruan penafsiran, serta pentingnya kejernihan dalam mengenali kenyataan.
+
+Buku ini juga menguraikan Jatining Panguripan dan hakikat diri manusia, kedudukan Jiwa, hubungan Jiwa dengan Sukma, serta peranan
+kesadaran dalam susunan hakikat diri. Kesadaran dipaparkan sebagai landasan aktivitas Cipta, Rasa, dan Karsa. Cipta berkaitan dengan aktivitas memahami dan mempertimbangkan, Rasa berhubungan dengan merasakan dan menghayati, sedangkan Karsa berkaitan dengan kehendak, keteguhan tekad, pemilihan tindakan, dan perwujudan tujuan. Ketiganya merupakan unsur penting dalam menentukan arah kehidupan dan kualitas tindakan manusia.
+
+Pemaparan selanjutnya diarahkan pada Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa sebagai landasan penyempurnaan diri. Prabodha, Samadhi, dan laku nyata ditempatkan dalam hubungan dengan perkembangan kejernihan kesadaran dan keselarasan tindakan, bukan semata-mata sebagai pengalaman batin atau kegiatan ritual.
+
+Dengan demikian, Kawruh Sejati tidak berhenti pada pemahaman secara intelektual, tetapi memperoleh maknanya melalui penerapan
+dalam kehidupan sehari-hari. 
+
+Buku ini diharapkan menjadi bahan pemaparan filosofis yang membantu pembaca memahami hubungan antara panguripan, hakikat diri, kesadaran, dan tanggung jawab manusia. 
+
+Melalui perspektif Uttamopadesa, Kawruh Sejati diarahkan menjadi dasar bagi pengenalan diri, kejernihan pemahaman, ketulusan rasa, keutamaan kehendak, dan laku yang selaras dengan tatanan panguripan.`,
+pdf: "https://drive.google.com/file/d/1t9fu16T8uMy_W1pIkWzNLB41dVX-1LlS/view?usp=drivesdk"
+},
+  {
 judul: "NAWA SEMBAH UTTAMOPADESA",
 subjudul: "Sembilan Tataran Pangabekti Menuju Keselarasan Sejati",
 penulis: "Dhimas Purnomo, SH",
