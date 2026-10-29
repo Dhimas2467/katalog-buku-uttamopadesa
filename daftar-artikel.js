@@ -1,5 +1,30 @@
 const daftarArtikel = [
   {
+judul: "NAWA BRATA SATYATMAN UTTAMOPADESA",
+subjudul: "Sembilan Brata dalam Penghayatan Diri Sejati",
+penulis: "Dhimas Purnomo, SH",
+halaman: "brata-satyatman.html",
+sampul: "sampul-brata-satyatman.jpg",
+abstraksi: `Nawa Brata Satyatman Uttamopadesa: Sembilan Brata dalam Penghayatan Diri Sejati merupakan karya yang menguraikan kedudukan, makna, dan pentingnya sembilan brata dalam kerangka Kawruh Uttamopadesa. Buku ini berangkat dari pemikiran bahwa pengenalan diri tidak cukup dilakukan melalui pemahaman intelektual, tetapi perlu diwujudkan dalam penghayatan dan tindakan nyata.
+
+Pangawikan memperoleh makna ketika mampu membantu manusia menata cara berpikir, merasakan keadaan, menentukan kehendak, serta menjalankan tanggung jawab dalam kehidupan sehari-hari. Nawa Brata Satyatman terdiri atas sembilan brata, yaitu Weninging Cipta, Tulusing Rasa, Utamaning Karsa, Eling Jatining Dhiri, Waskitaning Diri, Laku Andhap Asor, Laku Satya, Welas Asih, dan Laku Manunggal. Kesembilan brata tersebut merupakan satu kesatuan penghayatan yang saling berkaitan. Susunannya tidak dimaksudkan sebagai sembilan pencapaian yang harus digunakan untuk membandingkan seseorang dengan orang lain, melainkan sebagai landasan untuk mengembangkan kejernihan pemahaman, ketulusan sikap, ketepatan kehendak, dan tanggung jawab dalam tindakan.
+
+Pembahasan dalam buku ini menempatkan Nawa Brata Satyatman sebagai bagian penting dari Kawruh Uttamopadesa karena memberikan arah bagi hubungan antara pangawikan dan laku. Pengetahuan yang hanya berhenti pada kemampuan menjelaskan suatu gagasan belum tentu menghasilkan perubahan dalam kehidupan. Manusia dapat memahami pentingnya kejujuran, kerendahan hati, dan kepedulian, tetapi tetap menghadapi kesulitan ketika harus mewujudkannya dalam keadaan yang bertentangan dengan kepentingan pribadi. Oleh sebab itu, penghayatan diri memerlukan kesediaan untuk memeriksa pikiran, mengenali pengaruh rasa, menimbang kehendak, dan mempertanggungjawabkan keputusan.
+
+Buku ini juga menegaskan bahwa keberhasilan Laku Nawa Brata Satyatman tidak ditentukan oleh banyaknya ritual, kerumitan kegiatan lahir, atau pengakuan dari lingkungan. Kegiatan tertentu dapat menjadi sarana apabila mempunyai manfaat bagi proses penghayatan, tetapi tidak dapat dijadikan bukti mutlak bahwa seseorang telah mengalami perubahan diri. 
+
+Keberhasilan lebih tepat diperiksa melalui kenyataan kehidupan, seperti kemampuan mengakui kekeliruan, kesediaan menerima pertimbangan yang beralasan, ketepatan mengambil keputusan, serta tanggung jawab terhadap akibat tindakan.
+
+Selain itu, buku ini menempatkan penghayatan diri dalam hubungan dengan kehidupan bersama. Pengenalan diri tidak dimaksudkan untuk membangun perasaan lebih tinggi daripada orang lain, melainkan untuk membantu manusia memahami keterbatasannya dan memperlakukan sesama secara lebih bertanggung jawab. Penghayatan yang matang membutuhkan keterbukaan untuk memeriksa pemahaman pribadi, sebab apa yang diyakini seseorang belum tentu sepenuhnya sesuai dengan kasunyatan. Kesediaan memperbaiki pemahaman merupakan bagian dari proses pangawikan yang berkelanjutan.
+
+Melalui uraian yang disusun secara sistematis, buku ini mengajak pembaca memahami sembilan brata sebagai landasan penghayatan yang dapat diterapkan dalam berbagai keadaan kehidupan. Penerapannya tidak harus menunggu waktu khusus atau pengalaman tertentu. Hubungan keluarga, pekerjaan, pergaulan, pengambilan keputusan, penyelesaian persoalan, dan pelaksanaan kewajiban merupakan ruang nyata tempat pangawikan dapat diuji dan diwujudkan.
+
+Tujuan utama buku ini ialah memberikan pemahaman mengenai pentingnya Nawa Brata Satyatman dalam membangun hubungan yang lebih selaras antara cipta, rasa, dan karsa. Keselarasan tersebut bukan berarti manusia tidak pernah mengalami kekeliruan, melainkan kesediaan untuk mengenali keadaan, memperbaiki tindakan, dan belajar dari kenyataan. 
+
+Dengan demikian, Nawa Brata Satyatman diharapkan menjadi landasan penghayatan diri yang tidak berhenti pada pengetahuan, tetapi berkembang menjadi laku yang bertanggung jawab. Buku ini menyimpulkan bahwa nilai pangawikan tidak hanya terletak pada keluasan pemahaman, tetapi juga pada kesanggupan manusia mewujudkannya dalam kehidupan.`,
+pdf: "https://drive.google.com/file/d/1wV73xjU9DZUGmIFYV0T58zwH0UQdpHes/view?usp=drivesdk"
+},
+  {
     judul: "NAWA PRASANTI BATIN UTTAMOPADESA",
     subjudul: "Sembilan Pedoman Untuk Mengupayakan Ketentraman Batin Dalam Kawruh Uttamopadesa",
     penulis: "Dhimas Purnomo, SH",
