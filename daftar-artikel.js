@@ -1,5 +1,38 @@
 const daftarArtikel = [
   {
+judul: "NAWA PRASANTI BATIN UTTAMOPADESA",
+subjudul: "Sembilan Pedoman Untuk Mengupayakan Ketentraman Batin Dalam Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "nawa-prasanti.html",
+sampul: "sampul-nawa-prasanti.jpg",
+abstraksi: `Nawa Prasanti Batin merupakan karya yang membahas ketenteraman batin sebagai bagian dari pengembangan kawruh Uttamopadesa. Buku ini berangkat dari pemahaman bahwa ketenteraman sejati tidak
+semata-mata ditentukan oleh keadaan di luar diri, melainkan berkaitan erat dengan cara manusia memahami, menata, dan menjalani
+kehidupan. Ketenteraman batin tidak hanya dipandang sebagai keadaan perasaan yang nyaman, tetapi juga sebagai hasil dari proses
+pembentukan kejernihan cipta, ketulusan rasa, dan keluhuran kehendak yang diwujudkan dalam laku sehari-hari.
+
+Kehidupan manusia senantiasa mengalami perubahan. Keadaan yang menyenangkan maupun yang tidak sesuai harapan dapat
+mempengaruhi cara seseorang berpikir, merasakan, mengambil keputusan, dan bertindak. Ketika ketenteraman sepenuhnya
+digantungkan pada terpenuhinya keinginan atau terkendalinya keadaan, manusia mudah mengalami kegelisahan ketika menghadapi perubahan.
+
+Karena itu, diperlukan pangawikan terhadap diri sendiri agar manusia mampu mengenali gerak cipta, rasa, dan kehendaknya serta memahami pengaruhnya terhadap kehidupan.
+Buku ini disusun berdasarkan sembilan pokok pembahasan yang membentuk satu kesatuan pemikiran. Pokok pertama menegaskan bahwa ketenteraman batin tidak seharusnya digantungkan pada keadaan di luar diri, sebab ketenteraman sejati bertumbuh melalui penataan diri. Pokok kedua menguraikan pentingnya kejernihan cipta, ketulusan rasa, dan keluhuran kehendak sebagai dasar pembentukan
+sikap. Pokok ketiga menekankan bahwa ketiga unsur tersebut perlu diwujudkan dalam laku nyata agar tidak berhenti sebagai pemahaman teoritis. Pokok keempat sampai dengan pokok kesembilan menguraikan
+perwujudan laku batin utama melalui kasih kepada sesama, kesederhanaan perilaku, keselarasan dengan tatanan kehidupan, sikap
+yang tidak mengandalkan nalar secara sombong, pemahaman terhadap keterbatasan kehidupan manusia, serta sikap mengandalkan kasih Sang Sumber Penghidupan. Kesembilan pokok tersebut saling melengkapi dalam membangun pandangan bahwa kualitas batin perlu dinilai melalui kesesuaian antara pemahaman dan tindakan, bukan hanya melalui pernyataan atau pengakuan seseorang mengenai dirinya.Dalam kerangka tersebut, kasih kepada sesama menjadi salah satu
+bentuk nyata dari ketenteraman batin. 
+
+Kesederhanaan membantu manusia mengurangi keterikatan berlebihan terhadap keinginan dan kepentingan pribadi. Keselarasan dengan tatanan kehidupan
+mendorong manusia untuk mempertimbangkan akibat tindakannya terhadap lingkungan dan sesama. Sementara itu, pengakuan terhadap keterbatasan manusia membantu membentuk sikap rendah hati, terbuka terhadap kenyataan, dan tidak menjadikan kemampuan berpikir sebagai alasan untuk merendahkan pihak lain.
+
+Pembahasan mengenai Sang Sumber Penghidupan menempatkan kehidupan manusia dalam hubungan pemahaman yang lebih luas daripada kepentingan pribadi. Sikap mengandalkan kasih Sang Sumber
+Penghidupan diarahkan sebagai bagian dari pembentukan laku batin yang dilandasi ketulusan, kesadaran akan keterbatasan, dan kesediaan menjalani kehidupan secara lebih selaras. Dengan demikian, ketenteraman batin tidak dimaknai sebagai sikap pasif atau penolakan terhadap persoalan, melainkan sebagai kemampuan untuk menghadapi kehidupan dengan kejernihan pertimbangan dan keluhuran tindakan.
+
+Tujuan utama buku ini adalah memberikan landasan pemahaman dan bahan perenungan bagi pembaca dalam menata kehidupan batin serta menerapkan nilai-nilai tersebut dalam pengalaman sehari-hari. Buku ini tidak menempatkan pengetahuan sebagai tujuan yang selesai ketika seseorang mampu menjelaskan suatu ajaran. Pengetahuan memperoleh makna ketika dipahami, disadari, dijalani, dan diwujudkan menjadi kenyataan.
+
+Melalui sembilan pokok pembahasannya, Nawa Prasanti Batin diharapkan dapat memperkaya pengembangan kawruh Uttamopadesa serta membantu pembaca memahami bahwa ketenteraman batin tumbuh melalui proses yang berkesinambungan. Proses tersebut menuntut kesungguhan dalam mengenali diri, menata cipta, rasa, dan kehendak, serta membuktikan pemahaman melalui perilaku yang nyata dalam kehidupan bersama.`,
+pdf: "https://drive.google.com/file/d/1nzAqm_vDDb04ke-FzVjXL3TyfxPabeq2/view?usp=drivesdk"
+},
+  {
 judul: "NAWA SEMBAH UTTAMOPADESA",
 subjudul: "Sembilan Tataran Pangabekti Menuju Keselarasan Sejati",
 penulis: "Dhimas Purnomo, SH",
