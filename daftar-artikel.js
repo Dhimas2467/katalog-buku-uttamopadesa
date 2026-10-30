@@ -1,4 +1,3 @@
-
 const daftarArtikel = [
  {
  judul: "DASAR FILSAFAT KAWRUH UTTAMOPADESA",
