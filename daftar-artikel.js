@@ -1,8 +1,8 @@
 const daftarArtikel = [
  {
  judul: "DASAR FILSAFAT KAWRUH UTTAMOPADESA",
- subjudul: `Kajian Ontologis, Epistemologis, dan Aksiologis tentang
- Kehidupan, Kesadaran, dan Laku Manusia`,
+ subjudul: "Kajian Ontologis, Epistemologis, dan Aksiologis tentang
+ Kehidupan, Kesadaran, dan Laku Manusia",
  penulis: "Dhimas Purnomo, SH",
  halaman: "dasar-filsafat.html",
  sampul: "sampul-dasar-filsafat.jpg",
