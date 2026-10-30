@@ -1,5 +1,21 @@
 const daftarArtikel = [
  {
+ judul: "KAWRUH UTTAMOPADESA",
+ subjudul: "Hakikat Kesadaran, Pengenalan Diri dan Laku Kehidupan",
+ penulis: "Dhimas Purnomo, SH",
+ halaman: "kawruh-uttamopadesa.html",
+ sampul: "sampul-kawruh-uttamopadesa.jpg",
+ abstraksi: `Buku Kawruh Uttamopadesa memaparkan pemahaman mengenai hakikat kehidupan, pengenalan jati diri, perkembangan kesadaran, pemurnian batin, dan perwujudan keluhuran manusia melalui laku kehidupan sehari-hari. Pemaparan ini berangkat dari pemahaman bahwa kehidupan manusia tidak hanya berkaitan dengan keberadaan jasmani dan berbagai aktivitas lahiriah, tetapi juga melibatkan keadaan batin yang mempengaruhi cara seseorang memahami kenyataan, menentukan kehendak, mengambil keputusan, serta melaksanakan tindakan. Oleh karena itu, pengenalan diri dan penataan kehidupan batin menjadi bagian penting dalam usaha membangun kehidupan yang lebih sadar, selaras, dan bertanggung jawab.
+Pokok pemahaman dalam Kawruh Uttamopadesa mencakup hubungan antara cipta, rasa, dan karsa sebagai unsur yang saling mempengaruhi dalam kehidupan manusia. Cipta berkaitan dengan kemampuan berpikir dan memahami, rasa berhubungan dengan kepekaan batin dalam mengalami serta menyikapi keadaan, sedangkan karsa merupakan kehendak yang mengarahkan manusia kepada pilihan dan tindakan. Ketiganya perlu ditata agar tidak berjalan secara bertentangan atau dikuasai oleh dorongan sesaat. Resiking cipta, beninging rasa, dan santosing karsa menjadi arah pembentukan keselarasan batin, sementara keluhuran lampah merupakan perwujudan pemahaman tersebut dalam tindakan nyata.
+Buku ini juga memaparkan pentingnya kesadaran dalam proses pengenalan diri. Kesadaran membantu manusia mengenali pikiran, perasaan, kehendak, dan kecenderungan yang mempengaruhi tindakannya. Melalui pemeriksaan diri yang jujur, manusia dapat memahami kekurangan tanpa terjebak dalam penyesalan yang berlebihan, menerima pengalaman sebagai bahan pembelajaran, serta memperbaiki sikap secara berkelanjutan.
+Pemahaman mengenai Kawruh Sejati sebagai pepadhang turut ditempatkan dalam hubungan dengan kesadaran, sehingga pemahaman dan kemampuan mengenali keadaan diri dapat saling mendukung dalam proses perkembangan batin.
+Selain membahas dasar pemahaman, buku ini menguraikan penerapan laku batin melalui pengendalian diri, kejujuran, kesederhanaan, ketenangan, keteguhan kehendak, dan tanggung jawab. Nawa Prasanti Batin dipaparkan sebagai bagian dari upaya memelihara ketenteraman batin melalui pembiasaan sikap yang selaras dalam menghadapi berbagai keadaan kehidupan.
+Penerapan pemahaman tidak dibatasi pada suasana perenungan, tetapi mencakup hubungan keluarga, pekerjaan, kehidupan sosial, pengambilan keputusan, dan pelaksanaan kewajiban sehari-hari.
+Secara keseluruhan, buku ini menegaskan bahwa pemahaman mengenai hakikat kehidupan perlu diwujudkan melalui perubahan sikap dan tindakan. Pengenalan diri bukan tujuan yang terpisah dari kehidupan, melainkan jalan untuk membangun kejernihan berpikir, kebeningan rasa, keteguhan kehendak, dan keluhuran perbuatan.
+Melalui keselarasan tersebut, Kawruh Uttamopadesa diharapkan menjadi pedoman pemahaman dan laku yang membantu manusia menjalani kehidupan dengan lebih sadar, bijaksana, serta bertanggung jawab terhadap diri sendiri dan kehidupan bersama.`,
+ pdf: "https://drive.google.com/file/d/1zAFo0VtoENKYFutT5VjEk7Q62rQ8llaF/view?usp=drivesdk"
+ },
+ {
  judul: "9 PRINSIP KESADARAN SEJATI",
  subjudul: "Landasan Memahami Diri, Menjernihkan Batin, dan Menyelaraskan Kehidupan dalam Kawruh Sejati",
  penulis: "Dhimas Purnomo, SH",
