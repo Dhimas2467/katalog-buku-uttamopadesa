@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA PRABODHA UTTAMOPADESA",
+subjudul: "Sembilan Tahapan Pencerahan dan Perkembangan Kesadaran Manusia dalam Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "nawa-prabodha.html",
+sampul: "sampul-nawa-prabodha.jpg",
+abstraksi: `Nawa Prabodha Uttamopadesa merupakan pemaparan mengenai sembilan perkembangan kesadaran manusia dalam perspektif Kawruh Uttamopadesa. Buku ini disusun untuk menjelaskan proses perkembangan kesadaran dari pengenalan terhadap hakikat diri hingga tercapainya keutuhan kehidupan yang selaras dengan Sang Sumber Kehidupan. Kesembilan Prabodha dipahami sebagai satu kesatuan yang saling berhubungan, bukan sebagai bagian-bagian terpisah ataupun tahapan yang semata-mata ditentukan oleh pencapaian lahiriah.
+
+Pemaparan Nawa Prabodha berangkat dari pemahaman bahwa kehidupan manusia tidak hanya berkaitan dengan keberadaan jasmani dan pemenuhan kebutuhan duniawi, tetapi juga melibatkan perkembangan unsur batin yang mempengaruhi cara manusia berpikir, merasakan, menentukan kehendak, dan bertindak. Oleh karena itu, perkembangan kesadaran membutuhkan kejernihan cipta, ketulusan rasa, keluhuran budi, serta Karsa Sejati yang diwujudkan melalui laku kehidupan.
+
+Buku ini membahas sembilan Prabodha. Pertama, Prabodha Jati, yaitu bangkitnya kesadaran diri sebagai dasar pengenalan terhadap hakikat diri dan tujuan kehidupan. Kedua, Prabodha Cipta, yaitu pencerahan pikiran melalui proses menjernihkan cipta dari prasangka, kekacauan pemikiran, dan dorongan yang mengaburkan kenyataan. Ketiga, Prabodha Rasa, yaitu pencerahan rasa melalui pemurnian perasaan serta pengembangan ketulusan, kesabaran, pengampunan, dan kepedulian. Keempat, Prabodha Budi, yaitu perkembangan pertimbangan luhur yang mengarahkan pengetahuan dan pemahaman menuju tindakan yang benar, jujur, adil, dan bertanggung jawab.
+
+Kelima, Prabodha Sih, yaitu bangkitnya kasih sejati yang tidak bergantung pada kepentingan pribadi maupun harapan memperoleh balasan. Keenam, Prabodha Kawruh, yaitu terbukanya kebijaksanaan melalui pemahaman mengenai hakikat kehidupan dan penggunaan pengetahuan secara bertanggung jawab. Ketujuh, Prabodha Tentrem, yaitu keselarasan kesadaran yang tercermin dalam keseimbangan pikiran, rasa, dan budi ketika menghadapi berbagai keadaan kehidupan. Kedelapan, Prabodha Suci, yaitu pemurnian kesadaran dari pamrih pribadi sehingga ketulusan dan kebenaran menjadi landasan tindakan. Kesembilan, Prabodha Sampurna, yaitu kepenuhan perkembangan kesadaran ketika seluruh unsur tersebut menjadi satu keselarasan dalam kehidupan dan mengarahkan manusia kepada pemahaman mengenai asal kehidupannya, yaitu Sang Sumber Kehidupan.
+
+Kesembilan Prabodha mempunyai keterkaitan erat dengan cipta, rasa, dan karsa sebagai sarana manusia dalam memahami, menghayati, serta mewujudkan kesadaran. Keselarasan Weninging Cipta, Tulusing Rasa, dan Karsa Sejati menjadi landasan bagi perkembangan manusia menuju kehidupan yang lebih jernih, tulus, bijaksana, tenteram, dan bertanggung jawab.
+
+Buku ini menegaskan bahwa perkembangan kesadaran tidak diukur melalui pelaksanaan ritual, pengalaman gaib, lamanya meditasi, ataupun pengakuan atas pencapaian tertentu. Ukuran utamanya terletak pada perubahan nyata dalam kehidupan, yaitu kesesuaian antara pemahaman, penghayatan, dan tindakan. 
+
+Prinsip tersebut tercermin dalam ungkapan: kawruh kudu kawruhan, kudu kasumurupan, kudu dilakoni, lan kudu kasunyatan ing panguripan. Pada akhirnya, Nawa Prabodha mengarahkan manusia untuk tidak menjadikan kepentingan pribadi sebagai pusat kehidupannya. Kesadaran yang utuh diharapkan menumbuhkan kerendahan hati, kasih sejati, kebijaksanaan, kemurnian, serta penghormatan terhadap sesama manusia dan alam. Seluruh perkembangan tersebut bermuara pada kehidupan yang selaras dengan Sang Sumber Kehidupan.`,
+pdf: "https://drive.google.com/file/d/1GA8JeaGHLztSGN08Aq0o1DXHyyEw7ea_/view?usp=drivesdk"
+},
+ {
 judul: "MEDITASI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
 subjudul: "Sembilan Tahapan Pendalaman Diri, Kesadaran, dan Kawruh",
 penulis: "Dhimas Purnomo, SH",
