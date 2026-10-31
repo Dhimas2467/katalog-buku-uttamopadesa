@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "MEDITASI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
+subjudul: "Sembilan Tahapan Pendalaman Diri, Kesadaran, dan Kawruh",
+penulis: "Dhimas Purnomo, SH",
+halaman: "meditasi-uttamopadesa.html",
+sampul: "sampul-meditasi.jpg",
+abstraksi: `Buku Meditasi dalam Perspektif Kawruh Uttamopadesa, Sembilan Tahapan Pendalaman Diri, Kesadaran, dan Kawruh memaparkan pengertian, kedudukan, tujuan, serta proses meditasi sebagai sarana pendalaman diri dalam kerangka pemikiran Kawruh Uttamopadesa. Pembahasan ini berangkat dari pemahaman bahwa meditasi tidak semata-mata merupakan kegiatan untuk menenangkan pikiran, melainkan proses yang diarahkan untuk memperdalam pengenalan diri, mengembangkan kejernihan kesadaran, dan membangun pemahaman terhadap hakikat kehidupan.
+
+Dalam perspektif Kawruh Uttamopadesa, meditasi bukan ritual keagamaan, bukan praktik klenik, bukan pula sarana untuk memperoleh kesaktian atau kemampuan supranatural. Meditasi ditempatkan sebagai proses pendalaman batin yang membantu manusia mengenali berbagai gerak dalam dirinya, memahami hubungan antara pikiran, perasaan, dan kehendak, serta mengarahkan seluruh unsur tersebut menuju keselarasan. Karena itu, keberhasilan meditasi tidak ditentukan oleh lamanya seseorang melakukan latihan atau kemampuan mempertahankan posisi tubuh tertentu, tetapi oleh perkembangan kualitas pemahaman dan penerapannya dalam kehidupan sehari-hari.
+
+Buku ini menguraikan sembilan tahapan meditasi yang tersusun sebagai satu rangkaian perkembangan. Tahap pertama adalah Pangeningan, yaitu menenangkan keadaan batin dan mengurangi gangguan perhatian. Tahap kedua, Pangrumatan, merupakan proses memelihara ketenangan dan kestabilan perhatian. Tahap ketiga, Pangamatan, mengembangkan kemampuan mengamati gerak pikiran, perasaan, dan kehendak. Tahap keempat, Pangenalan, membantu manusia mengenali hubungan Cipta, Rasa, dan Karsa serta kedudukan unsur-unsur dirinya. Tahap kelima, Pangawikan, memperdalam pemahaman terhadap hakikat diri dan kehidupan. Tahap keenam, Pangrasa, mengembangkan penghayatan batin terhadap pemahaman yang telah diperoleh. Tahap ketujuh, Pangeling, memperteguh kesadaran terhadap keberadaan dan hakikat diri. Tahap kedelapan, Pangudhari, mengarahkan manusia untuk mengenali dan melepaskan berbagai keterikatan yang menghalangi kejernihan batin. Tahap kesembilan, Panyawijining Kawruh, merupakan keutuhan pemahaman mengenai hubungan diri, kehidupan, dan Tatananing Panguripan.
+
+Kesembilan tahapan tersebut tidak dimaksudkan sebagai sembilan kegiatan yang terpisah, melainkan sebagai proses yang saling berhubungan dan saling memperdalam. Setiap tahapan memberikan dasar bagi perkembangan tahapan berikutnya. Ketenangan mendukung pengamatan, pengamatan membantu pengenalan, pengenalan membuka jalan bagi pangawikan, sedangkan pendalaman penghayatan dan penguatan kesadaran mengantarkan manusia pada kemampuan melepaskan keterikatan serta membangun keutuhan pemahaman.
+
+Pemaparan buku ini juga menempatkan Jiwa, Sukma, dan Kesadaran dalam hubungan yang mempunyai kedudukan berbeda. Kesadaran dipahami sebagai pemahaman yang hakiki yang berkembang dari Jiwa. Sementara itu, Cipta, Rasa, dan Karsa merupakan sarana manusia untuk menerima, mengolah, dan menerjemahkan pepadhang dalam kehidupan. Perkembangan meditasi diarahkan pada terbentuknya Weninging Cipta, Tulusing Rasa, dan Karsa Sejati, sehingga pemahaman batin dapat tercermin dalam tindakan nyata.
+
+Buku ini turut menegaskan perbedaan antara meditasi dan Samadhi. Meditasi merupakan proses pendalaman, sedangkan Samadhi merupakan keadaan kesadaran yang hening, jernih, dan terpusat. Pembedaan ini diperlukan agar proses, sarana, dan keadaan kesadaran tidak dicampuradukkan.
+
+Secara keseluruhan, tujuan pemaparan ini adalah memberikan pemahaman yang sistematis mengenai meditasi sebagai bagian dari perjalanan manusia dalam mengenali diri, memperdalam kesadaran, memahami Kawruh Sejati, serta mengembangkan Kawruh Kasunyatan. Pendalaman tersebut pada akhirnya harus diwujudkan melalui laku yang selaras dengan kehidupan, bukan hanya menjadi pengalaman batin atau pengetahuan yang berhenti pada pemikiran.`,
+pdf: "https://drive.google.com/file/d/1lJO7Khsiwtxyh-rEAquE73V_x_TlTU1-/view?usp=drivesdk"
+},
+ {
 judul: "MANUNGGALING KAWULA GUSTI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
 subjudul: "Pemaparan Filosofis tentang Hubungan Manusia dengan Sang Sumber Panguripan",
 penulis: "Dhimas Purnomo, SH",
