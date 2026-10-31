@@ -1,4 +1,31 @@
 const daftarArtikel = [
+ {
+judul: "MANUNGGALING KAWULA GUSTI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
+subjudul: "Pemaparan Filosofis tentang Hubungan Manusia dengan Sang Sumber Panguripan",
+penulis: "Dhimas Purnomo, SH",
+halaman: "manunggaling-kawula-gusti.html",
+sampul: "sampul-kawula-gusti.jpg",
+abstraksi: `Manunggaling Kawula Gusti merupakan salah satu ungkapan filosofis dalam khazanah pemikiran Jawa yang membicarakan hubungan antara manusia sebagai Kawula dan Gusti sebagai Sang Sumber Panguripan. Ungkapan tersebut memiliki kedalaman makna karena menyangkut persoalan asal kehidupan, kedudukan manusia, kesadaran diri, serta hubungan manusia dengan sumber segala kehidupan. Meskipun demikian, pemahaman mengenai manunggal dapat berkembang ke dalam berbagai penafsiran, termasuk penafsiran yang menganggap manusia dan Gusti sebagai keberadaan yang dapat melebur atau mempunyai kedudukan yang sama. 
+
+Buku ini menyajikan pemaparan filosofis berdasarkan perspektif Kawruh Uttamopadesa untuk menempatkan makna Manunggaling Kawula Gusti dalam pengertian keselarasan hubungan, bukan peleburan atau penyamaan keberadaan.
+Pokok pemikiran buku ini berangkat dari pemahaman bahwa Sang Sumber Panguripan merupakan asal segala kehidupan, sedangkan manusia berada dalam kedudukan sebagai Kawula yang menerima dan menjalani kehidupan. 
+
+Perbedaan kedudukan antara Kawula dan Gusti menjadi landasan penting dalam memahami makna manunggal. Keselarasan hubungan tidak menghilangkan hakikat masing-masing, melainkan menunjukkan perkembangan kesadaran manusia dalam mengenali asal kehidupannya dan menjalani kehidupan berdasarkan pemahaman tersebut.
+
+Pemaparan diawali dengan pembahasan mengenai hakikat Manunggaling Kawula Gusti dalam khazanah pemikiran Jawa, kemudian dilanjutkan dengan kedudukan Sang Sumber Panguripan sebagai asal segala kehidupan. Pembahasan mengenai Prabhawaning Panguripan dan Jatining Panguripan memberikan landasan untuk memahami tatanan dan hakikat kehidupan. Selanjutnya, kedudukan Kawula dijelaskan melalui hubungan antara manusia, raga, Prana, Jiwa, Sukma, dan kesadaran. 
+
+Uraian tersebut memperlihatkan bahwa manusia perlu memahami keberadaannya secara utuh agar dapat menempatkan dirinya secara tepat dalam hubungan dengan Gusti.
+Keselarasan menjadi pokok utama dalam pemaparan berikutnya. Hubungan Kawula dengan Gusti tidak hanya dipahami melalui pengetahuan, tetapi juga melalui pemurnian Cipta, Rasa, dan Karsa. Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa merupakan landasan untuk mengarahkan pikiran, penghayatan, serta kehendak manusia kepada kehidupan yang selaras. Dengan demikian, pemahaman tentang asal kehidupan perlu diwujudkan dalam sikap, keputusan, dan tindakan yang bertanggung jawab.
+
+Buku ini juga membahas Nawa Sembah, Nawa Samadhi, dan Nawa Prabodha sebagai bagian dari pendalaman hubungan Kawula dengan Gusti. Nawa Sembah memaparkan keselarasan sembah melalui berbagai unsur keberadaan manusia. Nawa Samadhi menjelaskan pendalaman keadaan hening, jernih, dan terpusat sebagai bagian dari pengenalan terhadap gerak batin. Nawa Prabodha menguraikan sembilan perkembangan kesadaran, yaitu Prabodha Jati, Prabodha Cipta, Prabodha Rasa, Prabodha Budi, Prabodha Sih, Prabodha Kawruh, Prabodha Tentrem, Prabodha Suci, dan Prabodha Sampurna. Kesembilan Prabodha tersebut menggambarkan perkembangan manusia dari pengenalan diri menuju keselarasan kesadaran dengan asal kehidupan.
+
+Salah satu penegasan penting dalam buku ini adalah perbedaan antara kebangkitan kesadaran dan klaim telah mencapai kedudukan ilahi. Perkembangan pemahaman, pengalaman batin, ketenteraman, maupun kebijaksanaan tidak menjadikan manusia sebagai Gusti. Kawula tetap berada dalam kedudukannya sebagai manusia yang mempunyai keterbatasan dan tanggung jawab. Oleh karena itu, kesadaran yang berkembang seharusnya melahirkan kerendahan hati, bukan kesombongan atau pengakuan mengenai kedudukan khusus.
+
+Pada akhirnya, seluruh pemaparan diarahkan kepada perwujudan Manunggaling Kawula Gusti dalam laku kehidupan. Kejujuran, ketulusan, kasih, kebijaksanaan, tanggung jawab, penghormatan terhadap sesama, dan kepedulian terhadap kehidupan menjadi bagian dari keselarasan yang perlu diwujudkan. Prinsip kawruh iku kelakone kanthi laku menegaskan bahwa pemahaman tidak cukup berhenti sebagai pengetahuan, melainkan harus tercermin dalam kehidupan sehari-hari.
+
+Buku ini merupakan pemaparan filosofis dalam kerangka Kawruh Uttamopadesa, bukan penetapan dogma atau tuntutan keyakinan. Tujuan utamanya adalah memperdalam pemahaman manusia mengenai asal kehidupan, kedudukannya sebagai Kawula, dan tanggung jawabnya dalam menjalani kehidupan. Dengan demikian, Manunggaling Kawula Gusti wajib dipahami sebagai keselarasan hubungan antara Kawula dan Gusti, yaitu Kawula tetap Kawula, Gusti tetap Gusti, sedangkan kesadaran manusia diarahkan untuk semakin selaras dengan Sang Sumber Panguripan.`,
+pdf: "https://drive.google.com/file/d/15kO9QyZUVOXlHPzrtMyeyhv1Levb-jl7/view?usp=drivesdk"
+},
 {
  judul: "DASAR FILSAFAT KAWRUH UTTAMOPADESA",
  subjudul: "Kajian Ontologis, Epistemologis, dan Aksiologis tentang Kehidupan, Kesadaran, dan Laku Manusia",
