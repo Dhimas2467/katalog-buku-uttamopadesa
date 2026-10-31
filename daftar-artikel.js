@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA RUPA SATYA JIWANA UTTAMOPADESA",
+subjudul: "Sembilan Aspek Urip Sejati dalam Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "satya-jiwana.html",
+sampul: "sampul-nawa-rupa.jpg",
+abstraksi: `Nawa Rupa Satya Jiwana Uttamopadesa, Sembilan Aspek Urip Sejati dalam Kawruh Uttamopadesa merupakan pemaparan filosofis mengenai hakikat kehidupan manusia melalui sembilan aspek yang saling berhubungan. Buku ini menjelaskan bahwa kehidupan tidak hanya terbatas pada keberadaan jasmani, tetapi mempunyai dimensi hakikat yang berhubungan dengan asal kehidupan, Jiwa, kesadaran, pengenalan diri, kejernihan cipta, ketulusan rasa, kehendak, dan laku hidup.
+
+Nawa Rupa Satya Jiwana tersusun atas sembilan aspek utama, yaitu Sang Sumber Panguripan, Hakikat Urip, Kesadaran, Pengenalan Diri, Weninging Cipta, Tulusing Rasa, Karsa Sejati, Laku, dan Urip Sejati. Kesembilan aspek tersebut menggambarkan hubungan antara asal kehidupan, pemahaman manusia terhadap keberadaannya, perkembangan kualitas diri, serta perwujudan pemahaman dalam kehidupan sehari-hari. Susunan ini bukan sekadar urutan tahapan yang berdiri sendiri, melainkan satu kesatuan yang saling mempengaruhi dalam membentuk kehidupan yang selaras dengan hakikatnya.
+
+Buku ini juga menjelaskan hubungan Nawa Rupa Satya Jiwana dengan Nawa Prabodha. Nawa Prabodha merupakan pemaparan mengenai sembilan aspek perkembangan kejernihan kesadaran manusia, mulai dari Prabodha Jati hingga Prabodha Sampurna. Melalui proses tersebut, manusia mengembangkan kesadaran diri, menjernihkan pikiran, memperdalam rasa, mengembangkan kebijaksanaan, menumbuhkan kasih sejati, memperluas pemahaman, mencapai ketenteraman, dan mengurangi dominasi pamrih pribadi.
+
+Dalam hubungan keduanya, Nawa Prabodha berkedudukan sebagai proses pengembangan kesadaran, sedangkan Nawa Rupa Satya Jiwana menjadi tolok ukur untuk mengenali hasil pengembangan tersebut dalam kehidupan. Laku Hidup merupakan perwujudan nyata yang menghubungkan proses dan hasil. Dengan demikian, perkembangan kesadaran tidak hanya dinilai dari pengetahuan atau pengalaman batin, tetapi juga dari perubahan kualitas perilaku, keputusan, tanggung jawab, dan hubungan manusia dengan kehidupan.
+
+Pencapaian hakikat Urip Sejati merupakan inti pemahaman Manunggaling Kawula Gusti dalam kerangka Kawruh Uttamopadesa. Manunggaling Kawula Gusti dimaknai sebagai keselarasan kehidupan manusia dengan Sang Sumber Panguripan, bukan peleburan atau penyamaan keberadaan manusia dengan Sang Sumber. Manusia tetap menjalani keberadaannya sebagai Kawula, tetapi kesadaran, kehendak, dan lakunya telah diarahkan untuk selaras dengan hakikat serta tatanan kehidupan yang bersumber dari Gusti.
+
+Melalui sebelas bab pembahasan utama dan satu bab penutup, buku ini memberikan pemaparan mengenai asal kehidupan, hakikat Urip, perkembangan kesadaran, pengenalan diri, pemurnian cipta dan rasa, Karsa Sejati, Laku Hidup, serta hubungan Nawa Rupa Satya Jiwana dan Nawa Prabodha dalam pencapaian Urip Sejati.
+
+Secara keseluruhan, buku ini menegaskan bahwa hakikat kehidupan tidak cukup hanya diketahui, tetapi harus dipahami, dihayati, dan diwujudkan. Urip Sejati bukan sekadar gagasan mengenai kehidupan yang sempurna, melainkan keselarasan yang tercermin dalam seluruh laku kehidupan manusia.`,
+pdf: "https://drive.google.com/file/d/1bKizf9HoFFfLvCQbwdoDS19nz49nf5v5/view?usp=drivesdk"
+},
+ {
 judul: "NAWA PRABODHA UTTAMOPADESA",
 subjudul: "Sembilan Tahapan Pencerahan dan Perkembangan Kesadaran Manusia dalam Kawruh Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
