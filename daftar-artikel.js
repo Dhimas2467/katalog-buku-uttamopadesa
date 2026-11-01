@@ -1,5 +1,28 @@
 const daftarArtikel = [
  {
+judul: "PURNATA JIWANA UTTAMOPADESA",
+subjudul: "Keterpaduan Cipta Wening, Tulusing Rasa, dan Utamaning Karsa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "purnata-jiwana.html",
+sampul: "sampul-purnata-jiwana.jpg",
+abstraksi: `Purnata Jiwana Uttamopadesa merupakan pemaparan mengenai hakikat keutuhan kehidupan manusia yang dibentuk melalui keterpaduan Cipta Wening, Tulusing Rasa, dan Utamaning Karsa. Dalam perspektif Kawruh Uttamopadesa, Purnata Jiwana menggambarkan keadaan ketika kejernihan cipta, ketulusan rasa, dan keutamaan karsa berkembang secara terpadu sehingga membentuk kualitas diri yang utuh dalam memahami, menghayati, menentukan kehendak, serta menjalani kehidupan. Purnata Jiwana bukan pengertian tentang kesempurnaan mutlak manusia, melainkan gambaran mengenai keutuhan kualitas diri yang terus dipelihara dan diwujudkan melalui laku kehidupan.
+
+Pemaparan buku ini didasarkan pada pemahaman bahwa Cipta, Rasa, dan Karsa merupakan unsur penting dalam kehidupan manusia. Ketiganya saling berhubungan dan mempengaruhi arah perkembangan diri. Cipta berperan dalam membentuk pemahaman dan pandangan terhadap kehidupan, Rasa menjadi unsur penghayatan terhadap diri sendiri maupun keadaan di sekitarnya, sedangkan Karsa menentukan kehendak dan arah tindakan. Apabila ketiganya berkembang tanpa kejernihan, ketulusan, dan keutamaan, kehidupan manusia dapat mengalami berbagai penyimpangan yang menghambat pembentukan keutuhan diri.
+
+Untuk memahami hambatan tersebut, buku ini memaparkan Nawa Malaning Cipta, Nawa Malaning Rasa, dan Nawa Malaning Karsa. Ketiganya menguraikan sembilan bentuk penyimpangan pada masing-masing unsur kehidupan manusia. Nawa Malaning Cipta membahas berbagai keadaan yang mengaburkan pemahaman, Nawa Malaning Rasa menguraikan penyimpangan dalam penghayatan batin, sedangkan Nawa Malaning Karsa menjelaskan berbagai bentuk kehendak yang tidak selaras dengan keutamaan diri. Pengenalan terhadap seluruh bentuk penyimpangan tersebut menjadi bagian penting dalam proses pemurnian diri.
+
+Selanjutnya, pembahasan diarahkan pada pengembangan tiga kualitas utama, yaitu Cipta Wening sebagai kejernihan cipta, Tulusing Rasa sebagai ketulusan penghayatan, dan Utamaning Karsa sebagai keutamaan kehendak. Ketiganya tidak ditempatkan sebagai kualitas yang berdiri sendiri, melainkan sebagai unsur yang saling melengkapi. Cipta Wening memberikan kejernihan dalam memahami, Tulusing Rasa memberikan ketulusan dalam menghayati, dan Utamaning Karsa memberikan arah kehendak yang utama. Keterpaduan ketiganya menjadi dasar pembentukan Purnata Jiwana.
+
+Buku ini juga memaparkan proses pembentukan Purnata Jiwana melalui pengenalan diri, pengenalan penyimpangan, pemurnian Cipta, Rasa, dan Karsa, pengembangan kualitas utama, pembiasaan laku, serta evaluasi diri. Proses tersebut tidak dipahami sebagai tahapan yang selalu berjalan secara lurus dan selesai dalam satu waktu, tetapi sebagai perjalanan berkelanjutan yang memerlukan kesungguhan dan kesadaran dalam kehidupan sehari-hari.
+
+Dalam penerapannya, Purnata Jiwana dihubungkan dengan kehidupan pribadi, keluarga, hubungan antar manusia, pekerjaan, tanggung jawab, dan kehidupan bermasyarakat. Dengan demikian, keutuhan diri tidak hanya diukur dari pemahaman yang dimiliki seseorang, tetapi juga dari cara pemahaman tersebut diwujudkan dalam perilaku dan tindakan nyata.
+
+Pada bagian akhir, buku ini menghubungkan Purnata Jiwana dengan Jatining Panguripan, Sang Sumber Panguripan, Kasunyatan Hakiki, dan Urip Sejati. Purnata Jiwana menjadi bagian dari perjalanan manusia dalam memahami hakikat kehidupan, sedangkan Manunggaling Kawula Gusti dipaparkan sebagai keselarasan hubungan antara Kawula dan Gusti, bukan peleburan hakikat keduanya.
+
+Secara keseluruhan, buku ini menegaskan bahwa Purnata Jiwana merupakan keutuhan kehidupan manusia yang perlu dibangun melalui pemurnian dan keterpaduan Cipta Wening, Tulusing Rasa, dan Utamaning Karsa. Pemahaman tersebut memperoleh maknanya ketika dijalani secara nyata dalam kehidupan.`,
+pdf: "https://drive.google.com/file/d/1visuh0G6xDh46x4tUOqmYdvQGFlUczdB/view?usp=drivesdk"
+},
+ {
 judul: "NAWA RUPA SATYA JIWANA UTTAMOPADESA",
 subjudul: "Sembilan Aspek Urip Sejati dalam Kawruh Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
