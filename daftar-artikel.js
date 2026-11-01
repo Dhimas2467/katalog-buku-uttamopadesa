@@ -1,5 +1,28 @@
 const daftarArtikel = [
  {
+judul: "JATINING DHIRI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
+subjudul: "Kawruh tentang Hakikat Kehidupan Manusia",
+penulis: "Dhimas Purnomo, SH",
+halaman: "jatining-dhiri.html",
+sampul: "sampul-jatining-dhiri.jpg",
+abstraksi: `Buku Jatining Dhiri Dalam Perspektif Kawruh Uttamopadesa, Kawruh tentang Hakikat Kehidupan Manusia; ini merupakan pemaparan mengenai hakikat kehidupan manusia dan proses pengenalan terhadap Jatining Dhiri. Pembahasan ini berangkat dari pemahaman bahwa manusia tidak cukup mengenali dirinya hanya berdasarkan identitas, keadaan jasmani, pengalaman batin, pengetahuan, maupun kedudukan sosial. Seluruhnya merupakan bagian dari kehidupan manusia, tetapi tidak dapat disamakan dengan hakikat kehidupan manusia itu sendiri. Oleh karena itu, diperlukan pemahaman yang lebih mendalam untuk membedakan antara sesuatu yang berubah dalam perjalanan kehidupan dan hakikat yang menjadi dasar pengenalan diri.
+
+Dalam perspektif Kawruh Uttamopadesa, Jatining Dhiri ditempatkan dalam hubungan dengan Jatining Panguripan. Jatining Panguripan merupakan hakikat kehidupan secara menyeluruh, sedangkan Jatining Dhiri berhubungan dengan hakikat kehidupan manusia. Pemahaman ini selanjutnya dihubungkan dengan Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, serta Tatananing Panguripan. Hubungan tersebut memberikan gambaran bahwa kehidupan manusia tidak berdiri sendiri, melainkan berada dalam keseluruhan tatanan kehidupan yang memiliki keterkaitan dan keteraturan.
+
+Pemaparan dalam buku ini mencakup berbagai unsur kehidupan manusia, antara lain raga, sukma, jiwa, kesadaran atau Cetana, serta cipta, rasa, dan karsa. Masing-masing dibahas berdasarkan kedudukan dan hubungannya dalam kehidupan manusia. Raga dipahami sebagai bagian jasmani yang menjadi sarana menjalani kehidupan, sedangkan sukma dan jiwa memiliki kedudukan yang berbeda dalam pemahaman mengenai unsur kehidupan manusia. Cipta, rasa, dan karsa merupakan unsur budi yang mempengaruhi cara manusia berpikir, mengalami keadaan batin, menentukan kehendak, dan melakukan tindakan.
+
+Pembahasan kemudian diarahkan pada Pangawikaning Dhiri sebagai proses pengenalan terhadap hakikat kehidupan manusia. Proses ini menuntut kemampuan membedakan identitas diri dan Jatining Dhiri, mengenali perubahan kehidupan, serta memahami keterbatasan pandangan manusia. Dalam hubungan tersebut, Kasunyatan Hakiki menjadi pokok pemahaman karena hakikat tidak bergantung pada anggapan atau tingkat pemahaman manusia. Pandangan manusia dapat berubah dan mengalami kekeliruan, sedangkan hakikat kehidupan tidak berubah hanya karena manusia belum mampu mengenalinya.
+
+Pengenalan diri juga dikaitkan dengan laku kehidupan. Kawruh tidak cukup berhenti sebagai pengetahuan atau pemahaman dalam pikiran, tetapi perlu tercermin dalam perilaku nyata. Melalui pengalaman, hubungan antar manusia, tanggung jawab, serta interaksi dengan alam, manusia memperoleh kesempatan untuk mengenali keadaan dirinya dan menguji pemahaman yang dimilikinya. Dengan demikian, pengenalan Jatining Dhiri tidak terpisah dari kehidupan sehari-hari, melainkan berkembang melalui kesadaran dan tindakan yang dijalankan secara bertanggung jawab.
+
+Buku ini turut menguraikan berbagai penghalang pengenalan diri, seperti keterikatan terhadap identitas, kekeliruan cipta, ketidakjernihan rasa, karsa yang dikuasai keinginan, pamrih, keakuan, kesombongan atas kawruh, serta rereged batin dan keruwetan kehidupan. Berbagai keadaan tersebut dapat mengaburkan kemampuan manusia dalam memahami dirinya. Oleh karena itu, diperlukan upaya pembenahan melalui Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Ketiganya merupakan unsur penting dalam membangun kejernihan budi dan keselarasan kehidupan.
+
+Secara keseluruhan, buku ini menegaskan bahwa pengenalan Jatining Dhiri bukanlah usaha membentuk atau mengubah hakikat kehidupan manusia, melainkan upaya memahami hakikat tersebut dengan kejernihan yang semakin mendalam. Pemahaman yang diperoleh diharapkan dapat membantu manusia menempatkan dirinya secara tepat dalam Tatananing Panguripan, mengurangi keterikatan yang mengaburkan pengenalan diri, serta menjalani kehidupan dengan kesadaran, ketulusan, dan tanggung jawab.
+
+Buku ini disusun oleh Dhimas Purnomo, SH sebagai bagian dari pemaparan Kawruh Uttamopadesa. Uraian di dalamnya diharapkan menjadi bahan pemahaman dan perenungan bagi pembaca dalam mengenali hakikat kehidupan manusia dan mengembangkan keselarasan antara cipta, rasa, karsa, serta laku kehidupan.`,
+pdf: "https://drive.google.com/file/d/1h9pMbFEmlqpMZFeQt0-V7gMWRiChGSdg/view?usp=drivesdk"
+},
+ {
 judul: "PURNATA JIWANA UTTAMOPADESA",
 subjudul: "Keterpaduan Cipta Wening, Tulusing Rasa, dan Utamaning Karsa",
 penulis: "Dhimas Purnomo, SH",
