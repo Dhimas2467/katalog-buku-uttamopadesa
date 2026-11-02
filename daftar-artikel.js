@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA BRATA KABAGYAN UTTAMOPADESA",
+subjudul: "Sembilan Laku Kebajikan Menuju Kebahagiaan Sejati",
+penulis: "Dhimas Purnomo, SH",
+halaman: "brata-kabagyan.html",
+sampul: "sampul-brata-kabagyan.jpg",
+abstraksi: `Nawa Brata Kabagyan Uttamopadesa merupakan pemaparan mengenai sembilan kebajikan yang menjadi dasar pembentukan budi dan laku kehidupan manusia dalam upaya menumbuhkan Kabagyan. Buku ini disusun berdasarkan pemikiran Kawruh Uttamopadesa yang dirumuskan oleh Dhimas Purnomo, dengan menempatkan keterpaduan Cipta, Rasa, dan Karsa sebagai landasan utama dalam memahami serta menjalankan kebajikan.
+
+Pokok pemikiran buku ini berangkat dari pemahaman bahwa kebahagiaan tidak semata-mata ditentukan oleh keadaan lahiriah, terpenuhinya keinginan, kekayaan, kedudukan, ataupun keberhasilan memperoleh sesuatu. Kebahagiaan mempunyai hubungan mendalam dengan keadaan batin dan cara manusia menjalani kehidupannya. Kabagyan tumbuh ketika manusia mampu memahami kenyataan secara jernih, mengembangkan ketulusan perasaan, dan mengarahkan kehendaknya kepada tindakan yang baik serta bertanggung jawab.
+
+Pembahasan diawali dengan pengenalan hakikat Kabagyan dan hubungannya dengan Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, Kawruh Sejati, dan Kawruh Kasunyatan. Landasan tersebut digunakan untuk menjelaskan kedudukan manusia sebagai bagian dari Tatananing Panguripan serta pentingnya kesadaran dalam menentukan sikap dan tindakan.
+
+Selanjutnya, buku ini menguraikan sembilan brata yang membentuk Nawa Brata Kabagyan, yaitu Tidak Mudah Membenci, Tidak Mudah Mengeluh, Pandangan yang Baik, Rendah Hati, Mudah Memaafkan, Menghindari Permusuhan, Memberi Tanpa Pamrih, Wajah yang Berseri, dan Kehendak yang Bersih. Setiap brata dipaparkan melalui tujuh pokok pembahasan, meliputi hakikat dan pengertian, dasar pemikiran dalam Kawruh Uttamopadesa, hubungan dengan kejernihan Cipta, Rasa, dan Karsa, bentuk penyimpangan yang menghalangi perkembangannya, penerapan dalam kehidupan pribadi, penerapan dalam hubungan antar manusia, serta buah kebajikan bagi kehidupan.
+
+Kesembilan brata tersebut bukan aturan yang berdiri sendiri atau tuntutan untuk menampilkan perilaku tertentu secara lahiriah. Seluruhnya merupakan satu kesatuan laku yang saling melengkapi. Tidak mudah membenci dan mudah memaafkan membantu membebaskan batin dari kebencian. Tidak mudah mengeluh dan pandangan yang baik membentuk kemampuan menghadapi kenyataan secara lebih jernih. Rendah hati, menghindari permusuhan, dan memberi tanpa pamrih menumbuhkan penghargaan serta ketulusan dalam hubungan sosial. Wajah yang berseri mencerminkan ketenteraman batin, sedangkan kehendak yang bersih menjaga kemurnian dasar seluruh tindakan.
+
+Dalam keseluruhan pemaparan, Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa menjadi unsur penting pembentukan kebajikan. Cipta yang jernih menghasilkan pemahaman yang tepat, Rasa yang tulus menumbuhkan kepedulian, dan Karsa yang utama mewujudkan keduanya dalam tindakan nyata.
+
+Buku ini menegaskan bahwa Kabagyan bukan keadaan hidup tanpa persoalan, kesedihan, ataupun kegagalan. Kabagyan merupakan buah dari kemampuan menjalani berbagai keadaan dengan kesadaran, ketulusan, dan tanggung jawab. Dengan demikian, Nawa Brata Kabagyan menjadi pemaparan mengenai pembentukan pribadi yang mampu mengembangkan kebajikan, menjaga ketenteraman batin, menghargai sesama, dan mengambil bagian dalam kehidupan secara lebih bermakna.`,
+pdf: "https://drive.google.com/file/d/1u5E4-woH69KsN-vnvtFxkCeBCj-raJgY/view?usp=drivesdk"
+},
+ {
 judul: "JATINING DHIRI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA",
 subjudul: "Kawruh tentang Hakikat Kehidupan Manusia",
 penulis: "Dhimas Purnomo, SH",
