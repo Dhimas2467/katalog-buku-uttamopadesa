@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "KAWRUH URIP SEJATI",
+subjudul: "Dalam Perspektif Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "urip-sejati.html",
+sampul: "sampul-urip-sejati.jpg",
+abstraksi: `Kawruh Urip Sejati dalam Perspektif Uttamopadesa merupakan pemaparan mengenai hakikat kehidupan manusia, kualitas keberadaan, kedewasaan pribadi, serta perwujudan nilai-nilai keutamaan dalam seluruh perjalanan kehidupan. Buku ini bertolak dari pemahaman bahwa hidup tidak cukup dimaknai sebagai keberadaan jasmani, berlangsungnya waktu, atau terpenuhinya kebutuhan lahiriah. Kehidupan memiliki kedalaman makna yang berkaitan dengan kesadaran manusia dalam memahami dirinya, menentukan pilihan, menjalankan tanggung jawab, membangun hubungan, dan mewujudkan tindakan yang bernilai.
+
+Urip Sejati dalam buku ini dipahami sebagai kehidupan yang benar-benar dihidupi melalui keterpaduan pemahaman, kesadaran, sikap, dan laku. Manusia tidak hanya menjalani berbagai peristiwa, tetapi juga dituntut untuk memahami makna dari setiap pengalaman serta mempertanggungjawabkan tindakan yang dilakukannya. Dengan demikian, kualitas kehidupan tidak semata-mata ditentukan oleh keadaan yang dimiliki seseorang, melainkan oleh cara ia menyikapi dan menjalani kenyataan tersebut.
+
+Pemaparan disusun dalam enam belas bab yang saling berhubungan. Pembahasan diawali dengan makna Urip Sejati dan hakikat kehidupan manusia, kemudian berkembang menuju pemahaman tentang kualitas kehidupan, pengenalan diri, kebebasan menentukan pilihan, serta hubungan antara kehidupan dan perilaku. Selanjutnya, pembahasan mencakup kehidupan antar manusia, kehidupan keluarga, kehidupan sosial dan kemasyarakatan, pekerjaan dan penghidupan, serta berbagai kenyataan yang harus dihadapi manusia, termasuk kesulitan, penderitaan, kehilangan, dan kegagalan.
+
+Pembahasan berikutnya diarahkan pada kebahagiaan dan ketenteraman hidup, pemahaman terhadap waktu dan keterbatasan kehidupan, serta kebijaksanaan dalam menjalani berbagai keadaan. Seluruh uraian tersebut kemudian dipadukan dalam pembahasan mengenai perwujudan Urip Sejati dan penegasan tentang keutuhan serta kemuliaan kehidupan.
+
+Dalam perspektif Kawruh Uttamopadesa, kualitas kehidupan berkaitan erat dengan keterpaduan Cipta, Rasa, dan Karsa. Weninging Cipta memberikan dasar bagi kejernihan pemahaman. Tulusing Rasa membentuk ketulusan dalam menyikapi diri sendiri dan sesama. Utamaning Karsa mengarahkan kehendak kepada tindakan yang utama dan bertanggung jawab. Ketiganya merupakan unsur penting dalam pembentukan kualitas pribadi yang tidak hanya memahami nilai kehidupan, tetapi juga mampu mewujudkannya dalam kenyataan.
+
+Buku ini menegaskan bahwa kedewasaan manusia tidak semata-mata ditentukan oleh usia, pengetahuan, kekayaan, ataupun kedudukan. Kedewasaan terlihat melalui kemampuan memahami kenyataan, mengendalikan kepentingan pribadi, mengakui kekurangan, belajar dari pengalaman, serta mempertimbangkan akibat dari setiap tindakan. Keutamaan manusia juga tidak cukup dinyatakan melalui pemahaman atau perkataan, tetapi harus tampak dalam perilaku sehari-hari.
+
+Pada akhirnya, Urip Sejati merupakan kehidupan yang dijalani dengan kesadaran, ketulusan, tanggung jawab, dan keutamaan. Kehidupan yang demikian tidak hanya memberikan nilai bagi pribadi, tetapi juga menghadirkan manfaat bagi keluarga, masyarakat, dan sesama. Kemuliaan kehidupan terletak pada keterpaduan keberadaan, kesadaran, dan laku yang terus diwujudkan sepanjang perjalanan manusia.`,
+pdf: "https://drive.google.com/file/d/1YLMGrpe-WBLitgdePbrALMUZCaUq4rOQ/view?usp=drivesdk"
+},
+ {
 judul: "MEMAHAMI KAWRUH UTTAMOPADESA",
 subjudul: "Aksioma Dasar",
 penulis: "Dhimas Purnomo, SH",
