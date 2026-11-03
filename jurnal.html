@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -12,239 +13,282 @@
 
 <style>
 :root {
-  --hijau:#20372d;
-  --emas:#d8bd82;
-  --kertas:#f6f4ed;
-  --putih:#fffefa;
-  --teks:#26342c;
-  --abu:#68736c;
-  --garis:#e2dfd4;
+  --hijau: #20372d;
+  --emas: #d8bd82;
+  --kertas: #f6f4ed;
+  --putih: #fffefa;
+  --teks: #26342c;
+  --abu: #68736c;
+  --garis: #e2dfd4;
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin:0;
-  font-family:Arial,Helvetica,sans-serif;
-  background:var(--kertas);
-  color:var(--teks);
-  line-height:1.7;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--kertas);
+  color: var(--teks);
+  line-height: 1.7;
 }
+
+/* HEADER */
 
 .hero {
   background:
-    radial-gradient(ellipse at top,#d8bd8225,transparent 55%),
+    radial-gradient(ellipse at top, #d8bd8225, transparent 55%),
     var(--hijau);
-  color:white;
-  text-align:center;
-  padding:40px 20px;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .ornamen {
-  color:var(--emas);
-  font-size:32px;
+  color: var(--emas);
+  font-size: 32px;
 }
 
 .label {
-  color:#b89b60;
-  font-size:12px;
-  font-weight:bold;
-  letter-spacing:3px;
-  text-transform:uppercase;
+  color: #b89b60;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(32px,6vw,48px);
-  line-height:1.15;
-  margin:10px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(32px, 6vw, 48px);
+  line-height: 1.15;
+  margin: 10px 0;
 }
 
 h1 span {
-  color:var(--emas);
+  color: var(--emas);
 }
 
 .penulis {
-  font-weight:bold;
+  font-weight: bold;
 }
 
+/* KONTEN */
+
 main {
-  max-width:1000px;
-  margin:auto;
-  padding:40px 20px 60px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px 60px;
 }
 
 .judul-bagian {
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:32px;
-  line-height:1.3;
-  margin:0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  line-height: 1.3;
+  margin: 0;
 }
 
 .keterangan {
-  color:var(--abu);
-  margin:8px 0 22px;
+  color: var(--abu);
+  margin: 8px 0 22px;
 }
 
+/* TOMBOL */
+
 .tombol {
-  display:inline-block;
-  padding:10px 15px;
-  border-radius:5px;
-  font-size:13px;
-  font-weight:bold;
-  text-decoration:none;
-  text-align:center;
-  border:0;
-  cursor:pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  transition: .2s;
 }
 
 .tombol-hijau {
-  background:var(--hijau);
-  color:white;
+  background: var(--hijau);
+  color: white;
 }
 
 .tombol-garis {
-  background:transparent;
-  border:1px solid var(--garis);
-  color:var(--hijau);
+  background: transparent;
+  border: 1px solid var(--garis);
+  color: var(--hijau);
 }
 
 .tombol:hover {
-  filter:brightness(.92);
+  filter: brightness(.9);
+  transform: translateY(-1px);
 }
 
 .menu {
-  margin-bottom:28px;
+  margin-bottom: 28px;
 }
 
+/* DAFTAR JURNAL */
+
 .daftar-jurnal {
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .jurnal {
-  background:var(--putih);
-  border:1px solid var(--garis);
-  border-radius:9px;
-  padding:22px;
-  display:flex;
-  flex-direction:column;
-  min-width:0;
+  background: var(--putih);
+  border: 1px solid var(--garis);
+  border-radius: 9px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  box-shadow: 0 3px 12px #20372d08;
+  transition: .2s;
+}
+
+.jurnal:hover {
+  box-shadow: 0 6px 18px #20372d15;
+  transform: translateY(-2px);
 }
 
 .nomor {
-  color:#94763c;
-  font-size:11px;
-  font-weight:bold;
-  letter-spacing:1.5px;
-  text-transform:uppercase;
+  color: #94763c;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .judul-jurnal {
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:22px;
-  line-height:1.35;
-  margin:8px 0;
-  overflow-wrap:anywhere;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 8px 0;
+  overflow-wrap: anywhere;
 }
 
 .identitas {
-  color:var(--abu);
-  font-size:12px;
-  margin-bottom:12px;
+  color: var(--abu);
+  font-size: 12px;
+  margin-bottom: 12px;
 }
 
 .abstrak {
-  color:var(--abu);
-  font-size:14px;
-  text-align:justify;
-  margin:0 0 20px;
-  overflow-wrap:anywhere;
+  color: var(--abu);
+  font-size: 14px;
+  text-align: justify;
+  margin: 0 0 20px;
+  overflow-wrap: anywhere;
 }
 
 .aksi {
-  display:flex;
-  flex-wrap:wrap;
-  gap:9px;
-  margin-top:auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: auto;
+}
+
+/* INFORMASI ARSIP */
+
+.jumlah {
+  color: var(--abu);
+  font-size: 13px;
+  margin: 0 0 18px;
 }
 
 .kosong {
-  background:var(--putih);
-  border:1px solid var(--garis);
-  border-radius:8px;
-  padding:35px 20px;
-  text-align:center;
-  color:var(--abu);
+  background: var(--putih);
+  border: 1px solid var(--garis);
+  border-radius: 8px;
+  padding: 35px 20px;
+  text-align: center;
+  color: var(--abu);
 }
 
-.jumlah {
-  color:var(--abu);
-  font-size:13px;
-  margin:0 0 18px;
+.kosong strong {
+  color: var(--hijau);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
 }
+
+/* FOOTER */
 
 footer {
-  background:var(--hijau);
-  color:white;
-  text-align:center;
-  padding:28px 15px;
-  font-size:13px;
+  background: var(--hijau);
+  color: white;
+  text-align: center;
+  padding: 28px 15px;
+  font-size: 13px;
 }
 
 footer strong {
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:19px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
 }
 
 footer p {
-  margin:8px 0;
+  margin: 8px 0;
 }
 
-@media(max-width:650px) {
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+
   .hero {
-    padding:28px 16px;
+    padding: 28px 16px;
   }
 
   main {
-    padding:30px 14px 45px;
+    padding: 30px 14px 45px;
   }
 
   .judul-bagian {
-    font-size:28px;
+    font-size: 28px;
   }
 
   .daftar-jurnal {
-    grid-template-columns:1fr;
-    gap:15px;
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .jurnal {
-    padding:18px;
+    padding: 18px;
   }
 
   .judul-jurnal {
-    font-size:19px;
+    font-size: 19px;
   }
+
 }
 </style>
 </head>
 
 <body>
 
+<!-- HEADER -->
+
 <header class="hero">
+
   <div class="ornamen">✧</div>
+
   <div class="label">Pustaka Digital</div>
 
-  <h1>Arsip Jurnal<br>
+  <h1>
+    Arsip Jurnal<br>
     <span>Uttamopadesa</span>
   </h1>
 
   <p class="penulis">Karya Dhimas Purnomo, SH</p>
+
 </header>
+
+<!-- KONTEN UTAMA -->
 
 <main>
 
@@ -261,9 +305,11 @@ footer p {
     </p>
 
     <div class="menu">
+
       <a href="./index.html" class="tombol tombol-hijau">
         ← Kembali ke Katalog Buku
       </a>
+
     </div>
 
     <p class="jumlah" id="jumlah"></p>
@@ -271,69 +317,91 @@ footer p {
     <div class="daftar-jurnal" id="daftarJurnal"></div>
 
     <div class="kosong" id="kosong" hidden>
+
       <strong>Arsip Jurnal Belum Tersedia</strong>
+
       <p>
         Koleksi jurnal akan ditampilkan di halaman ini
         setelah data dan dokumen jurnal ditambahkan.
       </p>
+
     </div>
 
   </section>
 
 </main>
 
+<!-- FOOTER -->
+
 <footer>
+
   <strong>Wedharan Kawruh Uttamopadesa</strong>
+
   <p>Arsip Jurnal Digital Uttamopadesa</p>
+
   <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
+
 </footer>
+
+<!-- DATA DAN SCRIPT JURNAL -->
 
 <script>
 
 /*
-FORMAT DATA JURNAL:
+==================================================
+DATA JURNAL UTTAMOPADESA
 
-{
-  nomor: "JURNAL VOL. 1 NO. 1",
-  tahun: "2026",
-  judul: "Judul Jurnal",
-  penulis: "Dhimas Purnomo, SH",
-  abstrak: "Uraian abstraksi jurnal...",
-  pdf: "./jurnal/nama-file.pdf"
-}
+Untuk menambahkan jurnal baru,
+salin format objek jurnal di bawah.
 
-Tambahkan jurnal baru sebagai objek berikutnya.
+Setiap jurnal mempunyai:
+- nomor
+- tahun
+- judul
+- penulis
+- abstrak
+- pdf
+
+==================================================
 */
 
 const dataJurnal = [
 
   {
-nomor: "JURNAL VOL. 1 NO. 1",
-tahun: "November 2026",
-judul: "SIH ILAHI DAN CAKRANING LAMPAH ILAHI DALAM PEMIKIRAN
-UTTAMOPADESA",
-penulis: "Dhimas Purnomo, SH",
-abstrak: "Pemaparan Landasan Kawruh Kasunyatan tentang Asal, Tujuan, dan Keutamaan
-Kehidupan Manusia.",
-pdf: "https://drive.google.com/file/d/19aC3GBNYt-itvOm3dq6aAdsU4eeF2qVD/view?usp=drivesdk"
-}
-];
+    nomor: "JURNAL VOL. 1 NO. 1",
+    tahun: "November 2026",
+    judul: "SIH ILAHI DAN CAKRANING LAMPAH ILAHI DALAM PEMIKIRAN UTTAMOPADESA",
+    penulis: "Dhimas Purnomo, SH",
+    abstrak: "Pemaparan Landasan Kawruh Kasunyatan tentang Asal, Tujuan, dan Keutamaan Kehidupan Manusia.",
+    pdf: "https://drive.google.com/file/d/19aC3GBNYt-itvOm3dq6aAdsU4eeF2qVD/view?usp=drivesdk"
+  }
 
 ];
+
+
+/* ELEMEN HALAMAN */
 
 const daftar = document.getElementById("daftarJurnal");
 const jumlah = document.getElementById("jumlah");
 const kosong = document.getElementById("kosong");
 
+
+/* PENGAMAN TEKS HTML */
+
 function aman(teks) {
+
   return String(teks || "").replace(/[&<>"']/g, karakter => ({
-    "&":"&amp;",
-    "<":"&lt;",
-    ">":"&gt;",
-    '"':"&quot;",
-    "'":"&#39;"
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
   })[karakter]);
+
 }
+
+
+/* TAMPILKAN DAFTAR JURNAL */
 
 function tampilkanJurnal() {
 
@@ -346,6 +414,19 @@ function tampilkanJurnal() {
   kosong.hidden = data.length !== 0;
 
   daftar.innerHTML = data.map(item => {
+
+    const tombolPDF = item.pdf
+      ? `
+        <a
+          class="tombol tombol-hijau"
+          href="${aman(item.pdf)}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Baca Jurnal ↗
+        </a>
+      `
+      : "";
 
     return `
       <article class="jurnal">
@@ -369,18 +450,7 @@ function tampilkanJurnal() {
         </p>
 
         <div class="aksi">
-
-          ${item.pdf ? `
-            <a
-              class="tombol tombol-hijau"
-              href="${aman(item.pdf)}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Baca Jurnal ↗
-            </a>
-          ` : ""}
-
+          ${tombolPDF}
         </div>
 
       </article>
@@ -389,6 +459,9 @@ function tampilkanJurnal() {
   }).join("");
 
 }
+
+
+/* JALANKAN */
 
 tampilkanJurnal();
 
