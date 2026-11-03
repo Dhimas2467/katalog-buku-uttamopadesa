@@ -1,5 +1,30 @@
 const daftarArtikel = [
  {
+judul: "MEMAHAMI KAWRUH UTTAMOPADESA",
+subjudul: "Aksioma Dasar",
+penulis: "Dhimas Purnomo, SH",
+halaman: "aksioma-dasar.html",
+sampul: "sampul-aksioma-dasar.jpg",
+abstraksi: `Buku Memahami Kawruh Uttamopadesa — Delapan Aksioma Dasar merupakan pemaparan mengenai landasan pemikiran yang membentuk bangunan Kawruh Uttamopadesa. Buku ini disusun untuk memberikan pemahaman mendasar mengenai delapan aksioma yang menjadi titik pangkal dalam menguraikan hubungan antara asal keberadaan, berlangsungnya panguripan, kebenaran hakiki, sumber pepadhang, kemampuan batin manusia, hasil pemahaman, dan perwujudan pemahaman dalam kehidupan. Delapan aksioma tersebut terdiri atas Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, Jatining Panguripan, Kawruh Sejati, Cipta-Rasa-Karsa, Kawruh Kasunyatan, dan keselarasan hidup.
+
+Pemaparan diawali dengan penjelasan mengenai kedudukan aksioma dalam bangunan Kawruh Uttamopadesa. Aksioma tidak ditempatkan sebagai pernyataan yang terpisah, melainkan sebagai landasan yang saling berhubungan dan membentuk satu kesatuan pemahaman. Melalui susunan tersebut, pembaca diajak mengenali bahwa kehidupan manusia tidak dapat dipahami hanya dari keberadaan dirinya, tetapi juga perlu ditempatkan dalam hubungan dengan asal dan tatanan panguripan yang melingkupinya.
+
+Sang Sumber Panguripan dipaparkan sebagai asal seluruh keberadaan. Pemahaman mengenai asal keberadaan tersebut dilanjutkan melalui Prabhawaning Panguripan, yaitu pemaparan mengenai daya dan tatanan yang berkaitan dengan berlangsungnya panguripan. Selanjutnya, Kasunyatan Hakiki ditempatkan sebagai kebenaran yang tidak bergantung pada pemahaman, pengakuan, penilaian, ataupun kehendak manusia. Dengan demikian, pemahaman manusia tidak menciptakan kebenaran, melainkan berusaha mengenali dan menempatkan diri terhadap kenyataan yang telah ada.
+
+Pembahasan mengenai Jatining Panguripan menguraikan kedudukannya sebagai Guru Sejati dan sumber pepadhang bagi manusia. Pepadhang tersebut berkaitan dengan Kawruh Sejati, yang dipahami bukan sebagai kumpulan konsep, organisasi, ataupun teori, melainkan sebagai penerang bagi pemahaman manusia mengenai panguripan. Pembedaan antara Jatining Panguripan dan Kawruh Sejati menjadi penting agar sumber pepadhang tidak disamakan dengan pepadhang yang disampaikan.
+
+Dalam menerima dan mengolah pepadhang, manusia memiliki Cipta, Rasa, dan Karsa. Cipta merupakan kemampuan memahami, menimbang, dan mengolah pengetahuan. Rasa merupakan kepekaan dalam mengalami serta memahami kehidupan. Karsa merupakan daya kehendak yang mendorong manusia menentukan dan menjalankan tindakan. Keterpaduan ketiganya menjadi dasar bagi tumbuhnya kejernihan pemahaman, ketulusan rasa, dan keutamaan kehendak. Melalui proses tersebut, manusia dapat mengembangkan Kawruh Kasunyatan, yaitu pemahaman yang tumbuh dari kejernihan batin dan kesesuaiannya dengan Tatananing Panguripan.
+
+Buku ini juga menegaskan perbedaan antara Kasunyatan Hakiki, Kawruh Sejati, dan Kawruh Kasunyatan. Kasunyatan Hakiki merupakan kebenaran yang tidak bergantung pada manusia; Kawruh Sejati merupakan pepadhang; sedangkan Kawruh Kasunyatan merupakan hasil pemahaman manusia dalam menerima dan mengolah pepadhang. Pembedaan tersebut menjadi landasan untuk menghindari penyamaan antara kenyataan, sumber penerangan, dan kemampuan manusia dalam memahami kenyataan.
+
+Pada bagian selanjutnya, pembahasan diarahkan kepada laku sebagai perwujudan pemahaman dalam kehidupan nyata. Kawruh tidak cukup berhenti sebagai pengetahuan atau pemahaman yang tersimpan dalam pikiran. Pemahaman perlu diterjemahkan ke dalam sikap, keputusan, hubungan antar manusia, serta tindakan yang bertanggung jawab. Keselarasan hidup menjadi arah yang diwujudkan melalui keterpaduan antara pemahaman dan tindakan, bukan sekadar cita-cita yang dinyatakan tanpa pelaksanaan.
+
+Keseluruhan buku memperlihatkan bahwa delapan aksioma membentuk satu rangkaian pemahaman yang saling melengkapi. Hubungan antara asal keberadaan, berlangsungnya panguripan, kebenaran hakiki, sumber pepadhang, kemampuan batin manusia, pemahaman, dan laku menjadi dasar untuk mengenali kedudukan manusia dalam kehidupan. Kawruh Uttamopadesa dalam hal ini merupakan bangunan pemaparan yang disusun oleh Dhimas Purnomo, SH, untuk menguraikan hubungan tersebut secara sistematis.
+
+Dengan demikian, buku ini berfungsi sebagai landasan pengenalan dan pemahaman terhadap keseluruhan bangunan Kawruh Uttamopadesa. Pokok akhirnya bukan sekadar penguasaan istilah atau pengetahuan mengenai delapan aksioma, melainkan tumbuhnya kesadaran untuk memahami panguripan, menempatkan diri secara tepat, serta mewujudkan pemahaman melalui laku kehidupan yang diterangi Kawruh Sejati.`,
+pdf: "https://drive.google.com/file/d/12I_ABYTmrXtXJOWk7eyTNzqfvW3R6UxA/view?usp=drivesdk"
+},
+ {
 judul: "NAWA BRATA KABAGYAN UTTAMOPADESA",
 subjudul: "Sembilan Laku Kebajikan Menuju Kebahagiaan Sejati",
 penulis: "Dhimas Purnomo, SH",
