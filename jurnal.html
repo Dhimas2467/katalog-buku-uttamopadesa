@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Arsip Jurnal Uttamopadesa | Dhimas Purnomo, SH</title>
+
+<meta name="description" content="Arsip Jurnal Uttamopadesa, kumpulan tulisan dan pemaparan Kawruh Uttamopadesa karya Dhimas Purnomo, SH.">
+<meta name="author" content="Dhimas Purnomo, SH">
+<meta name="theme-color" content="#20372d">
+
+<style>
+:root {
+  --hijau:#20372d;
+  --emas:#d8bd82;
+  --kertas:#f6f4ed;
+  --putih:#fffefa;
+  --teks:#26342c;
+  --abu:#68736c;
+  --garis:#e2dfd4;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:var(--kertas);
+  color:var(--teks);
+  line-height:1.7;
+}
+
+.hero {
+  background:
+    radial-gradient(ellipse at top,#d8bd8225,transparent 55%),
+    var(--hijau);
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+}
+
+.ornamen {
+  color:var(--emas);
+  font-size:32px;
+}
+
+.label {
+  color:#b89b60;
+  font-size:12px;
+  font-weight:bold;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+h1 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(32px,6vw,48px);
+  line-height:1.15;
+  margin:10px 0;
+}
+
+h1 span {
+  color:var(--emas);
+}
+
+.penulis {
+  font-weight:bold;
+}
+
+main {
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px 60px;
+}
+
+.judul-bagian {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:32px;
+  line-height:1.3;
+  margin:0;
+}
+
+.keterangan {
+  color:var(--abu);
+  margin:8px 0 22px;
+}
+
+.tombol {
+  display:inline-block;
+  padding:10px 15px;
+  border-radius:5px;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+  text-align:center;
+  border:0;
+  cursor:pointer;
+}
+
+.tombol-hijau {
+  background:var(--hijau);
+  color:white;
+}
+
+.tombol-garis {
+  background:transparent;
+  border:1px solid var(--garis);
+  color:var(--hijau);
+}
+
+.tombol:hover {
+  filter:brightness(.92);
+}
+
+.menu {
+  margin-bottom:28px;
+}
+
+.daftar-jurnal {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+
+.jurnal {
+  background:var(--putih);
+  border:1px solid var(--garis);
+  border-radius:9px;
+  padding:22px;
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+.nomor {
+  color:#94763c;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.judul-jurnal {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:22px;
+  line-height:1.35;
+  margin:8px 0;
+  overflow-wrap:anywhere;
+}
+
+.identitas {
+  color:var(--abu);
+  font-size:12px;
+  margin-bottom:12px;
+}
+
+.abstrak {
+  color:var(--abu);
+  font-size:14px;
+  text-align:justify;
+  margin:0 0 20px;
+  overflow-wrap:anywhere;
+}
+
+.aksi {
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  margin-top:auto;
+}
+
+.kosong {
+  background:var(--putih);
+  border:1px solid var(--garis);
+  border-radius:8px;
+  padding:35px 20px;
+  text-align:center;
+  color:var(--abu);
+}
+
+.jumlah {
+  color:var(--abu);
+  font-size:13px;
+  margin:0 0 18px;
+}
+
+footer {
+  background:var(--hijau);
+  color:white;
+  text-align:center;
+  padding:28px 15px;
+  font-size:13px;
+}
+
+footer strong {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:19px;
+}
+
+footer p {
+  margin:8px 0;
+}
+
+@media(max-width:650px) {
+  .hero {
+    padding:28px 16px;
+  }
+
+  main {
+    padding:30px 14px 45px;
+  }
+
+  .judul-bagian {
+    font-size:28px;
+  }
+
+  .daftar-jurnal {
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .jurnal {
+    padding:18px;
+  }
+
+  .judul-jurnal {
+    font-size:19px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="ornamen">✧</div>
+  <div class="label">Pustaka Digital</div>
+
+  <h1>Arsip Jurnal<br>
+    <span>Uttamopadesa</span>
+  </h1>
+
+  <p class="penulis">Karya Dhimas Purnomo, SH</p>
+</header>
+
+<main>
+
+  <section>
+
+    <div class="label">Dokumentasi Pemikiran</div>
+
+    <h2 class="judul-bagian">Koleksi Jurnal</h2>
+
+    <p class="keterangan">
+      Arsip jurnal dan pemaparan tertulis mengenai
+      Kawruh Uttamopadesa, Kawruh Sejati,
+      serta pengembangan Kawruh Kasunyatan.
+    </p>
+
+    <div class="menu">
+      <a href="./index.html" class="tombol tombol-hijau">
+        ← Kembali ke Katalog Buku
+      </a>
+    </div>
+
+    <p class="jumlah" id="jumlah"></p>
+
+    <div class="daftar-jurnal" id="daftarJurnal"></div>
+
+    <div class="kosong" id="kosong" hidden>
+      <strong>Arsip Jurnal Belum Tersedia</strong>
+      <p>
+        Koleksi jurnal akan ditampilkan di halaman ini
+        setelah data dan dokumen jurnal ditambahkan.
+      </p>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <strong>Wedharan Kawruh Uttamopadesa</strong>
+  <p>Arsip Jurnal Digital Uttamopadesa</p>
+  <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
+</footer>
+
+<script>
+
+/*
+FORMAT DATA JURNAL:
+
+{
+  nomor: "JURNAL VOL. 1 NO. 1",
+  tahun: "2026",
+  judul: "Judul Jurnal",
+  penulis: "Dhimas Purnomo, SH",
+  abstrak: "Uraian abstraksi jurnal...",
+  pdf: "./jurnal/nama-file.pdf"
+}
+
+Tambahkan jurnal baru sebagai objek berikutnya.
+*/
+
+const dataJurnal = [
+
+  // Tambahkan data jurnal di sini.
+
+];
+
+const daftar = document.getElementById("daftarJurnal");
+const jumlah = document.getElementById("jumlah");
+const kosong = document.getElementById("kosong");
+
+function aman(teks) {
+  return String(teks || "").replace(/[&<>"']/g, karakter => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
+  })[karakter]);
+}
+
+function tampilkanJurnal() {
+
+  const data = dataJurnal.filter(item =>
+    item && item.judul
+  );
+
+  jumlah.textContent = data.length + " jurnal tersedia";
+
+  kosong.hidden = data.length !== 0;
+
+  daftar.innerHTML = data.map(item => {
+
+    return `
+      <article class="jurnal">
+
+        <div class="nomor">
+          ${aman(item.nomor || "Jurnal Uttamopadesa")}
+        </div>
+
+        <h3 class="judul-jurnal">
+          ${aman(item.judul)}
+        </h3>
+
+        <div class="identitas">
+          ${aman(item.tahun || "Tahun terbit tidak dicantumkan")}
+          ·
+          ${aman(item.penulis || "Dhimas Purnomo, SH")}
+        </div>
+
+        <p class="abstrak">
+          ${aman(item.abstrak || "Abstraksi belum tersedia.")}
+        </p>
+
+        <div class="aksi">
+
+          ${item.pdf ? `
+            <a
+              class="tombol tombol-hijau"
+              href="${aman(item.pdf)}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Baca Jurnal ↗
+            </a>
+          ` : ""}
+
+        </div>
+
+      </article>
+    `;
+
+  }).join("");
+
+}
+
+tampilkanJurnal();
+
+</script>
+
+</body>
+</html>
