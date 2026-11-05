@@ -235,6 +235,43 @@ footer p {
   margin: 8px 0;
 }
 
+/* BACK TO TOP */
+
+#backToTop {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--emas);
+  border-radius: 50%;
+  background: var(--hijau);
+  color: var(--emas);
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #00000025;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: .3s;
+  z-index: 999;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#backToTop:hover {
+  background: var(--emas);
+  color: var(--hijau);
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 650px) {
@@ -264,7 +301,15 @@ footer p {
     font-size: 19px;
   }
 
+  #backToTop {
+    right: 15px;
+    bottom: 18px;
+    width: 43px;
+    height: 43px;
+  }
+
 }
+
 </style>
 </head>
 
@@ -342,6 +387,16 @@ footer p {
 
 </footer>
 
+<!-- BACK TO TOP -->
+
+<button
+  id="backToTop"
+  aria-label="Kembali ke atas"
+  title="Kembali ke atas"
+  type="button">
+  ↑
+</button>
+
 <!-- DATA DAN SCRIPT JURNAL -->
 
 <script>
@@ -374,14 +429,15 @@ const dataJurnal = [
     abstrak: "Pemaparan Landasan Kawruh Kasunyatan tentang Asal, Tujuan, dan Keutamaan Kehidupan Manusia.",
     pdf: "https://drive.google.com/file/d/19aC3GBNYt-itvOm3dq6aAdsU4eeF2qVD/view?usp=drivesdk"
   },
+
   {
-nomor: "JURNAL VOL. 1 NO. 2",
-tahun: "Novenber 2026",
-judul: "NAWA PRASANTI BATIN",
-penulis: "Dhimas Purnomo, SH",
-abstrak: "Nawa Prasanti Batin merupakan sembilan pedoman dalam Kawruh Uttamopadesa yang memaparkan upaya manusia membangun ketenteraman batin melalui kejernihan cipta, ketulusan rasa, dan keluhuran kehendak..",
-pdf: "https://drive.google.com/file/d/1lYdqYB1mWoOp6-_yCGTVB-05TH46mEXN/view?usp=drivesdk"
-}
+    nomor: "JURNAL VOL. 1 NO. 2",
+    tahun: "November 2026",
+    judul: "NAWA PRASANTI BATIN",
+    penulis: "Dhimas Purnomo, SH",
+    abstrak: "Nawa Prasanti Batin merupakan sembilan pedoman dalam Kawruh Uttamopadesa yang memaparkan upaya manusia membangun ketenteraman batin melalui kejernihan cipta, ketulusan rasa, dan keluhuran kehendak.",
+    pdf: "https://drive.google.com/file/d/1lYdqYB1mWoOp6-_yCGTVB-05TH46mEXN/view?usp=drivesdk"
+  }
 
 ];
 
@@ -391,6 +447,7 @@ pdf: "https://drive.google.com/file/d/1lYdqYB1mWoOp6-_yCGTVB-05TH46mEXN/view?usp
 const daftar = document.getElementById("daftarJurnal");
 const jumlah = document.getElementById("jumlah");
 const kosong = document.getElementById("kosong");
+const backToTop = document.getElementById("backToTop");
 
 
 /* PENGAMAN TEKS HTML */
@@ -428,8 +485,7 @@ function tampilkanJurnal() {
           class="tombol tombol-hijau"
           href="${aman(item.pdf)}"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Baca Jurnal ↗
         </a>
       `
@@ -466,6 +522,29 @@ function tampilkanJurnal() {
   }).join("");
 
 }
+
+
+/* BACK TO TOP */
+
+window.addEventListener("scroll", function() {
+
+  if (window.scrollY > 300) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+
+}, { passive: true });
+
+
+backToTop.addEventListener("click", function() {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+});
 
 
 /* JALANKAN */
