@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA TATARANING PANGURIPAN JANMA",
+subjudul: "Dalam Perspektif Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "tataraning-panguripan.html",
+sampul: "sampul-tataraning-panguripan.jpg",
+abstraksi: `Nawa Tataraning Panguripan Janma dalam Perspektif Uttamopadesa merupakan pemaparan mengenai sembilan dimensi kehidupan manusia yang saling berkaitan dalam membentuk keutuhan panguripan janma. Buku ini disusun untuk memberikan pemahaman menyeluruh mengenai keberadaan manusia, hubungan berbagai dimensi kehidupannya, perkembangan kesadaran, serta perwujudan pemahaman melalui laku kehidupan. Pembahasannya berlandaskan perspektif Uttamopadesa yang memandang kehidupan manusia sebagai bagian dari Tatananing Panguripan dan mempunyai hubungan dengan Sang Sumber Panguripan.
+
+Sembilan tataran yang dibahas meliputi Tataran Raga, Tataran Daya Panguripan, Tataran Budi, Tataran Jati Dhiri, Tataran Kawicaksanan Batin, Tataran Kaweningan, Tataran Kasalarasan, Tataran Kawruh Kasunyatan, dan Tataran Kasunyatan Langgeng. Kesembilan tataran tersebut mempunyai fungsi dan pengertian yang berbeda, tetapi tidak berdiri sendiri. Hubungan antartataran menunjukkan bahwa kehidupan manusia mencakup keberadaan jasmani, daya kehidupan, kemampuan memahami dan menghayati, pengenalan diri, kebijaksanaan batin, kejernihan kesadaran, hubungan dengan lingkungan kehidupan, serta pemahaman terhadap kenyataan.
+
+Buku ini menegaskan bahwa Nawa Tataraning Panguripan Janma bukan susunan tingkatan derajat manusia maupun tahapan pencapaian yang harus dilalui secara kaku. Kesembilan tataran merupakan dimensi kehidupan yang dapat berkembang dengan keadaan dan proses yang berbeda pada setiap manusia. Pemahaman tersebut menghindarkan penggunaan kerangka ini sebagai ukuran untuk membandingkan atau menempatkan seseorang lebih tinggi daripada orang lain.
+
+Dalam pembahasannya, Tataran Budi menjadi bagian penting karena mencakup keterpaduan Cipta, Rasa, dan Karsa. Perkembangan kualitas Budi diwujudkan melalui Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Sementara itu, Kawicaksanan Batin dan Kaweningan mendukung kejernihan pertimbangan serta pengenalan terhadap keadaan batin. Kasalarasan memperlihatkan hubungan manusia dengan dirinya, sesama, alam, dan Tatananing Panguripan.
+
+Buku ini juga membedakan Kawruh Sejati dan Kawruh Kasunyatan. Kawruh Sejati merupakan pepadhang yang bersumber dari Sang Sumber Panguripan melalui Kawruhanta Acarya, sedangkan Kawruh Kasunyatan merupakan pemahaman manusia mengenai kenyataan yang berkembang melalui kejernihan Cipta, Rasa, dan Karsa serta pengujian dalam kehidupan. Perkembangan kesadaran dibahas melalui Nawa Prabodha, sedangkan Samadhi dipahami sebagai kesadaran hening, jernih, dan terpusat.
+
+Pemaparan disusun dalam enam belas bab yang mencakup landasan pemahaman, uraian sembilan tataran, keterpaduan keseluruhan tataran, perkembangan kesadaran dan laku, serta penerapannya dalam kehidupan pribadi, keluarga, hubungan antar manusia, masyarakat, dan alam.
+
+Tujuan utama buku ini adalah memberikan kerangka pemahaman agar manusia dapat mengenali keberadaannya secara lebih utuh, memahami keterbatasan dirinya, mengembangkan kejernihan kesadaran, dan menjalankan tanggung jawab kehidupan. Dengan demikian, Nawa Tataraning Panguripan Janma tidak berhenti sebagai uraian pengetahuan, tetapi menjadi dasar pengenalan dan pemahaman yang diwujudkan melalui laku kehidupan sehari-hari.`,
+pdf: "https://drive.google.com/file/d/1cB5gPvG8Y2ASkLTwiVYa6iZ9-RYH6uo5/view?usp=drivesdk"
+},
+ {
 judul: "KAWRUH URIP SEJATI",
 subjudul: "Dalam Perspektif Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
