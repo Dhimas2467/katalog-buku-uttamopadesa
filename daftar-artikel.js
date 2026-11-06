@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "ESENSI SPIRITUALITAS DALAM KAWRUH UTTAMOPADESA",
+subjudul: "Pemaparan Tentang Hakikat Spiritualitas",
+penulis: "Dhimas Purnomo, SH",
+halaman: "esensi-spiritualitas.html",
+sampul: "sampul-spiritualitas.jpg",
+abstraksi: `Esensi Spiritualitas dalam Kawruh Uttamopadesa merupakan pemaparan mengenai hakikat spiritualitas sebagai kesadaran manusia dalam memahami keberadaan, mengenali kenyataan kehidupan, dan mewujudkan pemahaman tersebut melalui perilaku yang utama. Buku ini disusun berdasarkan pemikiran bahwa spiritualitas tidak cukup dimaknai sebagai pengalaman batin, kegiatan perenungan, atau hubungan manusia dengan sesuatu yang dianggap melampaui dirinya. Spiritualitas juga harus memiliki keterkaitan nyata dengan cara manusia berpikir, merasakan, menghendaki, mengambil keputusan, serta menjalani kehidupan bersama sesama dan lingkungannya.
+
+Pemaparan dalam buku ini berangkat dari rangkaian pemahaman Kawruh Uttamopadesa mengenai Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, Jatining Panguripan, Kawruh Sejati, dan Kawruh Kasunyatan. Rangkaian tersebut menjadi dasar untuk memahami bahwa keberadaan manusia berada dalam tatanan panguripan yang memiliki asal dan kenyataan hakiki. Manusia tidak hanya perlu mengenali keberadaan ragawinya, tetapi juga memahami hakikat diri, kedudukan kesadaran, dan tanggung jawabnya dalam menjalani kehidupan.
+
+Pembahasan selanjutnya menempatkan Kawruh Sejati sebagai pepadhang kehidupan dan Kawruh Kasunyatan sebagai pemahaman manusia terhadap kenyataan yang diperoleh melalui kejernihan batin serta pengenalan terhadap tatanan kehidupan. Keduanya memberikan arah bagi perkembangan kesadaran agar manusia tidak berhenti pada penerimaan informasi atau penguasaan pengetahuan, tetapi mampu memahami makna yang terkandung di dalam kenyataan dan mewujudkannya dalam laku.
+
+Unsur Cipta, Rasa, dan Karsa menjadi bagian pokok dalam pemaparan spiritualitas. Cipta berhubungan dengan kemampuan memahami dan membentuk pertimbangan. Rasa berkaitan dengan kepekaan batin dalam menyikapi keberadaan dan kehidupan. Karsa berhubungan dengan kehendak yang mengarahkan tindakan. Keterpaduan ketiganya menjadi landasan perkembangan Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Melalui ketiganya, spiritualitas memperoleh bentuk nyata dalam kejernihan pemikiran, ketulusan sikap, dan keutamaan tindakan.
+
+Buku ini juga membahas Samadhi, meditasi, dan Prabodha sebagai bagian dari proses pendewasaan kesadaran. Samadhi dipahami sebagai keadaan kesadaran yang hening, jernih, dan terpusat, sedangkan meditasi dipaparkan sebagai proses yang memiliki tahapan pengenalan dan pendalaman diri. Prabodha ditempatkan sebagai perkembangan kejernihan kesadaran dan pemahaman yang mengarah pada keutamaan Cipta, Rasa, dan Karsa. Pembahasan tersebut tidak diarahkan pada pencarian kemampuan gaib, melainkan pada pengembangan kualitas batin dan pemahaman manusia.
+
+Pada bagian berikutnya, spiritualitas dihubungkan dengan kehidupan sosial. Kesadaran spiritual perlu tercermin dalam hubungan antarmanusia, sikap bertanggung jawab, kemampuan menghargai perbedaan, pengendalian diri, serta kesediaan bertindak berdasarkan pertimbangan yang jernih dan tulus. Dengan demikian, spiritualitas tidak terpisah dari persoalan kehidupan nyata, tetapi menjadi landasan dalam membangun hubungan yang lebih baik dan menjalankan tanggung jawab kehidupan.
+
+Secara keseluruhan, buku ini menegaskan bahwa esensi spiritualitas terletak pada perkembangan pemahaman yang diwujudkan dalam laku kehidupan. Spiritualitas bukan sekadar sesuatu yang dipikirkan atau dirasakan, melainkan kesadaran yang mempengaruhi seluruh kualitas keberadaan manusia. Melalui keterpaduan Kawruh Sejati, Kawruh Kasunyatan, Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa, manusia diarahkan untuk menjalani kehidupan secara lebih sadar, matang, bertanggung jawab, dan utama.`,
+pdf: "https://drive.google.com/file/d/1s41fgb2Bg4kS-R1zokM6QVC7re_VpwTu/view?usp=drivesdk"
+},
+ {
 judul: "NAWA TATARANING PANGURIPAN JANMA",
 subjudul: "Dalam Perspektif Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
