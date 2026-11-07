@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA MALANING CIPTA DALAM KAWRUH UTTAMOPADESA",
+subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Cipta",
+penulis: "Dhimas Purnomo, SH",
+halaman: "malaning-cipta.html",
+sampul: "sampul-malaning-cipta.jpg",
+abstraksi: `Nawa Malaning Cipta dalam Kawruh Uttamopadesa merupakan pemaparan mengenai sembilan bentuk penyimpangan cipta yang dapat mempengaruhi keadaan batin, pembentukan kehendak, perilaku, dan hubungan manusia dengan kehidupan. Buku ini berangkat dari pemahaman bahwa penyimpangan perilaku tidak selalu bermula dari tindakan lahiriah, tetapi dapat tumbuh melalui proses batin yang berlangsung secara berulang. Pikiran membentuk penilaian, penilaian yang terus dipelihara mempengaruhi keadaan rasa, keadaan rasa turut mengarahkan kehendak, dan kehendak kemudian diwujudkan melalui laku kehidupan.
+
+Sembilan bentuk malaning cipta yang dipaparkan dalam buku ini meliputi Pambengkakan Aku (Kumingsun), Ngluru Ganjaran (Pamrih), Ora Rena Liyan (Drengki), Sumeru (Sengit), Sumedhot (Wedi), Salahe Pamawas (Prasangka), Kepéngin Nguasani (Mengkoni), Kaserakahan (Ora Wareg), dan Lali Marang Kasunyatan (Cidra). Setiap bentuk memiliki karakteristik, sumber kecenderungan, proses perkembangan, serta akibat yang berbeda. Meskipun demikian, kesembilan bentuk tersebut saling berhubungan dan dapat memperkuat satu sama lain apabila tidak disadari dan dikendalikan.
+
+Pambengkakan Aku menggambarkan kecenderungan meninggikan diri dan merasa paling benar. Ngluru Ganjaran menunjukkan dorongan melakukan sesuatu dengan mengutamakan imbalan. Ora Rena Liyan berkaitan dengan ketidakmampuan menerima kebahagiaan atau keberhasilan orang lain. Sumeru menggambarkan kebencian yang dipelihara, sedangkan Sumedhot menunjukkan ketakutan yang menguasai pemikiran dan keputusan. Salahe Pamawas berhubungan dengan prasangka dan penilaian yang belum didasarkan pada pemahaman memadai. Kepéngin Nguasani merupakan dorongan menguasai kehendak orang lain, sementara Kaserakahan menunjukkan ketidakmampuan mengenali batas kecukupan. Adapun Lali Marang Kasunyatan merupakan keadaan ketika manusia kehilangan kesadaran terhadap kenyataan hakiki kehidupan dan melupakan Hyang Manon sebagai Sang Sumber Panguripan.
+
+Pemaparan selanjutnya menjelaskan dampak malaning cipta terhadap berbagai bidang kehidupan. Penyimpangan cipta dapat mempengaruhi ketenteraman batin, ketepatan mengambil keputusan, hubungan keluarga, kehidupan sosial, kepemimpinan, serta pelaksanaan tanggung jawab. Dampaknya tidak hanya dirasakan oleh individu, tetapi juga dapat meluas ke lingkungan kehidupan apabila kecenderungan tersebut berkembang menjadi kebiasaan dan pola perilaku.
+
+Dalam kerangka Kawruh Uttamopadesa, upaya memahami malaning cipta diarahkan pada mawas dhiri, bukan untuk memberikan penilaian sepihak terhadap orang lain. Pengenalan terhadap penyimpangan merupakan langkah awal untuk memperbaiki keadaan cipta. Proses tersebut membutuhkan kejernihan pemahaman, ketulusan rasa, pengendalian kehendak, dan kesediaan mempertanggungjawabkan tindakan.
+
+Tujuan akhirnya adalah membangun keterpaduan Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Ketiganya menjadi dasar pembentukan budi yang lebih jernih dan laku yang lebih utama. Dengan demikian, pembersihan cipta tidak dimaknai sebagai pencapaian kesempurnaan yang membuat manusia terbebas dari segala kekeliruan, melainkan sebagai kesanggupan untuk terus mengenali, memperbaiki, dan mengembangkan diri dalam menghadapi kenyataan kehidupan.
+
+Buku ini merupakan bagian dari pemaparan Kawruh Uttamopadesa yang dirumuskan oleh Dhimas Purnomo, SH. Keseluruhan uraian diarahkan pada satu penegasan, bahwa kejernihan cipta merupakan dasar penting bagi keutamaan perilaku dan ketenteraman kehidupan.`,
+pdf: "https://drive.google.com/file/d/16MTmhYCofca4wL8i0J-ZuVdj1OaHVNdw/view?usp=drivesdk"
+},
+ {
 judul: "NAWA MALANING KARSA DALAM KAWRUH UTTAMOPADESA",
 subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Karsa",
 penulis: "Dhimas Purnomo, SH",
