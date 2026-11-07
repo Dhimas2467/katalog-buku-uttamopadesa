@@ -1,5 +1,28 @@
 const daftarArtikel = [
  {
+judul: "NAWA MALANING RASA DALAM KAWRUH UTTAMOPADESA",
+subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Rasa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "malaning-rasa.html",
+sampul: "sampul-malaning-rasa.jpg",
+abstraksi: `NAWA MALANING RASA: Sembilan Kotoran Batin yang Menghalangi Kejernihan Rasa merupakan salah satu pemaparan dalam kerangka Kawruh Uttamopadesa yang dirumuskan dan disusun oleh Dhimas Purnomo, SH. Buku ini membahas hakikat rasa, berbagai bentuk kotoran batin, proses pembersihan rasa, serta hubungannya dengan perkembangan kesadaran dan perilaku manusia dalam kehidupan. Pembahasannya diarahkan pada pemahaman bahwa kejernihan rasa merupakan bagian penting dari perkembangan batin yang mempengaruhi cara manusia menghayati kenyataan, memahami sesama, dan menjalankan kehidupannya.
+
+Dalam Kawruh Uttamopadesa, rasa tidak hanya dipahami sebagai perasaan sesaat atau reaksi emosional terhadap suatu peristiwa. Rasa merupakan kemampuan batin manusia untuk mengalami, menghayati, dan memberikan kedalaman makna terhadap kehidupan. Melalui rasa, manusia dapat mengenali kasih, keindahan, ketenteraman, kepedulian, dan keterhubungan dengan sesama maupun lingkungan. Oleh sebab itu, keadaan rasa mempunyai pengaruh terhadap sikap, pertimbangan, hubungan sosial, serta tindakan yang diwujudkan dalam kehidupan sehari-hari.
+
+Permasalahan muncul ketika rasa mengalami berbagai gangguan yang mengurangi kejernihan dan ketulusannya. Gangguan tersebut disebut rereged pangraos atau kotoran batin. Buku ini menguraikan sembilan bentuk kotoran batin yang dirangkum dalam Nawa Malaning Rasa, yaitu Rasa Tumpes sebagai kekeringan batin, Rasa Keras sebagai kekakuan rasa, Rasa Getun sebagai keterikatan terhadap penyesalan masa lalu, Rasa Sumelang sebagai kekhawatiran berlebihan terhadap masa depan, Rasa Sepi sebagai keterputusan hubungan batin, Rasa Lali Sih sebagai melemahnya welas asih, Rasa Kesah sebagai keadaan rasa yang kehilangan arah, Rasa Marem Palsu sebagai kepuasan diri yang menutup perkembangan, serta Rasa Peteng sebagai keadaan batin yang kehilangan pepadhang.
+
+Kesembilan bentuk tersebut bukan dimaksudkan sebagai penggolongan pribadi manusia ataupun penilaian terhadap keadaan seseorang. Pemaparannya bertujuan membantu manusia mengenali berbagai kemungkinan gangguan dalam dirinya. Setiap bentuk kotoran batin memiliki karakteristik dan pengaruh yang berbeda, tetapi dapat saling berhubungan serta memperkuat keadaan batin yang tidak jernih. Apabila tidak disadari, keadaan tersebut dapat mempengaruhi cara seseorang menanggapi pengalaman, memperlakukan sesama, mengambil keputusan, dan menentukan arah kehidupannya.
+
+Selanjutnya, buku ini menjelaskan Reresik Rasa sebagai proses pengenalan, pemahaman, dan penataan keadaan batin. Proses tersebut diawali dengan kejujuran dalam mawas diri, dikembangkan melalui Eling, serta diwujudkan dalam pembiasaan sikap yang menumbuhkan ketulusan, kelembutan, kepedulian, dan ketenteraman. Pembersihan rasa tidak berarti meniadakan seluruh perasaan manusia, melainkan mengembangkan kemampuan untuk memahami dan mengelolanya secara tepat.
+
+Pembahasan juga menguraikan keterkaitan kejernihan rasa dengan Weninging Cipta dan Utamaning Karsa. Cipta berperan dalam memahami dan mempertimbangkan kenyataan, rasa memberikan kedalaman penghayatan, sedangkan karsa menjadi dasar kehendak dan tindakan. Keterpaduan ketiganya merupakan landasan bagi perkembangan pribadi yang memiliki kejernihan pemahaman, ketulusan batin, dan keutamaan perilaku.
+
+Pada bagian akhir, Nawa Malaning Rasa ditempatkan sebagai pemahaman yang mengarahkan manusia menuju Weninging Rasa. Kejernihan tersebut diharapkan tercermin melalui Sih, Welas Asih, Andhap Asor, kepedulian, serta tanggung jawab dalam menjalani hubungan antar manusia dan kehidupan secara luas.
+
+Dengan demikian, buku ini menegaskan bahwa Rasa Bening bukan sekadar keadaan batin yang dirasakan secara pribadi, melainkan kualitas penghayatan yang harus diwujudkan dalam laku nyata. Pembersihan rasa merupakan perjalanan berkelanjutan untuk membangun keterpaduan antara pemahaman, ketulusan, dan tindakan dalam Tatananing Panguripan.`,
+pdf: "https://drive.google.com/file/d/1tRZcD8EGPFS7byRgW-b822adk2tkSvnn/view?usp=drivesdk"
+},
+ {
 judul: "ESENSI SPIRITUALITAS DALAM KAWRUH UTTAMOPADESA",
 subjudul: "Pemaparan Tentang Hakikat Spiritualitas",
 penulis: "Dhimas Purnomo, SH",
