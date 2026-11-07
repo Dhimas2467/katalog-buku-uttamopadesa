@@ -6,7 +6,9 @@ on:
       - main
     paths:
       - 'daftar-artikel.js'
+      - 'daftar-jurnal.js'
       - 'index.html'
+      - 'jurnal.html'
       - '*.html'
       - 'sitemap.yml'
       - '.github/workflows/sitemap.yml'
@@ -23,68 +25,111 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate sitemap
+      - name: Generate Sitemap
         run: |
           node <<'NODE'
           const fs = require('fs');
           const vm = require('vm');
+          const path = require('path');
 
           const base = 'https://dhimas2467.github.io/katalog-buku-uttamopadesa/';
 
-          // Menampung seluruh halaman yang akan dimasukkan.
-          const halaman = new Set(['index.html']);
+          // Menampung halaman HTML.
+          const halaman = new Set();
+
+          // Halaman utama.
+          halaman.add('index.html');
 
           // Mengambil halaman artikel dari daftar-artikel.js.
           if (fs.existsSync('daftar-artikel.js')) {
             const source = fs.readFileSync('daftar-artikel.js', 'utf8');
-            const daftarArtikel = vm.runInNewContext(source + '\ndaftarArtikel');
+
+            const daftarArtikel = vm.runInNewContext(
+              source + '\ndaftarArtikel'
+            );
 
             if (!Array.isArray(daftarArtikel)) {
               throw new Error('daftarArtikel bukan array yang valid.');
             }
 
             for (const artikel of daftarArtikel) {
-              if (artikel.halaman && typeof artikel.halaman === 'string') {
+              if (
+                artikel &&
+                typeof artikel.halaman === 'string' &&
+                artikel.halaman.endsWith('.html')
+              ) {
                 halaman.add(artikel.halaman);
               }
             }
           }
 
-          // Arsip jurnal dan lima halaman jurnal.
-          const halamanJurnal = [
-            'jurnal.html',
-            'sih-ilahi.html',
-            'nawa-prasanti-batin.html',
-            'jurnal-spiritualitas.html',
-            'pembersihan-rasa.html',
-            'cipta-rasa-karsa.html'
-          ];
+          // Mengambil halaman jurnal dari daftar-jurnal.js.
+          halaman.add('jurnal.html');
 
-          for (const file of halamanJurnal) {
-            if (fs.existsSync(file)) {
-              halaman.add(file);
-            } else {
-              console.log(`Halaman belum tersedia, dilewati: ${file}`);
+          if (fs.existsSync('daftar-jurnal.js')) {
+            const source = fs.readFileSync('daftar-jurnal.js', 'utf8');
+
+            const daftarJurnal = vm.runInNewContext(
+              source + '\nDAFTAR_JURNAL'
+            );
+
+            if (!Array.isArray(daftarJurnal)) {
+              throw new Error('DAFTAR_JURNAL bukan array yang valid.');
+            }
+
+            for (const jurnal of daftarJurnal) {
+              if (
+                jurnal &&
+                typeof jurnal.file === 'string' &&
+                jurnal.file.endsWith('.html')
+              ) {
+                halaman.add(jurnal.file);
+              }
             }
           }
 
-          // Memastikan hanya file HTML yang tersedia yang dimasukkan.
+          // Memeriksa dan memvalidasi seluruh halaman.
           const halamanValid = [...halaman]
             .filter(file => {
-              return file.endsWith('.html') && fs.existsSync(file);
+              const lokasi = path.resolve(file);
+
+              // Hanya menerima file HTML di dalam repository.
+              if (!file.endsWith('.html')) return false;
+
+              if (!lokasi.startsWith(process.cwd() + path.sep)) {
+                console.log(`Path tidak valid, dilewati: ${file}`);
+                return false;
+              }
+
+              if (!fs.existsSync(lokasi)) {
+                console.log(`Halaman belum tersedia, dilewati: ${file}`);
+                return false;
+              }
+
+              if (!fs.statSync(lokasi).isFile()) {
+                console.log(`Bukan file, dilewati: ${file}`);
+                return false;
+              }
+
+              return true;
             })
             .sort();
 
           // Membentuk URL sitemap.
           const urls = halamanValid.map(file => {
+            const url = base + file
+              .split('/')
+              .map(segment => encodeURIComponent(segment))
+              .join('/');
+
             return [
               '  <url>',
-              `    <loc>${base + file}</loc>`,
+              `    <loc>${url}</loc>`,
               '  </url>'
             ].join('\n');
           });
 
-          // Membuat dokumen XML.
+          // Membentuk dokumen XML.
           const xml = [
             '<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -93,12 +138,49 @@ jobs:
             ''
           ].join('\n');
 
+          // Menyimpan sitemap.xml.
           fs.writeFileSync('sitemap.xml', xml, 'utf8');
 
-          console.log(`Sitemap berhasil dibuat: ${halamanValid.length} halaman.`);
+          console.log('================================');
+          console.log('SITEMAP BERHASIL DIBUAT');
+          console.log(`Jumlah halaman: ${halamanValid.length}`);
+          console.log('================================');
+
+          halamanValid.forEach(file => {
+            console.log(`${base}${file}`);
+          });
+
           NODE
 
-      - name: Save sitemap
+      - name: Validate Sitemap
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          if (!fs.existsSync('sitemap.xml')) {
+            throw new Error('sitemap.xml tidak berhasil dibuat.');
+          }
+
+          const xml = fs.readFileSync('sitemap.xml', 'utf8');
+
+          if (!xml.includes('<urlset')) {
+            throw new Error('Struktur sitemap XML tidak valid.');
+          }
+
+          if (!xml.includes('</urlset>')) {
+            throw new Error('Penutup sitemap XML tidak ditemukan.');
+          }
+
+          const jumlah = (xml.match(/<url>/g) || []).length;
+
+          if (jumlah === 0) {
+            throw new Error('Sitemap tidak memiliki URL.');
+          }
+
+          console.log(`Validasi berhasil: ${jumlah} URL ditemukan.`);
+          NODE
+
+      - name: Save Sitemap
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -111,3 +193,4 @@ jobs:
           else
             echo "Tidak ada perubahan sitemap."
           fi
+          
