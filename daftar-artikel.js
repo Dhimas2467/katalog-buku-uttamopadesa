@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA MALANING KARSA DALAM KAWRUH UTTAMOPADESA",
+subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Karsa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "malaning-karsa.html",
+sampul: "sampul-malaning-karsa.jpg",
+abstraksi: `Nawa Malaning Karsa merupakan pemaparan mengenai sembilan bentuk rereged batin yang dapat menghalangi kejernihan kehendak dan perkembangan keutamaan manusia dalam menjalani kehidupan. Dalam kerangka Kawruh Uttamopadesa, karsa dipahami sebagai daya batin yang menggerakkan manusia untuk mewujudkan pemahaman dan perasaan menjadi kehendak serta tindakan nyata. Karsa memiliki hubungan erat dengan cipta dan rasa. Cipta memberikan dasar pemahaman, rasa memberikan kepekaan batin, sedangkan karsa mengarahkan keduanya menuju perbuatan. Oleh karena itu, kebersihan karsa menjadi bagian penting dalam pembentukan perilaku dan kualitas kehidupan manusia.
+
+Buku ini memaparkan sembilan bentuk Malaning Karsa, yaitu Karsa Kaiket, Karsa Kumawasa, Karsa Pamrih, Karsa Gumunggung, Karsa Wedi, Karsa Angkara, Karsa Pamer, Karsa Kakehan Karep, dan Karsa Pisah. Karsa Kaiket menggambarkan kehendak yang terbelenggu oleh pepinginan tertentu. Karsa Kumawasa menunjukkan dorongan untuk menguasai pihak lain. Karsa Pamrih berkaitan dengan keinginan memperoleh keuntungan atau balasan pribadi. Karsa Gumunggung menunjukkan kecenderungan membesarkan diri. Karsa Wedi merupakan kehendak yang terhalang ketakutan. Karsa Angkara menggambarkan kehendak yang dikuasai dorongan kasar. Karsa Pamer berkaitan dengan keinginan agar tindakan terlihat dan memperoleh pengakuan. Karsa Kakehan Karep menunjukkan keinginan yang berlebihan dan tidak teratur, sedangkan Karsa Pisah menggambarkan kehendak yang tidak selaras dengan tuntunan batin yang wening.
+
+Kesembilan bentuk rereged tersebut memiliki karakteristik dan pengaruh yang berbeda, meskipun dalam keadaan tertentu dapat muncul secara bersamaan serta saling mempengaruhi. Pengenalan terhadap masing-masing bentuk menjadi dasar untuk memahami keadaan kehendak secara lebih tepat. Nawa Malaning Karsa ditempatkan sebagai pangilon mawas diri, bukan sebagai sarana memberikan hukuman atau penilaian terhadap manusia. Melalui pemahaman tersebut, manusia diharapkan mampu mengenali berbagai dorongan yang mempengaruhi dirinya dan memahami bagaimana dorongan tersebut dapat menghambat perwujudan kehendak yang utama.
+
+Pemaparan selanjutnya membahas proses Reresik Karsa sebagai upaya membersihkan dan menata kehendak melalui pengenalan rereged, mawas diri, pengendalian pepinginan dan pamrih, pengembangan keteguhan serta ketulusan, dan pembentukan kebijaksanaan dalam menentukan tindakan. Proses ini tidak dimaksudkan untuk menghilangkan seluruh keinginan manusia, melainkan menempatkan setiap keinginan secara tepat berdasarkan kebutuhan, kemampuan, kepatutan, dan tanggung jawab terhadap kehidupan.
+
+Tujuan akhir proses tersebut adalah terbentuknya Utamaning Karsa, yaitu kehendak yang wening, teguh, tulus, bijaksana, dan bertanggung jawab. Kualitas tersebut tidak dapat dipisahkan dari keterpaduan Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Ketiganya menjadi dasar bagi manusia untuk memahami kenyataan, menjaga kepekaan terhadap sesama, serta mewujudkan kehendak melalui tindakan yang bermanfaat dalam tatananing panguripan.
+
+Buku ini terdiri atas enam belas bab yang disusun secara bertahap, mulai dari hakikat karsa, kedudukan karsa dalam Kawruh Uttamopadesa, pemaparan sembilan bentuk Malaning Karsa, hubungan antarunsur, proses pembersihan, hingga buah karsa yang telah bersih dan perwujudan Laku Utama.
+
+Secara keseluruhan, buku Nawa Malaning Karsa menegaskan bahwa keutamaan manusia tidak hanya ditentukan oleh kejernihan pemahaman dan ketulusan perasaan, tetapi juga oleh kemampuan menata kehendak. Karsa yang bersih menjadikan manusia mampu mengarahkan keinginan, mengendalikan dorongan, menentukan pilihan secara bijaksana, dan mempertanggungjawabkan setiap tindakan. Dengan demikian, Utamaning Karsa merupakan buah kejernihan diri yang diwujudkan dalam Laku Utama sesuai dengan tatananing panguripan.`,
+pdf: "https://drive.google.com/file/d/1i8bDBoQpXhZthMNNC4vHvkEvq6EW1h5L/view?usp=drivesdk"
+},
+ {
 judul: "NAWA MALANING RASA DALAM KAWRUH UTTAMOPADESA",
 subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Rasa",
 penulis: "Dhimas Purnomo, SH",
