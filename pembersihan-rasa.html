@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Proses Pembersihan Rasa | Jurnal Uttamopadesa</title>
+
   <meta name="description" content="Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.">
   <meta name="author" content="Dhimas Purnomo, SH">
   <meta name="robots" content="index, follow">
@@ -14,7 +15,7 @@
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="Proses Pembersihan Rasa">
-  <meta property="og:description" content="Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa">
+  <meta property="og:description" content="Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.">
   <meta property="og:url" content="https://dhimas2467.github.io/katalog-buku-uttamopadesa/pembersihan-rasa.html">
   <meta property="og:site_name" content="Katalog Buku Uttamopadesa">
 
@@ -26,7 +27,7 @@
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
     "headline": "Proses Pembersihan Rasa",
-    "description": "Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa",
+    "description": "Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.",
     "author": {
       "@type": "Person",
       "name": "Dhimas Purnomo",
@@ -41,7 +42,7 @@
     "isPartOf": {
       "@type": "PublicationVolume",
       "name": "Jurnal Uttamopadesa",
-      "volumeNumber": "1"
+      "volumeNumber": 1
     },
     "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/pembersihan-rasa.html"
   }
@@ -49,63 +50,93 @@
 
   <style>
     :root {
-      color-scheme: light;
-      --green: #174b38;
-      --gold: #b18a45;
-      --paper: #fbfaf6;
-      --ink: #26332d;
-      --muted: #66736c;
+      --hijau: #174b38;
+      --hijau-gelap: #103728;
+      --emas: #b18a45;
+      --emas-muda: #d9c49a;
+      --latar: #f6f4ed;
+      --putih: #ffffff;
+      --teks: #303a34;
+      --abu: #68736c;
+      --garis: #e6e0d3;
     }
 
     * {
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      background: var(--paper);
-      color: var(--ink);
+      padding: 0;
+      background: var(--latar);
+      color: var(--teks);
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.75;
     }
 
+    /* HEADER */
+
     header {
-      background: var(--green);
-      color: #fff;
-      padding: 28px 18px;
+      background: var(--hijau);
+      color: var(--putih);
       text-align: center;
-      border-bottom: 4px solid var(--gold);
+      padding: 30px 20px 27px;
+      border-bottom: 4px solid var(--emas);
     }
 
-    header .brand {
-      margin: 0 0 6px;
+    .header-inner {
+      max-width: 1050px;
+      margin: auto;
+    }
+
+    .brand {
+      margin: 0 0 7px;
+      color: var(--emas-muda);
       font-family: Arial, sans-serif;
       font-size: 13px;
+      font-weight: bold;
       letter-spacing: 2px;
       text-transform: uppercase;
     }
 
     header h1 {
       margin: 0;
-      font-size: clamp(22px, 4vw, 32px);
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: normal;
       line-height: 1.3;
     }
 
+    .header-subtitle {
+      margin: 8px 0 0;
+      color: #e5e9e4;
+      font-size: 15px;
+    }
+
+    /* KONTEN */
+
     main {
-      width: min(850px, calc(100% - 32px));
-      margin: 34px auto;
+      width: 100%;
+      max-width: 1000px;
+      margin: 38px auto;
+      padding: 0 20px;
     }
 
-    .article {
-      background: #fff;
-      border: 1px solid #e7e1d5;
-      border-radius: 10px;
-      padding: clamp(22px, 5vw, 42px);
-      box-shadow: 0 5px 20px rgba(30, 50, 40, .05);
+    .article-card {
+      background: var(--putih);
+      border: 1px solid var(--garis);
+      border-top: 4px solid var(--emas);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 45px);
+      box-shadow: 0 4px 18px rgba(30, 50, 40, 0.06);
     }
 
-    .volume {
-      color: var(--gold);
+    .journal-info {
+      margin-bottom: 18px;
+      color: var(--emas);
       font-family: Arial, sans-serif;
       font-size: 13px;
       font-weight: bold;
@@ -113,147 +144,220 @@
       text-transform: uppercase;
     }
 
-    h2 {
-      color: var(--green);
-      font-size: clamp(25px, 4vw, 34px);
-      line-height: 1.3;
-      margin: 12px 0;
+    .article-title {
+      margin: 0 0 13px;
+      color: var(--hijau);
+      font-size: clamp(27px, 4vw, 36px);
+      line-height: 1.35;
+      font-weight: bold;
     }
 
-    .subtitle {
-      color: #49584f;
+    .article-subtitle {
+      margin: 0 0 25px;
+      color: #59665e;
       font-size: 18px;
-      margin: 0 0 22px;
+      line-height: 1.6;
     }
 
-    .metadata {
-      border-top: 1px solid #e9e4da;
-      border-bottom: 1px solid #e9e4da;
-      padding: 14px 0;
-      margin: 22px 0;
-      color: var(--muted);
+    /* IDENTITAS ARTIKEL */
+
+    .article-meta {
+      margin: 25px 0;
+      padding: 17px 20px;
+      background: #f8f7f2;
+      border-left: 3px solid var(--emas);
       font-family: Arial, sans-serif;
       font-size: 14px;
     }
 
-    .metadata p {
-      margin: 4px 0;
+    .article-meta p {
+      margin: 5px 0;
     }
 
-    h3 {
-      color: var(--green);
+    .article-meta strong {
+      color: var(--hijau);
+    }
+
+    /* ABSTRAK */
+
+    .section-title {
+      margin: 30px 0 10px;
+      padding-bottom: 8px;
+      color: var(--hijau);
+      border-bottom: 1px solid var(--garis);
       font-size: 21px;
-      margin: 26px 0 8px;
     }
 
     .abstract {
-      margin-top: 0;
+      margin: 0;
+      text-align: justify;
+      font-size: 16px;
+      line-height: 1.85;
     }
 
-    .actions {
+    /* TOMBOL */
+
+    .article-actions {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      margin-top: 28px;
+      margin-top: 32px;
+      padding-top: 23px;
+      border-top: 1px solid var(--garis);
     }
 
-    .button {
+    .btn {
       display: inline-block;
-      padding: 11px 18px;
-      border-radius: 6px;
-      text-decoration: none;
+      padding: 11px 21px;
+      border: 1px solid var(--hijau);
+      border-radius: 5px;
       font-family: Arial, sans-serif;
       font-size: 14px;
       font-weight: bold;
-      transition: opacity .2s ease;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.2s ease, color 0.2s ease;
     }
 
-    .button:hover {
-      opacity: .85;
+    .btn-primary {
+      background: var(--hijau);
+      color: var(--putih);
     }
 
-    .primary {
-      background: var(--green);
-      color: #fff;
+    .btn-primary:hover {
+      background: var(--hijau-gelap);
     }
 
-    .secondary {
-      border: 1px solid var(--green);
-      color: var(--green);
+    .btn-secondary {
+      background: var(--putih);
+      color: var(--hijau);
     }
+
+    .btn-secondary:hover {
+      background: var(--hijau);
+      color: var(--putih);
+    }
+
+    /* FOOTER */
 
     footer {
+      margin-top: 45px;
+      padding: 25px 20px;
+      background: var(--hijau);
+      border-top: 3px solid var(--emas);
+      color: var(--putih);
       text-align: center;
-      color: var(--muted);
       font-family: Arial, sans-serif;
       font-size: 13px;
-      padding: 22px 16px 32px;
     }
 
-    a:focus-visible {
-      outline: 3px solid var(--gold);
-      outline-offset: 3px;
+    footer p {
+      margin: 5px 0;
     }
 
-    @media (max-width: 480px) {
-      .actions {
+    footer .copyright {
+      color: var(--emas-muda);
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 600px) {
+      header {
+        padding: 25px 15px;
+      }
+
+      main {
+        margin: 25px auto;
+        padding: 0 14px;
+      }
+
+      .article-card {
+        padding: 23px 19px;
+      }
+
+      .article-subtitle {
+        font-size: 16px;
+      }
+
+      .article-actions {
         flex-direction: column;
       }
 
-      .button {
-        text-align: center;
+      .btn {
+        width: 100%;
       }
     }
   </style>
 </head>
 
 <body>
+
   <header>
-    <p class="brand">Uttamopadesa Press</p>
-    <h1>Jurnal Uttamopadesa</h1>
+    <div class="header-inner">
+      <p class="brand">Uttamopadesa Press</p>
+      <h1>Jurnal Uttamopadesa</h1>
+      <p class="header-subtitle">
+        Pemaparan Kawruh Uttamopadesa
+      </p>
+    </div>
   </header>
 
   <main>
-    <article class="article">
-      <div class="volume">Vol. 1, No. 4 · November 2026</div>
+    <article class="article-card">
 
-      <h2>Proses Pembersihan Rasa</h2>
+      <div class="journal-info">
+        Vol. 1, No. 4 · November 2026
+      </div>
 
-      <p class="subtitle">
+      <h2 class="article-title">
+        Proses Pembersihan Rasa
+      </h2>
+
+      <p class="article-subtitle">
         Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa
       </p>
 
-      <div class="metadata">
+      <div class="article-meta">
         <p><strong>Penulis:</strong> Dhimas Purnomo, SH</p>
         <p><strong>Penerbit:</strong> Uttamopadesa Press</p>
-        <p><strong>Tahun terbit:</strong> 2026</p>
+        <p><strong>Tahun:</strong> 2026</p>
       </div>
 
-      <h3>Abstrak</h3>
+      <h3 class="section-title">Abstrak</h3>
 
       <p class="abstract">
         Tulisan ini memaparkan Reresik Rasa sebagai proses dan jalan pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.
       </p>
 
-      <div class="actions">
+      <div class="article-actions">
+
         <a
-          class="button primary"
+          class="btn btn-primary"
           href="https://drive.google.com/file/d/1BQEL48QSqjesL74mqJl-QwNSgnSwHjFc/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer">
           Baca Naskah PDF
         </a>
 
-        <a class="button secondary" href="./jurnal.html">
+        <a
+          class="btn btn-secondary"
+          href="./jurnal.html">
           Kembali ke Arsip Jurnal
         </a>
+
       </div>
+
     </article>
   </main>
 
   <footer>
-    <p>© 2026 Uttamopadesa Press · Dhimas Purnomo, SH</p>
-    <p>Katalog Buku Uttamopadesa</p>
+    <p class="copyright">
+      © 2026 Uttamopadesa Press
+    </p>
+    <p>
+      Dhimas Purnomo, SH · Katalog Buku Uttamopadesa
+    </p>
   </footer>
+
 </body>
 </html>
