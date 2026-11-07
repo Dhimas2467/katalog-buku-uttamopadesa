@@ -1,3 +1,4 @@
+
 name: Generate Sitemap
 
 on:
@@ -8,6 +9,7 @@ on:
       - 'daftar-artikel.js'
       - 'index.html'
       - '*.html'
+      - 'sitemap.yml'
       - '.github/workflows/sitemap.yml'
   workflow_dispatch:
 
@@ -17,6 +19,7 @@ permissions:
 jobs:
   sitemap:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,9 +32,10 @@ jobs:
 
           const base = 'https://dhimas2467.github.io/katalog-buku-uttamopadesa/';
 
+          // Menampung seluruh halaman yang akan dimasukkan.
           const halaman = new Set(['index.html']);
 
-          // Mengambil halaman katalog dari daftar-artikel.js
+          // Mengambil halaman artikel dari daftar-artikel.js.
           if (fs.existsSync('daftar-artikel.js')) {
             const source = fs.readFileSync('daftar-artikel.js', 'utf8');
             const daftarArtikel = vm.runInNewContext(source + '\ndaftarArtikel');
@@ -41,32 +45,47 @@ jobs:
             }
 
             for (const artikel of daftarArtikel) {
-              if (artikel.halaman) {
+              if (artikel.halaman && typeof artikel.halaman === 'string') {
                 halaman.add(artikel.halaman);
               }
             }
           }
 
-          // Menambahkan arsip jurnal dan lima halaman jurnal
+          // Arsip jurnal dan lima halaman jurnal.
           const halamanJurnal = [
             'jurnal.html',
-            'sih-ilahi-cakraning-lampah-ilahi.html',
+            'sih-ilahi.html',
             'nawa-prasanti-batin.html',
-            'kesatuan-spiritualitas-keutamaan-hidup.html',
-            'proses-pembersihan-rasa.html',
-            'cipta-rasa-karsa-tiga-unsur-batin.html'
+            'jurnal-spiritualitas.html',
+            'pembersihan-rasa.html',
+            'cipta-rasa-karsa.html'
           ];
 
           for (const file of halamanJurnal) {
             if (fs.existsSync(file)) {
               halaman.add(file);
+            } else {
+              console.log(`Halaman belum tersedia, dilewati: ${file}`);
             }
           }
 
-          const urls = [...halaman].map(file => {
-            return `  <url>\n    <loc>${base + file}</loc>\n  </url>`;
+          // Memastikan hanya file HTML yang tersedia yang dimasukkan.
+          const halamanValid = [...halaman]
+            .filter(file => {
+              return file.endsWith('.html') && fs.existsSync(file);
+            })
+            .sort();
+
+          // Membentuk URL sitemap.
+          const urls = halamanValid.map(file => {
+            return [
+              '  <url>',
+              `    <loc>${base + file}</loc>`,
+              '  </url>'
+            ].join('\n');
           });
 
+          // Membuat dokumen XML.
           const xml = [
             '<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -77,15 +96,19 @@ jobs:
 
           fs.writeFileSync('sitemap.xml', xml, 'utf8');
 
-          console.log(`Sitemap berhasil dibuat: ${halaman.size} halaman.`);
+          console.log(`Sitemap berhasil dibuat: ${halamanValid.length} halaman.`);
           NODE
 
       - name: Save sitemap
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add sitemap.xml
+
           if ! git diff --cached --quiet; then
             git commit -m "Update sitemap automatically"
             git push
+          else
+            echo "Tidak ada perubahan sitemap."
           fi
