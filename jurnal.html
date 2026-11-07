@@ -181,6 +181,14 @@ main {
   overflow-wrap: anywhere;
 }
 
+.subjudul-jurnal {
+  color: var(--teks);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  overflow-wrap: anywhere;
+}
+
 .identitas {
   color: var(--abu);
   font-size: 12px;
@@ -321,8 +329,6 @@ footer p {
 
 <body>
 
-<!-- HEADER -->
-
 <header class="hero">
   <div class="ornamen">✧</div>
   <div class="label">Pustaka Digital</div>
@@ -334,8 +340,6 @@ footer p {
 
   <p class="penulis">Karya Dhimas Purnomo, SH</p>
 </header>
-
-<!-- KONTEN UTAMA -->
 
 <main>
   <section>
@@ -371,15 +375,11 @@ footer p {
   </section>
 </main>
 
-<!-- FOOTER -->
-
 <footer>
   <strong>Wedharan Kawruh Uttamopadesa</strong>
   <p>Arsip Jurnal Digital Uttamopadesa</p>
   <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
 </footer>
-
-<!-- BACK TO TOP -->
 
 <button
   id="backToTop"
@@ -389,70 +389,11 @@ footer p {
   ↑
 </button>
 
-<!-- DATA DAN SCRIPT JURNAL -->
+<!-- MEMUAT DATA JURNAL -->
+
+<script src="./daftar-jurnal.js"></script>
 
 <script>
-
-/*
-==================================================
-DATA JURNAL UTTAMOPADESA
-==================================================
-*/
-
-const dataJurnal = [
-
-  {
-    nomor: "JURNAL VOL. 1 NO. 1",
-    tahun: "November 2026",
-    judul: "SIH ILAHI DAN CAKRANING LAMPAH ILAHI DALAM PEMIKIRAN UTTAMOPADESA",
-    penulis: "Dhimas Purnomo, SH",
-    abstrak: "Pemaparan Landasan Kawruh Kasunyatan tentang Asal, Tujuan, dan Keutamaan Kehidupan Manusia.",
-    halaman: "sih-ilahi.html",
-    pdf: "https://drive.google.com/file/d/19aC3GBNYt-itvOm3dq6aAdsU4eeF2qVD/view?usp=drivesdk"
-  },
-
-  {
-    nomor: "JURNAL VOL. 1 NO. 2",
-    tahun: "November 2026",
-    judul: "NAWA PRASANTI BATIN",
-    penulis: "Dhimas Purnomo, SH",
-    abstrak: "Nawa Prasanti Batin merupakan sembilan pedoman dalam Kawruh Uttamopadesa yang memaparkan upaya manusia membangun ketenteraman batin melalui kejernihan cipta, ketulusan rasa, dan keluhuran kehendak.",
-    halaman: "nawa-prasanti-batin.html",
-    pdf: "https://drive.google.com/file/d/1lYdqYB1mWoOp6-_yCGTVB-05TH46mEXN/view?usp=drivesdk"
-  },
-
-  {
-    nomor: "JURNAL VOL. 1 NO. 3",
-    tahun: "November 2026",
-    judul: "KESATUAN SPIRITUALITAS DAN KEUTAMAAN HIDUP",
-    penulis: "Dhimas Purnomo, SH",
-    abstrak: "Pemaparan Hakikat Perjalanan Kesadaran dan Perwujudan Laku Utama dalam Kawruh Uttamopadesa.",
-    halaman: "jurnal-spiritualitas.html",
-    pdf: "https://drive.google.com/file/d/1R1DVReN5Y_Tkslq3dJTQYyvdHmTiNYsP/view?usp=drivesdk"
-  },
-
-  {
-    nomor: "JURNAL VOL. 1 NO. 4",
-    tahun: "November 2026",
-    judul: "PROSES PEMBERSIHAN RASA",
-    penulis: "Dhimas Purnomo, SH",
-    abstrak: "Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.",
-    halaman: "pembersihan-rasa.html",
-    pdf: "https://drive.google.com/file/d/1BQEL48QSqjesL74mqJl-QwNSgnSwHjFc/view?usp=drivesdk"
-  },
-
-  {
-    nomor: "JURNAL VOL. 1 NO. 5",
-    tahun: "November 2026",
-    judul: "CIPTA, RASA, DAN KARSA: TIGA UNSUR BATIN DALAM KEHIDUPAN MANUSIA",
-    penulis: "Dhimas Purnomo, SH",
-    abstrak: "Hubungan, Kedudukan, dan Keterpaduan Budi dalam Perspektif Kawruh Uttamopadesa.",
-    halaman: "cipta-rasa-karsa.html",
-    pdf: "https://drive.google.com/file/d/1lSY-z4k5R4FCS6VVroiFXKEvqF4TG2kg/view?usp=drivesdk"
-  }
-
-];
-
 
 /* ELEMEN HALAMAN */
 
@@ -460,6 +401,13 @@ const daftar = document.getElementById("daftarJurnal");
 const jumlah = document.getElementById("jumlah");
 const kosong = document.getElementById("kosong");
 const backToTop = document.getElementById("backToTop");
+
+
+/* DATA JURNAL */
+
+const dataJurnal = Array.isArray(window.DAFTAR_JURNAL)
+  ? window.DAFTAR_JURNAL
+  : [];
 
 
 /* PENGAMAN TEKS HTML */
@@ -479,9 +427,9 @@ function aman(teks) {
 
 function tampilkanJurnal() {
 
-  const data = dataJurnal.filter(item =>
-    item && item.judul
-  );
+  const data = dataJurnal
+    .filter(item => item && item.judul)
+    .sort((a, b) => a.nomor - b.nomor);
 
   jumlah.textContent = data.length + " jurnal tersedia";
 
@@ -489,11 +437,14 @@ function tampilkanJurnal() {
 
   daftar.innerHTML = data.map(item => {
 
-    const tombolHalaman = item.halaman
+    const nomor = `JURNAL VOL. ${item.volume} NO. ${item.nomor}`;
+    const waktu = `${item.bulan} ${item.tahun}`;
+
+    const tombolHalaman = item.file
       ? `
         <a
           class="tombol tombol-hijau"
-          href="./${aman(item.halaman)}">
+          href="./${aman(item.file)}">
           Buka Halaman Jurnal →
         </a>
       `
@@ -511,26 +462,40 @@ function tampilkanJurnal() {
       `
       : "";
 
+    const subjudul = item.subjudul
+      ? `
+        <p class="subjudul-jurnal">
+          ${aman(item.subjudul)}
+        </p>
+      `
+      : "";
+
+    const abstrak = item.abstrak
+      ? `
+        <p class="abstrak">
+          ${aman(item.abstrak)}
+        </p>
+      `
+      : "";
+
     return `
       <article class="jurnal">
 
         <div class="nomor">
-          ${aman(item.nomor || "Jurnal Uttamopadesa")}
+          ${aman(nomor)}
         </div>
 
         <h3 class="judul-jurnal">
           ${aman(item.judul)}
         </h3>
 
+        ${subjudul}
+
         <div class="identitas">
-          ${aman(item.tahun || "Tahun terbit tidak dicantumkan")}
-          ·
-          ${aman(item.penulis || "Dhimas Purnomo, SH")}
+          ${aman(waktu)} · ${aman(item.penulis)}
         </div>
 
-        <p class="abstrak">
-          ${aman(item.abstrak || "Abstraksi belum tersedia.")}
-        </p>
+        ${abstrak}
 
         <div class="aksi">
           ${tombolHalaman}
@@ -572,12 +537,10 @@ backToTop.addEventListener("click", function() {
 
 tampilkanJurnal();
 
-</script>
 
-<!-- DATA TERSTRUKTUR -->
+/* DATA TERSTRUKTUR JSON-LD OTOMATIS */
 
-<script type="application/ld+json">
-{
+const dataTerstruktur = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Arsip Jurnal Uttamopadesa",
@@ -587,34 +550,24 @@ tampilkanJurnal();
     "name": "Dhimas Purnomo",
     "honorificSuffix": "SH"
   },
-  "hasPart": [
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Sih Ilahi dan Cakraning Lampah Ilahi dalam Pemikiran Uttamopadesa",
-      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/sih-ilahi.html"
+  "hasPart": dataJurnal.map(item => ({
+    "@type": "ScholarlyArticle",
+    "headline": item.judul,
+    "description": item.abstrak || item.subjudul || "",
+    "author": {
+      "@type": "Person",
+      "name": item.penulis
     },
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Nawa Prasanti Batin",
-      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/nawa-prasanti-batin.html"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Kesatuan Spiritualitas dan Keutamaan Hidup",
-      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/jurnal-spiritualitas.html"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Proses Pembersihan Rasa",
-      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/pembersihan-rasa.html"
-    },
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Cipta, Rasa, dan Karsa: Tiga Unsur Batin dalam Kehidupan Manusia",
-      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/cipta-rasa-karsa.html"
-    }
-  ]
-}
+    "datePublished": `${item.tahun}-${item.bulan === "November" ? "11" : "01"}`,
+    "url": new URL(item.file, window.location.href).href
+  }))
+};
+
+const scriptJSONLD = document.createElement("script");
+scriptJSONLD.type = "application/ld+json";
+scriptJSONLD.textContent = JSON.stringify(dataTerstruktur, null, 2);
+document.head.appendChild(scriptJSONLD);
+
 </script>
 
 </body>
