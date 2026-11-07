@@ -1,3 +1,4 @@
+
 name: Generate Sitemap
 
 on:
@@ -21,31 +22,50 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate sitemap from daftar-artikel.js
+      - name: Generate sitemap
         run: |
           node <<'NODE'
           const fs = require('fs');
           const vm = require('vm');
 
           const base = 'https://dhimas2467.github.io/katalog-buku-uttamopadesa/';
-          const source = fs.readFileSync('daftar-artikel.js', 'utf8');
-          const daftarArtikel = vm.runInNewContext(source + '\ndaftarArtikel');
 
-          if (!Array.isArray(daftarArtikel)) {
-            throw new Error('daftarArtikel bukan array yang valid.');
-          }
+          const halaman = new Set(['index.html']);
 
-          const halaman = ['index.html'];
+          // Mengambil halaman katalog dari daftar-artikel.js
+          if (fs.existsSync('daftar-artikel.js')) {
+            const source = fs.readFileSync('daftar-artikel.js', 'utf8');
+            const daftarArtikel = vm.runInNewContext(source + '\ndaftarArtikel');
 
-          for (const artikel of daftarArtikel) {
-            if (artikel.halaman && !halaman.includes(artikel.halaman)) {
-              halaman.push(artikel.halaman);
+            if (!Array.isArray(daftarArtikel)) {
+              throw new Error('daftarArtikel bukan array yang valid.');
+            }
+
+            for (const artikel of daftarArtikel) {
+              if (artikel.halaman) {
+                halaman.add(artikel.halaman);
+              }
             }
           }
 
-          const urls = halaman.map(file => {
-            const loc = base + file;
-            return `  <url>\n    <loc>${loc}</loc>\n  </url>`;
+          // Menambahkan arsip jurnal dan lima halaman jurnal
+          const halamanJurnal = [
+            'jurnal.html',
+            'sih-ilahi-cakraning-lampah-ilahi.html',
+            'nawa-prasanti-batin.html',
+            'kesatuan-spiritualitas-keutamaan-hidup.html',
+            'proses-pembersihan-rasa.html',
+            'cipta-rasa-karsa-tiga-unsur-batin.html'
+          ];
+
+          for (const file of halamanJurnal) {
+            if (fs.existsSync(file)) {
+              halaman.add(file);
+            }
+          }
+
+          const urls = [...halaman].map(file => {
+            return `  <url>\n    <loc>${base + file}</loc>\n  </url>`;
           });
 
           const xml = [
@@ -57,7 +77,8 @@ jobs:
           ].join('\n');
 
           fs.writeFileSync('sitemap.xml', xml, 'utf8');
-          console.log(`Sitemap dibuat: ${halaman.length} halaman.`);
+
+          console.log(`Sitemap berhasil dibuat: ${halaman.size} halaman.`);
           NODE
 
       - name: Save sitemap
