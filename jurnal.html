@@ -6,9 +6,18 @@
 
 <title>Arsip Jurnal Uttamopadesa | Dhimas Purnomo, SH</title>
 
-<meta name="description" content="Arsip Jurnal Uttamopadesa, kumpulan tulisan dan pemaparan Kawruh Uttamopadesa karya Dhimas Purnomo, SH.">
+<meta name="description" content="Arsip Jurnal Uttamopadesa, kumpulan jurnal dan pemaparan Kawruh Uttamopadesa karya Dhimas Purnomo, SH.">
 <meta name="author" content="Dhimas Purnomo, SH">
+<meta name="robots" content="index, follow">
 <meta name="theme-color" content="#20372d">
+
+<link rel="canonical" href="https://dhimas2467.github.io/katalog-buku-uttamopadesa/jurnal.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arsip Jurnal Uttamopadesa">
+<meta property="og:description" content="Kumpulan jurnal dan pemaparan Kawruh Uttamopadesa karya Dhimas Purnomo, SH.">
+<meta property="og:url" content="https://dhimas2467.github.io/katalog-buku-uttamopadesa/jurnal.html">
+<meta property="og:site_name" content="Uttamopadesa">
 
 <style>
 :root {
@@ -275,7 +284,6 @@ footer p {
 /* RESPONSIVE */
 
 @media (max-width: 650px) {
-
   .hero {
     padding: 28px 16px;
   }
@@ -307,9 +315,7 @@ footer p {
     width: 43px;
     height: 43px;
   }
-
 }
-
 </style>
 </head>
 
@@ -318,9 +324,7 @@ footer p {
 <!-- HEADER -->
 
 <header class="hero">
-
   <div class="ornamen">✧</div>
-
   <div class="label">Pustaka Digital</div>
 
   <h1>
@@ -329,13 +333,11 @@ footer p {
   </h1>
 
   <p class="penulis">Karya Dhimas Purnomo, SH</p>
-
 </header>
 
 <!-- KONTEN UTAMA -->
 
 <main>
-
   <section>
 
     <div class="label">Dokumentasi Pemikiran</div>
@@ -349,11 +351,9 @@ footer p {
     </p>
 
     <div class="menu">
-
       <a href="./index.html" class="tombol tombol-hijau">
         ← Kembali ke Katalog Buku
       </a>
-
     </div>
 
     <p class="jumlah" id="jumlah"></p>
@@ -361,30 +361,22 @@ footer p {
     <div class="daftar-jurnal" id="daftarJurnal"></div>
 
     <div class="kosong" id="kosong" hidden>
-
       <strong>Arsip Jurnal Belum Tersedia</strong>
-
       <p>
         Koleksi jurnal akan ditampilkan di halaman ini
         setelah data dan dokumen jurnal ditambahkan.
       </p>
-
     </div>
 
   </section>
-
 </main>
 
 <!-- FOOTER -->
 
 <footer>
-
   <strong>Wedharan Kawruh Uttamopadesa</strong>
-
   <p>Arsip Jurnal Digital Uttamopadesa</p>
-
   <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
-
 </footer>
 
 <!-- BACK TO TOP -->
@@ -404,18 +396,6 @@ footer p {
 /*
 ==================================================
 DATA JURNAL UTTAMOPADESA
-
-Untuk menambahkan jurnal baru,
-salin format objek jurnal di bawah.
-
-Setiap jurnal mempunyai:
-- nomor
-- tahun
-- judul
-- penulis
-- abstrak
-- pdf
-
 ==================================================
 */
 
@@ -427,6 +407,7 @@ const dataJurnal = [
     judul: "SIH ILAHI DAN CAKRANING LAMPAH ILAHI DALAM PEMIKIRAN UTTAMOPADESA",
     penulis: "Dhimas Purnomo, SH",
     abstrak: "Pemaparan Landasan Kawruh Kasunyatan tentang Asal, Tujuan, dan Keutamaan Kehidupan Manusia.",
+    halaman: "sih-ilahi.html",
     pdf: "https://drive.google.com/file/d/19aC3GBNYt-itvOm3dq6aAdsU4eeF2qVD/view?usp=drivesdk"
   },
 
@@ -436,35 +417,40 @@ const dataJurnal = [
     judul: "NAWA PRASANTI BATIN",
     penulis: "Dhimas Purnomo, SH",
     abstrak: "Nawa Prasanti Batin merupakan sembilan pedoman dalam Kawruh Uttamopadesa yang memaparkan upaya manusia membangun ketenteraman batin melalui kejernihan cipta, ketulusan rasa, dan keluhuran kehendak.",
+    halaman: "nawa-prasanti-batin.html",
     pdf: "https://drive.google.com/file/d/1lYdqYB1mWoOp6-_yCGTVB-05TH46mEXN/view?usp=drivesdk"
-  },
-  
-  {
-nomor: "JURNAL VOL. 1 NO. 3",
-tahun: "November 2026",
-judul: "KESATUAN SPIRITUALITAS DAN KEUTAMAAN HIDUP",
-penulis: "Dhimas Purnomo, SH",
-abstrak: "Pemaparan Hakikat Perjalanan Kesadaran dan Perwujudan Laku Utama dalam Kawruh Uttamopadesa.",
-pdf: "https://drive.google.com/file/d/1R1DVReN5Y_Tkslq3dJTQYyvdHmTiNYsP/view?usp=drivesdk"
-  },
-  
-  {
-nomor: "JURNAL VOL. 1 NO. 4",
-tahun: "November 2026",
-judul: "PROSES PEMBERSIHAN RASA",
-penulis: "Dhimas Purnomo, SH",
-abstrak: "Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.",
-pdf: "https://drive.google.com/file/d/1BQEL48QSqjesL74mqJl-QwNSgnSwHjFc/view?usp=drivesdk"
   },
 
   {
-nomor: "JURNAL VOL. 1 NO. 5",
-tahun: "November 2026",
-judul: "CIPTA, RASA, DAN KARSA: TIGA UNSUR BATIN DALAM KEHIDUPAN MANUSIA",
-penulis: "Dhimas Purnomo, SH",
-abstrak: "Hubungan, Kedudukan, dan Keterpaduan Budi dalam Perspektif Kawruh Uttamopadesa.",
-pdf: "https://drive.google.com/file/d/1lSY-z4k5R4FCS6VVroiFXKEvqF4TG2kg/view?usp=drivesdk"
-}
+    nomor: "JURNAL VOL. 1 NO. 3",
+    tahun: "November 2026",
+    judul: "KESATUAN SPIRITUALITAS DAN KEUTAMAAN HIDUP",
+    penulis: "Dhimas Purnomo, SH",
+    abstrak: "Pemaparan Hakikat Perjalanan Kesadaran dan Perwujudan Laku Utama dalam Kawruh Uttamopadesa.",
+    halaman: "jurnal-spiritualitas.html",
+    pdf: "https://drive.google.com/file/d/1R1DVReN5Y_Tkslq3dJTQYyvdHmTiNYsP/view?usp=drivesdk"
+  },
+
+  {
+    nomor: "JURNAL VOL. 1 NO. 4",
+    tahun: "November 2026",
+    judul: "PROSES PEMBERSIHAN RASA",
+    penulis: "Dhimas Purnomo, SH",
+    abstrak: "Reresik Rasa sebagai Jalan Pengembangan Tulusing Rasa dalam Kawruh Uttamopadesa.",
+    halaman: "pembersihan-rasa.html",
+    pdf: "https://drive.google.com/file/d/1BQEL48QSqjesL74mqJl-QwNSgnSwHjFc/view?usp=drivesdk"
+  },
+
+  {
+    nomor: "JURNAL VOL. 1 NO. 5",
+    tahun: "November 2026",
+    judul: "CIPTA, RASA, DAN KARSA: TIGA UNSUR BATIN DALAM KEHIDUPAN MANUSIA",
+    penulis: "Dhimas Purnomo, SH",
+    abstrak: "Hubungan, Kedudukan, dan Keterpaduan Budi dalam Perspektif Kawruh Uttamopadesa.",
+    halaman: "cipta-rasa-karsa.html",
+    pdf: "https://drive.google.com/file/d/1lSY-z4k5R4FCS6VVroiFXKEvqF4TG2kg/view?usp=drivesdk"
+  }
+
 ];
 
 
@@ -479,7 +465,6 @@ const backToTop = document.getElementById("backToTop");
 /* PENGAMAN TEKS HTML */
 
 function aman(teks) {
-
   return String(teks || "").replace(/[&<>"']/g, karakter => ({
     "&": "&amp;",
     "<": "&lt;",
@@ -487,7 +472,6 @@ function aman(teks) {
     '"': "&quot;",
     "'": "&#39;"
   })[karakter]);
-
 }
 
 
@@ -505,14 +489,24 @@ function tampilkanJurnal() {
 
   daftar.innerHTML = data.map(item => {
 
-    const tombolPDF = item.pdf
+    const tombolHalaman = item.halaman
       ? `
         <a
           class="tombol tombol-hijau"
+          href="./${aman(item.halaman)}">
+          Buka Halaman Jurnal →
+        </a>
+      `
+      : "";
+
+    const tombolPDF = item.pdf
+      ? `
+        <a
+          class="tombol tombol-garis"
           href="${aman(item.pdf)}"
           target="_blank"
           rel="noopener noreferrer">
-          Baca Jurnal ↗
+          Baca PDF ↗
         </a>
       `
       : "";
@@ -539,6 +533,7 @@ function tampilkanJurnal() {
         </p>
 
         <div class="aksi">
+          ${tombolHalaman}
           ${tombolPDF}
         </div>
 
@@ -577,6 +572,49 @@ backToTop.addEventListener("click", function() {
 
 tampilkanJurnal();
 
+</script>
+
+<!-- DATA TERSTRUKTUR -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Arsip Jurnal Uttamopadesa",
+  "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/jurnal.html",
+  "author": {
+    "@type": "Person",
+    "name": "Dhimas Purnomo",
+    "honorificSuffix": "SH"
+  },
+  "hasPart": [
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Sih Ilahi dan Cakraning Lampah Ilahi dalam Pemikiran Uttamopadesa",
+      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/sih-ilahi.html"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Nawa Prasanti Batin",
+      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/nawa-prasanti-batin.html"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Kesatuan Spiritualitas dan Keutamaan Hidup",
+      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/jurnal-spiritualitas.html"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Proses Pembersihan Rasa",
+      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/pembersihan-rasa.html"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Cipta, Rasa, dan Karsa: Tiga Unsur Batin dalam Kehidupan Manusia",
+      "url": "https://dhimas2467.github.io/katalog-buku-uttamopadesa/cipta-rasa-karsa.html"
+    }
+  ]
+}
 </script>
 
 </body>
