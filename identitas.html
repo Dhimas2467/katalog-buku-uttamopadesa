@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Identitas Pustaka Uttamopadesa | Dhimas Purnomo, SH</title>
+  <meta name="description" content="Identitas Pustaka Uttamopadesa, kumpulan buku yang memuat pemaparan dan pengembangan berbagai pokok pemahaman tentang Kawruh Uttamopadesa.">
+  <meta name="author" content="Dhimas Purnomo, SH">
+  <meta name="theme-color" content="#20372d">
+
+  <style>
+    :root {
+      --hijau: #20372d;
+      --emas: #d8bd82;
+      --kertas: #f6f4ed;
+      --putih: #fffefa;
+      --teks: #26342c;
+      --abu: #68736c;
+      --garis: #e2dfd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 18px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--kertas);
+      color: var(--teks);
+      line-height: 1.8;
+    }
+
+    .hero {
+      background:
+        radial-gradient(ellipse at top, #d8bd8225, transparent 55%),
+        var(--hijau);
+      color: var(--putih);
+      text-align: center;
+      padding: 42px 20px 44px;
+    }
+
+    .ornamen {
+      color: var(--emas);
+      font-size: 30px;
+      margin-bottom: 4px;
+    }
+
+    .label {
+      color: #b89b60;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.08;
+      margin: 9px 0;
+    }
+
+    h1 span { color: var(--emas); }
+
+    .penulis {
+      font-weight: bold;
+      margin: 12px 0 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 42px 22px 60px;
+    }
+
+    .atas {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .tombol {
+      display: inline-block;
+      border: 0;
+      border-radius: 5px;
+      padding: 11px 16px;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 1.5;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: inherit;
+      text-align: center;
+    }
+
+    .tombol-hijau {
+      background: var(--hijau);
+      color: white;
+    }
+
+    .tombol:hover { filter: brightness(.96); }
+
+    .tombol:focus-visible {
+      outline: 3px solid var(--emas);
+      outline-offset: 3px;
+    }
+
+    .label-bagian {
+      color: #94763c;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(25px, 4vw, 34px);
+      line-height: 1.3;
+      margin: 0 0 18px;
+    }
+
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      line-height: 1.35;
+      margin: 30px 0 10px;
+    }
+
+    p {
+      margin: 0 0 17px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    /* GAMBAR IDENTITAS */
+
+    .gambar-identitas {
+      margin: 0 0 28px;
+      text-align: center;
+    }
+
+    .gambar-identitas img {
+      display: block;
+      width: 100%;
+      max-width: 850px;
+      height: auto;
+      margin: auto;
+      border-radius: 9px;
+      border: 1px solid var(--garis);
+      box-shadow: 0 3px 12px #00000012;
+    }
+
+    /* ISI IDENTITAS */
+
+    .identitas {
+      background: var(--putih);
+      border: 1px solid var(--garis);
+      border-radius: 9px;
+      padding: clamp(20px, 4vw, 34px);
+      box-shadow: 0 3px 12px #00000008;
+    }
+
+    ul {
+      padding-left: 23px;
+      margin: 8px 0 20px;
+    }
+
+    li { margin-bottom: 8px; }
+
+    .penegasan {
+      margin-top: 28px;
+      padding: 20px 22px;
+      border-left: 4px solid var(--emas);
+      background: #f1eee4;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--hijau);
+      text-align: center;
+      padding: 28px 20px;
+      color: #fff;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    footer strong {
+      color: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+    }
+
+    footer p {
+      margin: 9px 0;
+      text-align: center;
+    }
+
+    /* HANDPHONE */
+
+    @media (max-width: 560px) {
+      .hero { padding: 27px 17px 30px; }
+      .ornamen { font-size: 26px; }
+      .label { letter-spacing: 2px; }
+      main { padding: 28px 14px 42px; }
+      .identitas { padding: 20px 17px; }
+      h3 { font-size: 20px; }
+      p { text-align: left; }
+      .penegasan {
+        font-size: 17px;
+        padding: 17px;
+      }
+      .gambar-identitas {
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="ornamen" aria-hidden="true">✧</div>
+  <div class="label">Perpustakaan Digital</div>
+
+  <h1>Identitas<br><span>Pustaka Uttamopadesa</span></h1>
+
+  <p class="penulis">Karya Dhimas Purnomo, SH</p>
+</header>
+
+<main>
+
+  <div class="atas">
+    <div>
+      <div class="label-bagian">Katalog Buku Uttamopadesa</div>
+      <h2>Identitas Pustaka</h2>
+    </div>
+
+    <a class="tombol tombol-hijau" href="./index.html">
+      ← Kembali ke Katalog
+    </a>
+  </div>
+
+  <!-- GAMBAR IDENTITAS -->
+
+  <figure class="gambar-identitas">
+    <img
+      src="./identitas.jpg"
+      alt="Identitas Pustaka Uttamopadesa"
+      loading="eager"
+    >
+  </figure>
+
+  <!-- URAIAN IDENTITAS -->
+
+  <article class="identitas">
+
+    <p>
+      Pustaka Uttamopadesa merupakan kumpulan buku yang memuat berbagai
+      pemaparan dan pengembangan pemikiran mengenai Kawruh Uttamopadesa,
+      sebuah kerangka pemikiran filsafat dan spiritualitas yang dirumuskan
+      dan disusun oleh Dhimas Purnomo, SH. Kumpulan buku ini menjadi wadah
+      dokumentasi tertulis atas berbagai pokok pemahaman yang dikembangkan
+      dalam Kawruh Uttamopadesa.
+    </p>
+
+    <p>
+      Buku-buku yang terhimpun di dalam Pustaka Uttamopadesa membahas
+      beragam persoalan mendasar mengenai kehidupan dan keberadaan manusia.
+      Ruang lingkup pembahasannya mencakup hakikat panguripan, asal-usul
+      keberadaan, jatining panguripan, hakikat manusia, kesadaran, cipta,
+      rasa, karsa, perkembangan spiritualitas, serta berbagai pemahaman
+      mengenai laku dan keutamaan hidup manusia.
+    </p>
+
+    <p>
+      Setiap buku disusun dengan judul dan ruang lingkup pembahasan
+      tersendiri. Ada buku yang menguraikan landasan pemahaman mengenai
+      hakikat kehidupan, ada yang secara khusus membahas keberadaan dan
+      jatining diri manusia, ada pula yang mendalami perkembangan kesadaran,
+      keadaan batin, spiritualitas, serta penerapan kawruh dalam kehidupan.
+      Keragaman tema tersebut memungkinkan setiap pokok pembahasan diuraikan
+      secara lebih khusus, terarah, dan mendalam.
+    </p>
+
+    <p>
+      Buku-buku dalam Pustaka Uttamopadesa dapat dibaca secara mandiri
+      berdasarkan tema dan pokok pembahasan yang ingin dipahami. Meskipun
+      masing-masing memiliki ruang lingkup tersendiri, seluruh karya tetap
+      berada dalam kerangka pemikiran Kawruh Uttamopadesa. Dengan demikian,
+      setiap buku dapat memberikan pemahaman khusus sekaligus melengkapi
+      wawasan pembaca mengenai keseluruhan pemikiran yang dikembangkan.
+    </p>
+
+    <h3>Tujuan Penghimpunan Buku</h3>
+
+    <p>
+      Pustaka Uttamopadesa disusun untuk menghimpun, mendokumentasikan,
+      dan memperkenalkan berbagai karya tulis tentang Kawruh Uttamopadesa.
+      Penghimpunan ini juga bertujuan memberikan ruang bagi setiap pokok
+      pemahaman untuk dibahas secara khusus, sehingga pembaca dapat
+      menemukan uraian yang sesuai dengan tema yang ingin didalami.
+    </p>
+
+    <ul>
+      <li>Menghimpun berbagai buku yang membahas Kawruh Uttamopadesa.</li>
+      <li>Mendokumentasikan pemaparan dan pengembangan berbagai pokok kawruh.</li>
+      <li>Menyediakan bahan bacaan dengan tema dan ruang lingkup pembahasan yang beragam.</li>
+      <li>Memudahkan pembaca mengenali dan menemukan buku sesuai kebutuhan pemahamannya.</li>
+      <li>Menjadi dokumentasi perkembangan karya-karya tentang Kawruh Uttamopadesa.</li>
+    </ul>
+
+    <h3>Ruang Lingkup Koleksi</h3>
+
+    <p>
+      Koleksi Pustaka Uttamopadesa mencakup berbagai tema yang berkaitan
+      dengan hakikat panguripan, keberadaan dan kehidupan manusia,
+      perkembangan kesadaran, cipta-rasa-karsa, keadaan batin, spiritualitas,
+      serta laku dan keutamaan hidup. Tema-tema tersebut dikembangkan dalam
+      buku-buku tersendiri sesuai dengan pokok persoalan dan kedalaman
+      pembahasannya. Daftar judul dan uraian masing-masing buku dapat
+      ditemukan melalui Katalog Buku Uttamopadesa.
+    </p>
+
+    <h3>Kedudukan Pustaka Uttamopadesa</h3>
+
+    <p>
+      Pustaka Uttamopadesa merupakan dokumentasi kumpulan karya tulis,
+      bukan nama suatu organisasi, agama, aliran kepercayaan, ataupun
+      kelompok praktik ritual. Buku-buku di dalamnya berisi pemaparan
+      pemikiran dan kawruh yang dapat dibaca, dipelajari, direnungkan,
+      serta dipahami oleh pembaca sesuai dengan minat dan kebutuhannya.
+    </p>
+
+    <p>
+      Pustaka ini bersifat terbuka terhadap pengembangan koleksi. Seiring
+      dengan pendalaman dan penyusunan karya-karya baru, buku-buku tersebut
+      dapat dihimpun sebagai bagian dari dokumentasi Pustaka Uttamopadesa.
+      Karena itu, katalog menjadi sarana untuk memperkenalkan koleksi,
+      menyajikan informasi buku, dan membantu pembaca menelusuri karya
+      yang tersedia.
+    </p>
+
+    <h3>Katalog Buku Uttamopadesa</h3>
+
+    <p>
+      Katalog Buku Uttamopadesa merupakan sarana informasi dan penelusuran
+      terhadap buku-buku yang terhimpun dalam Pustaka Uttamopadesa.
+      Melalui katalog, pembaca dapat mengenali judul buku, membaca
+      abstraksi atau deskripsi, serta membuka buku yang tersedia.
+      Katalog juga menjadi dokumentasi perkembangan koleksi seiring
+      bertambahnya karya.
+    </p>
+
+    <div class="penegasan">
+      Pustaka Uttamopadesa adalah kumpulan buku tentang Kawruh Uttamopadesa,
+      sedangkan Katalog Buku Uttamopadesa merupakan sarana informasi,
+      pengenalan, dan penelusuran terhadap keseluruhan koleksi tersebut.
+    </div>
+
+  </article>
+</main>
+
+<footer>
+  <strong>Wedharan Kawruh Uttamopadesa</strong>
+  <p>Pustaka Digital Uttamopadesa</p>
+  <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
+</footer>
+
+</body>
+</html>
