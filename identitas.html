@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -136,6 +137,8 @@
       margin: 30px 0 10px;
     }
 
+    /* SELURUH TULISAN JUSTIFY */
+
     p {
       margin: 0 0 17px;
       text-align: justify;
@@ -175,7 +178,10 @@
       margin: 8px 0 20px;
     }
 
-    li { margin-bottom: 8px; }
+    li {
+      margin-bottom: 8px;
+      text-align: justify;
+    }
 
     .penegasan {
       margin-top: 28px;
@@ -185,6 +191,38 @@
       font-family: Georgia, "Times New Roman", serif;
       font-size: 18px;
       line-height: 1.7;
+      text-align: justify;
+    }
+
+    /* TOMBOL BACK TO TOP */
+
+    #backToTop {
+      display: none;
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 999;
+      background: var(--hijau);
+      color: white;
+      border: 1px solid var(--emas);
+      border-radius: 6px;
+      padding: 11px 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 3px 12px #00000025;
+      transition: background .2s, transform .2s;
+    }
+
+    #backToTop:hover {
+      background: #345443;
+      transform: translateY(-3px);
+    }
+
+    #backToTop:focus-visible {
+      outline: 3px solid var(--emas);
+      outline-offset: 3px;
     }
 
     /* FOOTER */
@@ -218,30 +256,51 @@
       main { padding: 28px 14px 42px; }
       .identitas { padding: 20px 17px; }
       h3 { font-size: 20px; }
-      p { text-align: left; }
+
+      p {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+
+      li {
+        text-align: justify;
+      }
+
       .penegasan {
         font-size: 17px;
         padding: 17px;
+        text-align: justify;
       }
+
       .gambar-identitas {
         margin-bottom: 20px;
+      }
+
+      #backToTop {
+        right: 14px;
+        bottom: 15px;
+        padding: 10px 13px;
+        font-size: 12px;
       }
     }
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
+
+      #backToTop {
+        transition: none;
+      }
     }
   </style>
 </head>
 
-<body>
+<body id="top">
 
 <header class="hero">
   <div class="ornamen" aria-hidden="true">✧</div>
   <div class="label">Perpustakaan Digital</div>
 
   <h1>Identitas<br><span>Pustaka Uttamopadesa</span></h1>
-
 </header>
 
 <main>
@@ -382,6 +441,29 @@
   <p>Pustaka Digital Uttamopadesa</p>
   <p>© 2026 Hak cipta dilindungi Undang-undang.</p>
 </footer>
+
+<!-- TOMBOL KEMBALI KE ATAS -->
+
+<button
+  id="backToTop"
+  type="button"
+  aria-label="Kembali ke atas"
+  onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+>
+  ↑ Kembali ke Atas
+</button>
+
+<script>
+  const backToTop = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
+</script>
 
 </body>
 </html>
