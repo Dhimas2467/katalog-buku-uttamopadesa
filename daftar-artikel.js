@@ -1,5 +1,24 @@
 const daftarArtikel = [
  {
+judul: "SPIRITUALITAS BUKAN PRAKTIK RITUAL",
+subjudul: "Hakikat Kesadaran, Pemahaman, dan Laku Kehidupan",
+penulis: "Dhimas Purnomo, SH",
+halaman: "bukan-praktik-ritual.html",
+sampul: "sampul-bukan-ritual.jpg",
+abstraksi: `Buku SPIRITUALITAS BUKAN PRAKTIK RITUAL, Hakikat Kesadaran, Pemahaman, dan Laku Kehidupan merupakan pemaparan dasar Kawruh Uttamopadesa yang dirumuskan dan disusun oleh Dhimas Purnomo, SH. Buku ini membahas hakikat spiritualitas sekaligus memberikan penegasan terhadap berbagai kekeliruan pemahaman yang berkembang ketika spiritualitas dipersempit menjadi kegiatan ritual, praktik mistis, pencarian kesaktian, pengalaman gaib, maupun penggunaan simbol dan perlengkapan tertentu.
+
+Spiritualitas merupakan dimensi kehidupan manusia yang berkaitan dengan kesadaran, pemahaman, dan penghayatan terhadap keberadaan serta kenyataan kehidupan. Oleh sebab itu, spiritualitas tidak dapat dinilai hanya berdasarkan sesuatu yang dilakukan secara lahiriah. Ritual, praktik keagamaan, tradisi budaya, dan berbagai bentuk kegiatan batin mempunyai ruang lingkup serta makna masing-masing. Keberadaannya tidak harus dipertentangkan dengan spiritualitas, tetapi juga tidak dapat secara otomatis disamakan dengannya. Seseorang dapat menjalankan berbagai kegiatan ritual, tetapi kedalaman spiritualitasnya tetap berkaitan dengan tingkat kesadaran, pemahaman, dan perwujudan keutamaan dalam kehidupannya.
+
+Pemaparan buku ini disusun dalam empat bagian utama. Bagian pertama membahas persoalan pemahaman spiritualitas, mulai dari pengertian, ruang lingkup, hingga kekeliruan dalam memaknainya. Bagian kedua membedakan spiritualitas dari praktik ritual, agama, mistisisme, dan tradisi budaya. Bagian ketiga menguraikan dasar pemahaman spiritualitas melalui pembahasan mengenai keberadaan manusia, kesadaran, kebenaran, keyakinan, pengalaman batin, pengetahuan, dan kedalaman penghayatan. Bagian keempat membahas perwujudan spiritualitas dalam kehidupan melalui pembentukan kepribadian, hubungan antar manusia, tanggung jawab terhadap lingkungan, serta ukuran kedalaman spiritualitas.
+
+Dalam kerangka Kawruh Uttamopadesa, spiritualitas berkaitan dengan pemahaman terhadap Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, Jatining Panguripan, Kawruh Sejati, dan Kawruh Kasunyatan. Pokok-pokok pemahaman tersebut memberikan landasan untuk mengenali keberadaan dan kenyataan kehidupan. Kawruh Sejati dipahami sebagai pepadhang yang bersumber dari Sang Sumber Panguripan, sedangkan Kawruh Kasunyatan merupakan pemahaman manusia terhadap kenyataan yang dikembangkan melalui kejernihan cipta, rasa, dan karsa serta diuji dalam perjalanan kehidupan. Dengan demikian, spiritualitas tidak berhenti pada pengenalan istilah atau penguasaan pengetahuan, tetapi berkaitan dengan kedalaman pemahaman dan penerapannya.
+
+Pokok penegasan buku ini adalah bahwa spiritualitas bukan sekadar sesuatu yang dilakukan, melainkan kenyataan kesadaran yang seharusnya mewarnai seluruh kehidupan manusia. Kedalaman spiritualitas tercermin melalui kematangan berpikir, ketulusan sikap, tanggung jawab, kepedulian, keadilan, dan kemampuan menghadapi persoalan secara bijaksana. Spiritualitas juga tidak seharusnya menjadi dasar untuk membangun kesombongan, merasa paling benar, atau menempatkan diri lebih tinggi daripada orang lain.
+
+Melalui pemaparan ini, pembaca diajak memahami spiritualitas secara lebih luas dan mendasar, membedakan hakikat pemahaman dari formalitas lahiriah, serta menempatkan kesadaran sebagai dasar dalam menjalani kehidupan. Tujuan akhirnya bukan membentuk identitas spiritual tertentu, melainkan mendorong manusia untuk mengenali keberadaan, memahami kenyataan, dan mewujudkan keutamaan melalui laku kehidupan sehari-hari.`,
+pdf: "https://drive.google.com/file/d/1dTN3Ql0QLpKooTJufve8v8QfNh3hCnQG/view?usp=drivesdk"
+},
+ {
 judul: "NAWA MALANING CIPTA DALAM KAWRUH UTTAMOPADESA",
 subjudul: "Sembilan Kotoran Batin yang Menghalangi Kejernihan Cipta",
 penulis: "Dhimas Purnomo, SH",
