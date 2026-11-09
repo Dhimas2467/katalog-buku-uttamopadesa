@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "MENUJU CIPTA WENING, RASA TULUS DAN KARSA UTAMA",
+subjudul: "Pemaparan Dasar Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "menuju-cipta-wening.html",
+sampul: "sampul-menuju-cipta-wening.jpg",
+abstraksi: `Buku Menuju Cipta Wening, Rasa Tulus dan Karsa Utama merupakan pemaparan dasar Kawruh Uttamopadesa yang membahas perkembangan dan keterpaduan tiga unsur penting dalam kehidupan batin manusia, yaitu Cipta, Rasa, dan Karsa. Ketiganya memiliki fungsi yang berbeda, tetapi saling berkaitan dalam membentuk Budi serta menentukan cara manusia memahami kenyataan, menghayati kehidupan, dan mewujudkan kehendak melalui tindakan. Pemaparan ini menempatkan pengembangan ketiga unsur tersebut sebagai bagian penting dalam upaya membangun kualitas batin dan keutamaan hidup.
+
+Cipta merupakan kemampuan batin yang berkaitan dengan proses memahami, mengenali, mengolah, dan mempertimbangkan kenyataan. Pengembangannya diarahkan menuju Weninging Cipta, yaitu kejernihan pemahaman yang memungkinkan manusia mengenali keadaan secara lebih tepat, membedakan kenyataan dengan penafsiran, serta menentukan pertimbangan tanpa mudah dikuasai oleh prasangka dan ketergesaan. Weninging Cipta tidak hanya berkaitan dengan bertambahnya pengetahuan, tetapi juga dengan meningkatnya ketepatan dalam menggunakan pemahaman untuk menghadapi kehidupan.
+
+Rasa merupakan unsur batin yang berkaitan dengan penghayatan, kepekaan, dan pengalaman manusia terhadap berbagai keadaan kehidupan. Pengembangannya diarahkan menuju Tulusing Rasa, yaitu ketulusan dalam menghayati kenyataan, mengenali keadaan batin, memahami keadaan orang lain, serta menumbuhkan kepedulian melalui Sih dan Welas Asih. Ketulusan Rasa membantu manusia membangun hubungan yang lebih manusiawi, menerima kenyataan secara jujur, dan mengembangkan kepekaan tanpa kehilangan kejernihan pertimbangan.
+
+Karsa merupakan unsur batin yang berkaitan dengan kehendak, niat, tujuan, pilihan, dan tindakan. Pengembangannya diarahkan menuju Utamaning Karsa, yaitu keutamaan kehendak yang didasarkan pada pemahaman yang jernih dan penghayatan yang tulus. Karsa Utama diwujudkan melalui kemampuan menentukan arah hidup, mengambil keputusan, menjalankan tanggung jawab, membangun hubungan antar manusia, serta memberikan manfaat bagi kehidupan bermasyarakat. Keutamaan kehendak tidak hanya diukur dari kekuatan niat, tetapi juga dari ketepatan tujuan, cara pelaksanaan, dan kesediaan menerima konsekuensi tindakan.
+
+Pemaparan buku ini disusun dalam lima bagian dan tujuh belas bab. Pembahasan dimulai dari landasan pemahaman Cipta, Rasa, dan Karsa, dilanjutkan dengan pendalaman masing-masing unsur melalui tahapan pengenalan hakikat, perkembangan kemampuan, pengolahan dan penataan, proses menuju kualitas utama, serta perwujudannya dalam kehidupan. Bagian terakhir membahas keterpaduan ketiganya dalam pembentukan Budi dan pencapaian keutamaan panguripan.
+
+Dalam kerangka Kawruh Uttamopadesa, Budi dipahami sebagai keterpaduan Cipta, Rasa, dan Karsa. Dengan demikian, Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa bukan tiga tujuan yang berdiri sendiri, melainkan satu kesatuan perkembangan batin. Cipta memberikan kejernihan pemahaman, Rasa memberikan ketulusan penghayatan, dan Karsa memberikan keutamaan kehendak yang diwujudkan dalam laku kehidupan.
+
+Tujuan utama pemaparan ini adalah memberikan pemahaman mengenai pentingnya mengembangkan ketiga unsur batin secara terpadu sehingga manusia mampu menjalani kehidupan dengan lebih sadar, jernih, tulus, dan bertanggung jawab. Buku ini menegaskan bahwa keutamaan batin tidak berhenti pada pengetahuan atau pemahaman konseptual, tetapi perlu diwujudkan secara berkesinambungan melalui sikap, pilihan, dan tindakan nyata dalam kehidupan.`,
+pdf: "https://drive.google.com/file/d/1nEf1ZAPnwruScaKNz33nm1m1w440s15z/view?usp=drivesdk"
+},
+ {
 judul: "SPIRITUALITAS BUKAN PRAKTIK RITUAL",
 subjudul: "Hakikat Kesadaran, Pemahaman, dan Laku Kehidupan",
 penulis: "Dhimas Purnomo, SH",
