@@ -1,5 +1,24 @@
 const daftarArtikel = [
  {
+judul: "WEDHARAN PRABHAWANING PANGURIPAN",
+subjudul: "Sumber Utama Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "prabhawaning-panguripan.html",
+sampul: "sampul-prabhawaning-panguripan.jpg",
+abstraksi: `Buku WEDHARAN PRABHAWANING PANGURIPAN,  Sumber Utama Kawruh Uttamopadesa, merupakan pemaparan mendasar mengenai asal, dasar, daya, tatanan, dan hakikat kehidupan. Buku ini disusun untuk memberikan pemahaman menyeluruh tentang panguripan sebagai kenyataan keberadaan yang tidak hanya dapat dilihat melalui bentuk jasmani, tetapi juga perlu dipahami melalui hubungan berbagai unsur yang mendasari berlangsungnya kehidupan. Pemaparan ini menjadi landasan utama bagi pengembangan berbagai pokok pemahaman dalam Kawruh Uttamopadesa.
+
+Pembahasan diawali dengan pengenalan terhadap Hyang Manon Sang Anantateja sebagai hakikat tertinggi yang langgeng, tidak terbatas oleh ruang dan waktu, serta menjadi asal segala keberadaan. Dalam hubungannya dengan kehidupan, hakikat tersebut dikenal sebagai Sang Sumber Panguripan, yaitu asal segala kehidupan. Selanjutnya, Prabhawaning Panguripan dijelaskan sebagai daya dan tatanan yang mendasari keteraturan, hubungan, perubahan, serta kesinambungan kehidupan dalam jagad gumelar. Pemahaman ini dibedakan dari Sang Sumber Panguripan agar pengertian mengenai asal kehidupan dan tatanan berlangsungnya kehidupan tidak tercampuradukkan.
+
+Pemaparan berikutnya menguraikan Jatining Panguripan sebagai dasar keberadaan kehidupan yang kawedhar saking Sang Sumber Panguripan. Pembahasan kemudian diarahkan pada susunan kehidupan manusia melalui pengenalan terhadap Jiwa, Sukma, Cipta, Rasa, Karsa, Cetana, dan Raga. Jiwa dipahami sebagai inti panguripan yang senantiasa suci dan langgeng serta menjadi pepadhang bagi sukma. Sukma merupakan badan alus yang menjadi tempat berlangsungnya kehidupan batin, termasuk cipta, rasa, dan karsa. Cetana merupakan kesadaran yang tumbuh dalam sukma dan memperoleh pepadhang dari jiwa, sedangkan raga menjadi sarana jasmani untuk menjalani kehidupan dalam jagad gumelar.
+
+Buku ini juga menguraikan hubungan antara jiwa, sukma, cetana, dan raga, termasuk keterkaitan kehidupan batin dengan jasmani. Keadaan sukma yang bening atau keruh mempunyai hubungan dengan perkembangan kesadaran dan cara manusia menjalani kehidupannya. Melalui penataan cipta, rasa, dan karsa, manusia diarahkan untuk mengembangkan kejernihan batin, ketulusan penghayatan, dan keutamaan kehendak.
+
+Pembahasan selanjutnya menempatkan manusia sebagai bagian dari Tatananing Panguripan. Manusia mempunyai hubungan dengan sesama makhluk dan alam serta memikul tanggung jawab untuk menjaga keberlangsungan kehidupan. Kesadaran terhadap asal kehidupan juga mengarahkan manusia untuk mengenali keberadaan diri, memahami hubungan dengan Sang Sumber Panguripan, menyadari Jatining Panguripan, melakukan mawas diri, dan mengembangkan kerendahan hati.
+
+Secara keseluruhan, buku ini menegaskan bahwa panguripan merupakan kenyataan yang mempunyai asal dan dasar, berlangsung melalui daya serta tatanan tertentu, dan harus dihayati melalui kesadaran serta tanggung jawab. Kawruh tidak hanya dipahami sebagai pengetahuan, tetapi juga sebagai pepadhang yang membantu manusia mengenali kenyataan dan mewujudkan pemahamannya dalam laku kehidupan.`,
+pdf: "https://drive.google.com/file/d/1ELJdDnqD_Tm52AnHYwAQESZnl1rdijw8/view?usp=drivesdk"
+},
+ {
 judul: "MENUJU CIPTA WENING, RASA TULUS DAN KARSA UTAMA",
 subjudul: "Pemaparan Dasar Kawruh Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
