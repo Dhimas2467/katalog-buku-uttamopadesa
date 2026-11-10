@@ -1,5 +1,24 @@
 const daftarArtikel = [
  {
+judul: "INDIGO BUKAN KAUM SPIRITUALITAS",
+subjudul: "Membedakan Kepekaan, Persepsi, Kesadaran dan Hakikat Spiritualitas",
+penulis: "Dhimas Purnomo, SH",
+halaman: "indigo-spiritualitas.html",
+sampul: "bukan-spiritualitas.jpg",
+abstraksi: `Buku INDIGO BUKAN KAUM SPIRITUALITAS,  Membedakan Kepekaan, Persepsi, Kesadaran dan Hakikat Spiritualitas; membahas fenomena Indigo dan kekeliruan pemahaman yang muncul akibat pengaitan istilah tersebut dengan kemampuan khusus, pengalaman mistis, kesadaran tinggi, serta kedalaman spiritualitas. Pembahasan ini dilatarbelakangi oleh perkembangan istilah Indigo dalam masyarakat modern yang tidak hanya digunakan untuk menggambarkan karakteristik individu tertentu, tetapi juga berkembang menjadi identitas yang sering dilekatkan dengan anggapan keistimewaan manusia.
+
+Buku ini menempatkan Indigo sebagai istilah populer yang berkembang melalui pemikiran dan penafsiran masyarakat, bukan sebagai kategori ilmiah yang telah ditetapkan secara universal. Karakteristik yang sering dilekatkan kepada individu Indigo, seperti kepekaan emosional, intuisi, kreativitas, kemandirian berpikir, dan pengalaman yang tidak lazim, dibahas sebagai bagian dari keragaman karakteristik manusia. Berbagai karakteristik tersebut tidak bersifat eksklusif dan tidak dapat digunakan sebagai dasar untuk memastikan seseorang termasuk dalam kategori manusia tertentu.
+
+Pembahasan mencakup persepsi, kepekaan sensoris, intuisi, pengalaman batin, serta berbagai klaim kemampuan khusus dan supranatural. Buku ini membedakan antara pengalaman yang benar-benar dirasakan seseorang, penafsiran terhadap pengalaman tersebut, keyakinan yang terbentuk, dan bukti yang dapat diperiksa. Pembedaan ini diperlukan agar pengalaman pribadi tidak langsung diperlakukan sebagai fakta yang telah terbukti. Perspektif psikologi juga digunakan untuk memahami perbedaan individu, perkembangan kognitif dan emosional, pengaruh sugesti, serta pembentukan identitas diri, tanpa menjadikan psikologi sebagai penjelasan mengenai hakikat kehidupan.
+
+Pokok pembahasan selanjutnya diarahkan pada kekeliruan menyamakan Indigo dengan spiritualitas. Pengaitan tersebut berkembang antara lain melalui pengaruh pemikiran New Age dan penafsiran yang menganggap kepekaan atau kemampuan khusus sebagai tanda keistimewaan spiritual. Padahal, kemampuan merasakan sesuatu, memiliki intuisi, atau mengalami peristiwa yang dianggap mistis tidak otomatis menunjukkan kedalaman pemahaman kehidupan. Kemampuan khusus, apabila memang dimiliki, juga tidak menentukan keutamaan manusia karena kualitas seseorang tidak hanya berkaitan dengan apa yang mampu dilakukannya, tetapi juga bagaimana kemampuan tersebut digunakan dan dipertanggungjawabkan.
+
+Buku ini kemudian menguraikan hakikat spiritualitas sebagai bagian dari pemahaman dan penghayatan kehidupan manusia. Spiritualitas tidak ditentukan oleh identitas, label, kemampuan supranatural, maupun pengalaman mistis semata. Kedalamannya berkaitan dengan kesadaran terhadap diri sendiri, kemampuan memahami orang lain, kedewasaan emosional, pengendalian diri, serta tanggung jawab dalam menjalani kehidupan. Pemahaman tersebut perlu tercermin melalui kejujuran, ketulusan, kepedulian, penghormatan terhadap sesama, dan perilaku yang dapat dipertanggungjawabkan.
+
+Secara keseluruhan, buku ini menegaskan bahwa Indigo bukan ukuran kedalaman spiritualitas. Kepekaan, persepsi, intuisi, kesadaran, kemampuan khusus, dan spiritualitas merupakan hal-hal yang memiliki ruang lingkup pengertian berbeda. Manusia tidak perlu memiliki identitas Indigo atau kemampuan yang dianggap luar biasa untuk mempunyai kehidupan spiritual yang mendalam. Hal yang lebih mendasar adalah kemampuan memahami kehidupan secara proporsional, mengenali keterbatasan diri, menghargai perbedaan, serta mewujudkan pemahaman melalui tindakan nyata.`,
+pdf: "https://drive.google.com/file/d/1T-BigajRs5mwKGdJcJ-2PEwTl_RmYYpL/view?usp=drivesdk"
+},
+ {
 judul: "NAWA BRATA WISESA",
 subjudul: "Kepemimpinan Sejati Dalam Kawruh Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
