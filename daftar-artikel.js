@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA BRATA WISESA",
+subjudul: "Kepemimpinan Sejati Dalam Kawruh Uttamopadesa",
+penulis: "Dhimas Purnomo, SH",
+halaman: "nawa-brata-wisesa.html",
+sampul: "sampul-nawa-brata-wisesa.jpg",
+abstraksi: `Kepemimpinan merupakan salah satu unsur penting dalam kehidupan manusia karena berkaitan dengan kemampuan menentukan arah, menjaga keteraturan, mengambil keputusan, serta memikul tanggung jawab terhadap kehidupan bersama. Akan tetapi, hakikat kepemimpinan tidak dapat dibatasi pada kedudukan, kewenangan, kekuasaan, ataupun kemampuan memberikan perintah. Kepemimpinan yang memiliki keluhuran harus berakar pada kesadaran, kejernihan pemahaman, keutamaan karakter, kebijaksanaan, dan ketulusan dalam menjalankan tanggung jawab. Atas dasar pemahaman tersebut, buku NAWA BRATA WISESA: Kepemimpinan Sejati Dalam Kawruh Uttamopadesa disusun sebagai pemaparan mengenai sembilan laku utama yang menjadi dasar pembentukan kepemimpinan luhur.
+
+Nawa Brata Wisesa merupakan kesatuan sembilan keutamaan yang menggambarkan berbagai sifat dan kemampuan yang perlu diwujudkan dalam diri seorang pemimpin. Kesembilan Brata tersebut meliputi Suryaning Adilaya, yaitu keutamaan dalam menegakkan keadilan dan keluhuran tatanan; Candraning Wening Cita, yaitu kejernihan batin yang menenangkan; Kartikaning Panuntun, yaitu kemampuan memberikan arah dan tuntunan; Pertiwing Sabda Lestari, yaitu keteguhan tutur dan keluhuran sabda; Segaraning Wicaksana, yaitu keluasan hati dan kedalaman kebijaksanaan; Bayuning Tanggap, yaitu kepekaan dan ketangkasan dalam menanggapi keadaan; Agning Satya Wira, yaitu keagungan karakter, kesetiaan terhadap kebenaran, dan keberanian bertindak; Akasing Wawasan Jembar, yaitu keluasan cakrawala berpikir; serta Darmaning Rasa Satya, yaitu ketulusan nurani dan kesetiaan terhadap kebenaran dalam pengabdian.
+
+Pemaparan buku ini diawali dengan pembahasan mengenai hakikat kepemimpinan dalam kehidupan manusia, dasar kesadaran dan karakter seorang pemimpin, serta kedudukan Nawa Brata Wisesa sebagai satu kesatuan laku utama. Pembahasan kemudian diarahkan pada pemahaman setiap Brata secara terperinci agar makna, kedudukan, dan perwujudannya dapat dipahami secara utuh. Setelah itu, uraian dikembangkan pada keterpaduan kesembilan Brata dalam kehidupan kepemimpinan, khususnya dalam membangun karakter, menentukan arah tindakan, menghadapi perbedaan, dan mengambil keputusan.
+
+Salah satu pokok pemahaman yang ditekankan dalam buku ini adalah bahwa kesembilan Brata tidak dapat diperlakukan sebagai sembilan sifat yang berdiri sendiri. Keadilan membutuhkan kejernihan, keteguhan membutuhkan kebijaksanaan, keberanian membutuhkan kesetiaan terhadap kebenaran, sedangkan keluasan wawasan membutuhkan ketulusan rasa. Seluruhnya harus berpadu dalam kesadaran dan laku agar kepemimpinan tidak terjebak pada kepentingan pribadi, kesewenang-wenangan, ataupun penggunaan kewenangan tanpa tanggung jawab.
+
+Dalam kerangka Kawruh Uttamopadesa, kepemimpinan sejati dipahami sebagai perwujudan keutamaan manusia melalui keterpaduan cipta, rasa, dan karsa. Cipta memberikan kejernihan dalam memahami keadaan, rasa memberikan kepekaan dan ketulusan dalam mempertimbangkan kehidupan, sedangkan karsa menggerakkan manusia untuk mengambil sikap dan mewujudkan keputusan secara bertanggung jawab. Dengan demikian, kualitas kepemimpinan tidak hanya terlihat dari hasil yang dicapai, tetapi juga dari dasar kesadaran, pertimbangan, cara bertindak, dan tanggung jawab terhadap akibat yang ditimbulkan.
+
+Buku ini menegaskan bahwa seorang pemimpin tidak seharusnya menempatkan dirinya sebagai pusat penghormatan ataupun pemilik kebenaran. Kedudukan kepemimpinan justru menuntut pengendalian diri, keterbukaan terhadap kenyataan, kesediaan menerima tanggung jawab, serta kemampuan memberikan manfaat bagi kehidupan bersama. Kepemimpinan yang luhur tidak dibangun melalui pemaksaan, melainkan melalui keteladanan, keadilan, kebijaksanaan, dan konsistensi laku.
+
+Melalui pemaparan Nawa Brata Wisesa, buku ini diharapkan dapat memperluas pemahaman mengenai kepemimpinan sebagai bagian dari pembentukan keutamaan manusia. Kesembilan Brata menjadi landasan untuk mengenali, menata, dan mewujudkan karakter pemimpin yang mampu menjalankan kewenangan secara bijaksana serta bertanggung jawab. Pada akhirnya, kepemimpinan sejati bukan sekadar kemampuan memimpin orang lain, melainkan kemampuan menata diri dan menghadirkan keluhuran dalam kehidupan.`,
+pdf: "https://drive.google.com/file/d/1Nipw66KgeQ25r2V6PbcsfvaY_72Kgi2W/view?usp=drivesdk"
+},
+ {
 judul: "NAWA PANGAWIKANING DHIRI",
 subjudul: "Kawruh Jatining Dhiri",
 penulis: "Dhimas Purnomo, SH",
