@@ -1,5 +1,26 @@
 const daftarArtikel = [
  {
+judul: "NAWA PANGAWIKANING DHIRI",
+subjudul: "Kawruh Jatining Dhiri",
+penulis: "Dhimas Purnomo, SH",
+halaman: "pangawikaning-dhiri.html",
+sampul: "sampul-pangawikaning-dhiri.jpg",
+abstraksi: `NAWA PANGAWIKANING DHIRI, Kawruh Jatining Dhiri; merupakan pemaparan mengenai proses pengenalan diri manusia melalui sembilan tataran yang saling berkaitan dalam kerangka Kawruh Uttamopadesa. Buku ini membahas pentingnya memahami keberadaan diri secara menyeluruh, tidak hanya berdasarkan raga, pengalaman indrawi, identitas sosial, ataupun keadaan yang tampak dalam kehidupan sehari-hari, tetapi juga melalui pengenalan terhadap unsur-unsur batin dan hakikat diri yang lebih mendalam.
+
+Pengenalan diri memiliki kedudukan penting karena manusia tidak selalu memahami bagaimana pikiran, perasaan, kehendak, dan tindakannya terbentuk. Pengalaman, kepentingan, keinginan, prasangka, serta pengaruh lingkungan dapat mempengaruhi cara manusia menilai kenyataan dan menentukan sikap. Tanpa kesadaran terhadap berbagai pengaruh tersebut, seseorang mudah menganggap penilaiannya sebagai kebenaran, mengikuti dorongan perasaan, atau menjalankan kehendak tanpa mempertimbangkan akibatnya. Oleh karena itu, diperlukan proses pengenalan diri yang terarah agar manusia mampu memahami keadaan dirinya secara lebih jernih.
+
+Buku ini menguraikan sembilan tataran Nawa Pangawikaning Dhiri, yaitu Nyumurupi Raga, Nyumurupi Indriya, Nyumurupi Cipta, Nyumurupi Rasa, Nyumurupi Karsa, Nyumurupi Lampah, Nyumurupi Pepalang, Nyumurupi Kaselarasan, dan Nyumurupi Jatining Dhiri. Nyumurupi Raga membahas kedudukan raga sebagai sarana kehidupan, sedangkan Nyumurupi Indriya menjelaskan fungsi dan keterbatasan indra dalam menerima pengalaman. Nyumurupi Cipta, Nyumurupi Rasa, dan Nyumurupi Karsa memaparkan unsur-unsur batin yang berperan dalam pembentukan pemahaman, keadaan perasaan, serta arah kehendak manusia.
+
+Selanjutnya, Nyumurupi Lampah menjelaskan tindakan sebagai perwujudan keadaan batin. Nyumurupi Pepalang membahas berbagai penghalang yang menghambat kejernihan dan pengenalan diri. Nyumurupi Kaselarasan menguraikan pentingnya keterpaduan cipta, rasa, dan karsa dalam kehidupan. Sementara itu, Nyumurupi Jatining Dhiri mengarahkan pemahaman kepada hakikat diri yang tidak dapat disamakan dengan raga, pemikiran, perasaan, ataupun identitas sosial.
+
+Kesembilan tataran tersebut dipaparkan sebagai satu kesatuan proses yang saling melengkapi. Melalui proses ini, manusia diarahkan untuk mengembangkan Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Ketiganya menjadi dasar bagi kejernihan batin, ketepatan pertimbangan, pengendalian kehendak, dan tanggung jawab dalam bertindak. Pengenalan diri juga dihubungkan dengan kebiasaan mawas diri, perkembangan kedewasaan, kebijaksanaan, serta kemampuan menghadapi perubahan kehidupan.
+
+Pada bagian akhir, buku ini menegaskan bahwa buah Pangawikaning Dhiri tidak berhenti pada pengetahuan mengenai diri sendiri. Hasil pengenalan diri perlu diwujudkan dalam hubungan yang baik antar manusia, tanggung jawab pribadi, kepedulian terhadap alam, dan kesadaran untuk menjalani kehidupan sesuai dengan Tatananing Panguripan. Jatining Dhiri ditempatkan sebagai pokok pengenalan yang mengarahkan manusia menuju pemahaman lebih mendalam, sedangkan kejernihan batin menjadi dasar untuk memahami Kasunyatan.
+
+Dengan demikian, buku ini menempatkan Nawa Pangawikaning Dhiri sebagai pemaparan mengenai perjalanan pengenalan diri dari pemahaman terhadap unsur-unsur kehidupan manusia menuju pengenalan Jatining Dhiri. Tujuan akhirnya bukan sekadar memperluas pengetahuan, melainkan menumbuhkan kesadaran, kejernihan, ketulusan, keutamaan, dan tanggung jawab sebagai dasar kehidupan yang luhur.`,
+pdf: "https://drive.google.com/file/d/1MTaPWIod2Uq1Af-tzzB_cdP-V1_ant0I/view?usp=drivesdk"
+},
+ {
 judul: "WEDHARAN PRABHAWANING PANGURIPAN",
 subjudul: "Sumber Utama Kawruh Uttamopadesa",
 penulis: "Dhimas Purnomo, SH",
