@@ -115,31 +115,6 @@
       margin-right: 5px;
     }
 
-    .navigasi-kategori {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-      margin: 22px 0 34px;
-    }
-
-    .navigasi-kategori a {
-      display: inline-block;
-      padding: 9px 13px;
-      border: 1px solid #cfc8b7;
-      border-radius: 5px;
-      color: var(--hijau);
-      background: var(--putih);
-      font-size: 12px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    .navigasi-kategori a:hover {
-      background: var(--hijau);
-      color: white;
-      border-color: var(--hijau);
-    }
-
     .kelompok {
       margin: 0 0 38px;
       scroll-margin-top: 20px;
@@ -437,7 +412,6 @@
       .aksi .tombol { padding: 8px 9px; font-size: 10px; }
       .kepala-kelompok { gap: 8px; }
       .jumlah-kelompok { font-size: 10px; padding: 4px 8px; }
-      .navigasi-kategori a { font-size: 11px; padding: 8px 10px; }
       dialog { padding: 19px; }
     }
 
@@ -475,9 +449,6 @@
       <div class="angka"><strong id="jumlahTotal">0</strong> buku terklasifikasi</div>
       <div class="angka"><strong id="jumlahKelompok">6</strong> kelompok pustaka</div>
     </div>
-
-    <nav class="navigasi-kategori" id="navigasiKategori" aria-label="Navigasi kelompok pustaka"></nav>
-  </section>
 
   <div id="daftarKelompok"></div>
   <p class="pesan-error" id="pesanError" hidden></p>
@@ -580,7 +551,6 @@
   ];
 
   const wadah = document.getElementById("daftarKelompok");
-  const navigasi = document.getElementById("navigasiKategori");
   const pesanError = document.getElementById("pesanError");
   const dialog = document.getElementById("jendelaAbstraksi");
   const isiAbstraksi = document.getElementById("isiAbstraksi");
@@ -704,12 +674,6 @@
 
   document.getElementById("jumlahTotal").textContent = totalTerklasifikasi;
   document.getElementById("jumlahKelompok").textContent = kelompokPustaka.length;
-
-  navigasi.innerHTML = dataKelompok.map(function (kelompok, indeks) {
-    return '<a href="#' + aman(kelompok.id) + '">' +
-      (indeks + 1) + '. ' + aman(kelompok.nama.replace(/^Kelompok /, "")) +
-      '</a>';
-  }).join("");
 
   let indeksAbstraksi = [];
 
