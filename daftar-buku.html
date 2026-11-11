@@ -77,9 +77,7 @@
       padding: 42px 22px 64px;
     }
 
-    .pengenal {
-      margin-bottom: 26px;
-    }
+    .pengenal { margin-bottom: 26px; }
 
     .judul-bagian {
       font-family: Georgia, "Times New Roman", serif;
@@ -440,11 +438,12 @@
 <main>
   <section class="pengenal">
     <div class="label">Koleksi Penulis</div>
-    
+
     <div class="ringkasan" aria-live="polite">
       <div class="angka"><strong id="jumlahTotal">0</strong> buku terklasifikasi</div>
       <div class="angka"><strong id="jumlahKelompok">6</strong> kelompok pustaka</div>
     </div>
+  </section>
 
   <div id="daftarKelompok"></div>
   <p class="pesan-error" id="pesanError" hidden></p>
@@ -471,10 +470,14 @@
   "use strict";
 
   /*
-    KLASIFIKASI DITETAPKAN DI FILE INI.
-    daftar-artikel.js hanya menjadi sumber data dan tidak perlu diubah.
-    Nama buku di bawah mengikuti judul pada data; beberapa judul memiliki
-    variasi penulisan/subjudul sehingga pencocokan memakai kata kunci judul.
+    SISTEM KLASIFIKASI BUKU
+
+    1. Buku lama tetap dikenali melalui pencocokan judul.
+    2. Buku baru dapat diklasifikasikan melalui properti "kategori"
+       yang ditambahkan pada data buku di daftar-artikel.js.
+    3. Buku yang sudah ditemukan melalui pencocokan judul tidak
+       akan dimasukkan kembali.
+    4. daftar-artikel.js menjadi sumber data seluruh buku.
   */
 
   const kelompokPustaka = [
@@ -497,7 +500,7 @@
         { cocok: ["JATINING DHIRI DALAM PERSPEKTIF KAWRUH UTTAMOPADESA"] },
         { cocok: ["NAWA PANGAWIKANING DHIRI"] },
         { cocok: ["NAWA TATARANING PANGURIPAN JANMA"] },
-        { cocok: ["DASA PANGUDI SEJATININING URIP", "DASA PANGUDI SEJATINING URIP"] }
+        { cocok: ["DASA PANGUDI SEJATININING URIP"] }
       ]
     },
     {
@@ -574,7 +577,9 @@
   }
 
   const dataBuku = (typeof daftarArtikel !== "undefined" && Array.isArray(daftarArtikel))
-    ? daftarArtikel.filter(function (item) { return item && item.judul; })
+    ? daftarArtikel.filter(function (item) {
+        return item && item.judul;
+      })
     : null;
 
   if (dataBuku === null) {
@@ -586,9 +591,14 @@
 
   function cocokDenganAturan(judul, aturan) {
     const target = normalisasi(judul);
+
     return aturan.cocok.some(function (kataKunci) {
       const kunci = normalisasi(kataKunci);
-      if (aturan.tepat) return target === kunci;
+
+      if (aturan.tepat) {
+        return target === kunci;
+      }
+
       return target === kunci || target.indexOf(kunci) === 0;
     });
   }
@@ -597,6 +607,24 @@
     return dataBuku.find(function (item) {
       return cocokDenganAturan(item.judul, aturan);
     });
+  }
+
+  /*
+    Menerima kategori berdasarkan ID kategori.
+    Contoh: "spiritualitas-relasi"
+
+    Juga menerima nama lengkap kategori.
+    Contoh: "Kategori Spiritualitas dan Pemahaman Relasi Kehidupan"
+  */
+  function cariKelompokBerdasarkanKategori(kategori) {
+    const nilai = normalisasi(kategori);
+
+    if (!nilai) return null;
+
+    return kelompokPustaka.find(function (kelompok) {
+      return normalisasi(kelompok.id) === nilai ||
+             normalisasi(kelompok.nama) === nilai;
+    }) || null;
   }
 
   function abstraksi(item) {
@@ -609,8 +637,11 @@
 
   function tombolBaca(item) {
     const url = urlBaca(item);
+
     if (!url) return "";
+
     const eksternal = !item.halaman;
+
     return '<a class="tombol tombol-hijau" href="' + aman(url) + '"' +
       (eksternal ? ' target="_blank" rel="noopener noreferrer"' : "") +
       '>Baca Buku ↗</a>';
@@ -624,6 +655,7 @@
         '" loading="lazy" onerror="this.hidden=true">' +
         '</div>';
     }
+
     return '<div class="sampul"><h3>' + aman(item.judul) + '</h3></div>';
   }
 
@@ -647,22 +679,75 @@
     '</article>';
   }
 
+  /*
+    TAHAP 1:
+    Memasukkan buku-buku lama berdasarkan pencocokan judul.
+  */
+
   const bukuTerpetakan = new Set();
+
   const dataKelompok = kelompokPustaka.map(function (kelompok) {
     const buku = [];
 
     kelompok.buku.forEach(function (aturan) {
       const item = cariBuku(aturan);
+
       if (item && !bukuTerpetakan.has(item)) {
         buku.push(item);
         bukuTerpetakan.add(item);
       } else if (!item) {
-        console.warn("Judul belum ditemukan untuk klasifikasi:", aturan.cocok[0]);
+        console.warn(
+          "Judul belum ditemukan untuk klasifikasi:",
+          aturan.cocok[0]
+        );
       }
     });
 
-    return { id: kelompok.id, nama: kelompok.nama, buku: buku };
+    return {
+      id: kelompok.id,
+      nama: kelompok.nama,
+      buku: buku
+    };
   });
+
+  /*
+    TAHAP 2:
+    Memasukkan buku baru secara otomatis berdasarkan properti kategori
+    yang ditulis pada data buku di daftar-artikel.js.
+
+    Buku yang sudah masuk pada tahap 1 tidak akan dimasukkan lagi.
+  */
+
+  dataBuku.forEach(function (item) {
+    if (bukuTerpetakan.has(item)) return;
+
+    if (!item.kategori) return;
+
+    const kelompokTujuan = cariKelompokBerdasarkanKategori(item.kategori);
+
+    if (!kelompokTujuan) {
+      console.warn(
+        "Kategori buku tidak dikenali:",
+        item.judul,
+        item.kategori
+      );
+      return;
+    }
+
+    const kelompok = dataKelompok.find(function (data) {
+      return data.id === kelompokTujuan.id;
+    });
+
+    if (kelompok) {
+      kelompok.buku.push(item);
+      bukuTerpetakan.add(item);
+    }
+  });
+
+  /*
+    TAHAP 3:
+    Menghitung jumlah buku setelah seluruh klasifikasi selesai.
+  */
 
   const totalTerklasifikasi = dataKelompok.reduce(function (total, kelompok) {
     return total + kelompok.buku.length;
@@ -670,6 +755,11 @@
 
   document.getElementById("jumlahTotal").textContent = totalTerklasifikasi;
   document.getElementById("jumlahKelompok").textContent = kelompokPustaka.length;
+
+  /*
+    TAHAP 4:
+    Menampilkan seluruh kategori dan kartu buku.
+  */
 
   let indeksAbstraksi = [];
 
@@ -679,6 +769,7 @@
         item: item,
         namaKelompok: kelompok.nama
       }) - 1;
+
       return kartuBuku(item, kelompok.nama, indeks);
     }).join("");
 
@@ -693,21 +784,36 @@
     '</section>';
   }).join("");
 
+  /*
+    Buku yang belum memiliki kategori atau belum cocok dengan aturan
+    klasifikasi akan dicatat di konsol browser.
+  */
+
   const belumTerklasifikasi = dataBuku.filter(function (item) {
     return !bukuTerpetakan.has(item);
   });
 
   if (belumTerklasifikasi.length) {
-    console.warn("Ada buku yang belum masuk klasifikasi:", belumTerklasifikasi.map(function (b) {
-      return b.judul;
-    }));
+    console.warn(
+      "Ada buku yang belum masuk klasifikasi:",
+      belumTerklasifikasi.map(function (buku) {
+        return buku.judul;
+      })
+    );
   }
+
+  /*
+    TAHAP 5:
+    Menampilkan jendela abstraksi buku.
+  */
 
   wadah.addEventListener("click", function (event) {
     const tombol = event.target.closest("[data-indeks]");
+
     if (!tombol) return;
 
     const data = indeksAbstraksi[Number(tombol.dataset.indeks)];
+
     if (!data) return;
 
     const item = data.item;
@@ -735,25 +841,41 @@
   });
 
   dialog.addEventListener("click", function (event) {
-    if (event.target === dialog) dialog.close();
+    if (event.target === dialog) {
+      dialog.close();
+    }
   });
 
+  /*
+    TAHAP 6:
+    Tombol kembali ke bagian atas halaman.
+  */
+
   const tombolAtas = document.createElement("button");
+
   tombolAtas.id = "backToTop";
   tombolAtas.type = "button";
   tombolAtas.setAttribute("aria-label", "Kembali ke atas");
   tombolAtas.title = "Kembali ke atas";
   tombolAtas.textContent = "↑";
+
   document.body.appendChild(tombolAtas);
 
   function perbaruiTombolAtas() {
     tombolAtas.classList.toggle("tampil", window.scrollY > 300);
   }
 
-  window.addEventListener("scroll", perbaruiTombolAtas, { passive: true });
-  tombolAtas.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  window.addEventListener("scroll", perbaruiTombolAtas, {
+    passive: true
   });
+
+  tombolAtas.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
   perbaruiTombolAtas();
 
 })();
