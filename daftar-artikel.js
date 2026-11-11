@@ -1,5 +1,25 @@
 const daftarArtikel = [
  {
+judul: "MENEMUKAN KEMBALI KESADARAN",
+subjudul: "Jalan Pengenalan Jatining Dhiri di Tengah Fenomena Dunia Material",
+penulis: "Dhimas Purnomo, SH",
+kategori: "kesadaran-batin",
+halaman: "menemukan-kesadaran.html",
+sampul: "menemukan-kesadaran.jpg",
+abstraksi: `Buku MENEMUKAN KEMBALI KESADARAN SEJATI: Jalan Pengenalan Jatining Dhiri di Tengah Fenomena Dunia Material memaparkan pentingnya pengenalan kesadaran manusia di tengah kehidupan yang semakin banyak diarahkan oleh kepentingan material, tuntutan sosial, perkembangan teknologi, dan berbagai penilaian lahiriah. Kehidupan material merupakan bagian yang tidak terpisahkan dari keberadaan manusia. Akan tetapi, ketika materi, kepemilikan, kedudukan, keberhasilan, dan pengakuan sosial menjadi pusat perhatian, manusia berisiko kehilangan pengenalan terhadap dirinya sendiri. Ia dapat mengetahui banyak hal mengenai dunia luar, tetapi kurang memahami keadaan batin dan dasar keberadaannya.
+
+Pokok pemaparan buku ini adalah bahwa menemukan kembali kesadaran sejati memerlukan pengenalan terhadap Jatining Dhiri. Pengenalan tersebut tidak dapat disamakan dengan pengetahuan mengenai tubuh, identitas sosial, pekerjaan, kedudukan, ataupun gambaran diri yang terbentuk berdasarkan penilaian orang lain. Jatining Dhiri menjadi arah pengenalan terhadap keberadaan diri yang lebih mendasar daripada berbagai keadaan lahiriah yang senantiasa berubah. Oleh karena itu, kesadaran sejati tidak diarahkan untuk menolak kehidupan dunia, melainkan membantu manusia menjalani kehidupan tanpa kehilangan pengenalan terhadap dasar keberadaannya.
+
+Pemaparan disusun melalui sembilan langkah utama. Langkah pertama mengenali kesadaran yang teralihkan, dilanjutkan dengan melepaskan ketergantungan terhadap materi dan mengembalikan perhatian kepada Jatining Dhiri. Proses berikutnya mencakup penenangan dan penjernihan cipta, pemurnian rasa serta pengendalian dorongan, penataan dan pengarahan karsa, serta kemampuan mempertahankan kesadaran dalam aktivitas kehidupan. Dua langkah terakhir mengembangkan kepekaan terhadap hakikat kehidupan dan mewujudkan keterpaduan kesadaran dalam laku kehidupan.
+
+Selain sembilan langkah tersebut, buku ini memperdalam pemahaman melalui pembahasan mengenai pengujian kesadaran dalam berbagai keadaan, hubungan antar manusia, pengaruh penilaian lahiriah terhadap pengenalan diri, serta pentingnya menjaga kesadaran sebagai dasar keberadaan manusia. Seluruh pembahasan diarahkan untuk memperlihatkan bahwa kesadaran tidak cukup dipahami sebagai pengetahuan atau pengalaman tertentu. Kesadaran perlu dikenali melalui kenyataan dan diwujudkan dalam kehidupan sehari-hari.
+
+Dalam pemaparan ini, keterpaduan cipta, rasa, dan karsa mempunyai kedudukan penting. Cipta yang jernih membantu manusia memahami kenyataan secara tepat. Rasa yang tulus mendukung hubungan yang baik dengan sesama. Karsa yang utama mengarahkan kehendak dan tindakan berdasarkan pemahaman serta ketulusan. Keterpaduan ketiganya menjadi bagian dari perwujudan kesadaran dalam sikap, keputusan, dan tanggung jawab kehidupan.
+
+Buku ini merupakan bagian dari pemaparan Kawruh Uttamopadesa yang dirumuskan oleh Dhimas Purnomo. Tujuan utamanya adalah memberikan arah pengenalan bagi manusia agar mampu menempatkan kehidupan material secara tepat, mengembalikan perhatian kepada Jatining Dhiri, dan menjalani kehidupan dengan kesadaran yang lebih utuh. Menemukan kembali kesadaran sejati pada akhirnya bukan berarti meninggalkan kehidupan, melainkan menjalani seluruh kenyataan kehidupan tanpa kehilangan pengenalan terhadap keberadaan diri.`,
+pdf: "https://drive.google.com/file/d/1IgtT3EpR67KYcHbY38AsEIjNZsgswLZA/view?usp=drivesdk"
+},
+ {
 judul: "INDIGO BUKAN KAUM SPIRITUALITAS",
 subjudul: "Membedakan Kepekaan, Persepsi, Kesadaran dan Hakikat Spiritualitas",
 penulis: "Dhimas Purnomo, SH",
