@@ -1,5 +1,25 @@
 const daftarArtikel = [
  {
+judul: "NAWA TRIDAYANING JANMA MANUSA",
+subjudul: "Sembilan Tataran Cipta, Rasa, dan Karsa Menuju Kaselarasan Hidup",
+penulis: "Dhimas Purnomo, SH",
+kategori: "cipta-rasa-karsa",
+halaman: "nawa-tridaya.html",
+sampul: "nawa-tridaya.jpg",
+abstraksi: `NAWA TRIDAYANING JANMA MANUSA, Sembilan Tataran Cipta, Rasa, dan Karsa Menuju Kaselarasan Hidup merupakan buku yang memaparkan hakikat Tridaya sebagai kesatuan tiga daya batin manusia, yaitu Cipta, Rasa, dan Karsa, serta proses perkembangannya menuju keterpaduan dan kaselarasan kehidupan. Buku ini disusun dalam kerangka Kawruh Uttamopadesa dengan menempatkan pengolahan batin sebagai bagian penting dalam memahami dan menjalani kehidupan manusia.
+
+Cipta merupakan daya batin yang berkaitan dengan pemahaman, pertimbangan, dan kemampuan mengenali kenyataan. Rasa merupakan daya penghayatan yang berhubungan dengan pengalaman batin, ketulusan, dan kepedulian terhadap kehidupan. Karsa merupakan daya kehendak yang menentukan arah pilihan serta mewujudkan pemahaman dan penghayatan dalam tindakan. Ketiganya tidak berdiri sendiri, melainkan membentuk satu kesatuan yang saling berhubungan. Ketidakseimbangan di antara ketiganya dapat menimbulkan pertentangan antara pemikiran, perasaan, kehendak, dan perilaku manusia.
+
+Pokok pemaparan buku ini disusun melalui sembilan tataran perkembangan Tridaya, yaitu Kaiket, Waspada, Wening, Tentrem, Kawawas, Pangrasa, Pepadhang, Sampurna, dan Manunggal. Kaiket menggambarkan keadaan batin yang masih terikat oleh pamrih dan kepentingan pribadi. Waspada menunjukkan tumbuhnya kemampuan mengenali gerak batin. Wening mengarahkan perkembangan menuju kejernihan Cipta, kebersihan Rasa, dan kelurusan Karsa. Tentrem menggambarkan kestabilan gerak batin. Kawawas memperluas pandangan terhadap kehidupan. Pangrasa memperdalam penghayatan dan ketulusan. Pepadhang menempatkan Tridaya sebagai dasar kebijaksanaan. Sampurna menggambarkan perkembangan menuju keutuhan, sedangkan Manunggal merupakan keterpaduan Cipta, Rasa, dan Karsa dalam satu arah kehidupan.
+
+Melalui sembilan tataran tersebut, buku ini menjelaskan bahwa perkembangan batin tidak cukup dilakukan dengan memperluas pengetahuan. Manusia juga perlu menata penghayatan dan kehendaknya. Kejernihan Cipta tanpa ketulusan Rasa dapat kehilangan kedalaman kepedulian. Ketulusan Rasa tanpa kejernihan Cipta dapat kehilangan ketepatan dalam memahami keadaan. Sementara itu, Karsa tanpa keduanya dapat mendorong tindakan yang tidak sesuai dengan kenyataan dan tanggung jawab kehidupan.
+
+Pembahasan juga menempatkan Tridaya dalam hubungan manusia dengan sesama, alam, dan Sang Sumber Panguripan. Kesadaran tentang keterhubungan kehidupan menjadi dasar bagi berkembangnya kepedulian, tanggung jawab, kerendahan hati, dan kemampuan menempatkan kepentingan pribadi secara wajar. Dengan demikian, keterpaduan Tridaya tidak hanya berkaitan dengan keadaan batin, tetapi juga harus tercermin dalam perilaku dan hubungan kehidupan sehari-hari.
+
+Tujuan utama pemaparan ini adalah menjelaskan Nawa Tridayaning Janma sebagai jalan pengolahan diri menuju keterpaduan Cipta, Rasa, dan Karsa. Puncak perkembangannya bukan pengakuan atas pencapaian pribadi, melainkan terwujudnya kejernihan pemahaman, ketulusan penghayatan, dan keutamaan tindakan. Ketiganya menjadi dasar bagi keluhuran manusia dan kaselarasan hidup.`,
+pdf: "https://drive.google.com/file/d/1qIOyttwvNGhpeJLUHYWcchN5uPD4R5Gi/view?usp=drivesdk"
+},
+ {
 judul: "MENEMUKAN KEMBALI KESADARAN",
 subjudul: "Jalan Pengenalan Jatining Dhiri di Tengah Fenomena Dunia Material",
 penulis: "Dhimas Purnomo, SH",
