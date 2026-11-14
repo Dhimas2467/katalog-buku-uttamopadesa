@@ -1,5 +1,25 @@
 const daftarArtikel = [
  {
+judul: "NAWA SAMUDAYANING",
+subjudul: "Mewujudkan Kesadaran, Kebajikan, dan Kaselarasan",
+penulis: "Dhimas Purnomo, SH",
+kategori: "laku-brata",
+halaman: "samudayaning-lampah.html",
+sampul: "samudayaning-lampah.jpg",
+abstraksi: `NAWA SAMUDAYANING LAMPAH UTTAMOPADESA; Mewujudkan Kesadaran, Kebajikan, dan Kaselarasan merupakan pemaparan mengenai sembilan dimensi laku kehidupan manusia sebagai perwujudan Kawruh Uttamopadesa dalam kenyataan sehari-hari. Buku ini bertolak dari pemahaman bahwa pengetahuan tidak cukup hanya diketahui, dipahami, atau diucapkan. Kawruh harus mampu memberikan arah terhadap kesadaran, membentuk sikap, dan diwujudkan melalui tindakan yang dapat dipertanggungjawabkan. Dengan demikian, hubungan antara kawruh dan lampah menjadi pokok utama dalam keseluruhan pemaparannya.
+
+Landasan pemahaman buku ini menempatkan kesadaran sebagai dasar pembentukan perilaku manusia. Cetana memberikan pepadhang kepada Cipta, Prabodha menjernihkan Rasa, dan Samadhi mengukuhkan Karsa. Ketiganya merupakan landasan yang saling berkaitan dalam membentuk keselarasan Cipta, Rasa, dan Karsa. Melalui keselarasan tersebut, manusia diharapkan mampu memahami kenyataan secara jernih, menempatkan perasaan secara tepat, serta mengarahkan kehendak kepada tindakan yang benar dan bermanfaat.
+
+Nawa Samudayaning Lampah terdiri atas sembilan lampah yang merupakan kesatuan laku kehidupan. Pertama, Lampah Manembah, yaitu kesadaran manusia terhadap Sang Sumber Panguripan. Kedua, Lampah Mawas Dhiri, yaitu keberanian mengenali dan membenahi diri. Ketiga, Lampah Kabecikan, yaitu menegakkan kejujuran, tanggung jawab, dan keadilan. Keempat, Lampah Welas Asih, yaitu menghormati martabat sesama tanpa membedakan. Kelima, Lampah Pangabdian, yaitu menjadikan kehidupan lebih bermanfaat. Keenam, Lampah Kaselarasan, yaitu menjaga hubungan yang selaras dengan alam dan seluruh kehidupan. Ketujuh, Lampah Kawicaksanan, yaitu mengambil keputusan berdasarkan kenyataan, kebenaran, dan pertimbangan yang bertanggung jawab. Kedelapan, Lampah Katulusan, yaitu berkarya tanpa menjadikan pamrih pribadi sebagai tujuan utama. Kesembilan, Lampah Kasampurnan, yaitu menjalani kehidupan dengan kesadaran dan kesungguhan hingga akhir perjalanan.
+
+Kesembilan lampah tersebut bukan tahapan yang harus diselesaikan secara berurutan, melainkan dimensi kehidupan yang saling melengkapi. Setiap tindakan manusia dapat mencerminkan beberapa lampah sekaligus, bergantung pada tujuan, pertimbangan, cara pelaksanaan, dan akibat yang ditimbulkannya. Oleh karena itu, penerapannya mencakup kehidupan keluarga, hubungan antar manusia, pekerjaan, pengabdian kepada masyarakat dan bangsa, serta tanggung jawab terhadap keberlangsungan alam.
+
+Buku ini juga menegaskan bahwa keluhuran budi tidak ditentukan oleh banyaknya pengetahuan, kedudukan, kekayaan, ataupun pengakuan sosial. Ukurannya terletak pada keselarasan antara pemahaman dan perilaku. Seseorang tidak cukup menyatakan memahami kejujuran apabila masih melakukan kebohongan, tidak cukup berbicara tentang welas asih apabila tidak memiliki kepedulian, dan tidak cukup mengaku melakukan pengabdian apabila tindakannya tidak memberikan manfaat.
+
+Melalui keseluruhan pemaparannya, buku ini mengarahkan pembaca untuk menghidupkan kawruh dalam setiap ruang kehidupan. Mawas terhadap diri, bertanggung jawab terhadap sesama, menjaga alam, bertindak bijaksana, dan terus membenahi perilaku merupakan bagian dari perjalanan tersebut. Pada akhirnya, Nawa Samudayaning Lampah menegaskan bahwa kawruh memperoleh makna ketika menjadi lampah, kesadaran menemukan kenyataannya melalui tindakan, dan keluhuran budi terwujud dalam kehidupan yang benar, bermanfaat, serta selaras.`,
+pdf: "https://drive.google.com/file/d/1ZYPzZv6yuuqlKPcYUsROh0kpQFxNa4UQ/view?usp=drivesdk"
+},
+ {
 judul: "NAWA TRIDAYANING JANMA MANUSA",
 subjudul: "Sembilan Tataran Cipta, Rasa, dan Karsa Menuju Kaselarasan Hidup",
 penulis: "Dhimas Purnomo, SH",
