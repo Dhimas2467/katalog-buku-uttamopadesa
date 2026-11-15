@@ -1,6 +1,28 @@
 const daftarArtikel = [
  {
-judul: "NAWA SAMUDAYANING",
+judul: "NAWA SAMYAMA CIPTA UTTAMOPADESA",
+subjudul: "Sembilan Lampahan Penataan dan Pengendalian Daya Cipta Menuju Cipta Wening",
+penulis: "Dhimas Purnomo, SH",
+kategori: "cipta-rasa-karsa",
+halaman: "samyama-cipta.html",
+sampul: "samyama-cipta.jpg",
+abstraksi: `Nawa Samyama Cipta Uttamopadesa merupakan pemaparan mengenai sembilan lampahan dalam penataan dan pengendalian cipta berdasarkan Kawruh Uttamopadesa. Buku ini menguraikan pentingnya mengenali keadaan daya pemikiran manusia, memahami gerak pikiran, serta menempatkan kemampuan berpikir berdasarkan kenyataan. Cipta memiliki peran penting dalam kehidupan karena melalui daya inilah manusia melakukan pengenalan, penalaran, penilaian, dan pembentukan pemahaman terhadap berbagai keadaan. Akan tetapi, kemampuan berpikir tidak selalu menghasilkan pemahaman yang benar apabila tidak disertai kejernihan dan pengendalian.
+
+Dalam kehidupan sehari-hari, pemikiran manusia dapat dipengaruhi oleh pengalaman, ingatan, keinginan, kekhawatiran, anggapan, prasangka, serta kepentingan pribadi. Pengaruh tersebut dapat membentuk penafsiran yang tidak selalu sesuai dengan kenyataan. Ketika manusia tidak mengenali keadaan cipta, ia cenderung menerima setiap pikiran sebagai kebenaran, mempertahankan anggapan pribadi, dan mengambil keputusan berdasarkan pemahaman yang belum tentu tepat. Oleh karena itu, penataan cipta menjadi kebutuhan penting agar manusia mampu memahami proses pemikirannya secara lebih jernih.
+
+Buku ini memaparkan sembilan lampahan sebagai rangkaian pemahaman yang mengarahkan manusia menuju kejernihan cipta. Pembahasannya mencakup pengenalan terhadap keadaan cipta, pembebasan pemikiran dari pengaruh yang mengaburkan pemahaman, penumbuhan pemikiran yang luhur, serta penataan berbagai aspek yang mempengaruhi cara manusia berpikir dan menjalani kehidupan. Keseluruhan pemaparan tersebut diarahkan agar manusia tidak dikuasai oleh pikiran yang muncul secara tidak terkendali, melainkan mampu memahami, menimbang, dan mengarahkan pemikirannya secara tepat.
+
+Penataan cipta dalam buku ini bukan dimaksudkan untuk menghilangkan pikiran atau membatasi kemampuan manusia dalam berpikir. Penataan justru diperlukan agar daya pemikiran dapat berfungsi secara wajar, tidak dikuasai oleh prasangka, kepentingan pribadi, maupun penafsiran yang menyimpang dari kenyataan. Dengan demikian, manusia dapat membedakan antara keadaan yang benar-benar terjadi dan pemahaman yang terbentuk melalui pikiran pribadinya.
+
+Pemaparan Nawa Samyama Cipta juga menempatkan kejernihan cipta dalam keterkaitannya dengan Cipta, Rasa, dan Karsa. Ketiganya merupakan daya kehidupan manusia yang saling berhubungan, tetapi tidak dapat disamakan. Cipta yang tertata menjadi bagian penting dalam membangun keselarasan ketiga daya tersebut, sehingga pemikiran, penghayatan, dan kehendak tidak berjalan secara bertentangan.
+
+Tujuan akhir pemaparan ini adalah menuju Cipta Wening, yaitu keadaan kejernihan cipta ketika pemikiran tidak lagi dikuasai oleh anggapan dan kepentingan pribadi, melainkan mampu berpijak pada kenyataan. Cipta Wening bukan sekadar kemampuan berpikir secara logis, tetapi juga kemampuan memahami sesuatu secara jernih dan bertanggung jawab.
+
+Melalui sembilan lampahan yang dipaparkan, buku ini diharapkan menjadi bahan pemahaman bagi manusia untuk mengenali, menata, dan mengendalikan daya pemikirannya dalam kehidupan. Dengan demikian, Nawa Samyama Cipta menjadi salah satu bagian penting dalam pemaparan Kawruh Uttamopadesa menuju keselarasan kehidupan manusia.`,
+pdf: "https://drive.google.com/file/d/12HUFbz0oINUWSpMcy2TQjtcJ-c6__OWy/view?usp=drivesdk"
+},
+ {
+judul: "NAWA SAMUDAYANING LAMPAH UTTAMOPADESA",
 subjudul: "Mewujudkan Kesadaran, Kebajikan, dan Kaselarasan",
 penulis: "Dhimas Purnomo, SH",
 kategori: "laku-brata",
