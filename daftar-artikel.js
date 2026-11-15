@@ -1,5 +1,27 @@
 const daftarArtikel = [
  {
+judul: "NAWA SAMYAMA RASA UTTAMOPADESA",
+subjudul: "Sembilan Bentuk Pengendalian Rasa Yang Sempurna",
+penulis: "Dhimas Purnomo, SH",
+kategori: "cipta-rasa-karsa",
+halaman: "samyama-rasa.html",
+sampul: "samyama-rasa.jpg",
+abstraksi: `Nawa Samyama Rasa merupakan pemaparan mengenai sembilan prinsip penataan dan pengendalian rasa dalam kehidupan manusia. Buku ini berangkat dari pemahaman bahwa rasa mempunyai peranan penting dalam membentuk pengalaman batin, menentukan tanggapan terhadap berbagai keadaan, serta mempengaruhi hubungan manusia dengan diri sendiri, lingkungan, dan antar manusia. Rasa bukan sekadar sesuatu yang muncul sesaat, melainkan bagian dari pengalaman kehidupan yang perlu dikenali, dipahami, dan ditempatkan secara tepat.
+
+Dalam kehidupan sehari-hari, manusia menghadapi berbagai keadaan yang membangkitkan rasa senang, sedih, marah, kecewa, takut, tersinggung, dan berbagai pengalaman lainnya. Kemunculan rasa tersebut tidak selalu berada dalam kendali manusia. Akan tetapi, manusia mempunyai tanggung jawab untuk memahami dan mengendalikan tanggapannya. Ketika rasa tidak dikenali dan tidak ditata, seseorang dapat dikuasai oleh dorongan sesaat, kepentingan pribadi, prasangka, maupun reaksi berlebihan. Keadaan tersebut dapat mengganggu kejernihan pemahaman dan mendorong tindakan yang tidak tepat.
+
+Buku ini memaparkan sembilan prinsip Nawa Samyama Rasa sebagai dasar untuk membangun kemampuan mengenali, menata, dan mengendalikan rasa. Setiap prinsip mempunyai ruang pemaparan tersendiri, tetapi seluruhnya saling berkaitan dalam membentuk kesatuan pemahaman. Penataan rasa tidak diarahkan untuk menghilangkan perasaan atau meniadakan pengalaman batin manusia. Tujuannya adalah membangun ketepatan dalam menerima, memahami, dan menanggapi setiap keadaan tanpa membiarkan diri dikuasai oleh dorongan yang berlebihan.
+
+Pengendalian rasa menjadi bagian penting dalam proses tersebut. Kemarahan, kekecewaan, kesedihan, dan berbagai perasaan tidak menyenangkan perlu dikenali sebelum berkembang menjadi reaksi yang merugikan. Manusia perlu memahami perbedaan antara munculnya suatu perasaan dan keputusan untuk bertindak berdasarkan perasaan tersebut. Dengan kemampuan membedakan keduanya, seseorang dapat memberikan tanggapan secara lebih terukur dan bertanggung jawab.
+
+Pemaparan selanjutnya menempatkan keselarasan rasa dengan kehidupan luhur sebagai bagian dari arah penataan rasa. Keselarasan tersebut tercermin dalam kemampuan menjaga ketulusan, mengurangi dorongan yang berpusat pada kepentingan diri, serta membangun hubungan yang tidak dikuasai oleh kebencian, kesombongan, dan keinginan untuk menguasai orang lain. Rasa yang tertata tidak hanya memberikan ketenangan bagi diri sendiri, tetapi juga mendukung terciptanya hubungan kehidupan yang lebih baik.
+
+Pada bagian akhir, sembilan prinsip Nawa Samyama Rasa dipahami sebagai satu kesatuan yang mengarahkan manusia kepada kejernihan, ketulusan, dan keseimbangan. Keterpaduan tersebut menegaskan bahwa penataan rasa bukan pekerjaan sesaat, melainkan bagian dari tanggung jawab manusia dalam menjalani kehidupan.
+
+Dengan demikian, Nawa Samyama Rasa memberikan pemahaman bahwa ketulusan kehidupan tidak dapat dibangun hanya melalui keinginan atau pernyataan, tetapi memerlukan rasa yang tertata. Rasa yang jernih, tulus, dan seimbang menjadi dasar bagi sikap yang tepat, hubungan yang sehat, serta tindakan yang lebih bertanggung jawab dalam kehidupan sehari-hari.`,
+pdf: "https://drive.google.com/file/d/1LJyS8MIgfAhV-3qgrft5B5VUWOe48K1i/view?usp=drivesdk"
+},
+ {
 judul: "NAWA SAMYAMA CIPTA UTTAMOPADESA",
 subjudul: "Sembilan Lampahan Penataan dan Pengendalian Daya Cipta Menuju Cipta Wening",
 penulis: "Dhimas Purnomo, SH",
