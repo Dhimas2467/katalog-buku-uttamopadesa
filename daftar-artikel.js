@@ -1,5 +1,27 @@
 const daftarArtikel = [
  {
+judul: "KAWRUH SEJATI SEBAGAI DASAR SPIRITUALITAS",
+subjudul: "Pemahaman Kawruh Sejati dan Hakikat Spiritualitas",
+penulis: "Dhimas Purnomo, SH",
+kategori: "dasar-filsafat",
+halaman: "dasar-spiritualitas.html",
+sampul: "dasar-spiritualitas.jpg",
+abstraksi: `Buku Kawruh Sejati sebagai Dasar Spiritualitas memaparkan kedudukan Kawruh Sejati sebagai landasan utama dalam memahami spiritualitas. Pembahasan ini berangkat dari pemikiran bahwa spiritualitas tidak semestinya dipersempit menjadi kegiatan tertentu, pengalaman batin, atau pencarian terhadap keadaan yang dianggap istimewa. Spiritualitas pada hakikatnya merupakan pemahaman mengenai kehidupan, keberadaan manusia, dan kenyataan yang mendasari seluruh kehidupan. Oleh karena itu, pemahaman spiritualitas memerlukan landasan yang benar agar tidak berkembang menjadi penafsiran yang terlepas dari kasunyatan.
+
+Kawruh Sejati memiliki kedudukan sebagai pepadhang yang mendasari pengenalan manusia terhadap kenyataan. Kawruh Sejati bukan sekadar pengetahuan yang dibangun melalui pemikiran manusia, melainkan landasan penerangan untuk memahami kasunyatan. Dalam hubungan tersebut, perlu dibedakan antara kenyataan sebagai sesuatu yang keberadaannya tidak bergantung pada pemahaman manusia dan pemahaman manusia yang dapat berkembang maupun mengalami kekeliruan. Pembedaan ini menjadi dasar agar manusia tidak menyamakan pendapat, pengalaman, atau penafsiran pribadi dengan kebenaran hakiki.
+
+Pemaparan buku ini mencakup dua belas bab yang saling berhubungan. Pembahasan dimulai dengan pengenalan Kawruh Sejati dan hubungannya dengan pemahaman kehidupan, dilanjutkan dengan pengertian serta hakikat spiritualitas dan keberadaan manusia. Selanjutnya dibahas landasan pemahaman spiritualitas, kesadaran, perkembangan pemahaman spiritual, hubungan spiritualitas dengan laku kehidupan, serta perwujudannya dalam hubungan antar manusia. Pembahasan kemudian diarahkan pada kematangan spiritualitas dan diakhiri dengan penegasan mengenai kembali kepada kasunyatan sebagai dasar kehidupan.
+
+Dalam pemahaman mengenai keberadaan manusia, buku ini memaparkan kedudukan raga dan Prana dalam kehidupan jasmani, serta Jiwa dan kesadaran dalam keberadaan rohani. Kesadaran ditempatkan sebagai pemahaman hakiki yang berkaitan dengan Jiwa, sedangkan cipta, rasa, dan karsa merupakan daya yang berperan dalam kehidupan manusia. Ketiganya perlu berada dalam keselarasan agar pemahaman tidak berhenti sebagai pengetahuan, tetapi memberikan arah bagi sikap dan tindakan.
+
+Spiritualitas yang berlandaskan Kawruh Sejati menuntut kesatuan antara pemahaman, kesadaran, dan laku kehidupan. Pemahaman mengenai ketulusan perlu tercermin dalam hubungan antar manusia, kejujuran perlu diwujudkan dalam perkataan dan tindakan, sedangkan kebijaksanaan perlu hadir dalam menentukan sikap. Kesadaran terhadap keberadaan manusia lain juga menumbuhkan tanggung jawab dalam kehidupan bersama.
+
+Buku ini menegaskan bahwa kematangan spiritualitas tidak diukur melalui pengakuan, penampilan, atau pengalaman yang dianggap istimewa. Kedalaman spiritualitas tercermin dalam kejernihan memahami kenyataan, kemampuan mengenali keterbatasan diri, dan kesediaan menjalani kehidupan secara bertanggung jawab.
+
+Pada akhirnya, Kawruh Sejati merupakan dasar bagi spiritualitas, sedangkan spiritualitas merupakan pemahaman mengenai hakikat kehidupan yang diwujudkan dalam kesadaran dan laku manusia. Keduanya bermuara pada satu landasan, yaitu kasunyatan. Dengan demikian, manusia diarahkan untuk tidak membiarkan teori mendahului kenyataan, tidak membiarkan referensi menggantikan pemahaman, dan tidak membiarkan kesimpulan melampaui apa yang benar-benar dapat dipertanggungjawabkan.`,
+pdf: "https://drive.google.com/file/d/1dAqvMbIzUClTmXgdrcbMgxzsUZ9LJlTE/view?usp=drivesdk"
+},
+ {
 judul: "NAWA SAMYAMA RASA UTTAMOPADESA",
 subjudul: "Sembilan Bentuk Pengendalian Rasa Yang Sempurna",
 penulis: "Dhimas Purnomo, SH",
