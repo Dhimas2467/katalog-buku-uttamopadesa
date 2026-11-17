@@ -1,5 +1,27 @@
 const daftarArtikel = [
  {
+judul: "KESADARAN MORAL DALAM ETIKA POLITIK",
+subjudul: "Hakikat Moralitas dan Tanggung Jawab Manusia dalam Kehidupan Politik",
+penulis: "Dhimas Purnomo, SH",
+kategori: "laku-brata",
+halaman: "kesadaran-moral.html",
+sampul: "kesadaran-moral.jpg",
+abstraksi: `Kehidupan politik merupakan bagian penting dari kehidupan manusia karena berkaitan dengan pengaturan kepentingan bersama, penggunaan kewenangan, pengambilan keputusan, serta penyelenggaraan kehidupan bermasyarakat, berbangsa, dan bernegara. Dalam pelaksanaannya, politik tidak hanya membutuhkan kemampuan memahami sistem pemerintahan, mengelola kekuasaan, dan menyusun kebijakan publik, tetapi juga membutuhkan landasan moral yang memberikan arah terhadap setiap tindakan dan keputusan. Tanpa kesadaran moral, kekuasaan dapat kehilangan orientasi tanggung jawab, kepentingan pribadi maupun kelompok dapat mengesampingkan kepentingan masyarakat, dan penyelenggaraan politik dapat menyimpang dari nilai-nilai kemanusiaan.
+
+Buku KESADARAN MORAL DALAM ETIKA POLITIK: Hakikat Moralitas dan Tanggung Jawab Manusia dalam Kehidupan Politik memaparkan hubungan mendasar antara moralitas manusia dan penyelenggaraan kehidupan politik. Pembahasan diawali dengan pemahaman mengenai hakikat moralitas sebagai landasan perilaku manusia, kemudian dilanjutkan dengan kesadaran moral sebagai kemampuan memahami nilai, membedakan baik dan buruk, mempertimbangkan tindakan, serta menerima tanggung jawab atas akibat perbuatan. Dalam hubungan tersebut, kemampuan Cipta, Rasa, dan Karsa dipaparkan sebagai unsur yang berperan dalam pembentukan kesadaran dan tindakan moral manusia.
+
+Selanjutnya, pembahasan diarahkan pada hakikat politik dan etika politik, termasuk hubungan antara kekuasaan, kewenangan, kepentingan, dan tanggung jawab. Kekuasaan dipahami bukan semata-mata sebagai kemampuan untuk memerintah atau menentukan keputusan, melainkan sebagai kewenangan yang harus dijalankan dengan pertimbangan moral. Oleh karena itu, kepemimpinan, pengambilan kebijakan publik, dan pengelolaan kepentingan masyarakat membutuhkan integritas, kejujuran, keadilan, serta kesediaan mempertanggungjawabkan setiap keputusan.
+
+Buku ini juga menguraikan berbagai persoalan moral dalam kehidupan politik, seperti penyalahgunaan kekuasaan, konflik kepentingan, ketidakjujuran, manipulasi informasi, korupsi, dan krisis kepercayaan masyarakat. Persoalan tersebut menunjukkan bahwa penyelenggaraan politik tidak dapat dilepaskan dari kualitas moral manusia yang menjalankan kewenangan maupun mereka yang terlibat dalam kehidupan demokratis. Kesadaran moral diperlukan agar kebebasan politik, partisipasi masyarakat, dan kedaulatan rakyat dapat dijalankan dengan tetap memperhatikan tanggung jawab terhadap kehidupan bersama.
+
+Pada bagian berikutnya, pembahasan menekankan pentingnya pembentukan dan pengembangan kesadaran moral melalui pendidikan, kepekaan terhadap nilai kemanusiaan, pengendalian diri, serta konsistensi antara pikiran, kehendak, dan tindakan. Kesadaran tersebut perlu diwujudkan dalam penyelenggaraan negara, tanggung jawab lembaga, pelayanan publik, dan upaya mewujudkan keadilan sosial.
+
+Secara keseluruhan, buku ini menegaskan bahwa kesadaran moral merupakan landasan mendasar bagi etika politik. Etika politik tidak cukup berhenti pada prinsip dan aturan yang mengatur perilaku penyelenggara kekuasaan, tetapi harus diwujudkan melalui pemahaman dan tanggung jawab moral manusia. 
+
+Kehidupan politik yang bertanggung jawab hanya dapat dibangun apabila kekuasaan digunakan secara tepat, kepentingan publik ditempatkan sebagai perhatian utama, dan setiap tindakan politik mempertimbangkan akibatnya bagi masyarakat.`,
+pdf: "https://drive.google.com/file/d/1TlbA0tWtpzqiWq4aAbZk7hceDMTzbB3B/view?usp=drivesdk"
+},
+ {
 judul: "KAWRUH SEJATI SEBAGAI DASAR SPIRITUALITAS",
 subjudul: "Pemahaman Kawruh Sejati dan Hakikat Spiritualitas",
 penulis: "Dhimas Purnomo, SH",
