@@ -1,5 +1,25 @@
 const daftarArtikel = [
  {
+judul: "SPIRITUALITAS DALAM PERSPEKTIF PSIKOLOGI",
+subjudul: "Memahami Kehidupan Manusia dan Batas Penjelasan Psikologi terhadap Hakikat Kehidupan",
+penulis: "Dhimas Purnomo, SH",
+kategori: "spiritualitas-relasi",
+halaman: "spiritualitas-psikologi.html",
+sampul: "spiritualitas-psikologi.jpg",
+abstraksi: `Buku SPIRITUALITAS DALAM PERSPEKTIF PSIKOLOGI: Memahami Kehidupan Manusia dan Batas Penjelasan Psikologi terhadap Hakikat Kehidupan, membahas hubungan antara psikologi dan spiritualitas dalam memahami manusia serta kehidupan yang dijalaninya. Pembahasan berangkat dari kenyataan bahwa manusia tidak hanya mempunyai pikiran, perasaan, kesadaran, dan perilaku, tetapi juga memiliki kemampuan untuk mempertanyakan makna kehidupan, sumber keberadaan, hakikat diri, dan kenyataan yang menjadi dasar kehidupannya. Persoalan tersebut menunjukkan bahwa pemahaman mengenai manusia tidak cukup hanya diarahkan kepada pengalaman dan proses psikologis, tetapi juga perlu membuka ruang bagi pemahaman mengenai hakikat kehidupan.
+
+Psikologi sebagai ilmu pengetahuan mempunyai peran penting dalam menjelaskan berbagai aspek kehidupan manusia. Melalui pendekatan ilmiah, psikologi mempelajari perkembangan kepribadian, proses mental, pengalaman emosional, kesadaran, motivasi, perilaku, serta hubungan manusia dengan lingkungan sosialnya. Psikologi juga memberikan pemahaman mengenai pengalaman spiritual, pencarian makna, kesejahteraan psikologis, kedewasaan emosional, dan tanggung jawab kehidupan. Meskipun demikian, kemampuan psikologi dalam menjelaskan pengalaman manusia perlu dibedakan dari kemampuannya menjawab persoalan mendasar mengenai sumber dan hakikat kehidupan.
+
+Buku ini memaparkan spiritualitas melalui beberapa ruang pembahasan, mulai dari pengertian dan perkembangan spiritualitas, pemikiran psikologi tentang spiritualitas, pengalaman spiritual, kesadaran manusia, pengendalian pikiran dan perasaan, pencarian makna kehidupan, hubungan spiritualitas dengan agama dan kepercayaan, hingga kesejahteraan psikologis dan kedewasaan spiritual. Pembahasan tersebut memperlihatkan bahwa spiritualitas mempunyai hubungan dengan pengalaman batin dan perkembangan manusia, tetapi tidak dapat dibatasi hanya sebagai gejala psikologis. Spiritualitas juga berkaitan dengan usaha memahami kehidupan secara lebih mendasar.
+
+Pembahasan selanjutnya diarahkan kepada persoalan hakikat kehidupan, perbedaan pengalaman dan kenyataan, sumber kehidupan, serta perbedaan kesadaran psikologis dan hakikat kesadaran. Dalam konteks ini, keterbatasan psikologi tidak dimaksudkan untuk mengurangi nilai ilmu psikologi, melainkan menegaskan bahwa setiap ilmu mempunyai objek dan batas penjelasan. Psikologi dapat mempelajari bagaimana manusia mengalami dan memahami kehidupan, tetapi penjelasan mengenai proses tersebut tidak otomatis menjawab persoalan mengenai kasunyatan hakiki.
+
+Sebagai landasan pemahaman spiritualitas, buku ini juga memaparkan kedudukan Kawruh Sejati dalam kerangka pemahaman Uttamopadesa. Kawruh Sejati ditempatkan sebagai pepadhang yang berasal dari Prabhawaning Panguripan dan menjadi landasan bagi manusia untuk mengenali kasunyatan hakiki. Hubungannya dengan Kawruh Kasunyatan memperlihatkan perbedaan antara pepadhang sebagai landasan pemahaman dan proses manusia dalam mengenali kenyataan melalui cipta, rasa, dan karsa.
+
+Pada akhirnya, buku ini menegaskan bahwa psikologi dan spiritualitas mempunyai kedudukan yang berbeda, tetapi dapat saling melengkapi dalam memperluas pemahaman manusia. Psikologi membantu manusia memahami dirinya sebagai pribadi yang mengalami kehidupan, sedangkan spiritualitas mengarahkan perhatian kepada hakikat kehidupan yang mendasari seluruh pengalaman tersebut. Pemahaman yang lebih utuh diharapkan mendorong manusia mengenali hakikat dirinya, menyadari keterbatasan pengetahuan, memahami hubungan dengan kehidupan, serta menjalani kehidupan berdasarkan kejernihan pemahaman dan tanggung jawab.`,
+pdf: "https://drive.google.com/file/d/1DGfZGBSPIg80Rq-5BXOBhAq9Hl6FbxkA/view?usp=drivesdk"
+},
+ {
 judul: "KESADARAN MORAL DALAM ETIKA POLITIK",
 subjudul: "Hakikat Moralitas dan Tanggung Jawab Manusia dalam Kehidupan Politik",
 penulis: "Dhimas Purnomo, SH",
