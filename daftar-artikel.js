@@ -1,5 +1,29 @@
 const daftarArtikel = [
  {
+judul: "NAWA SAMYAMA KARSA UTTAMOPADESA",
+subjudul: "Sembilan Bentuk Pengendalian Kehendak yang Sempurna",
+penulis: "Dhimas Purnomo, SH",
+kategori: "cipta-rasa-karsa",
+halaman: "samyama-karsa.html",
+sampul: "samyama-karsa.jpg",
+abstraksi: `Nawa Samyama Karsa Uttamopadesa merupakan pemaparan kawruh mengenai sembilan prinsip pengenalan, pengendalian, pembersihan, penataan, dan penyelarasan kehendak manusia. Buku ini menguraikan
+kedudukan karsa sebagai unsur kehidupan rohani manusia yang berkaitan dengan niat, keinginan, kemauan, tekad, keputusan, dan
+dorongan untuk mewujudkan sesuatu melalui tindakan nyata.
+
+Karsa memiliki peranan penting dalam menentukan arah kehidupan karena setiap kehendak dapat berkembang menjadi tujuan dan kemudian diwujudkan melalui laku. Akan tetapi, kehendak yang tidak disertai kejernihan pertimbangan dapat menimbulkan berbagai penyimpangan, seperti keserakahan, kesombongan, keinginan menguasai, ambisi berlebihan, ketidakjujuran, dan kecenderungan memaksakan kepentingan pribadi. Oleh sebab itu, karsa memerlukan penataan agar kemauan manusia tidak dikuasai oleh dorongan yang
+merusak.
+
+Buku ini menempatkan Nawa Samyama Karsa sebagai pola lampahan dari Nawa Malaning Karsa. Apabila Nawa Malaning Karsa memberikan pemahaman mengenai sembilan bentuk penyimpangan kehendak, Nawa Samyama Karsa memberikan jalan penataan melalui sembilan prinsip, yaitu menyadari kehendak, mengendalikan kehendak, melepaskan kehendak buruk, menumbuhkan kehendak baik, menjaga kemurnian niat, menumbuhkan keteguhan kehendak, mengarahkan kehendak, melakukan introspeksi kehendak, dan menyelaraskan kehendak dengan kehidupan yang luhur.
+
+Kesembilan prinsip tersebut merupakan satu kesatuan proses yang saling berhubungan. Pengenalan terhadap kehendak menjadi dasar pengendalian, pengendalian membuka jalan bagi pelepasan dorongan buruk, sedangkan penumbuhan kehendak baik perlu disertai kemurnian niat dan keteguhan. Selanjutnya, kehendak perlu diarahkan kepada
+tujuan yang benar, diperiksa melalui introspeksi, dan diselaraskan dengan nilai-nilai kehidupan yang luhur.
+
+Pemaparan buku ini juga menempatkan karsa dalam hubungan Tridayaning Janma Manusa, yaitu Cipta, Rasa, dan Karsa. Ketiganya merupakan unsur yang saling melengkapi dalam kehidupan manusia. Cipta memberikan kejernihan pertimbangan, Rasa memberikan ketulusan penghayatan, dan Karsa menggerakkan kehendak menuju tindakan. Karsa yang utama tidak berdiri sendiri, melainkan tumbuh melalui keterpaduan Weninging Cipta dan Tulusing Rasa.
+
+Dengan demikian, tujuan utama Nawa Samyama Karsa bukan menghilangkan kehendak manusia, melainkan membangun kemampuan untuk menentukan kehendak yang patut diwujudkan, meninggalkan kehendak yang merusak, serta menjalankan kemauan secara bijaksana dan bertanggung jawab. Keseluruhan proses tersebut diarahkan menuju Utamaning Karsa sebagai keutamaan kehendak yang menjadi bagian penting dalam kehidupan manusia.`,
+pdf: "https://drive.google.com/file/d/18-y4yoCVVJvkpdDwK5X2T-DvYfdLQPHb/view?usp=drivesdk"
+},
+ {
 judul: "SPIRITUALITAS DALAM PERSPEKTIF PSIKOLOGI",
 subjudul: "Memahami Kehidupan Manusia dan Batas Penjelasan Psikologi terhadap Hakikat Kehidupan",
 penulis: "Dhimas Purnomo, SH",
