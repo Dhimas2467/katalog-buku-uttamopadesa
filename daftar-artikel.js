@@ -1,5 +1,25 @@
 const daftarArtikel = [
  {
+judul: "POLA PEMAHAMAN KAWRUH UTTAMOPADESA",
+subjudul: "Pedoman Memahami Kawruh Uttamopadesa, Hakikat Kehidupan, dan Jatining Dhiri",
+penulis: "Dhimas Purnomo, SH",
+kategori: "dasar-filsafat",
+halaman: "pola-pemahaman.html",
+sampul: "pola-pemahaman.jpg",
+abstraksi: `POLA PEMAHAMAN KAWRUH UTTAMOPADESA merupakan buku yang memaparkan susunan tahapan pembelajaran untuk memahami Kawruh Uttamopadesa secara bertahap, terarah, dan berkesinambungan. Buku ini disusun berdasarkan pemahaman bahwa Kawruh Uttamopadesa bukan sekadar kumpulan pengetahuan atau istilah filosofis, melainkan pemaparan kawruh mengenai hakikat panguripan, keberadaan manusia, dan arah menjalani kehidupan berdasarkan pepadhang Kawruh Sejati. Tujuan utama penyusunannya adalah memberikan pola pembelajaran yang membantu manusia mengenali hubungan antara hakikat kehidupan, pengenalan diri, penataan unsur batin, pengamalan, dan keterpaduan pemahaman menuju Urip Sejati.
+
+Landasan pemaparan buku ini bertumpu pada rangkaian Sang Sumber Panguripan, Prabhawaning Panguripan, Jatining Panguripan, dan Panguripan. Rangkaian tersebut menjadi dasar untuk memahami kedudukan sumber kehidupan, hakikat kehidupan, dan kehidupan manusia dalam tatananing panguripan. Buku ini juga memaparkan perbedaan antara Kawruh Sejati sebagai pepadhang yang bersumber dari Prabhawaning Panguripan dan Kawruh Kasunyatan sebagai proses pemahaman manusia dalam mengenali kasunyatan melalui cipta, rasa, dan karsa.
+
+Pembelajaran disusun melalui tujuh tahapan. Tahap pertama adalah Pengenalan Kawruh Uttamopadesa, yang memberikan dasar pemahaman mengenai Kawruh Sejati, Kawruh Kasunyatan, Kasunyatan Hakiki, dan Tatananing Panguripan. Tahap kedua adalah Pangawikan Hakikat Panguripan, yang memperdalam pemahaman mengenai rangkaian sumber dan hakikat kehidupan. Tahap ketiga adalah Pengenalan Diri dan Hakikat Kehidupan Manusia, yang memaparkan hubungan antara Jatining Panguripan, prana, raga, panca indera, jiwa, sukma, kesadaran, serta cipta, rasa, dan karsa.
+
+Tahap keempat adalah Pangawikaning Dhiri melalui susunan Nawa Pangawikaning Dhiri, yang mencakup raga, indriya, cipta, rasa, karsa, laku, penghalang, keselarasan, dan jatining dhiri. Tahap kelima adalah Penataan Cipta, Rasa, dan Karsa, dengan penekanan pada Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa sebagai unsur penting dalam penataan kehidupan manusia. Tahap keenam adalah Pengamalan dan Laku Kehidupan, yang menghubungkan pemahaman dengan penghayatan dan penerapannya melalui berbagai pemaparan dalam pustaka Uttamopadesa. Tahap ketujuh adalah Purnata Pemahaman dan Urip Sejati, yang mengarahkan seluruh proses pembelajaran kepada keterpaduan pemahaman tentang hakikat panguripan dan kehidupan manusia.
+
+Dalam keseluruhan tahapan tersebut, buku ini menempatkan Purnata Jiwana sebagai keterpaduan Cipta Wening, Tulusing Rasa, dan Utamaning Karsa. Sementara itu, Nawa Rupa Satya Jiwana memberikan gambaran sembilan aspek perjalanan menuju Urip Sejati, mulai dari Sumber Panguripan, Hakikat Urip, Kesadaran, Pengenalan Diri, Weninging Cipta, Tulusing Rasa, Karsa Sejati, Laku, hingga Urip Sejati.
+
+Buku ini menegaskan bahwa pemahaman tidak seharusnya berhenti pada pengetahuan, hafalan, atau penguasaan istilah. Pemahaman perlu berkembang menjadi penghayatan dan diwujudkan dalam laku kehidupan. Dengan demikian, tujuh tahapan pembelajaran bukan hanya susunan materi, melainkan satu kesatuan pola untuk membantu manusia memahami kasunyatan, mengenali jatining dhiri, dan menjalani kehidupan berdasarkan tatananing panguripan.`,
+pdf: "https://drive.google.com/file/d/1PHTWAFeIm_QYATXLmtaC_7vDJFASiSSO/view?usp=drivesdk"
+},
+ {
 judul: "NAWA SAMYAMA KARSA UTTAMOPADESA",
 subjudul: "Sembilan Bentuk Pengendalian Kehendak yang Sempurna",
 penulis: "Dhimas Purnomo, SH",
