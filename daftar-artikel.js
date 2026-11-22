@@ -20,6 +20,26 @@ Buku ini menegaskan bahwa pemahaman tidak seharusnya berhenti pada pengetahuan, 
 pdf: "https://drive.google.com/file/d/1PHTWAFeIm_QYATXLmtaC_7vDJFASiSSO/view?usp=drivesdk"
 },
  {
+judul: "SERAT UTTAMOPADESA",
+subjudul: "Pamedharing Kawruh lan Piwulang Kasunyataning Panguripan",
+penulis: "Dhimas Purnomo, SH",
+kategori: "dasar-filsafat",
+halaman: "serat-uttamopadesa.html",
+sampul: "serat-uttamopadesa.jpg",
+abstraksi: `Serat Uttamopadesa minangka rerangkening piwulang Kawruh Uttamopadesa ingkang ngrembag sangkaning dumadi, jati dhiri janma, Kawruh Sejati, panataan cipta, rasa, lan karsa, laku sih, saha wangsuling janma dhateng Sangkaning Dumadi. Serat punika dipun susun minangka pamedharan kawruh filosofis lan rohani ingkang nuntun manungsa mangertosi asal, dhasar, tatanan, lan arah panguripan. Piwulang ing salebeting serat punika boten dipun ancasaken minangka piwulang agama utawi paugeran ritual, nanging minangka pitedah kangge ngudi pangertosan babagan kasunyatan lan nglampahi panguripan kanthi langkung wening.
+
+Landhesan pangertosan Serat Uttamopadesa kawiwitan saking rerangkening Sang Sumber Panguripan, Prabhawaning Panguripan, Jatining Panguripan, lan Panguripan. Rerangkening punika dados dhasar kangge mangertosi asal lan tatananing sedaya dumadi. Saking pangertosan punika, manungsa dipun tuntun supados saged mangertosi kalunggahanipun wonten ing salebeting dumadi, saha mangertos bilih panguripan ingkang dipun tampi boten saged dipun pisahaken saking sangkanipun.
+
+Serat punika ngemot enem piwulang utama kanthi rerangkening ingkang sambung-sinambung. Piwulang kapisan, Sangkaning Dumadi, ngrembag asal-usul panguripan lan kalunggahan manungsa wonten ing salebeting dumadi. Piwulang kaping kalih, Jati Dhiri Janma, ngrembag pangertosan babagan manungsa ingkang boten namung awujud raga, nanging ugi ngemot sesambetan Raga, Sukma, lan Jiwa. Piwulang kaping tiga, Pepadhanging Kawruh, nerangaken kalungguhan Kawruh Sejati minangka pepadhang ingkang nuntun manungsa mangertosi kasunyatan lan tatananing panguripan.
+
+Piwulang kaping sekawan, Resiking Cipta, Rasa, lan Karsa, ngrembag wigatosipun panataan dhiri lumantar Weninging Cipta, Tulusing Rasa, lan Utamaning Karsa. Piwulang punika dados dhasar kangge ngendhaleni pamrih lan ngarahaken tumindak dhateng kabecikan. Piwulang kaping gangsal, Laku Sih, nerangaken bilih sih ingkang sejati kedah kawujud lumantar welas asih, tetulung, pakurmatan, lan maneka warna tumindak becik. Dene piwulang kaping enem, Wangsuling Janma, dados ancas pungkasan ingkang nyawijikaken sedaya piwulang tumuju dhateng Sangkaning Dumadi.
+
+Sedaya enem piwulang punika minangka satunggal rerangkening kawruh ingkang boten saged dipun pisahaken. Sangkaning Dumadi dados wiwitan pangertosan, Jati Dhiri Janma dados dhasar pangenalan dhiri, Kawruh Sejati dados pepadhang panguripan, Resiking Cipta, Rasa, lan Karsa dados panataan dhiri, Laku Sih dados wujud kawruh ing lampah, saha Wangsuling Janma dados ancas pungkasan.
+
+Serat Uttamopadesa negesaken bilih kawruh boten cekap namung dipun mangertosi, nanging kedah dipun raos lan dipun lampahi. Weninging cipta, tulusing rasa, lan utamaning karsa kedah kawujud wonten ing saben tumindak, satemah manungsa saged nglampahi gesang kanthi trep kaliyan tatananing panguripan. Kanthi mekaten, Serat Uttamopadesa dados landhesaning Kawruh Uttamopadesa lan pitedah tumrap manungsa kangge ngudi kasunyatan, nglampahi sih, saha wangsul dhateng Hyang Manon.`,
+pdf: "https://drive.google.com/file/d/1G5ePJ3letyBvWx85n7DLcmidR9PU4qz-/view?usp=drivesdk"
+},
+ {
 judul: "NAWA SAMYAMA KARSA UTTAMOPADESA",
 subjudul: "Sembilan Bentuk Pengendalian Kehendak yang Sempurna",
 penulis: "Dhimas Purnomo, SH",
