@@ -40,6 +40,26 @@ Serat Uttamopadesa negesaken bilih kawruh boten cekap namung dipun mangertosi, n
 pdf: "https://drive.google.com/file/d/1G5ePJ3letyBvWx85n7DLcmidR9PU4qz-/view?usp=drivesdk"
 },
  {
+judul: "NAWA PAMRIH KANG SINAMUN",
+subjudul: "Sembilan Bentuk Pamrih yang Tersembunyi",
+penulis: "Dhimas Purnomo, SH",
+kategori: "dasar-filsafat",
+halaman: "pamrih-sinamun.html",
+sampul: "pamrih-sinamun.jpg",
+abstraksi: `Nawa Pamrih kang Sinamun merupakan pemaparan mengenai sembilan bentuk kepentingan tersembunyi yang dapat menyertai tindakan manusia, termasuk tindakan yang secara lahiriah tampak sebagai kebaikan. Pamrih dalam pembahasan ini tidak hanya berkaitan dengan keinginan memperoleh keuntungan materi, kedudukan, atau kekuasaan, tetapi juga mencakup harapan batin untuk mendapatkan pujian, balasan, pengakuan, penghormatan, ketergantungan orang lain, serta perasaan memiliki keunggulan dibandingkan sesama. Kepentingan tersebut dapat tersembunyi di balik tindakan menolong, memberi, mengalah, memaafkan, berkorban, maupun menyampaikan nasihat.
+
+Buku ini memaparkan sembilan wewaton Nawa Pamrih kang Sinamun, yaitu pamrih supaya nrima pangalembana, pamrih supaya oleh piwales, pamrih supaya dibutuhake liyan, pamrih supaya dianggep wicaksana, pamrih supaya tetep dieling-eling, pamrih supaya dianggep luhur, pamrih supaya bisa nguwasani, pamrih supaya karepe dituruti liyan, dan pamrih rumangsa luwih sampurna. Kesembilan bentuk tersebut menggambarkan berbagai dorongan batin yang dapat menjadikan kebaikan sebagai sarana memenuhi kepentingan diri sendiri. Bentuk pamrih yang terakhir memiliki sifat paling samar karena dapat hadir sebagai perasaan bahwa diri sendiri lebih baik, lebih luhur, atau lebih sempurna daripada orang lain, sekalipun tidak disertai keinginan memperoleh pujian secara langsung.
+
+Pemaparan sembilan bentuk pamrih tersebut dilanjutkan dengan pembahasan mengenai hubungannya dengan Cipta, Rasa, dan Karsa. Pamrih dapat tumbuh melalui pemikiran yang membenarkan kepentingan diri, perasaan yang menyimpan harapan tersembunyi, serta kehendak yang mengarahkan tindakan untuk memperoleh sesuatu bagi kepuasan batin. Ketiganya saling berhubungan dalam membentuk dorongan dan laku kehidupan manusia. Oleh sebab itu, pengenalan terhadap pamrih tidak cukup hanya dilakukan dengan memperhatikan tindakan yang tampak, tetapi juga perlu disertai pengenalan terhadap kepentingan yang berada di balik tindakan tersebut.
+
+Selanjutnya, buku ini memaparkan pembeningan pamrih sebagai bagian dari upaya memperhalus kehidupan batin. Pembeningan dimulai dari kesediaan mengenali pamrih dalam diri sendiri, kejujuran dalam menyaksikan dorongan batin, pemahaman terhadap kepentingan tersembunyi, serta pelepasan keterikatan terhadap pengakuan dan balasan. Upaya tersebut juga mencakup penataan kehendak agar tindakan yang dilakukan tidak menjadi sarana untuk mengikat atau mengendalikan orang lain.
+
+Landasan pembeningan diarahkan pada keterpaduan Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa. Cipta perlu dijernihkan agar tidak terus-menerus membenarkan kepentingan diri, Rasa perlu ditata agar harapan tidak berubah menjadi tuntutan, sedangkan Karsa perlu diarahkan agar tindakan tidak menjadikan kebaikan sebagai alat untuk memperoleh kekuasaan atau keunggulan pribadi.
+
+Dengan demikian, Nawa Pamrih kang Sinamun tidak dimaksudkan sebagai pedoman untuk menghakimi perilaku orang lain, melainkan sebagai kaca pembeningan diri. Buku ini tidak mengajarkan manusia untuk berhenti menolong, memberi, memaafkan, berkorban, atau memberikan nasihat. Sebaliknya, pemaparan ini mengajak manusia untuk mengenali dan memperhalus dorongan batin yang menyertai setiap tindakan, sehingga kebaikan tidak lagi menjadi sarana pemenuhan pamrih yang tersembunyi.`,
+pdf: "https://drive.google.com/file/d/1g4zl_X47nAHB_ZRvfIfGS-Arj52ObnFP/view?usp=drivesdk"
+},
+ {
 judul: "NAWA SAMYAMA KARSA UTTAMOPADESA",
 subjudul: "Sembilan Bentuk Pengendalian Kehendak yang Sempurna",
 penulis: "Dhimas Purnomo, SH",
