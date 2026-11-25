@@ -20,6 +20,28 @@ Buku ini menegaskan bahwa pemahaman tidak seharusnya berhenti pada pengetahuan, 
 pdf: "https://drive.google.com/file/d/1PHTWAFeIm_QYATXLmtaC_7vDJFASiSSO/view?usp=drivesdk"
 },
  {
+judul: "10 ESENSI POKOK SPIRITUALITAS",
+subjudul: "Memahami Hakikat Spiritualitas, Jati Diri, Kebenaran Hakiki, dan Tatananing Panguripan",
+penulis: "Dhimas Purnomo, SH",
+kategori: "dasar-filsafat",
+halaman: "esensi-spiritualitas2.html",
+sampul: "esensi-spiritualitas.jpg",
+abstraksi: `<strong>10 Esensi Pokok Spiritualitas: Memahami Hakikat Spiritualitas, Jati Diri, Kebenaran Hakiki, dan Tatananing Panguripan</strong> merupakan pemaparan mengenai hakikat spiritualitas sebagai kedalaman pemahaman manusia terhadap keberadaan dirinya, kebenaran, dan tatanan kehidupan. Buku ini disusun berdasarkan pemahaman bahwa spiritualitas tidak dapat dibatasi pada aktivitas ritual, keyakinan, dogma, pengetahuan, pengalaman batin, maupun pencarian kemampuan supranatural. Seluruh hal tersebut dapat menjadi bagian dari pengalaman kehidupan manusia, tetapi tidak dengan sendirinya menunjukkan kedalaman spiritualitas seseorang.
+
+Pemaparan buku ini berangkat dari persoalan mengenai penyempitan pengertian spiritualitas yang sering kali lebih menitikberatkan pada bentuk luar daripada kualitas pemahaman dan laku kehidupan. Seseorang dapat menjalankan berbagai kegiatan seremonial, memiliki keyakinan yang kuat, menguasai pengetahuan kerohanian, atau menceritakan pengalaman batin tertentu. Namun, semua itu belum tentu mencerminkan kualitas spiritual apabila tidak disertai pemahaman yang mendalam dan tidak terwujud dalam cara berpikir, bersikap, mengambil keputusan, serta menjalani kehidupan.
+
+Melalui sepuluh esensi pokok, buku ini memaparkan bahwa spiritualitas bukan ritual, bukan sekadar keyakinan, bukan dogma, bukan pencarian kesaktian, bukan pengalaman supranatural, dan bukan sekadar pengetahuan. Spiritualitas juga berkenaan dengan pengenalan jati diri, pemahaman kebenaran hakiki, perwujudan pemahaman dalam laku kehidupan, serta keselarasan dengan Tatananing Panguripan. Kesepuluh esensi tersebut membentuk kerangka pemahaman yang saling berkaitan untuk menempatkan spiritualitas sebagai bagian mendasar dari kualitas kehidupan manusia.
+
+Pembahasan mengenai jati diri manusia mencakup pemahaman tentang Raga, Prana, Jiwa, Sukma, Kesadaran, serta Cipta, Rasa, dan Karsa. Pengenalan terhadap unsur-unsur tersebut diperlukan agar manusia tidak hanya memahami dirinya berdasarkan identitas lahiriah, tetapi juga mengenali dimensi kehidupan rohani dan kemampuan batin yang mendasari laku kehidupannya.
+
+Dalam pemaparan mengenai kebenaran hakiki, buku ini menjelaskan hubungan antara Sang Sumber Panguripan, Prabhawaning Panguripan, Kasunyatan Hakiki, Jatining Panguripan, Kawruh Sejati, dan Kawruh Kasunyatan. Kawruh Sejati ditempatkan sebagai pepadhang, sedangkan Kawruh Kasunyatan merupakan pemahaman manusia yang tumbuh melalui penerimaan dan pengolahan pepadhang dengan Cipta, Rasa, dan Karsa. Pemahaman tersebut menjadi landasan untuk mengenali kenyataan kehidupan dan memahami Tatananing Panguripan.
+
+Selanjutnya, spiritualitas dipaparkan sebagai kualitas yang harus tercermin dalam laku nyata. Weninging Cipta, Tulusing Rasa, dan Utamaning Karsa menjadi dasar pengembangan kualitas diri. Keterpaduan ketiganya membentuk Purnata Jiwana, yaitu keutuhan kemampuan manusia dalam berpikir, merasakan, dan menghendaki sebagai satu kesatuan dalam menjalani kehidupan.
+
+Buku ini menegaskan bahwa spiritualitas tidak diukur dari pengakuan, perkataan, ataupun identitas yang dilekatkan seseorang kepada dirinya. Spiritualitas tercermin dalam kejernihan pemahaman, ketulusan sikap, keutamaan kehendak, tanggung jawab, serta kemampuan menjalani kehidupan secara selaras dengan Tatananing Panguripan. Dengan demikian, tujuan pemaparan ini adalah memberikan kerangka pemahaman untuk mengenali hakikat spiritualitas sekaligus mendorong perwujudannya dalam kualitas kehidupan manusia.`,
+pdf: "https://drive.google.com/file/d/1W7XkfFAuTiH6VfdLrcwoPQ7u8Jga9sa-/view?usp=drivesdk"
+},
+ {
 judul: "SERAT UTTAMOPADESA",
 subjudul: "Pamedharing Kawruh lan Piwulang Kasunyataning Panguripan",
 penulis: "Dhimas Purnomo, SH",
